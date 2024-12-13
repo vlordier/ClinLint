@@ -1,0 +1,5 @@
+# Use CTCAE grades instead
+
+Grade [1-5] without definition
+Grade [1-5] without criteria
+Grade [1-5] without parameters

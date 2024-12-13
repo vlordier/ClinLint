@@ -11,7 +11,7 @@ tokens:
   - REMS documentation
   - clinical site information
   - investigator qualification
-  
+
   # EMA Requirements
   - RMP requirements
   - PIP compliance
@@ -21,7 +21,7 @@ tokens:
   - national requirements
   - translations needed
   - local representatives
-  
+
   # PMDA Requirements
   - STED documentation
   - bridging strategy
@@ -31,7 +31,7 @@ tokens:
   - Japanese guidelines
   - regional requirements
   - translation verification
-  
+
   # Health Canada
   - NOC requirements
   - NOC/c conditions
@@ -40,7 +40,7 @@ tokens:
   - labeling requirements
   - risk management
   - post-market commitments
-  
+
   # Common Requirements
   - eCTD structure
   - submission format

@@ -11,7 +11,7 @@ tokens:
   - data management plan
   - statistical analysis plan
   - quality control procedures
-  
+
   # Study Design Elements
   - study objectives with hierarchy
   - endpoint definitions with criteria
@@ -20,7 +20,7 @@ tokens:
   - blinding procedures
   - control justification
   - sample size determination
-  
+
   # Safety Monitoring
   - safety parameters with thresholds
   - adverse event reporting
@@ -28,7 +28,7 @@ tokens:
   - stopping criteria
   - DSMB charter
   - risk management plan
-  
+
   # Quality Management
   - GCP compliance evidence
   - monitoring strategy

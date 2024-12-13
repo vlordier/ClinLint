@@ -8,21 +8,21 @@ tokens:
   - task completion rate
   - time-on-task metrics
   - user satisfaction score
-  
+
   # Human Factors
   - use environment assessment
   - user population analysis
   - physical demands evaluation
   - cognitive load assessment
   - training effectiveness
-  
+
   # Safety Features
   - fail-safe mechanisms
   - error prevention features
   - alarm systems
   - emergency procedures
   - backup systems
-  
+
   # Performance Measures
   - accuracy assessment
   - precision evaluation

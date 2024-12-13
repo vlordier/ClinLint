@@ -1,6 +1,6 @@
 import pytest
 
-from src.services.response_merger import merge_responses
+from services.response_merger import merge_responses
 
 
 def test_merge_responses_basic():

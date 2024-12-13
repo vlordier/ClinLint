@@ -15,7 +15,7 @@ class PromptManager:
         if not self.prompt_dir.exists():
             raise FileNotFoundError(f"Prompt directory not found: {prompt_dir}")
 
-    @lru_cache(maxsize=32) # noqa
+    @lru_cache(maxsize=32)  # noqa
     def get_prompt_template(self, template_name: str) -> dict:
         """Load and cache a prompt template.
 

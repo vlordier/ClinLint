@@ -13,7 +13,7 @@ tokens:
   - calibration standards
   - quality control measures
   - method transfer validation
-  
+
   # Clinical Validation
   - baseline variability assessment
   - temporal profile characterization
@@ -25,7 +25,7 @@ tokens:
   - longitudinal tracking plan
   - population heterogeneity analysis
   - covariate impact assessment
-  
+
   # Target Engagement
   - receptor occupancy measurement
   - pathway modulation assessment
@@ -37,7 +37,7 @@ tokens:
   - compensatory mechanism screening
   - resistance development monitoring
   - combination effect assessment
-  
+
   # Safety Biomarkers
   - organ toxicity indicators
   - immune response markers

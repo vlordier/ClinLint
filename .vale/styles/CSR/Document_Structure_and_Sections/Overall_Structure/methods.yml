@@ -7,31 +7,31 @@ tokens:
   - randomization method
   - blinding procedures
   - control selection
-  
+
   # Study Population
   - inclusion criteria rationale
   - exclusion criteria rationale
   - withdrawal criteria
   - replacement procedures
-  
+
   # Study Procedures
   - screening procedures
   - baseline assessments
   - treatment procedures
   - follow-up procedures
-  
+
   # Outcome Assessments
   - efficacy assessment methods
   - safety monitoring procedures
   - laboratory test procedures
   - quality of life assessments
-  
+
   # Data Management
   - data collection methods
   - quality control procedures
   - database specifications
   - coding procedures
-  
+
   # Statistical Methods
   - sample size determination
   - analysis populations

@@ -8,21 +8,21 @@ tokens:
   - fractionation strategy
   - cleanup procedure
   - internal standards
-  
+
   # Instrument Parameters
   - mass analyzer type
   - ionization method
   - collision energy
   - resolution settings
   - scan parameters
-  
+
   # Data Analysis
   - database search
   - FDR threshold
   - quantification method
   - normalization approach
   - statistical testing
-  
+
   # Quality Metrics
   - mass accuracy
   - retention time stability

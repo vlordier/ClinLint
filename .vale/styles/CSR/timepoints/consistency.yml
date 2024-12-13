@@ -13,14 +13,14 @@ swap:
   "month 3 visit": "Month 3 (Day 85 ± 3)"
   "end of treatment": "End of Treatment (30 days after last dose)"
   "follow up": "Follow-up (Day X ± Y)"
-  
+
   # Assessment Windows
   "pre-dose": "Pre-dose (within 30 minutes)"
   "post-dose": [specify time point]
   "early morning": [specify time window]
   "evening": [specify time window]
   "overnight": [specify duration]
-  
+
   # Sampling Times
   "trough level": [specify time before next dose]
   "peak level": [specify time after dosing]

@@ -8,14 +8,14 @@ tokens:
   - preliminary efficacy
   - safety signals
   - biomarker response
-  
+
   # Dose-Response Elements
   - dose selection rationale
   - exposure-response
   - optimal dose determination
   - therapeutic window
   - dosing frequency
-  
+
   # Pilot Efficacy Elements
   - efficacy signals
   - effect size estimation

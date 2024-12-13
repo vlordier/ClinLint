@@ -46,7 +46,7 @@ Organized packages for Clinical Study Report (CSR) Vale style rules:
 - submission/ - Submission documentation rules
 - compliance/ - Regulatory compliance standards
 
-## Study Phase Packages  
+## Study Phase Packages
 - phase1/ - Phase 1 specific rules
 - phase2/ - Phase 2 specific rules
 - phase3/ - Phase 3 specific rules

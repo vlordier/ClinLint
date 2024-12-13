@@ -7,25 +7,25 @@ tokens:
   - secondary endpoint interpretation
   - subgroup analysis interpretation
   - clinical relevance assessment
-  
+
   # Safety Discussion
   - overall safety profile
   - adverse event patterns
   - laboratory abnormality patterns
   - risk assessment
-  
+
   # Study Conduct
   - protocol compliance assessment
   - study limitations
   - data quality assessment
   - population representativeness
-  
+
   # Context Integration
   - previous study comparisons
   - literature context
   - clinical practice implications
   - therapeutic positioning
-  
+
   # Benefit-Risk
   - benefit summary
   - risk summary

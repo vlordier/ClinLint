@@ -9,7 +9,7 @@ tokens:
   - temporal summation
   - conditioned pain modulation
   - wind-up ratio
-  
+
   # Methodology
   - equipment calibration
   - standardized instructions
@@ -17,7 +17,7 @@ tokens:
   - subject positioning
   - practice sessions
   - rest intervals
-  
+
   # Quality Control
   - operator training
   - reliability assessment
@@ -25,7 +25,7 @@ tokens:
   - artifact handling
   - data validation
   - normative data
-  
+
   # Analysis Methods
   - threshold calculation
   - response latency

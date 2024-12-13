@@ -11,7 +11,7 @@ tokens:
   - audit trail
   - database lock
   - archiving procedures
-  
+
   # Analysis Quality
   - statistical review
   - programming validation
@@ -21,7 +21,7 @@ tokens:
   - peer review process
   - quality metrics
   - deviation impact
-  
+
   # Reporting Quality
   - completeness check
   - consistency review

@@ -6,31 +6,31 @@ tokens:
   - "1\\. TITLE PAGE"
   - "1\\.1 Protocol and Protocol Amendments"
   - "1\\.2 Report Signatures"
-  
+
   # 2. Synopsis
   - "2\\. SYNOPSIS"
-  
+
   # 3. Table of Contents
   - "3\\. TABLE OF CONTENTS"
-  
+
   # 4. List of Abbreviations
   - "4\\. LIST OF ABBREVIATIONS"
-  
+
   # 5. Ethics
   - "5\\. ETHICS"
   - "5\\.1 Ethics Committee"
   - "5\\.2 Ethical Conduct"
   - "5\\.3 Patient Information and Consent"
-  
+
   # 6. Investigators and Study Administrative Structure
   - "6\\. INVESTIGATORS AND STUDY ADMINISTRATIVE STRUCTURE"
-  
+
   # 7. Introduction
   - "7\\. INTRODUCTION"
-  
+
   # 8. Study Objectives
   - "8\\. STUDY OBJECTIVES"
-  
+
   # 9. Investigational Plan
   - "9\\. INVESTIGATIONAL PLAN"
   - "9\\.1 Overall Study Design"
@@ -40,19 +40,19 @@ tokens:
   - "9\\.5 Efficacy and Safety Variables"
   - "9\\.6 Data Quality Assurance"
   - "9\\.7 Statistical Methods"
-  
+
   # 10. Study Patients
   - "10\\. STUDY PATIENTS"
   - "10\\.1 Disposition of Patients"
   - "10\\.2 Protocol Deviations"
-  
+
   # 11. Efficacy Evaluation
   - "11\\. EFFICACY EVALUATION"
   - "11\\.1 Data Sets Analyzed"
   - "11\\.2 Demographic and Baseline Characteristics"
   - "11\\.3 Measurements of Treatment Compliance"
   - "11\\.4 Efficacy Results and Tabulations"
-  
+
   # 12. Safety Evaluation
   - "12\\. SAFETY EVALUATION"
   - "12\\.1 Extent of Exposure"
@@ -62,15 +62,15 @@ tokens:
   - "12\\.5 Vital Signs"
   - "12\\.6 ECGs"
   - "12\\.7 Physical Examination"
-  
+
   # 13. Discussion and Overall Conclusions
   - "13\\. DISCUSSION AND OVERALL CONCLUSIONS"
-  
+
   # 14. Tables, Figures and Graphs
   - "14\\. TABLES, FIGURES AND GRAPHS"
-  
+
   # 15. Reference List
   - "15\\. REFERENCE LIST"
-  
+
   # 16. Appendices
   - "16\\. APPENDICES"

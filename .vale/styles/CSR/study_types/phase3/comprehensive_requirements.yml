@@ -15,7 +15,7 @@ tokens:
   - multicenter analysis with poolability
   - covariate adjustment with specification
   - stratification factors with rationale
-  
+
   # Long-term Safety Elements
   - cumulative exposure assessment
   - time-dependent AE analysis
@@ -29,7 +29,7 @@ tokens:
   - organ impairment safety
   - drug-drug interaction profile
   - QT/QTc evaluation strategy
-  
+
   # Quality of Life Elements
   - PRO instrument validation
   - HRQL domain assessment
@@ -39,7 +39,7 @@ tokens:
   - caregiver burden assessment
   - productivity impact
   - healthcare utilization
-  
+
   # Population Elements
   - demographic representation
   - ethnic factor analysis
@@ -50,7 +50,7 @@ tokens:
   - compliance monitoring
   - discontinuation patterns
   - lost to follow-up analysis
-  
+
   # Regulatory Elements
   - registration trial requirements
   - marketing application strategy
@@ -61,7 +61,7 @@ tokens:
   - special population requirements
   - regional regulatory alignment
   - advisory committee preparation
-  
+
   # Comparative Elements
   - active control justification
   - historical evidence synthesis
@@ -72,7 +72,7 @@ tokens:
   - comparative safety analysis
   - comparative effectiveness
   - cost-effectiveness analysis
-  
+
   # Implementation Elements
   - site selection criteria
   - investigator qualifications
@@ -83,7 +83,7 @@ tokens:
   - safety reporting procedures
   - database lock criteria
   - blind maintenance procedures
-  
+
   # Analysis Strategy
   - primary analysis method
   - sensitivity analysis plan

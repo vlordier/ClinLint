@@ -13,7 +13,7 @@ tokens:
   - drug-drug interactions
   - food effect evaluation
   - population PK analysis
-  
+
   # PD Elements
   - exposure-response relationship
   - effect compartment modeling
@@ -23,7 +23,7 @@ tokens:
   - target engagement
   - receptor occupancy
   - mechanism validation
-  
+
   # Study Design
   - sampling strategy
   - washout periods
@@ -31,7 +31,7 @@ tokens:
   - sequence randomization
   - period effects
   - carryover assessment
-  
+
   # Analysis Methods
   - non-compartmental analysis
   - compartmental modeling

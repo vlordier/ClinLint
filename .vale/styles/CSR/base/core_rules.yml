@@ -10,7 +10,7 @@ patterns:
   pvalue: '\bp\s*[<=>]\s*0\.\d{3}\b'
   ci: '\b95%\s*CI[:\s]+\d+\.?\d*\s*[-–]\s*\d+\.?\d*\b'
   effectSize: '\b(?:Cohen''s d|Hedges'' g|Glass'' Δ)\s*=\s*[-+]?\d+\.\d{2}\b'
-  
+
   # Document structure
   section: '^[1-9]\.\d*\s+[A-Z]'
   reference: '(?:Table|Figure|Section)\s+\d+'
@@ -38,15 +38,15 @@ rules:
   structure:
     pattern: ${section_header}
     message: "Invalid section structure"
-    
+
   cross_reference:
     pattern: ${table_ref}|${figure_ref}
     message: "Invalid cross-reference format"
-    
+
   statistical:
     pattern: ${pvalue}.*${ci}
     message: "Incomplete statistical reporting"
-    
+
   numerical:
     pattern: ${number}
     message: "Invalid number format"

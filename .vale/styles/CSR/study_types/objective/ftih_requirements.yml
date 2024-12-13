@@ -11,7 +11,7 @@ tokens:
   - adverse event monitoring
   - safety parameters
   - risk mitigation measures
-  
+
   # PK Assessment
   - first dose PK
   - single ascending dose
@@ -20,7 +20,7 @@ tokens:
   - food effect assessment
   - drug-drug interactions
   - special populations
-  
+
   # PD Assessment
   - biomarker selection
   - target engagement
@@ -28,7 +28,7 @@ tokens:
   - dose-response relationship
   - therapeutic window
   - safety margins
-  
+
   # Study Design
   - cohort size rationale
   - dose selection rationale
@@ -36,7 +36,7 @@ tokens:
   - washout period
   - blinding procedures
   - randomization method
-  
+
   # Special Assessments
   - ECG monitoring
   - vital signs monitoring

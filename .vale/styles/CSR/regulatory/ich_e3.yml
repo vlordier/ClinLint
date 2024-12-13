@@ -11,7 +11,7 @@ tokens:
   - sponsor name
   - responsible medical officer
   - study centers
-  
+
   # Synopsis Elements
   - brief study description
   - methodology summary
@@ -22,7 +22,7 @@ tokens:
   - reference therapy
   - efficacy conclusions
   - safety conclusions
-  
+
   # Ethics and GCP
   - ethics committee approval
   - GCP compliance statement
@@ -30,7 +30,7 @@ tokens:
   - ethical conduct statement
   - data protection measures
   - trial registration number
-  
+
   # Study Methods
   - study design justification
   - randomization details
@@ -40,7 +40,7 @@ tokens:
   - interim analyses plan
   - data quality assurance
   - monitoring procedures
-  
+
   # Statistical Elements
   - primary analysis method
   - secondary analyses
@@ -49,7 +49,7 @@ tokens:
   - interim analysis criteria
   - sensitivity analyses
   - subgroup analyses
-  
+
   # Safety Elements
   - adverse event collection
   - causality assessment
@@ -57,14 +57,14 @@ tokens:
   - laboratory evaluations
   - vital signs criteria
   - ECG assessments
-  
+
   # Quality Elements
   - monitoring frequency
   - data validation steps
   - query resolution
   - database lock
   - quality metrics
-  
+
   # Synopsis Elements
   - brief study description
   - methodology summary
@@ -75,13 +75,13 @@ tokens:
   - reference therapy
   - efficacy conclusions
   - safety conclusions
-  
+
   # Ethics
   - ethics committee approval
   - GCP compliance statement
   - informed consent process
   - ethical conduct statement
-  
+
   # Study Methods
   - study design justification
   - randomization details
@@ -90,7 +90,7 @@ tokens:
   - sample size determination
   - interim analyses plan
   - data quality assurance
-  
+
   # Study Population
   - disposition of subjects
   - protocol deviations
@@ -99,7 +99,7 @@ tokens:
   - baseline characteristics
   - prior medications
   - concomitant medications
-  
+
   # Efficacy Evaluation
   - primary efficacy analysis
   - secondary efficacy analysis
@@ -107,7 +107,7 @@ tokens:
   - handling of missing data
   - interim analyses results
   - subgroup analyses
-  
+
   # Safety Evaluation
   - exposure to treatment
   - adverse event summary
@@ -116,14 +116,14 @@ tokens:
   - vital signs
   - ECG evaluations
   - physical examinations
-  
+
   # Discussion and Conclusions
   - efficacy interpretation
   - safety interpretation
   - benefit-risk assessment
   - study limitations
   - conclusions
-  
+
   # Administrative Structure
   - investigators list
   - study centers

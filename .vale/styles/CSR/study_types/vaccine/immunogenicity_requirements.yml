@@ -9,7 +9,7 @@ tokens:
   - antibody persistence
   - neutralizing antibody
   - binding antibody
-  
+
   # Cellular Response
   - T cell response
   - B cell response
@@ -17,14 +17,14 @@ tokens:
   - memory cell analysis
   - cellular persistence
   - boost response
-  
+
   # Special Populations
   - age-stratified response
   - immunocompromised response
   - prior exposure effect
   - maternal antibody
   - cross-reactivity
-  
+
   # Assay Validation
   - assay qualification
   - standardization method

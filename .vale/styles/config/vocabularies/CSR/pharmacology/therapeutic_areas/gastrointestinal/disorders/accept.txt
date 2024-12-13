@@ -59,3 +59,64 @@ vascular malformation
 perfusion defects
 microvascular disease
 vasculitis
+# Gastrointestinal Disorders
+
+## Motility Disorders
+gastroparesis
+intestinal dysmotility
+colonic inertia
+sphincter dysfunction
+achalasia
+pseudo-obstruction
+transit disorders
+propulsive disorders
+contractile disorders
+coordination disorders
+
+## Inflammatory Conditions
+mucosal inflammation
+transmural inflammation
+erosive disease
+ulcerative disease
+inflammatory infiltration
+granulomatous disease
+lymphocytic infiltration
+eosinophilic inflammation
+neutrophilic inflammation
+immune-mediated inflammation
+
+## Functional Disorders
+visceral hypersensitivity
+altered motility
+secretory dysfunction
+absorption impairment
+barrier dysfunction
+microbiome dysbiosis
+neuroendocrine dysfunction
+sensory dysfunction
+motor dysfunction
+regulatory dysfunction
+
+## Structural Disorders
+strictures
+fistulas
+adhesions
+diverticula
+hernias
+malformations
+anatomical defects
+mechanical obstruction
+luminal narrowing
+wall thickening
+
+## Vascular Disorders
+ischemic disease
+vascular insufficiency
+hemorrhagic disease
+congestion
+thrombosis
+angiodysplasia
+vascular malformation
+perfusion defects
+microvascular disease
+vasculitis

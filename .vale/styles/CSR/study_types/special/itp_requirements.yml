@@ -9,7 +9,7 @@ tokens:
   - patient volume
   - treatment expertise
   - decision rationale
-  
+
   # Treatment Selection
   - preference documentation
   - selection criteria
@@ -17,7 +17,7 @@ tokens:
   - switching criteria
   - modification rules
   - discontinuation reasons
-  
+
   # Documentation
   - preference recording
   - justification log
@@ -25,7 +25,7 @@ tokens:
   - outcome correlation
   - pattern analysis
   - bias assessment
-  
+
   # Analysis Methods
   - preference patterns
   - outcome correlation

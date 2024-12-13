@@ -13,7 +13,7 @@ tokens:
   - benefit-risk assessment
   - integrated summaries
   - statistical analyses
-  
+
   # DSUR Requirements
   - reference safety information
   - estimated exposure
@@ -25,7 +25,7 @@ tokens:
   - risk management updates
   - late-breaking information
   - overall safety assessment
-  
+
   # IB Requirements
   - physical/chemical properties
   - non-clinical studies
@@ -37,7 +37,7 @@ tokens:
   - dosing instructions
   - adverse reaction monitoring
   - precautions/contraindications
-  
+
   # PVR Requirements
   - safety signals
   - risk identification

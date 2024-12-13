@@ -11,7 +11,7 @@ tokens:
   - estimand framework with ICE strategy
   - subgroup analysis with interaction
   - interim analysis with alpha spending
-  
+
   # Secondary Endpoints
   - hierarchical testing order
   - family-wise error control

@@ -5,11 +5,11 @@ tokens:
   # Table Definitions
   - "^Table [0-9]+\."  # Table caption start
   - "^Table [0-9]+:"   # Alternative caption format
-  
+
   # Figure Definitions
   - "^Figure [0-9]+\." # Figure caption start
   - "^Figure [0-9]+:"  # Alternative caption format
-  
+
   # Appendix Definitions
   - "^Appendix [A-Z]\." # Appendix heading start
   - "^Appendix [A-Z]:"  # Alternative heading format

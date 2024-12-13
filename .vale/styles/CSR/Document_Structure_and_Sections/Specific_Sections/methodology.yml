@@ -7,25 +7,25 @@ swap:
   "randomized": [specify randomization method and allocation ratio]
   "controlled": [specify control type and justification]
   "parallel group": [specify number of arms and allocation ratio]
-  
+
   # Blinding Terminology
   "blinded": [specify blinding scope and procedures]
   "double-blind": [specify blinding procedures for subjects, investigators, and assessors]
   "triple-blind": [specify blinding procedures including data analysts]
   "open-label": [specify bias mitigation procedures]
-  
+
   # Study Type Terminology
   "observational": [specify study design (cohort/case-control/cross-sectional)]
   "single-arm": [specify historical control or baseline comparison]
   "crossover": [specify sequence randomization and washout period]
   "adaptive": [specify adaptation rules and decision criteria]
-  
+
   # Design Features
   "non-inferiority": [specify non-inferiority margin and justification]
   "superiority": [specify clinically meaningful difference]
   "equivalence": [specify equivalence margins]
   "factorial": [specify factor levels and interaction analysis]
-  
+
   # Special Designs
   "basket trial": [specify common treatment and multiple indications]
   "umbrella trial": [specify multiple treatments and common indication]

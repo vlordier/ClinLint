@@ -8,14 +8,14 @@ tokens:
   - stratification factors
   - interim analyses
   - multiplicity adjustment
-  
+
   # Subgroup Analyses
   - pre-specified subgroups
   - interaction testing
   - forest plots
   - consistency assessment
   - treatment effect
-  
+
   # Safety Analysis
   - integrated safety summary
   - risk assessment

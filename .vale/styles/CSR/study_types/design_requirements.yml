@@ -14,7 +14,7 @@ tokens:
   - sample size re-estimation
   - futility criteria
   - success criteria
-  
+
   # EFC Elements
   - superiority hypothesis
   - non-inferiority margin
@@ -22,7 +22,7 @@ tokens:
   - multiplicity control
   - sensitivity analyses
   - subgroup analyses
-  
+
   # PK/PD Elements
   - sampling strategy
   - washout period
@@ -30,7 +30,7 @@ tokens:
   - drug-drug interactions
   - population analysis
   - exposure-response
-  
+
   # FTIH Elements
   - sentinel dosing
   - dose escalation rules
@@ -38,7 +38,7 @@ tokens:
   - stopping criteria
   - cohort progression
   - biomarker assessment
-  
+
   # PoC Elements
   - target engagement
   - biomarker response
@@ -46,7 +46,7 @@ tokens:
   - dose-response
   - mechanism validation
   - population selection
-  
+
   # BA/BE Elements
   - reference product
   - test product
@@ -54,7 +54,7 @@ tokens:
   - replicate design
   - fasting conditions
   - fed conditions
-  
+
   # LTSS Elements
   - exposure duration
   - safety monitoring
@@ -62,7 +62,7 @@ tokens:
   - cumulative analysis
   - risk management
   - withdrawal criteria
-  
+
   # PMS Elements
   - surveillance method
   - reporting system
@@ -70,7 +70,7 @@ tokens:
   - risk minimization
   - effectiveness monitoring
   - registry design
-  
+
   # DBRCT Additional Elements
   - blinding procedures
   - unblinding criteria
@@ -78,7 +78,7 @@ tokens:
   - emergency unblinding process
   - maintenance of blind
   - blinding assessment
-  
+
   # Observational Elements
   - selection criteria
   - exposure assessment
@@ -86,14 +86,14 @@ tokens:
   - confounding control
   - bias assessment
   - follow-up procedures
-  
+
   # Single-Arm Elements
   - historical control data
   - baseline comparison
   - within-subject comparison
   - external control justification
   - effect size estimation
-  
+
   # Crossover Elements
   - sequence randomization
   - washout period
@@ -101,7 +101,7 @@ tokens:
   - period effects
   - sequence effects
   - crossover analysis
-  
+
   # Adaptive Elements
   - adaptation rules
   - interim analyses
@@ -109,14 +109,14 @@ tokens:
   - sample size adjustment
   - allocation updates
   - type I error control
-  
+
   # Open-Label Elements
   - bias mitigation
   - objective endpoints
   - blinded assessment
   - standardized procedures
   - quality control measures
-  
+
   # PIP Elements
   - age-appropriate design
   - developmental assessment
@@ -124,7 +124,7 @@ tokens:
   - growth monitoring
   - safety adaptations
   - family considerations
-  
+
   # QST Elements
   - standardized testing
   - equipment validation
@@ -132,7 +132,7 @@ tokens:
   - environmental control
   - data quality measures
   - normative comparisons
-  
+
   # FDC Elements
   - component interaction
   - combination rationale
@@ -140,7 +140,7 @@ tokens:
   - manufacturing validation
   - stability assessment
   - regulatory strategy
-  
+
   # IVIVC Elements
   - dissolution correlation
   - in vivo predictability
@@ -148,7 +148,7 @@ tokens:
   - regulatory impact
   - specification setting
   - post-approval changes
-  
+
   # ITP Elements
   - preference documentation
   - selection criteria

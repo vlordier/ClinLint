@@ -1,0 +1,37 @@
+# Imprecise neurological assessment terminology
+
+## Function Description
+good function
+poor function
+better function
+worse function
+normal function
+abnormal function
+adequate function
+inadequate function
+sufficient function
+insufficient function
+
+## Response Description
+good response
+poor response
+better response
+worse response
+normal response
+abnormal response
+typical response
+atypical response
+expected response
+unexpected response
+
+## Outcome Description
+good outcome
+poor outcome
+better outcome
+worse outcome
+reasonable outcome
+adequate outcome
+inadequate outcome
+satisfactory outcome
+unsatisfactory outcome
+acceptable outcome

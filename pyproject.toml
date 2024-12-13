@@ -2,8 +2,10 @@
 skip-string-normalization = true  # Optional: Prevent string quotes normalization if desired
 
 [tool.ruff]
-ignore = ["E501", "ANN", "D107"]  # E501: Ignore line length errors globally; ANN: Ignore untyped annotation warnings; D107: Ignore missing docstring in __init__
 exclude = ["tests/"]  # Exclude specific directories
+
+[tool.ruff.lint]
+ignore = ["E501", "ANN", "D107", "S603", "D100", "D101", "E402"]  # E501: Ignore line length errors globally; ANN: Ignore untyped annotation warnings; D107: Ignore missing docstring in __init__; S603: Ignore subprocess call warning; D100: Ignore missing docstring in public module; D101: Ignore missing docstring in public class; E402: Ignore module level import not at top of file
 select = [
     "E",   # pycodestyle errors
     "F",   # pyflakes
@@ -18,8 +20,6 @@ select = [
     "A",   # flake8-builtins
 ]
 
-[tool.ruff.lint]
-exclude = ["tests/"]
 
 [tool.ruff.lint.pydocstyle]
 convention = "google"  # Enforce Google-style docstrings
@@ -36,10 +36,4 @@ python_version = "3.12"
 ignore_missing_imports = true  # Avoid errors on missing imports
 disallow_untyped_defs = true   # Enforce typing in non-test code
 strict_optional = true         # Enable strict optional checking
-
-[[tool.mypy.overrides]]
-module = "tests.*"
-disallow_untyped_defs = false  # Allow untyped function definitions in test files
-check_untyped_defs = false     # Disable checks for untyped function definitions
-ignore_errors = true           # Ignore all errors in test modules
-disable_error_code = ["no-untyped-def"]  # Explicitly disable no-untyped-def errors in tests
+exclude = "tests"              # Exclude tests directory from mypy checks

@@ -15,7 +15,7 @@ tokens:
   - sample size re-estimation with trigger criteria
   - group sequential boundaries with efficacy/futility
   - treatment effect estimation with bias adjustment
-  
+
   # Population - Design
   - sample size rationale with effect size assumptions
   - power calculations with sensitivity analysis
@@ -29,7 +29,7 @@ tokens:
   - demographic representation requirements
   - geographic diversity considerations
   - site selection criteria
-  
+
   # Efficacy - Methodology
   - primary endpoint definition with precise criteria
   - key secondary endpoints with hierarchical testing
@@ -47,7 +47,7 @@ tokens:
   - repeated measures with covariance structure
   - time-to-event analysis with censoring rules
   - competing risks with cumulative incidence
-  
+
   # Safety - Monitoring
   - safety monitoring plan with trigger criteria
   - DSMB charter with meeting frequency
@@ -65,7 +65,7 @@ tokens:
   - hepatic safety with Hy's law criteria
   - renal safety with monitoring algorithm
   - immunogenicity with testing strategy
-  
+
   # Study Conduct - Operations
   - randomization method with backup procedures
   - blinding procedures with packaging details
@@ -81,7 +81,7 @@ tokens:
   - site initiation with requirements
   - ongoing oversight with escalation
   - study closeout with archiving
-  
+
   # Regulatory - Documentation
   - registration requirements with timelines
   - submission planning with milestones

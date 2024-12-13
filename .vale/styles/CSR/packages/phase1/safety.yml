@@ -13,7 +13,7 @@ tokens:
   - ECG assessment timing
   - vital signs monitoring plan
   - physical examination requirements
-  
+
   # Special Safety Assessments
   - immunogenicity screening
   - QT/QTc evaluation

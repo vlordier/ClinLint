@@ -9,12 +9,12 @@ terms:
   average: mean
   spread: standard deviation
   relationship: correlation
-  
+
   # Advanced statistics
   prediction: regression
   grouping: clustering
   pattern: trend analysis
-  
+
   # Study design
   comparison: control group
   assignment: randomization

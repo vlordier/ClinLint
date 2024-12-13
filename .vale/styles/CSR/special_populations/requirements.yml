@@ -11,7 +11,7 @@ tokens:
   - long-term effects
   - cognitive development
   - physical maturation
-  
+
   # Geriatric Population
   - comorbidity assessment
   - polypharmacy evaluation
@@ -21,7 +21,7 @@ tokens:
   - organ function status
   - frailty measures
   - social support needs
-  
+
   # Pregnancy/Lactation
   - pregnancy registry
   - fetal outcomes
@@ -30,7 +30,7 @@ tokens:
   - developmental follow-up
   - birth defect monitoring
   - breast milk exposure
-  
+
   # Organ Impairment
   - hepatic adjustment
   - renal modification
@@ -39,7 +39,7 @@ tokens:
   - monitoring frequency
   - safety parameters
   - PK alterations
-  
+
   # Genetic Subgroups
   - pharmacogenetic analysis
   - metabolizer status

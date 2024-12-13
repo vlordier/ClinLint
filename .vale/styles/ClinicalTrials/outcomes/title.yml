@@ -5,7 +5,7 @@ ignorecase: true
 scope: heading
 swap:
   safety: [specify safety parameters]
-  tolerability: [specify tolerability criteria] 
+  tolerability: [specify tolerability criteria]
   efficacy: [specify efficacy measures]
   feasibility: [specify feasibility criteria]
   pharmacokinetics: [specify PK parameters]

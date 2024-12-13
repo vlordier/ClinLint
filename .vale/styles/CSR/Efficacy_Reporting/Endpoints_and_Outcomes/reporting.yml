@@ -11,7 +11,7 @@ rules:
     pattern: '\b(?:difference|ratio|rate)\s*=\s*[-+]?\d+\.\d{2}\s*\(95%\s*CI'
     message: "Effect measures must include point estimate and CI"
 
-  # Population characteristics  
+  # Population characteristics
   population:
     pattern: '\b(?:mean|median|SD|IQR)\s*=\s*[-+]?\d+\.\d{2}\b'
     message: "Population parameters must be reported with precision"
@@ -81,7 +81,7 @@ rules:
   - \bCV%\b
   - \bquartiles\b
   - \bpercentiles\b
-  
+
   # Effect Size Measures
   - \bodds ratio\b
   - \brisk ratio\b
@@ -94,7 +94,7 @@ rules:
   - \babsolute risk reduction\b
   - \bnumber needed to treat\b
   - \bNNT\b
-  
+
   # Model Parameters
   - \bregression coefficient\b
   - \bparameter estimate\b
@@ -106,7 +106,7 @@ rules:
   - \bBIC\b
   - \blikelihood ratio\b
   - \bWald statistic\b
-  
+
   # Distribution Properties
   - \bnormality test\b
   - \bhomogeneity test\b
@@ -114,13 +114,13 @@ rules:
   - \bintra-class correlation\b
   - \bICC\b
   - \bKappa statistic\b
-  
+
   # Missing Data
   - \bmissing data pattern\b
   - \bimputation method\b
   - \bsensitivity analysis\b
   - \btipping point analysis\b
-  
+
   # Multiplicity
   - \bmultiplicity adjustment\b
   - \bBonferroni correction\b
@@ -128,28 +128,28 @@ rules:
   - \bHolm procedure\b
   - \bDunnett's test\b
   - \bTukey's test\b
-  
+
   # Time-to-Event
   - \bKaplan-Meier estimate\b
   - \bmedian survival time\b
   - \bhazard function\b
   - \bcumulative hazard\b
   - \bcensoring rate\b
-  
+
   # Repeated Measures
   - \bcovariance structure\b
   - \bcompound symmetry\b
   - \bautoregressive\b
   - \bunstructured\b
   - \bkenward-roger approximation\b
-  
+
   # Categorical Analysis
   - \bcontingency table\b
   - \bChi-square test\b
   - \bFisher's exact test\b
   - \bMcNemar's test\b
   - \bCochran-Mantel-Haenszel\b
-  
+
   # Continuous Analysis
   - \bt-test\b
   - \bWilcoxon test\b

@@ -7,34 +7,34 @@ tokens:
   - "objectives.*?endpoints"
   - "endpoints.*?analysis methods"
   - "analysis methods.*?results presentation"
-  
+
   # Methods-Results Flow
   - "statistical analysis plan.*?statistical results"
   - "planned analyses.*?conducted analyses"
   - "interim analysis criteria.*?interim analysis results"
   - "subgroup definitions.*?subgroup analyses"
-  
-  # Results-Discussion Integration  
+
+  # Results-Discussion Integration
   - "efficacy results.*?efficacy interpretation"
   - "safety findings.*?safety interpretation"
   - "benefit assessment.*?risk assessment"
   - "study limitations.*?impact analysis"
-  
+
   # Population Traceability
   - "screening criteria.*?screened population"
   - "randomization criteria.*?randomized population"
   - "analysis set definitions.*?analyzed populations"
   - "safety monitoring plan.*?safety population"
-  
+
   # Endpoint Documentation
   - "primary endpoint definition.*?primary endpoint results"
   - "secondary endpoint definitions.*?secondary endpoint results"
   - "exploratory endpoint definitions.*?exploratory results"
   - "safety parameter definitions.*?safety results"
-  
+
   # Cross-References
   - "methods referenced in results"
-  - "results referenced in discussion" 
+  - "results referenced in discussion"
   - "discussion points supported by data"
   - "conclusions supported by evidence"
 

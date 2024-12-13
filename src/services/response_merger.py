@@ -11,5 +11,5 @@ def merge_responses(vale_results, llm_feedback):
     return {
         "vale_issues": vale_results,
         "llm_suggestions": llm_feedback,
-        "summary": f"{len(vale_results)} Vale issues detected; LLM provided suggestions."
+        "summary": f"{len(vale_results)} Vale issues detected; LLM provided suggestions.",
     }

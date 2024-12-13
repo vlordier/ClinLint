@@ -9,7 +9,7 @@ Packages:
   Vale.Terms: YES
   Vale.Numbers: YES
 
-# Domain-specific vocabularies  
+# Domain-specific vocabularies
 Vocabularies:
   CSR:
     - Medical
@@ -43,7 +43,7 @@ IgnoredScopes:
 extends:
   - CSR.base.core_rules
   - CSR.Statistical
-  - CSR.Safety 
+  - CSR.Safety
   - CSR.Efficacy
   - CSR.Laboratory
   - CSR.Regulatory

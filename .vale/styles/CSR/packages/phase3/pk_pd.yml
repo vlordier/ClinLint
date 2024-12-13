@@ -11,7 +11,7 @@ tokens:
   - dose optimization with target exposure
   - therapeutic drug monitoring with criteria
   - metabolite profiling with contribution
-  
+
   # Advanced PD Analysis
   - biomarker response with validation
   - receptor occupancy with time course

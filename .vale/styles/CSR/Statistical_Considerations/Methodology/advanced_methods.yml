@@ -7,31 +7,31 @@ tokens:
   - covariance structure
   - model diagnostics
   - likelihood ratio tests
-  
+
   # Multiple Comparisons
   - multiplicity adjustment method
   - family-wise error rate
   - false discovery rate
   - hierarchical testing procedure
-  
+
   # Bayesian Analysis
   - prior distributions
   - posterior probabilities
   - credible intervals
   - convergence diagnostics
-  
+
   # Missing Data
   - missing data mechanism
   - sensitivity analysis approach
   - multiple imputation method
   - pattern mixture models
-  
+
   # Survival Analysis
   - censoring mechanism
   - hazard function specification
   - proportional hazards assumption
   - time-varying covariates
-  
+
   # Adaptive Designs
   - interim analysis plan
   - alpha spending function
@@ -44,28 +44,28 @@ tokens:
   # P-value Reporting
   - p = [0-9]\.[0-9]{3}
   - p < 0\.001
-  
+
   # Confidence Intervals
   - 95% CI: [0-9]+\.[0-9]+-[0-9]+\.[0-9]+
   - \([0-9]+\.[0-9]+-[0-9]+\.[0-9]+\)
-  
+
   # Effect Sizes
   - mean difference: [0-9]+\.[0-9]+ \(95% CI
   - odds ratio: [0-9]+\.[0-9]+ \(95% CI
   - hazard ratio: [0-9]+\.[0-9]+ \(95% CI
   - risk ratio: [0-9]+\.[0-9]+ \(95% CI
-  
+
   # Model Parameters
   - coefficient: [0-9]+\.[0-9]+ \(SE [0-9]+\.[0-9]+\)
   - estimate: [0-9]+\.[0-9]+ \(SE [0-9]+\.[0-9]+\)
   - R²: 0\.[0-9]+
-  
+
   # Units and Precision
   - [0-9]+\.[0-9]+ [a-zA-Z]+/[a-zA-Z]+
   - [0-9]+\.[0-9]+ [µnmk]g/[mdL]
   - [0-9]+\.[0-9]+ mm[oO]l/L
   - [0-9]+\.[0-9]+ [µnmk]mol/L
-  
+
   # Statistical Tests
   - t\([0-9]+\) = [0-9]+\.[0-9]+
   - F\([0-9]+,[0-9]+\) = [0-9]+\.[0-9]+

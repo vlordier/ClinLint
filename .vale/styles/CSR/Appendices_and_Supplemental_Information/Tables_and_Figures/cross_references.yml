@@ -7,19 +7,19 @@ tokens:
   - "table [0-9]+"  # Lowercase "table"
   - "Tab\. [0-9]+"  # Abbreviated form
   - "Tables [0-9]+-[0-9]+"  # Table ranges
-  
+
   # Figure References
   - "Figure [0-9]+(?![.)])"  # Missing period/parenthesis
   - "figure [0-9]+"  # Lowercase "figure"
   - "Fig\. [0-9]+"  # Abbreviated form
   - "Figures [0-9]+-[0-9]+"  # Figure ranges
-  
+
   # Section References
   - "Section [0-9]+(?![.)])"  # Missing period/parenthesis
   - "section [0-9]+"  # Lowercase "section"
   - "Sect\. [0-9]+"  # Abbreviated form
   - "Sections [0-9]+-[0-9]+"  # Section ranges
-  
+
   # Appendix References
   - "Appendix [A-Z](?![.)])"  # Missing period/parenthesis
   - "appendix [A-Z]"  # Lowercase "appendix"

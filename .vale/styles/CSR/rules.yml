@@ -7,7 +7,7 @@ Packages:
   Vale.Spelling: YES
   Vale.Terms: YES
 
-# Core vocabularies  
+# Core vocabularies
 Vocabularies:
   CSR: YES
   Medical: YES
@@ -23,7 +23,7 @@ Formats:
 Rules:
   # Safety rules
   CSR.safety.adverse_events: error
-  CSR.safety.causality: error 
+  CSR.safety.causality: error
   CSR.safety.severity: error
   CSR.safety.monitoring: error
 
@@ -32,7 +32,7 @@ Rules:
   CSR.efficacy.analysis: error
   CSR.efficacy.reporting: error
 
-  # Statistical rules  
+  # Statistical rules
   CSR.statistics.methods: error
   CSR.statistics.reporting: error
   CSR.statistics.terminology: error

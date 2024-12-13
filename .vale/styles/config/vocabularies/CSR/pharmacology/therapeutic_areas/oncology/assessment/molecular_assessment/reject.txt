@@ -1,0 +1,56 @@
+# Imprecise Molecular Assessment Terminology
+
+## Genomic Analysis
+good mutation profiling
+poor mutation profiling
+better mutation profiling
+worse mutation profiling
+adequate mutation profiling
+inadequate mutation profiling
+satisfactory mutation profiling
+unsatisfactory mutation profiling
+acceptable mutation profiling
+
+## Transcriptomic Analysis
+good gene expression profile
+poor gene expression profile
+better gene expression profile
+worse gene expression profile
+adequate gene expression profile
+inadequate gene expression profile
+satisfactory gene expression profile
+unsatisfactory gene expression profile
+acceptable gene expression profile
+
+## Proteomic Analysis
+good protein expression
+poor protein expression
+better protein expression
+worse protein expression
+adequate protein expression
+inadequate protein expression
+satisfactory protein expression
+unsatisfactory protein expression
+acceptable protein expression
+
+## Epigenetic Analysis
+good DNA methylation
+poor DNA methylation
+better DNA methylation
+worse DNA methylation
+adequate DNA methylation
+inadequate DNA methylation
+satisfactory DNA methylation
+unsatisfactory DNA methylation
+acceptable DNA methylation
+
+## Metabolomic Analysis
+good metabolic profiles
+poor metabolic profiles
+better metabolic profiles
+worse metabolic profiles
+adequate metabolic profiles
+inadequate metabolic profiles
+satisfactory metabolic profiles
+unsatisfactory metabolic profiles
+acceptable metabolic profiles

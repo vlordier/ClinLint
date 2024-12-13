@@ -19,7 +19,7 @@ either:
   "IMP": "Investigational Medicinal Product (IMP)"
   "PK": "Pharmacokinetic (PK)"
   "PD": "Pharmacodynamic (PD)"
-  
+
   # Laboratory Units (SI)
   "glucose": "glucose (mmol/L)"
   "creatinine": "creatinine (μmol/L)"
@@ -29,7 +29,7 @@ either:
   "ALT": "ALT (U/L)"
   "AST": "AST (U/L)"
   "bilirubin": "bilirubin (μmol/L)"
-  
+
   # Vital Signs Units
   "blood pressure": "blood pressure (mmHg)"
   "heart rate": "heart rate (beats/min)"
@@ -43,33 +43,33 @@ either:
   "treatment period": "Treatment Period (Day 1 to Week X)"
   "follow-up period": "Follow-up Period (Week X+1 to Week Y)"
   "washout period": "Washout Period (Day A to Day B)"
-  
+
   # Analysis Sets
   "ITT population": "Intention-to-Treat Population"
   "PP population": "Per-Protocol Population"
   "safety population": "Safety Analysis Set"
   "PK population": "Pharmacokinetic Analysis Set"
-  
+
   # Study Procedures
   "screening visit": "Screening Visit (Visit 1)"
   "baseline visit": "Baseline Visit (Visit 2)"
   "end of study visit": "End of Study Visit (Visit X)"
-  
+
   # Laboratory Parameters
   "liver function tests": "Hepatic Function Tests (ALT, AST, ALP, GGT, total bilirubin)"
   "kidney function tests": "Renal Function Tests (serum creatinine, BUN, eGFR)"
   "hematology parameters": "Hematology Parameters (hemoglobin, hematocrit, RBC, WBC, platelets)"
-  
+
   # Vital Signs
   "blood pressure": "Blood Pressure (systolic/diastolic)"
   "heart rate": "Heart Rate (beats per minute)"
   "body temperature": "Body Temperature (degrees Celsius)"
-  
+
   # ECG Parameters
   "ECG parameters": "ECG Parameters (PR, QRS, QT, QTc)"
   "QT interval": "QT Interval (msec)"
   "QTc interval": "QTc Interval (msec, Fridericia's formula)"
-  
+
   # Statistical Terms
   "confidence interval": "95% Confidence Interval"
   "statistical significance": "Statistical Significance (two-sided α=0.05)"

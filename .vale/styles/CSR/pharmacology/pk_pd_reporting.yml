@@ -62,7 +62,7 @@ tokens:
   - temporal relationships
   - effect compartment (Ce)
   - hysteresis assessment
-  
+
   # Population PK
   - between-subject variability
   - covariate effects
@@ -76,7 +76,7 @@ tokens:
   - random effects distribution
   - interoccasion variability
   - allometric scaling
-  
+
   # PD Modeling
   - exposure-response relationship
   - effect compartment model
@@ -90,7 +90,7 @@ tokens:
   - competitive antagonism
   - partial agonism
   - receptor desensitization
-  
+
   # Joint PK/PD
   - linking functions
   - turnover models

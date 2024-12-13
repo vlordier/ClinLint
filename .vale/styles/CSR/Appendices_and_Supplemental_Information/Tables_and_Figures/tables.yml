@@ -6,22 +6,22 @@ tokens:
   # Table Headers
   - '^[a-z]'          # Headers must be capitalized
   - '[^\|]\s{2,}[^\|]' # Excessive spacing in cells
-  
+
   # Table Numbers
   - 'Table\s+\d+(?!\.)' # Missing period after table number
   - 'Table\s+\d+\.[^A-Z]' # Missing capital after table number
   - 'Table\s+[0-9]+(?!\.)[0-9]+' # Non-sequential table numbers
-  
+
   # Table Footnotes
   - '^[a-z]:'         # Footnote format
   - '^[^a-z]:'        # Invalid footnote marker
   - '^[^a-z0-9]:'     # Invalid footnote reference
-  
+
   # Table Borders
   - '[^\|]$'          # Missing vertical borders
   - '^[^\|]'          # Missing vertical borders
   - '^[^+\-|]'        # Invalid border character
-  
+
   # Cell Alignment
   - '\|\s{2,}[^\s]'   # Inconsistent cell padding
   - '[^\s]\s{2,}\|'   # Inconsistent cell padding

@@ -11,7 +11,7 @@ tokens:
   - family impact with measures
   - school performance with metrics
   - peer interaction with assessment
-  
+
   # Geriatric Population
   - functional status with ADL scales
   - cognitive status with assessment
@@ -21,7 +21,7 @@ tokens:
   - caregiver burden with tools
   - social support with assessment
   - independence measures with scales
-  
+
   # Pregnancy/Lactation
   - maternal outcomes with monitoring
   - fetal outcomes with assessment
@@ -31,7 +31,7 @@ tokens:
   - reproductive toxicity with evaluation
   - fertility impact with analysis
   - birth defects with surveillance
-  
+
   # Organ Impairment
   - hepatic adjustment with Child-Pugh
   - renal modification with CrCl/eGFR
@@ -41,7 +41,7 @@ tokens:
   - metabolic impact with parameters
   - dose modification with algorithms
   - monitoring frequency with criteria
-  
+
   # Genetic Subgroups
   - pharmacogenetic analysis with markers
   - metabolizer status with phenotype

@@ -1,38 +1,32 @@
+import logging
 from enum import Enum
+
+logging.basicConfig(level=logging.INFO)
 from typing import Any, Optional
 
-from pydantic import BaseModel, Field, validator
+from pydantic import BaseModel, Field
 
+from services.exceptions import AnalysisError
 from services.llm_judge import LLMJudge
 from services.vale_runner import run_vale_on_text
 
 
 class AnalysisMode(str, Enum):
     """Modes for suggestion chain analysis."""
+
     VALE_ONLY = "vale_only"
     LLM_ONLY = "llm_only"
     COMBINED = "combined"
 
+
 class ChainConfig(BaseModel):
     """Configuration for the suggestion chain."""
+
     mode: AnalysisMode
     vale_rules: list[str] | None = Field(default_factory=list)
     llm_templates: list[str] | None = Field(default_factory=list)
     section_name: str | None = None
 
-    @validator('vale_rules', 'llm_templates', pre=True)
-    def ensure_list(self, v): # noqa
-        if v is None:
-            return []
-        return v
-
-    @validator('mode')
-    def validate_mode_requirements(self, v, values): # noqa
-        if v == AnalysisMode.VALE_ONLY and not values.get('vale_rules'):
-            raise ValueError("Vale rules required for VALE_ONLY mode")
-        if v == AnalysisMode.LLM_ONLY and not values.get('llm_templates'):
-            raise ValueError("LLM templates required for LLM_ONLY mode")
-        return v
 
 class SuggestionChain:
     """Flexible chain for generating suggestions using Vale and/or LLM analysis."""
@@ -57,46 +51,75 @@ class SuggestionChain:
         Returns:
             dict: Results of Vale analysis.
         """
-        vale_results = run_vale_on_text(text, self.vale_config)
+        # Run Vale analysis and filter issues based on specified rules
+        try:
+            vale_results = run_vale_on_text(text, self.vale_config)
+            logging.info("Vale analysis completed successfully.")
+        except ValueError as e:
+            logging.error("Error during Vale analysis.")
+            raise AnalysisError("Vale analysis failed.") from e
         vale_issues = [
             f"Line {issue['Line']}: {issue['Message']}"
             for _, issues in vale_results.items()
             for issue in issues
-            if any(rule in issue.get('Rule', '') for rule in rules)
+            if any(rule in issue.get("Rule", "") for rule in rules)
         ]
-        return {
-            "vale_issues": vale_results,
-            "formatted_issues": "\n".join(vale_issues)
-        }
+        return {"vale_issues": vale_results, "formatted_issues": "\n".join(vale_issues)}
 
-    def _run_llm_analysis(self, text: str, templates: list[str], vale_issues: str | None = None) -> dict[str, Any]:
+    def _run_llm_analysis(
+        self, text: str, templates: list[str], vale_issues: str | None = None
+    ) -> dict[str, Any]:
         """Run LLM analysis with specified templates."""
+        # Ensure LLM judge is configured before running analysis
         if not self.llm_judge:
+            logging.error("LLM judge not configured for LLM analysis.")
             raise ValueError("LLM judge not configured for LLM analysis")
 
         all_feedback = []
-        for template in templates:
-            prompt_data = {"text": text}
-            if vale_issues:
-                prompt_data["vale_issues"] = vale_issues
+        # Run LLM analysis using the provided templates
+        try:
+            for template in templates:
+                prompt_data = {"text": text}
+                if vale_issues:
+                    prompt_data["vale_issues"] = vale_issues
 
-            feedback = self.llm_judge.get_feedback(template, **prompt_data)
-            all_feedback.append(feedback)
+                feedback = self.llm_judge.get_feedback(template, **prompt_data)
+                all_feedback.append(feedback)
+        except Exception as e:
+            logging.error("Error during LLM analysis.")
+            raise AnalysisError("LLM analysis failed.") from e
+
         return {"feedback": all_feedback}
 
-    def generate_suggestions(self, text: str, llm_template: Optional[str] = None, config: Optional[ChainConfig] = None) -> dict[str, Any]:
+    def generate_suggestions(
+        self,
+        text: str,
+        llm_template: Optional[str] = None,
+        config: Optional[ChainConfig] = None,
+    ) -> dict[str, Any]:
         """Generate suggestions based on configured analysis mode."""
+        # Ensure the configuration is properly initialized
         if isinstance(config, str):
+            logging.warning("Config passed as string, initializing ChainConfig.")
             config = ChainConfig(mode=config)
         result = {}
-        if config is None:
-            config = llm_template  # Use llm_template as config if config is None
+        if config is None and llm_template is not None:
+            logging.warning(
+                "Config is None, initializing ChainConfig with llm_template."
+            )
+            config = ChainConfig(mode=llm_template)
         if config.mode in [AnalysisMode.VALE_ONLY, AnalysisMode.COMBINED]:
             vale_analysis = self._run_vale_analysis(text, config.vale_rules or [])
-            result['vale'] = vale_analysis
+            result["vale"] = vale_analysis
 
         if config.mode in [AnalysisMode.LLM_ONLY, AnalysisMode.COMBINED]:
-            llm_analysis = self._run_llm_analysis(text, config.llm_templates or [], vale_analysis if config.mode == AnalysisMode.COMBINED else None)
-            result['llm'] = llm_analysis
+            llm_analysis = self._run_llm_analysis(
+                text,
+                config.llm_templates or [],
+                vale_analysis["formatted_issues"]
+                if config.mode == AnalysisMode.COMBINED
+                else None,
+            )
+            result["llm"] = llm_analysis
 
         return result

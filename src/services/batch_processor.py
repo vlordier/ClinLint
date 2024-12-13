@@ -3,12 +3,13 @@
 from concurrent.futures import ThreadPoolExecutor
 from threading import Lock
 
-from src.services.suggestion_chain import SuggestionChain
-from src.services.types import SuggestionResult
+from services.custom_types import SuggestionResult
+from services.suggestion_chain import SuggestionChain
 
 
 class BatchProcessor:
     """Processes multiple texts in a batch for Vale and LLM-based suggestions.
+
     Thread-safe batch processing of multiple texts.
     """
 
@@ -23,7 +24,9 @@ class BatchProcessor:
         self.llm_judge = llm_judge
         self._lock = Lock()
 
-    def process_batch(self, texts: list[str], llm_template: str) -> list[SuggestionResult]:
+    def process_batch(
+        self, texts: list[str], llm_template: str
+    ) -> list[SuggestionResult]:
         """Processes a batch of texts and generates suggestions.
 
         Args:

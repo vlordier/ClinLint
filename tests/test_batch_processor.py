@@ -1,5 +1,5 @@
-from src.services.batch_processor import BatchProcessor
-from src.services.suggestion_chain import ChainConfig
+from services.batch_processor import BatchProcessor
+from services.suggestion_chain import ChainConfig
 
 
 def test_batch_processor(mocker):

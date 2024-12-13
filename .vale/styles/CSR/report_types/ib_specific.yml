@@ -8,21 +8,21 @@ tokens:
   - storage requirements
   - preparation instructions
   - handling precautions
-  
+
   # Preclinical Data
   - pharmacology summary
   - toxicology findings
   - safety pharmacology
   - drug interactions
   - reproductive toxicity
-  
+
   # Clinical Data
   - pharmacokinetics
   - safety profile
   - efficacy summary
   - dose rationale
   - risk management
-  
+
   # Investigator Guidance
   - dosing instructions
   - safety monitoring

@@ -10,26 +10,26 @@ swap:
   "blood test": "laboratory assessment"
   "normal range": "reference range"
   "abnormal": [specify parameter and deviation from reference range]
-  
+
   # Vital Signs Terminology
   "BP": "blood pressure"
   "pulse": "heart rate"
   "temp": "temperature"
   "O2 sat": "oxygen saturation"
-  
+
   # Time References
   "baseline": "Day 1"
   "screening": "Day -28 to Day -1"
   "follow-up": [specify exact follow-up period]
   "long-term": [specify duration in weeks/months/years]
-  
+
   # Measurement Precision
   "about": [specify exact value with units]
   "approximately": [specify exact value with units]
   "around": [specify exact value with units]
   "nearly": [specify exact value with units]
   "almost": [specify exact value with units]
-  
+
   # Statistical Terms
   "significant": [specify p-value and confidence interval]
   "correlation": [specify correlation coefficient and p-value]
@@ -41,7 +41,7 @@ swap:
   "follow-up period": [specify follow-up duration]
   "long-term": [specify duration in weeks/months/years]
   "short-term": [specify duration in hours/days/weeks]
-  
+
   # Dosing Precision
   "dose adjustment": [specify dose modification algorithm]
   "dose modification": [specify dose modification criteria]
@@ -49,52 +49,52 @@ swap:
   "dose escalation": [specify escalation steps]
   "therapeutic dose": [specify dose range with units]
   "maintenance dose": [specify dose with frequency]
-  
+
   # Laboratory Precision
   "abnormal": [specify parameter and deviation]
   "normal range": [specify reference range with units]
   "clinically significant": [specify significance criteria]
   "laboratory changes": [specify parameter changes]
   "out of range": [specify direction and magnitude]
-  
+
   # Population Precision
   "elderly": [specify age range]
   "pediatric": [specify age range]
   "adult": [specify age range]
   "young": [specify age range]
   "geriatric": [specify age range]
-  
+
   # Disease Precision
   "disease progression": [specify progression criteria]
   "clinical improvement": [specify improvement criteria]
   "treatment response": [specify response criteria]
   "disease severity": [specify severity scale]
   "baseline disease": [specify disease characteristics]
-  
+
   # Measurement Precision
   "regular monitoring": [specify monitoring frequency]
   "periodic assessment": [specify assessment schedule]
   "routine evaluation": [specify evaluation timing]
   "frequent monitoring": [specify monitoring intervals]
-  
+
   # Statistical Precision
   "trending": [specify trend analysis method]
   "correlation": [specify correlation coefficient]
   "association": [specify association measure]
   "relationship": [specify relationship type]
-  
+
   # Safety Precision
   "closely monitored": [specify monitoring parameters]
   "carefully observed": [specify observation criteria]
   "well-tolerated": [specify tolerability criteria]
   "safety concern": [specify safety parameter]
-  
+
   # Compliance Precision
   "good compliance": [specify compliance rate]
   "poor compliance": [specify compliance rate]
   "adherence": [specify adherence measure]
   "non-compliance": [specify non-compliance criteria]
-  
+
   # Procedural Precision
   "standard procedure": [specify procedure details]
   "usual care": [specify care components]

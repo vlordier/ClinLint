@@ -13,7 +13,7 @@ tokens:
   - ethics committee approval with dates
   - investigator notification with acknowledgment
   - patient re-consent with documentation
-  
+
   # Change Categories
   - safety-related changes with urgency
   - efficacy-related modifications with rationale
@@ -23,7 +23,7 @@ tokens:
   - criteria modifications with justification
   - endpoint refinements with validation
   - analysis updates with methodology
-  
+
   # Implementation Elements
   - version control with tracking
   - document updates with revision marks

@@ -9,19 +9,19 @@ tokens:
   - overall response determination
   - confirmation of response
   - progression documentation
-  
+
   # iRECIST Elements
   - iUPD confirmation
   - iCPD documentation
   - immune response patterns
   - pseudoprogression assessment
-  
+
   # Modified RECIST Elements
   - mRECIST criteria
   - HCC specific measurements
   - enhancement patterns
   - viable tumor assessment
-  
+
   # RANO Criteria
   - T1 gadolinium imaging
   - FLAIR/T2 changes

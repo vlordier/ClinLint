@@ -11,7 +11,7 @@ tokens:
   - sample size re-estimation criteria
   - missing data approach with sensitivity
   - estimand framework with ICE strategy
-  
+
   # Secondary Analyses
   - hierarchical testing with ordered endpoints
   - subgroup analysis with interaction testing

@@ -13,7 +13,7 @@ tokens:
   - maximum tolerated dose criteria with assessment
   - optimal biological dose determination
   - exposure-response modeling approach
-  
+
   # Safety Monitoring
   - real-time safety review process
   - safety review committee charter
@@ -25,7 +25,7 @@ tokens:
   - safety biomarker assessment plan
   - immunogenicity screening approach
   - protocol-specific toxicity management
-  
+
   # PK/PD Assessment
   - intensive PK sampling schedule
   - PK parameter estimation methods
@@ -37,7 +37,7 @@ tokens:
   - PK/PD modeling strategy
   - target engagement assessment
   - receptor occupancy measurement
-  
+
   # Study Population
   - healthy volunteer selection criteria
   - medical/surgical history requirements

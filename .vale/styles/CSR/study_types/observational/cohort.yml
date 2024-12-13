@@ -8,14 +8,14 @@ tokens:
   - follow-up procedures
   - loss to follow-up
   - confounding control
-  
+
   # Retrospective Elements
   - data source validation
   - selection criteria
   - exposure reconstruction
   - outcome validation
   - bias assessment
-  
+
   # Common Elements
   - cohort definition
   - comparison groups

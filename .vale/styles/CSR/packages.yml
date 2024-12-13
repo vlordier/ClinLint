@@ -95,7 +95,7 @@ therapeutic_areas:
     - tolerance_assessment
     - autoimmunity
 
-# Study design packages  
+# Study design packages
 designs:
   randomized:
     - allocation
@@ -181,7 +181,7 @@ regulatory:
     - e15_genomics
 
   fda:
-    - ind_requirements  
+    - ind_requirements
     - nda_requirements
     - bla_requirements
     - pdufa_timelines

@@ -13,7 +13,7 @@ tokens:
   - maximum dose criteria
   - optimal biological dose determination
   - exposure-response modeling approach
-  
+
   # SAD Study Elements
   - single dose levels with rationale
   - dose escalation criteria with safety margins
@@ -25,7 +25,7 @@ tokens:
   - sample size justification
   - statistical analysis plan
   - interim analysis criteria
-  
+
   # MAD Study Elements
   - multiple dose levels with rationale
   - steady state assessment timing
@@ -37,7 +37,7 @@ tokens:
   - safety biomarker tracking
   - tolerance assessment plan
   - drug-drug interaction screening
-  
+
   # Food Effect Elements
   - meal composition details
   - timing of meals
@@ -49,7 +49,7 @@ tokens:
   - sequence randomization
   - washout period justification
   - clinical relevance criteria
-  
+
   # Drug-Drug Interaction Elements
   - perpetrator selection rationale
   - victim drug considerations
@@ -61,7 +61,7 @@ tokens:
   - clinical relevance criteria
   - labeling implications
   - dose adjustment recommendations
-  
+
   # Safety Monitoring Elements
   - vital signs monitoring frequency
   - ECG assessment schedule
@@ -73,7 +73,7 @@ tokens:
   - rescue procedures
   - follow-up requirements
   - safety review process
-  
+
   # PK/PD Elements
   - PK parameter estimation
   - exposure metrics calculation
@@ -85,7 +85,7 @@ tokens:
   - metabolite profiling
   - PD marker assessment
   - exposure-response modeling
-  
+
   # Special Assessments
   - QT/QTc evaluation
   - immunogenicity screening

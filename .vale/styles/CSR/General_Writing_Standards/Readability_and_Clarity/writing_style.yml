@@ -4,55 +4,55 @@ level: error
 tokens:
   # Avoid personal pronouns
   - \b(I|we|you|your)\b
-  
+
   # Avoid colloquial expressions
   - \b(bottom line|rule of thumb|ballpark|game changer|in a nutshell|at the end of the day)\b
-  
+
   # Avoid anthropomorphizing
   - \b(the study shows|the data suggests|the results demonstrate|the analysis reveals|the table indicates)\b
-  
+
   # Avoid dramatic language
   - \b(dramatic|dramatic(ally)?|striking(ly)?|remarkable|remarkable(ly)?|impressive(ly)?|outstanding|exceptional)\b
-  
+
   # Avoid speculative language
   - \b(might|could|may|possibly|probably|presumably|perhaps|maybe|likely|potentially|conceivably)\b
-  
+
   # Avoid vague temporal references
   - \b(recent(ly)?|current(ly)?|previous(ly)?|eventual(ly)?|soon|lately|nowadays|in the past)\b
-  
+
   # Avoid non-specific quantifiers
   - \b(many|few|several|some|most|various|numerous|a lot|plenty|a number of|a majority of)\b
-  
+
   # Avoid subjective qualifiers
   - \b(very|quite|rather|fairly|pretty|relatively|somewhat|kind of|sort of|more or less)\b
-  
+
   # Require precise comparisons
   - \b(similar|different|comparable|consistent|equivalent|equal|unequal|superior|inferior)\b(?! with [0-9])
-  
+
   # Require precise measurements
   - \b(high|low|increased|decreased|elevated|reduced|improved|worsened)(?! by [0-9]|\([0-9])\b
-  
+
   # Require specific timepoints
   - \b(short[- ]term|long[- ]term|brief|prolonged|temporary|permanent|interim|final)\b(?! \([0-9]|\[[0-9])\b
-  
+
   # Require statistical support
   - \b(correlation|association|relationship|connection|link|trend|pattern|tendency)\b(?! coefficient|analysis|\([rp]=)\b
-  
+
   # Require precise biological terms
   - \b(blood levels|kidney|liver|heart|brain|lung|immune|hormone|enzyme)\b(?! function test|\(.*\))\b
-  
+
   # Avoid redundant phrases
   - \b(completely eliminated|totally removed|absolutely essential|basic fundamentals|future plans|past history)\b
-  
+
   # Avoid informal transitions
   - \b(also|besides|moreover|furthermore|additionally|what's more|on top of that)\b(?! \([^)]+\))
-  
+
   # Require precise population terms
   - \b(patients|subjects|participants|individuals|volunteers)\b(?! \([n=\d+]\))
-  
+
   # Require exact timing
   - \b(at baseline|at screening|at follow-up|during treatment|post-treatment)\b(?! \(Day [-\d]+\))
-  
+
   # Avoid empty phrases
   - \b(it is (interesting|important|noteworthy) to note that|as you can see|obviously|clearly|of course|naturally)\b
 
@@ -60,15 +60,15 @@ tokens:
   - (?<=[.!?])\s+[a-z]  # Sentence must start with capital letter
   - \b(is|are|was|were)\s+\w+ed\b  # Passive voice
   - (?<=[.!?])[^.!?]{300,}[.!?]  # Long sentences (>300 chars)
-  
+
   # Hypothesis Clarity
   - \b(tested|investigated|examined|explored)\b(?! whether| if| the)
   - \b(aim|goal|objective|purpose)\b(?! was to| is to)
-  
+
   # Results Clarity
   - \b(data|analysis|results)\b(?! (showed|indicated|demonstrated|revealed))
   - \b(conclude|conclusion)\b(?! that)
-  
+
   # Methods Clarity
   - \b(performed|conducted|carried out|done)\b(?! (using|according to|following|per))
   - \b(measured|assessed|evaluated|analyzed)\b(?! (using|with|by))

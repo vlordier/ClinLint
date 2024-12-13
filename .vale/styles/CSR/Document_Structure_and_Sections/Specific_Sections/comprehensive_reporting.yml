@@ -11,7 +11,7 @@ tokens:
   - missing data handling
   - multiplicity adjustment
   - stratification factors
-  
+
   # Time-to-Event Endpoints
   - median time with CI
   - hazard ratio with CI
@@ -21,7 +21,7 @@ tokens:
   - proportional hazards check
   - competing risks analysis
   - stratified analysis results
-  
+
   # Response Endpoints
   - response definition
   - response rate with CI
@@ -31,7 +31,7 @@ tokens:
   - duration of response
   - best overall response
   - response by subgroup
-  
+
   # Change from Baseline
   - baseline values by group
   - absolute change with CI
@@ -41,7 +41,7 @@ tokens:
   - handling of intercurrent events
   - sensitivity analyses
   - tipping point analysis
-  
+
   # PRO/QoL Endpoints
   - instrument validation
   - completion rates
@@ -51,7 +51,7 @@ tokens:
   - time to deterioration
   - missing data pattern
   - estimand definition
-  
+
   # Composite Endpoints
   - component definitions
   - component results

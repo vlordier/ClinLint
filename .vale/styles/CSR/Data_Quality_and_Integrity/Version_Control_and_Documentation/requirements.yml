@@ -11,7 +11,7 @@ tokens:
   - distribution list
   - confidentiality statement
   - archival requirements
-  
+
   # Author Information
   - author identification
   - reviewer identification
@@ -19,7 +19,7 @@ tokens:
   - role definitions
   - delegation records
   - signature requirements
-  
+
   # Version Control
   - version history table
   - change description
@@ -27,7 +27,7 @@ tokens:
   - impact assessment
   - superseded documents
   - related documents
-  
+
   # Electronic Requirements
   - electronic signatures
   - audit trail elements

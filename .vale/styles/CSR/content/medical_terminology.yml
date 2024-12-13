@@ -11,12 +11,12 @@ terms:
   kidney: renal
   liver: hepatic
   lung: pulmonary
-  
+
   # Disease terms
   high blood pressure: hypertension
   heart attack: myocardial infarction
   stroke: cerebrovascular accident
-  
+
   # Procedure terms
   scan: imaging
   operation: surgical procedure

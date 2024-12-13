@@ -11,7 +11,7 @@ tokens:
   - conformance rules with criteria
   - metadata with specifications
   - traceability with documentation
-  
+
   # Data Quality
   - completeness checks with metrics
   - consistency rules with validation
@@ -21,7 +21,7 @@ tokens:
   - mapping specifications with rules
   - transformation logic with validation
   - reconciliation procedures with criteria
-  
+
   # Documentation Requirements
   - annotated CRF with specifications
   - reviewer guides with explanations

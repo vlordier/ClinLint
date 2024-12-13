@@ -9,35 +9,35 @@ tokens:
   - memory phenotype
   - tissue residency
   - migration patterns
-  
+
   # Functional Analysis
   - cytokine production
   - cytotoxicity assays
   - proliferation index
   - suppression assays
   - antigen presentation
-  
+
   # Repertoire Analysis
   - TCR sequencing
   - BCR repertoire
   - clonal expansion
   - diversity metrics
   - convergent evolution
-  
+
   # Spatial Organization
   - tissue architecture
   - cellular neighborhoods
   - interaction networks
   - tertiary structures
   - trafficking patterns
-  
+
   # Systems Analysis
   - cytokine networks
   - cellular circuits
   - feedback loops
   - homeostatic control
   - perturbation response
-  
+
   # Immunogenicity Assessment
   - immunogenicity with testing strategy
   - anti-drug antibody monitoring

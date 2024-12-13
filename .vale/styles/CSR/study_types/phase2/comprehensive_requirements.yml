@@ -13,7 +13,7 @@ tokens:
   - mechanism of action validation with biomarker data
   - patient selection strategy with enrichment criteria
   - go/no-go decision criteria with thresholds
-  
+
   # Dose-Response Elements
   - dose selection rationale with preclinical support
   - dose-response modeling with statistical approach
@@ -25,7 +25,7 @@ tokens:
   - drug-drug interaction screening with priority list
   - bioavailability assessment with formulation impact
   - accumulation assessment with steady-state analysis
-  
+
   # Early Efficacy Elements
   - efficacy signal detection with power analysis
   - effect size estimation with precision metrics
@@ -37,7 +37,7 @@ tokens:
   - success criteria with statistical justification
   - subgroup analysis with interaction testing
   - sensitivity analysis with robustness assessment
-  
+
   # Safety Monitoring Elements
   - safety parameter selection with rationale
   - adverse event monitoring with causality assessment
@@ -49,7 +49,7 @@ tokens:
   - immunogenicity screening with assay validation
   - organ function monitoring with criteria
   - cumulative safety assessment with periodicity
-  
+
   # Biomarker Elements
   - biomarker selection with biological rationale
   - analytical validation with performance metrics
@@ -61,7 +61,7 @@ tokens:
   - reference ranges with population basis
   - longitudinal analysis with time course
   - population variability with covariates
-  
+
   # Study Design Elements
   - adaptive design features with implementation
   - randomization strategy with allocation ratio
@@ -73,7 +73,7 @@ tokens:
   - missing data handling with methods
   - protocol deviation management with impact
   - quality control measures with metrics
-  
+
   # Population Elements
   - inclusion criteria with scientific basis
   - exclusion criteria with safety rationale
@@ -85,7 +85,7 @@ tokens:
   - demographic targets with representation
   - medical history requirements with relevance
   - screening procedures with sequence
-  
+
   # Operational Elements
   - site selection with criteria
   - investigator requirements with experience

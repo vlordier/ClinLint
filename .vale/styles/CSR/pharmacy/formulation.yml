@@ -8,14 +8,14 @@ tokens:
   - crystallinity assessment
   - solubility profile
   - stability data
-  
+
   # Manufacturing Process
   - batch composition
   - process parameters
   - in-process controls
   - batch analysis
   - comparability assessment
-  
+
   # Quality Control
   - dissolution profile
   - content uniformity

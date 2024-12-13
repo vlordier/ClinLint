@@ -12,7 +12,7 @@ tokens:
   - phase appropriate data
   - safety monitoring plan
   - form 1571 elements
-  
+
   # NDA/BLA Requirements
   - clinical efficacy summary
   - integrated safety summary
@@ -24,7 +24,7 @@ tokens:
   - patent certification
   - user fee cover sheet
   - environmental assessment
-  
+
   # ANDA Requirements
   - bioequivalence data
   - chemistry differences

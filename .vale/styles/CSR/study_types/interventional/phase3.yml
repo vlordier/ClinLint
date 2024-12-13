@@ -13,7 +13,7 @@ tokens:
   - estimand framework with intercurrent events
   - protocol deviation impact assessment
   - per-protocol analysis criteria
-  
+
   # Long-term Safety Elements
   - exposure duration with cumulative assessment
   - adverse event patterns with temporal analysis
@@ -27,7 +27,7 @@ tokens:
   - hepatic safety monitoring
   - cardiovascular safety assessment
   - risk management strategy
-  
+
   # Comparator Study Elements
   - active control justification with clinical practice
   - non-inferiority margin with historical evidence
@@ -39,7 +39,7 @@ tokens:
   - quality of life comparison
   - patient preference assessment
   - healthcare resource utilization
-  
+
   # Population Elements
   - demographic representation
   - geographic diversity
@@ -51,7 +51,7 @@ tokens:
   - discontinuation patterns
   - lost to follow-up analysis
   - protocol violation assessment
-  
+
   # Regulatory Elements
   - registration trial requirements
   - marketing application strategy

@@ -8,14 +8,14 @@ tokens:
   - decision criteria
   - sample size adjustment
   - allocation rules
-  
+
   # Statistical Elements
   - type I error control
   - power maintenance
   - estimation methods
   - simulation results
   - operating characteristics
-  
+
   # Operational Elements
   - randomization updates
   - supply management

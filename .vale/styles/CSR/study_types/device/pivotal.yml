@@ -8,14 +8,14 @@ tokens:
   - success criteria
   - reliability data
   - durability assessment
-  
+
   # Safety Elements
   - adverse device effects
   - device deficiencies
   - malfunction analysis
   - risk assessment
   - user errors
-  
+
   # Clinical Elements
   - effectiveness measures
   - patient outcomes

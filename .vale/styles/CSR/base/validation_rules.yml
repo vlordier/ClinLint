@@ -12,7 +12,7 @@ rules:
     pattern: ${section_header}
     message: "Sections must be in sequential order"
 
-  # Cross-reference validation  
+  # Cross-reference validation
   reference_format:
     pattern: ${table_ref}|${figure_ref}
     message: "Invalid cross-reference format"

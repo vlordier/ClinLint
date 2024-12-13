@@ -2,12 +2,12 @@ text: |
   Sequential analysis of ctDNA revealed dynamic clonal evolution patterns:
   Week 12: EGFR C797S (VAF 0.4%) emerged with concurrent MET amplification (CN 3.8)
   Week 24: Loss of C797S clone, emergence of EGFR L718Q (VAF 0.9%) with PIK3CA E545K (VAF 1.2%)
-  Week 36: Complex resistance landscape with EGFR L718Q/T790M compound mutation (VAF 2.1%), 
+  Week 36: Complex resistance landscape with EGFR L718Q/T790M compound mutation (VAF 2.1%),
   MET exon 14 skipping variant (VAF 0.7%), and KRAS G12C subclone (VAF 0.4%).
-  Tumor mutation burden increased from 5.2 to 12.8 mut/Mb with shift in mutational signature 
+  Tumor mutation burden increased from 5.2 to 12.8 mut/Mb with shift in mutational signature
   from SBS1 to SBS11/SBS31 predominance, suggesting therapy-induced mutagenesis.
-  Spatial heterogeneity analysis of multiple metastatic sites revealed distinct 
-  resistance mechanisms: EGFR-dependent in liver (L718Q/T790M), 
+  Spatial heterogeneity analysis of multiple metastatic sites revealed distinct
+  resistance mechanisms: EGFR-dependent in liver (L718Q/T790M),
   bypass-track activation in lung (KRAS), and lineage plasticity in bone (NEUROD1 expression).
 expected_vale_issues:
   - rule: CSR.biomarkers.analysis

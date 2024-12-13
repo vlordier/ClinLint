@@ -8,14 +8,14 @@ tokens:
   - stopping rules
   - safety review committee
   - cohort progression
-  
+
   # PK/PD Assessment
   - first dose PK
   - dose proportionality
   - food effect
   - accumulation assessment
   - target engagement
-  
+
   # Special Assessments
   - ECG monitoring
   - vital signs monitoring

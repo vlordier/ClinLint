@@ -8,14 +8,14 @@ tokens:
   - post-translational modifications
   - biological activity
   - impurity profile
-  
+
   # Clinical Similarity
   - PK similarity
   - PD similarity
   - immunogenicity comparison
   - efficacy equivalence
   - safety comparability
-  
+
   # Manufacturing
   - process comparability
   - reference product sourcing

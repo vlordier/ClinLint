@@ -7,14 +7,14 @@ tokens:
   - '\b\d+\s*(?:%|percent)\b(?!\s*(?:CI|confidence interval))'
   - '\b(?:increased|decreased|changed|improved|worsened)\b(?!\s+by\s+\d+)'
   - '\b(?:higher|lower|greater|less)\b(?!\s+by\s+\d+)'
-  
+
   # Statistical Reporting Requirements
   - '\bp\s*[<>]\s*0\.0[1-9]\b(?!\s*\(\d+\))'
   - '\bmean\b(?!\s*(?:\(|\±|\[|\d))'
   - '\bmedian\b(?!\s*(?:\(|\[|\d))'
   - '\bSD\b(?!\s*(?:\(|\±|\[|\d))'
   - '\bCI\b(?!\s*(?:\(|\[|\d))'
-  
+
   # Effect Size Requirements
   - '\b(?:correlation|association)\b(?!\s+(?:coefficient|r|ρ)\s*[=]\s*[-]?\d+\.\d+)'
   - '\b(?:odds ratio|hazard ratio|risk ratio)\b(?!\s*[=]\s*\d+\.\d+\s*\(95%\s*CI)'
@@ -23,7 +23,7 @@ tokens:
   # Time Requirements
   - '\b(?:duration|period|interval)\b(?!\s+of\s+\d+\s*(?:minutes?|hours?|days?|weeks?|months?|years?))'
   - '\b(?:follow-?up)\b(?!\s+(?:at|after|of)\s+\d+\s*(?:minutes?|hours?|days?|weeks?|months?|years?))'
-  
+
   # Dose Requirements
   - '\b(?:dose|dosage)\b(?!\s+of\s+\d+\s*(?:mg|µg|g|mL|L))'
   - '\b(?:concentration|level)\b(?!\s+of\s+\d+\s*(?:ng/mL|µg/mL|mg/L|mmol/L))'

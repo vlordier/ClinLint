@@ -14,7 +14,7 @@ tokens:
   - physical examination with systems
   - concomitant medications with interactions
 
-  # Advanced Safety Elements  
+  # Advanced Safety Elements
   - exposure duration with cumulative assessment
   - dose modifications with rationale
   - treatment interruptions with cause

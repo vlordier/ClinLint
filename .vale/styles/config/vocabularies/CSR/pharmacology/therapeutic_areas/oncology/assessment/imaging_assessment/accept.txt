@@ -96,3 +96,52 @@ feature extraction
 quantitative analysis
 parametric mapping
 dynamic imaging
+# Cancer Imaging Assessment
+
+## Anatomical Imaging
+tumor dimensions
+lesion morphology
+tissue boundaries
+organ involvement
+structural changes
+anatomical relationships
+spatial distribution
+contrast enhancement
+density patterns
+texture analysis
+
+## Functional Imaging
+metabolic activity
+perfusion patterns
+diffusion characteristics
+spectroscopic features
+receptor density
+tracer uptake
+kinetic parameters
+functional connectivity
+molecular targeting
+physiological response
+
+## Response Assessment
+dimensional changes
+volume assessment
+density alterations
+enhancement patterns
+metabolic response
+perfusion changes
+diffusion changes
+texture features
+heterogeneity analysis
+radiomics features
+
+## Advanced Techniques
+multiparametric analysis
+radiomics assessment
+artificial intelligence
+machine learning
+deep learning
+texture mapping
+feature extraction
+quantitative analysis
+parametric mapping
+dynamic imaging

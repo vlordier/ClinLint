@@ -20,7 +20,7 @@ swap:
   problems: adverse events [specify MedDRA PTs]
   reaction: adverse reaction [specify MedDRA PT]
   reactions: adverse reactions [specify MedDRA PTs]
-  
+
   # Advanced Terms with SOC/HLGT
   toxicity: adverse event [specify SOC]
   toxicities: adverse events [specify SOC]
@@ -30,33 +30,33 @@ swap:
   safety signals: adverse events [specify SMQ]
   safety concern: adverse event [specify SOC]
   safety concerns: adverse events [specify SOC]
-  
+
   # Severity Terms with CTCAE
   mild: Grade 1 [specify CTCAE term and criteria]
   moderate: Grade 2 [specify CTCAE term and criteria]
   severe: Grade 3 [specify CTCAE term and criteria]
   life-threatening: Grade 4 [specify CTCAE term and criteria]
   fatal: Grade 5 [specify CTCAE term and criteria]
-  
+
   # Causality Terms with Assessment Method
   possibly related: possibly related to study drug [specify assessment method]
   probably related: probably related to study drug [specify assessment method]
   definitely related: definitely related to study drug [specify assessment method]
   unlikely related: unlikely related to study drug [specify assessment method]
   not related: not related to study drug [specify assessment method]
-  
+
   # Timing Terms
   onset: time to onset [specify timepoint]
   duration: duration [specify interval]
   resolution: time to resolution [specify timepoint]
   recurrence: time to recurrence [specify timepoint]
-  
+
   # Action Terms
   discontinued: study drug discontinued [specify reason]
   interrupted: study drug interrupted [specify duration]
   dose reduced: dose reduced to [specify new dose]
   dose modified: dose modified to [specify modification]
-  
+
   # Outcome Terms
   recovered: recovered/resolved [specify date]
   recovering: recovering/resolving [specify status]

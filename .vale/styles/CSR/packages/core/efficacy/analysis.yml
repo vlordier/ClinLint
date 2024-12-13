@@ -11,7 +11,7 @@ tokens:
   - subgroup analysis methods
   - interim analysis rules
   - multiplicity control
-  
+
   # Population Definition
   - analysis set criteria
   - exclusion rationale
@@ -21,7 +21,7 @@ tokens:
   - censoring mechanisms
   - dropout patterns
   - compliance impact
-  
+
   # Effect Measures
   - point estimates with precision
   - confidence intervals with level

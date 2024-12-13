@@ -1,0 +1,12 @@
+# Imprecise allergy and immunology assessment terminology
+
+## Response Description
+good response
+poor response
+better response
+worse response
+adequate response
+inadequate response
+satisfactory response
+unsatisfactory response
+acceptable response

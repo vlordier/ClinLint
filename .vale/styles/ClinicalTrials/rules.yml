@@ -11,63 +11,63 @@ Rules:
   # General formatting rules
   ClinicalTrials.General.Formatting: YES
   ClinicalTrials.General.Review: YES
-  
+
   # Study identification rules
   ClinicalTrials.StudyIdentification.Protocol: YES
   ClinicalTrials.StudyIdentification.Title: YES
   ClinicalTrials.StudyIdentification.SecondaryIDs: YES
-  
+
   # Study status rules
   ClinicalTrials.Status.Recruitment: YES
   ClinicalTrials.Status.Dates: YES
-  
+
   # Sponsor/Collaborator rules
   ClinicalTrials.Sponsor.ResponsibleParty: YES
   ClinicalTrials.Sponsor.Collaborators: YES
-  
+
   # Oversight rules
   ClinicalTrials.Oversight.FDA: YES
   ClinicalTrials.Oversight.IND_IDE: YES
   ClinicalTrials.Oversight.HumanSubjects: YES
-  
+
   # Study description rules
   ClinicalTrials.Description.Summary: YES
   ClinicalTrials.Description.Detailed: YES
-  
+
   # Conditions and keywords rules
   ClinicalTrials.Conditions.Disease: YES
   ClinicalTrials.Conditions.Keywords: YES
-  
+
   # Study design rules
   ClinicalTrials.Design.Type: YES
   ClinicalTrials.Design.Phase: YES
   ClinicalTrials.Design.Model: YES
-  
+
   # Arms and interventions rules
   ClinicalTrials.Arms.Description: YES
   ClinicalTrials.Arms.Interventions: YES
-  
+
   # Outcome measures rules
   ClinicalTrials.Outcomes.Title: YES
   ClinicalTrials.Outcomes.Description: YES
   ClinicalTrials.Outcomes.TimeFrame: YES
-  
+
   # Eligibility rules
   ClinicalTrials.Eligibility.Criteria: YES
   ClinicalTrials.Eligibility.Age: YES
-  
+
   # Contacts and locations rules
   ClinicalTrials.Contacts.Facility: YES
   ClinicalTrials.Contacts.Investigator: YES
-  
+
   # IPD sharing rules
   ClinicalTrials.IPD.Plan: YES
   ClinicalTrials.IPD.Description: YES
-  
+
   # References rules
   ClinicalTrials.References.Citations: YES
   ClinicalTrials.References.Links: YES
-  
+
   # Document upload rules
   ClinicalTrials.Documents.Format: YES
   ClinicalTrials.Documents.Cover: YES

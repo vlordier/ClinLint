@@ -9,7 +9,7 @@ tokens:
   - treatment interruptions
   - compliance patterns
   - drug holidays
-  
+
   # Safety Monitoring
   - periodic assessments
   - safety parameters
@@ -17,7 +17,7 @@ tokens:
   - physical examinations
   - specialized testing
   - imaging requirements
-  
+
   # Adverse Events
   - cumulative incidence
   - time-to-onset
@@ -25,7 +25,7 @@ tokens:
   - chronicity assessment
   - recurrence patterns
   - resolution rates
-  
+
   # Special Interest
   - targeted events
   - potential risks
@@ -33,7 +33,7 @@ tokens:
   - emerging concerns
   - class effects
   - delayed toxicity
-  
+
   # Quality of Life
   - functional status
   - symptom burden

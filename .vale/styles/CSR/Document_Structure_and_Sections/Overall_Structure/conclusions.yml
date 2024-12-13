@@ -7,19 +7,19 @@ tokens:
   - efficacy conclusion
   - safety conclusion
   - benefit-risk conclusion
-  
+
   # Supporting Conclusions
   - secondary objective conclusions
   - subgroup conclusions
   - population applicability
   - dosing recommendations
-  
+
   # Clinical Implications
   - therapeutic value assessment
   - clinical practice impact
   - treatment guidelines implications
   - prescribing considerations
-  
+
   # Future Directions
   - additional research needs
   - ongoing studies

@@ -13,7 +13,7 @@ tokens:
   - dose adjustment algorithms
   - toxicity management procedures
   - subject replacement criteria
-  
+
   # MAD Study Elements
   - steady state assessment timing
   - accumulation ratio calculation
@@ -25,7 +25,7 @@ tokens:
   - safety biomarker tracking
   - tolerance assessment plan
   - drug-drug interaction screening
-  
+
   # BA Study Elements
   - absolute bioavailability design
   - relative bioavailability criteria
@@ -37,7 +37,7 @@ tokens:
   - sample size justification
   - statistical analysis plan
   - bioequivalence criteria
-  
+
   # PK/PD Study Elements
   - concentration-time profile analysis
   - exposure parameter calculations
@@ -49,7 +49,7 @@ tokens:
   - exposure-response assessment
   - therapeutic window evaluation
   - target engagement metrics
-  
+
   # Early Safety Elements
   - adverse event grading criteria
   - laboratory monitoring schedule

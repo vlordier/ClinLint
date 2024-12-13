@@ -8,14 +8,14 @@ tokens:
   - user error assessment
   - maintenance-related issues
   - software-related incidents
-  
+
   # Usage Monitoring
   - user training effectiveness
   - procedure compliance rates
   - device settings verification
   - calibration adherence
   - sterility maintenance
-  
+
   # Long-term Assessment
   - device durability data
   - wear characteristics

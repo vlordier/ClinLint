@@ -199,3 +199,204 @@ economic analysis
 biomedical research
 agricultural experiments
 quality control
+# Mixed Models Analysis Terminology
+
+## Model Specification
+# Fixed Effects
+fixed effects parameters
+main effects
+interaction effects
+nested effects
+crossed effects
+time-varying effects
+time-invariant effects
+covariate effects
+factor effects
+treatment effects
+
+# Random Effects
+random effects parameters
+random intercepts
+random slopes
+variance components
+covariance parameters
+between-subject variance
+within-subject variance
+nested random effects
+crossed random effects
+hierarchical effects
+
+## Correlation Structures
+# Basic Structures
+compound symmetry
+autoregressive structure
+moving average structure
+toeplitz structure
+unstructured correlation
+exchangeable correlation
+independence structure
+diagonal structure
+banded structure
+antedependence structure
+
+# Advanced Structures
+spatial correlation
+temporal correlation
+spatiotemporal correlation
+heterogeneous correlation
+factor analytic structure
+pattern mixture structure
+transition structure
+hybrid structure
+conditional structure
+marginal structure
+
+## Estimation Methods
+# Maximum Likelihood
+maximum likelihood (ML)
+restricted maximum likelihood (REML)
+profile likelihood
+pseudo-likelihood
+quasi-likelihood
+penalized likelihood
+adaptive likelihood
+composite likelihood
+hierarchical likelihood
+integrated likelihood
+
+# Alternative Methods
+generalized least squares (GLS)
+weighted least squares (WLS)
+iterative generalized least squares
+newton-raphson algorithm
+fisher scoring method
+expectation-maximization (EM)
+bayesian estimation
+markov chain monte carlo
+gibbs sampling
+metropolis-hastings
+
+## Model Diagnostics
+# Residual Analysis
+conditional residuals
+marginal residuals
+scaled residuals
+studentized residuals
+standardized residuals
+pearson residuals
+deviance residuals
+deletion residuals
+jackknife residuals
+bootstrap residuals
+
+# Influence Measures
+leverage statistics
+cook's distance
+DFBETAS
+DFFITS
+covariance ratio
+variance inflation factors
+condition indices
+hat values
+press statistic
+cross-validation
+
+## Inference Methods
+# Hypothesis Testing
+wald tests
+likelihood ratio tests
+score tests
+F-tests
+t-tests
+permutation tests
+bootstrap tests
+jackknife tests
+randomization tests
+exact tests
+
+# Interval Estimation
+confidence intervals
+prediction intervals
+tolerance intervals
+credible intervals
+highest posterior density
+profile likelihood intervals
+bootstrap intervals
+jackknife intervals
+simultaneous intervals
+multiplicity-adjusted intervals
+
+## Model Selection
+# Information Criteria
+akaike information criterion (AIC)
+bayesian information criterion (BIC)
+conditional AIC
+marginal AIC
+deviance information criterion
+focused information criterion
+cross-validation criterion
+predictive criterion
+consistent AIC
+corrected AIC
+
+# Comparison Methods
+likelihood ratio comparison
+nested model testing
+non-nested model comparison
+cross-validation comparison
+predictive comparison
+bayes factor comparison
+information theoretic comparison
+decision theoretic comparison
+bootstrap comparison
+permutation comparison
+
+## Computational Methods
+# Matrix Operations
+sparse matrix methods
+cholesky decomposition
+eigenvalue decomposition
+singular value decomposition
+matrix inversion
+matrix multiplication
+matrix addition
+matrix subtraction
+matrix transformation
+matrix factorization
+
+# Numerical Methods
+newton-raphson iteration
+fisher scoring iteration
+em algorithm iteration
+quasi-newton methods
+conjugate gradient
+steepest descent
+trust region
+line search
+grid search
+stochastic approximation
+
+## Model Applications
+# Study Designs
+longitudinal analysis
+repeated measures
+clustered data
+multilevel modeling
+hierarchical models
+nested designs
+cross-classified designs
+multiple membership
+growth models
+latent variable models
+
+# Specific Applications
+clinical trials
+educational research
+environmental studies
+genetic studies
+psychological research
+social sciences
+economic analysis
+biomedical research
+agricultural experiments
+quality control

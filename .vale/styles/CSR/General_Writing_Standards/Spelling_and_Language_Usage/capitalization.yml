@@ -5,7 +5,7 @@ ignorecase: false
 swap:
   # Title Case Rules
   "(?<!^)(?<![\.\?\!]\s)(?<!:\s)[a-z]": "[A-Z]"  # First letter of major words
-  
+
   # Always Capitalize
   "adverse event": "Adverse Event"
   "serious adverse event": "Serious Adverse Event"
@@ -14,7 +14,7 @@ swap:
   "informed consent": "Informed Consent"
   "inclusion criteria": "Inclusion Criteria"
   "exclusion criteria": "Exclusion Criteria"
-  
+
   # Never Capitalize (except at start)
   "AND": "and"
   "THE": "the"

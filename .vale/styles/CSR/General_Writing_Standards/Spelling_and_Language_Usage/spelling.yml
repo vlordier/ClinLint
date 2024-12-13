@@ -43,18 +43,18 @@ swap:
   "standardise": "standardize"
   "theatre": "theater"
   "tumour": "tumor"
-  
+
   # Date Formats (European/International to American)
   "[0-9]{2}/[0-9]{2}/[0-9]{4}": "MM/DD/YYYY"
   "[0-9]{2}-[0-9]{2}-[0-9]{4}": "MM-DD-YYYY"
   "[0-9]{2}\.[0-9]{2}\.[0-9]{4}": "MM.DD.YYYY"
-  
+
   # Units (SI to US Common)
   "°C": "°F"
   "centimetre": "centimeter"
   "millilitre": "milliliter"
   "gramme": "gram"
-  
+
   # Common ESL Errors
   "informations": "information"
   "researches": "research"
@@ -66,7 +66,7 @@ swap:
   "criterias": "criteria"
   "phenomenons": "phenomena"
   "datum": "data point"
-  
+
   # German Speaker Common Errors
   "protocol-conform": "protocol-compliant"
   "after finished": "after finishing"
@@ -74,7 +74,7 @@ swap:
   "beside": "besides"
   "besides of": "besides"
   "in parallel to": "in parallel with"
-  
+
   # French Speaker Common Errors
   "planified": "planned"
   "controlate": "control"
@@ -83,14 +83,14 @@ swap:
   "precise that": "specify that"
   "dispose": "have"
   "dispose of": "have"
-  
+
   # Spanish Speaker Common Errors
   "in base of": "based on"
   "in base to": "based on"
   "according with": "according to"
   "by the contrary": "on the contrary"
   "in the other hand": "on the other hand"
-  
+
   # Chinese Speaker Common Errors
   "make research": "conduct research"
   "do research": "conduct research"
@@ -98,7 +98,7 @@ swap:
   "do analysis": "perform analysis"
   "already finished": "has finished"
   "already completed": "has completed"
-  
+
   # Article Usage Errors
   "the baseline": "baseline"
   "the screening": "screening"
@@ -106,7 +106,7 @@ swap:
   "the treatment": "treatment"
   "the safety": "safety"
   "the efficacy": "efficacy"
-  
+
   # Preposition Errors
   "different than": "different from"
   "similar than": "similar to"
@@ -114,7 +114,7 @@ swap:
   "comprised of": "composed of"
   "in relation with": "in relation to"
   "in comparison with": "compared with"
-  
+
   # Verb Tense/Form Errors
   "has been showed": "has been shown"
   "have been showed": "have been shown"

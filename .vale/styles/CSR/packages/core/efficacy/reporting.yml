@@ -11,7 +11,7 @@ tokens:
   - safety outcomes with integration
   - exploratory analyses with context
   - supplementary results with rationale
-  
+
   # Data Quality
   - completeness assessment
   - consistency checks
@@ -21,7 +21,7 @@ tokens:
   - audit findings
   - monitoring results
   - validation status
-  
+
   # Interpretation
   - clinical significance
   - statistical significance

@@ -5,7 +5,7 @@ tokens:
   # Core Safety Elements
   - adverse event reporting
   - causality assessment
-  
+
   # Organ-specific Safety
   - hepatic safety with Hy's law criteria
   - severity grading
@@ -17,7 +17,7 @@ tokens:
   - physical examination
   - concomitant medications
 
-  # Advanced Safety Elements  
+  # Advanced Safety Elements
   - exposure duration
   - dose modifications
   - treatment interruptions

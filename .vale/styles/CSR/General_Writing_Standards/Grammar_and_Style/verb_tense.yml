@@ -23,7 +23,7 @@ tokens:
   - "is documented": "was documented"
   - "is verified": "was verified"
   - "is validated": "was validated"
-  
+
   # Methods Section (Simple Past) - Additional Study Procedures
   - "is screened": "was screened"
   - "is enrolled": "was enrolled"
@@ -81,7 +81,7 @@ tokens:
   - "is tested": "was tested"
   - "is compared": "was compared"
   - "is correlated": "was correlated"
-  
+
   # Results Section (Simple Past)
   - "subjects are": "subjects were"
   - "data shows": "data showed"
@@ -102,7 +102,7 @@ tokens:
   - "matches": "matched"
   - "confirms": "confirmed"
   - "validates": "validated"
-  
+
   # Discussion Section (Present Tense for Interpretation)
   - "data showed": "these data show" [when interpreting]
   - "results indicated": "these results indicate" [when interpreting]
@@ -114,7 +114,7 @@ tokens:
   - "was established": "is established" [when interpreting]
   - "was validated": "is validated" [when interpreting]
   - "was determined": "is determined" [when interpreting]
-  
+
   # Background/Introduction (Present Tense)
   - "was known": "is known"
   - "was established": "is established"
@@ -126,7 +126,7 @@ tokens:
   - "was thought": "is thought"
   - "was hypothesized": "is hypothesized"
   - "was proposed": "is proposed"
-  
+
   # Conclusions (Present Tense)
   - "demonstrated": "demonstrates"
   - "showed": "shows"

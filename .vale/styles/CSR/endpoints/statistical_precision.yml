@@ -8,25 +8,25 @@ tokens:
   - "adjusted analysis: [specify covariates and method]"
   - "missing data impact: [sensitivity analysis results]"
   - "subgroup consistency: [interaction p-value]"
-  
+
   # Secondary Endpoint Reporting
   - "multiplicity adjusted p-value"
   - "hierarchical testing order"
   - "family-wise error rate control"
   - "conditional power for key secondaries"
-  
+
   # Time-to-Event Analysis
   - "median time: [X.X months (95% CI: L.L-U.U)]"
   - "hazard ratio: [HR=X.XX (95% CI: L.LL-U.UU), p=0.XXX]"
   - "number of events: [n (%)]"
   - "censoring impact: [sensitivity analysis]"
-  
+
   # Categorical Endpoints
   - "response rate: [XX.X% (n/N) (95% CI: L.L%-U.U%)]"
   - "odds ratio: [OR=X.XX (95% CI: L.LL-U.UU)]"
   - "risk difference: [RD=X.X% (95% CI: L.L%-U.U%)]"
   - "number needed to treat: [NNT=XX (95% CI: L-U)]"
-  
+
   # Continuous Endpoints
   - "mean change: [ΔX.XX ± SD (95% CI: L.LL-U.UU)]"
   - "effect size: [Cohen's d=X.XX (95% CI: L.LL-U.UU)]"

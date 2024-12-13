@@ -8,14 +8,14 @@ tokens:
   - specificity testing with interference
   - sensitivity evaluation with LLOQ
   - reproducibility studies with sites
-  
+
   # Clinical Validation
   - diagnostic accuracy with ROC
   - predictive value assessment
   - prognostic capability testing
   - treatment response correlation
   - outcome measure association
-  
+
   # Utility Evidence
   - clinical decision impact
   - therapeutic strategy modification

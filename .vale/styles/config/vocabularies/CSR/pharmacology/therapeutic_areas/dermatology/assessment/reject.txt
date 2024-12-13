@@ -1,0 +1,61 @@
+# Imprecise dermatological assessment terminology
+
+## Skin Description
+good skin condition
+poor skin condition
+better skin condition
+worse skin condition
+healthy skin
+unhealthy skin
+normal skin
+abnormal skin
+typical skin
+atypical skin
+
+## Barrier Description
+good barrier
+poor barrier
+better barrier
+worse barrier
+intact barrier
+damaged barrier
+strong barrier
+weak barrier
+normal barrier
+abnormal barrier
+
+## Healing Description
+good healing
+poor healing
+better healing
+worse healing
+fast healing
+slow healing
+normal healing
+abnormal healing
+complete healing
+incomplete healing
+
+## Response Description
+good response
+poor response
+better response
+worse response
+normal response
+abnormal response
+typical response
+atypical response
+expected response
+unexpected response
+
+## Function Description
+good function
+poor function
+better function
+worse function
+normal function
+abnormal function
+adequate function
+inadequate function
+sufficient function
+insufficient function

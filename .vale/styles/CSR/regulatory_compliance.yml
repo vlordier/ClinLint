@@ -15,7 +15,7 @@ tokens:
   - discussion organization
   - conclusion requirements
   - reference formatting
-  
+
   # ICH E6(R2) GCP Documentation
   - protocol compliance verification
   - GCP training records
@@ -25,7 +25,7 @@ tokens:
   - investigator oversight
   - sponsor responsibilities
   - regulatory notifications
-  
+
   # Regional Requirements
   - FDA Form 1572 compliance
   - EMA requirements
@@ -33,7 +33,7 @@ tokens:
   - local regulatory adherence
   - submission readiness
   - inspection preparation
-  
+
   # Quality System Elements
   - SOPs referenced
   - quality manual compliance
@@ -43,7 +43,7 @@ tokens:
   - change control process
   - document control system
   - training documentation
-  
+
   # Safety Reporting Requirements
   - expedited reporting criteria
   - periodic safety updates
@@ -51,7 +51,7 @@ tokens:
   - development safety update
   - risk management plan
   - pharmacovigilance system
-  
+
   # Clinical Trial Registration
   - registry identification
   - results posting timeline
@@ -59,7 +59,7 @@ tokens:
   - amendment tracking
   - results disclosure
   - transparency requirements
-  
+
   # Data Standards Compliance
   - CDISC conformance
   - SDTM implementation

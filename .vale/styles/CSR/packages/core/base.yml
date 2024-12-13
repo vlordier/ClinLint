@@ -15,7 +15,7 @@ tokens:
   - conclusions
   - references
 
-  # Administrative Elements  
+  # Administrative Elements
   - protocol version
   - amendment history
   - GCP compliance

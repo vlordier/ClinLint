@@ -7,7 +7,7 @@ categories:
       - reporting
       - precision
       - terminology
-      
+
   safety:
     path: safety/
     rules:
@@ -15,15 +15,15 @@ categories:
       - causality
       - severity
       - monitoring
-      
+
   efficacy:
     path: efficacy/
     rules:
       - endpoints
-      - analysis  
+      - analysis
       - reporting
       - terminology
-      
+
   quality:
     path: quality/
     rules:
@@ -31,14 +31,14 @@ categories:
       - consistency
       - validation
       - data_integrity
-      
+
   regulatory:
     path: regulatory/
     rules:
       - ich_e3
       - regional
       - compliance
-      
+
   documentation:
     path: documentation/
     rules:

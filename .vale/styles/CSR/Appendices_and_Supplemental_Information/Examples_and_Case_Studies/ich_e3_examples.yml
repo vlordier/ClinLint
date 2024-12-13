@@ -4,7 +4,7 @@ examples:
     expected_issues:
       - rule: CSR.regulatory.ich_e3
         message: "Required ICH E3 element missing: efficacy results"
-    
+
   - text: "5. Study Methods"
     expected_issues:
       - rule: CSR.regulatory.ich_e3_structure

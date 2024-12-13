@@ -10,7 +10,7 @@ tokens:
   - product complaints analysis
   - periodic safety updates
   - real-world safety data
-  
+
   # Effectiveness Monitoring
   - real-world effectiveness
   - treatment patterns
@@ -19,7 +19,7 @@ tokens:
   - patient-reported outcomes
   - healthcare resource use
   - quality of life measures
-  
+
   # Population Analysis
   - demographic patterns
   - off-label use monitoring
@@ -28,7 +28,7 @@ tokens:
   - pediatric safety profile
   - geriatric use patterns
   - comorbidity impact
-  
+
   # Quality Monitoring
   - product quality complaints
   - manufacturing deviations

@@ -71,28 +71,28 @@ tokens:
   - causal inference
   - state transitions
   - homeostatic control
-  
+
   # Spatial Profiling
   - spatial transcriptomics
   - multiplexed imaging
   - neighborhood analysis
   - tissue architecture
   - spatial statistics
-  
+
   # Multi-omics Integration
   - multi-modal integration
   - pathway cross-talk
   - regulatory networks
   - causal inference
   - systems biology
-  
+
   # Clonal Analysis
   - phylogenetic reconstruction
   - clone tracking
   - evolutionary dynamics
   - selection pressure
   - fitness landscape
-  
+
   # Clinical Translation
   - biomarker validation
   - diagnostic accuracy

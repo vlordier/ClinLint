@@ -7,19 +7,19 @@ tokens:
   - variant calling pipeline
   - quality control metrics
   - population frequencies
-  
+
   # PGx Associations
   - genotype-phenotype correlation
   - metabolizer status definition
   - haplotype analysis
   - linkage disequilibrium
-  
+
   # Clinical Impact
   - dose adjustment criteria
   - therapeutic monitoring
   - contraindication assessment
   - drug-gene interactions
-  
+
   # Validation
   - analytical validation
   - clinical validation

@@ -8,14 +8,14 @@ tokens:
   - principal investigators
   - study coordinators
   - medical monitors
-  
+
   # Study Committees
   - steering committee
   - data monitoring committee
   - endpoint adjudication committee
   - safety review board
   - ethics committee
-  
+
   # Service Providers
   - contract research organization
   - central laboratory
@@ -24,7 +24,7 @@ tokens:
   - imaging core laboratory
   - biostatistics vendor
   - data management vendor
-  
+
   # Quality Management
   - monitoring strategy
   - audit program

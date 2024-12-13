@@ -8,14 +8,14 @@ tokens:
   - seroconversion rates
   - geometric mean titers
   - antibody persistence
-  
+
   # Cellular Response
   - T cell responses
   - cytokine profiles
   - memory B cells
   - cellular persistence
   - boost response
-  
+
   # Special Populations
   - age-specific responses
   - immunocompromised subjects

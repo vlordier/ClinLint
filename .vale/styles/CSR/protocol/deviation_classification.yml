@@ -7,7 +7,7 @@ swap:
   "major deviation": "Important Protocol Deviation"
   "significant deviation": "Important Protocol Deviation"
   "critical deviation": "Important Protocol Deviation"
-  
+
   # Deviation Categories
   "inclusion/exclusion": "Eligibility Criteria Deviation"
   "informed consent": "Informed Consent Deviation"
@@ -15,7 +15,7 @@ swap:
   "study treatment": "Study Treatment Deviation"
   "visit schedule": "Study Visit Deviation"
   "safety reporting": "Safety Reporting Deviation"
-  
+
   # Impact Assessment
   "affected data": [specify impacted endpoints]
   "compromised safety": [specify safety impact]

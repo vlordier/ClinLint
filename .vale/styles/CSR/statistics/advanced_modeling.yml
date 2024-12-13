@@ -11,7 +11,7 @@ tokens:
   - ensemble methods
   - neural network architecture
   - deep learning validation
-  
+
   # Causal Inference
   - propensity score method
   - instrumental variables
@@ -20,7 +20,7 @@ tokens:
   - mediation analysis
   - directed acyclic graphs
   - counterfactual analysis
-  
+
   # Advanced Survival
   - competing risks
   - multi-state models
@@ -29,7 +29,7 @@ tokens:
   - landmark analysis
   - dynamic prediction
   - time-varying effects
-  
+
   # Spatial-Temporal
   - spatiotemporal correlation
   - gaussian processes
@@ -37,7 +37,7 @@ tokens:
   - functional data analysis
   - wavelets
   - changepoint detection
-  
+
   # High-Dimensional
   - dimension reduction
   - sparse methods
@@ -46,19 +46,19 @@ tokens:
   - network inference
   - pathway analysis
   - systems modeling
-  
+
   # Causal Inference
   - propensity score method
   - instrumental variables
   - sensitivity analysis
   - unmeasured confounding
-  
+
   # Longitudinal Analysis
   - random effects structure
   - correlation structure
   - time-varying covariates
   - informative dropout
-  
+
   # Spatial Statistics
   - spatial correlation
   - cluster detection

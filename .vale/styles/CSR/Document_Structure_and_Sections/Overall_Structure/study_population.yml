@@ -8,28 +8,28 @@ tokens:
   - treatment disposition
   - study completion rates
   - discontinuation reasons
-  
+
   # Demographics
   - age distribution
   - sex distribution
   - racial distribution
   - ethnic distribution
   - geographic distribution
-  
+
   # Baseline Characteristics
   - disease characteristics
   - medical history
   - prior medications
   - concurrent conditions
   - risk factors
-  
+
   # Analysis Sets
   - ITT population definition
   - PP population definition
   - safety population definition
   - PK population definition
   - biomarker population definition
-  
+
   # Protocol Deviations
   - major deviation categories
   - minor deviation categories

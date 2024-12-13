@@ -10,7 +10,7 @@ patterns:
   percentage: '\b\d+\.?\d*%\b'
   pvalue: '\bp\s*[<=>]\s*0\.\d{3}\b'
   ci: '\b95%\s*CI[:\s]+\d+\.?\d*\s*[-–]\s*\d+\.?\d*\b'
-  
+
   # Common text patterns
   section_header: '^[1-9]\.\d*\s+[A-Z]'
   table_ref: 'Table\s+\d+'

@@ -120,7 +120,7 @@ tokens:
   - communication strategy with labeling/risk management/educational materials
   - monitoring plan with pharmacovigilance/registry/post-marketing commitments
   - decision framework with threshold criteria/stopping rules/continuation parameters
-  
+
   # Population Attribute
   - target population with inclusion/exclusion rationale
   - analysis population with estimand alignment
@@ -130,7 +130,7 @@ tokens:
   - comorbidity criteria with impact assessment
   - prior/concurrent therapy requirements
   - washout period specifications
-  
+
   # Variable/Endpoint Attribute
   - endpoint definition with precise measurements
   - timing windows with acceptable deviations
@@ -140,7 +140,7 @@ tokens:
   - clinically meaningful thresholds
   - measurement error assessment
   - endpoint hierarchy with multiplicity
-  
+
   # Intercurrent Events
   - ICE inventory with detection methods
   - treatment policy strategy with rationale
@@ -150,7 +150,7 @@ tokens:
   - principal stratum with identification
   - competing risks framework
   - time-to-event considerations
-  
+
   # Population-level Summary
   - effect measure with precision requirements
   - statistical model with assumptions
@@ -160,7 +160,7 @@ tokens:
   - subgroup analyses with interaction
   - missing data approach with sensitivity
   - multiplicity adjustment method
-  
+
   # Regulatory Documentation
   - ICH E9(R1) compliance evidence
   - regulatory authority correspondence

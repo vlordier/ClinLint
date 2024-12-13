@@ -13,37 +13,37 @@ tokens:
   - geriatric assessment results
   - pediatric development stages
   - age-specific safety analysis
-  
+
   # Sex/Gender Reporting
   - sex assigned at birth
   - gender identity
   - sex ratio \([0-9]+:[0-9]+\)
   - percentage by sex \([0-9]+\.[0-9]+%\)
-  
+
   # Race/Ethnicity
   - racial distribution with percentages
   - ethnic distribution with percentages
   - regional demographics
   - ancestry documentation
-  
+
   # Physical Characteristics
   - height \(mean ± SD\)
   - weight \(mean ± SD\)
   - BMI \(mean ± SD\)
   - BSA \(mean ± SD\)
-  
+
   # Medical History
   - relevant medical conditions
   - prior therapies
   - concomitant medications
   - risk factors
-  
+
   # Stratification Factors
   - stratification variables
   - subgroup definitions
   - population characteristics
   - baseline disease status
-  
+
   # Screening/Enrollment
   - screening disposition
   - inclusion verification

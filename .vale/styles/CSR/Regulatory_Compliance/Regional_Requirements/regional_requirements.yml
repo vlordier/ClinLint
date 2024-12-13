@@ -21,7 +21,7 @@ tokens:
   - pediatric assessment
   - pregnancy exposure data
   - risk evaluation strategy
-  
+
   # EMA Requirements
   - layperson summary
   - EU CTR compliance
@@ -30,7 +30,7 @@ tokens:
   - risk-benefit assessment
   - pediatric investigation plan
   - environmental risk assessment
-  
+
   # PMDA Requirements
   - Japanese subgroup analysis
   - PMDA-specific tables
@@ -38,18 +38,18 @@ tokens:
   - ethnic factors analysis
   - bridging strategy
   - J-GCP compliance
-  
+
   # Common Requirements
   - trial registration number
   - data transparency statement
   - public disclosure plan
   - regulatory submissions plan
-  
+
   # EMA Requirements
   - layperson summary
   - EU CTR compliance statement
   - GDPR compliance statement
-  
+
   # PMDA Requirements
   - Japanese subgroup analysis
   - PMDA-specific tables

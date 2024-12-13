@@ -1,7 +1,7 @@
 
 import pytest
 
-from src.services.vale_runner import run_vale_on_text
+from services.vale_runner import run_vale_on_text
 
 
 def test_run_vale_success(mocker):

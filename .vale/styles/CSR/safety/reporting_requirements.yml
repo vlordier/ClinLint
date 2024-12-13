@@ -7,7 +7,7 @@ tokens:
   - dose intensity calculation
   - dose modifications summary
   - treatment interruptions
-  
+
   # AE Summaries
   - treatment-emergent definition with time window, baseline comparison, and washout period validation
   - severity grading system with CTCAE version, grade-specific criteria, and adjudication process
@@ -40,25 +40,25 @@ tokens:
   - immunogenicity assessment with anti-drug antibodies
   - infusion/injection site reactions with severity grading
   - medication errors with root cause analysis
-  
+
   # Laboratory Data
   - shift table methodology
   - markedly abnormal criteria
   - reference ranges source
   - unit standardization
-  
+
   # Vital Signs
   - potentially clinically significant criteria
   - measurement standardization
   - position specifications
   - equipment calibration
-  
+
   # ECG Data
   - central reading process
   - interval measurements
   - morphology assessment
   - machine calibration
-  
+
   # Physical Examination
   - examination schedule
   - body system assessment

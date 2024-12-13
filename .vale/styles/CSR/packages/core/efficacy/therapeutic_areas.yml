@@ -11,7 +11,7 @@ tokens:
   - immune response with monitoring
   - resistance development with mechanisms
   - combination effects with synergy
-  
+
   # Cardiovascular
   - MACE outcomes with adjudication
   - blood pressure with standardization
@@ -21,7 +21,7 @@ tokens:
   - cardiac function with imaging
   - vascular assessment with methods
   - thrombotic events with classification
-  
+
   # Neurology
   - cognitive function with batteries
   - motor function with scales
@@ -31,7 +31,7 @@ tokens:
   - biomarker panels with validation
   - functional independence with measures
   - caregiver assessment with burden
-  
+
   # Immunology
   - immune response with markers
   - autoantibody levels with assays
@@ -41,7 +41,7 @@ tokens:
   - tolerance development with assessment
   - immunogenicity with antibodies
   - immune function with tests
-  
+
   # Metabolic/Endocrine
   - glycemic control with HbA1c
   - lipid profiles with panels
@@ -51,7 +51,7 @@ tokens:
   - organ function with monitoring
   - dietary factors with assessment
   - lifestyle impact with evaluation
-  
+
   # Respiratory
   - lung function with spirometry
   - symptom scores with validation
@@ -61,7 +61,7 @@ tokens:
   - imaging findings with standardization
   - biomarker panels with validation
   - medication use with tracking
-  
+
   # Psychiatry
   - symptom scales with validation
   - functional assessment with tools

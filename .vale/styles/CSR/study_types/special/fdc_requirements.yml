@@ -9,7 +9,7 @@ tokens:
   - dissolution profiles
   - stability studies
   - impurity profiles
-  
+
   # Clinical Requirements
   - combination rationale
   - dose optimization
@@ -17,7 +17,7 @@ tokens:
   - switching studies
   - compliance assessment
   - preference evaluation
-  
+
   # Manufacturing
   - process validation
   - content uniformity
@@ -25,7 +25,7 @@ tokens:
   - stability data
   - container closure
   - shelf life determination
-  
+
   # Regulatory Elements
   - CTD requirements
   - bridging strategy

@@ -1,0 +1,111 @@
+# Imprecise Ophthalmological Assessment Terminology
+
+## Visual Function
+good visual acuity
+poor visual acuity
+better visual acuity
+worse visual acuity
+adequate visual acuity
+inadequate visual acuity
+satisfactory visual acuity
+unsatisfactory visual acuity
+acceptable visual acuity
+
+## Ocular Structure
+good corneal integrity
+poor corneal integrity
+better corneal integrity
+worse corneal integrity
+adequate corneal integrity
+inadequate corneal integrity
+satisfactory corneal integrity
+unsatisfactory corneal integrity
+acceptable corneal integrity
+
+## Intraocular Parameters
+good intraocular pressure
+poor intraocular pressure
+better intraocular pressure
+worse intraocular pressure
+adequate intraocular pressure
+inadequate intraocular pressure
+satisfactory intraocular pressure
+unsatisfactory intraocular pressure
+acceptable intraocular pressure
+
+## Retinal Function
+good retinal sensitivity
+poor retinal sensitivity
+better retinal sensitivity
+worse retinal sensitivity
+adequate retinal sensitivity
+inadequate retinal sensitivity
+satisfactory retinal sensitivity
+unsatisfactory retinal sensitivity
+acceptable retinal sensitivity
+
+## Neuro-ophthalmology
+good afferent pathways
+poor afferent pathways
+better afferent pathways
+worse afferent pathways
+adequate afferent pathways
+inadequate afferent pathways
+satisfactory afferent pathways
+unsatisfactory afferent pathways
+acceptable afferent pathways
+
+## Ocular Surface
+good tear film stability
+poor tear film stability
+better tear film stability
+worse tear film stability
+adequate tear film stability
+inadequate tear film stability
+satisfactory tear film stability
+unsatisfactory tear film stability
+acceptable tear film stability
+
+## Vascular Assessment
+good retinal circulation
+poor retinal circulation
+better retinal circulation
+worse retinal circulation
+adequate retinal circulation
+inadequate retinal circulation
+satisfactory retinal circulation
+unsatisfactory retinal circulation
+acceptable retinal circulation
+
+## Biomechanical Properties
+good corneal biomechanics
+poor corneal biomechanics
+better corneal biomechanics
+worse corneal biomechanics
+adequate corneal biomechanics
+inadequate corneal biomechanics
+satisfactory corneal biomechanics
+unsatisfactory corneal biomechanics
+acceptable corneal biomechanics
+
+## Inflammatory Markers
+good anterior inflammation
+poor anterior inflammation
+better anterior inflammation
+worse anterior inflammation
+adequate anterior inflammation
+inadequate anterior inflammation
+satisfactory anterior inflammation
+unsatisfactory anterior inflammation
+acceptable anterior inflammation
+
+## Functional Integration
+good visual integration
+poor visual integration
+better visual integration
+worse visual integration
+adequate visual integration
+inadequate visual integration
+satisfactory visual integration
+unsatisfactory visual integration
+acceptable visual integration

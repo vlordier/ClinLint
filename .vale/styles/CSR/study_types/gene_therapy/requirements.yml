@@ -8,21 +8,21 @@ tokens:
   - shedding assessment
   - integration analysis
   - persistence evaluation
-  
+
   # Expression Analysis
   - transgene expression
   - expression duration
   - tissue specificity
   - dose-response relationship
   - expression stability
-  
+
   # Safety Monitoring
   - insertional mutagenesis
   - germline transmission
   - immune response
   - oncogenic potential
   - long-term follow-up
-  
+
   # Manufacturing
   - vector production
   - purification process

@@ -7,40 +7,40 @@ scopes:
   - heading.h2
   - heading.h3
   - paragraph
-  
-  # Synopsis elements  
+
+  # Synopsis elements
   - summary
   - ~table
   - ~figure
-  
+
   # Methods sections
   - heading.methods
   - paragraph.methods
   - list.methods
   - table.methods
-  
+
   # Results sections
   - heading.results
   - paragraph.results
   - table.results
   - figure.results
-  
+
   # Safety sections
   - heading.safety
   - paragraph.safety
   - table.safety
   - list.safety
-  
+
   # Discussion sections
   - heading.discussion
   - paragraph.discussion
   - ~table
   - ~figure
-  
+
   # References
   - heading.references
   - list.references
-  
+
   # Appendices
   - heading.appendix
   - paragraph.appendix

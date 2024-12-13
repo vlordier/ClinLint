@@ -6,19 +6,19 @@ tokens:
   - '[^"][\.,]["]'  # Period/comma outside quotes
   - '[^"][\?]["]'   # Question mark outside quotes
   - '[^"][!]["]'    # Exclamation mark outside quotes
-  
+
   # Multiple Punctuation
   - '[\.]{2,}'      # Multiple periods (use ellipsis)
   - '[,]{2,}'       # Multiple commas
   - '[!]{2,}'       # Multiple exclamation marks
   - '[\?]{2,}'      # Multiple question marks
-  
+
   # Space Rules
   - '\s+[,]'        # Space before comma
   - '\s+[.]'        # Space before period
   - '\s+[!]'        # Space before exclamation
   - '\s+[\?]'       # Space before question mark
-  
+
   # Other Punctuation
   - '\s+%'          # Space before percent
   - '\s+°[CF]'      # Space before degree

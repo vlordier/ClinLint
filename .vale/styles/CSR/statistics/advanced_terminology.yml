@@ -9,19 +9,19 @@ swap:
   "hazard ratio": [specify point estimate with CI]
   "rate difference": [specify point estimate with CI]
   "mean difference": [specify point estimate with CI]
-  
+
   # Model Terms
   "fixed effect": [specify effect type]
   "random effect": [specify variance component]
   "interaction term": [specify interaction factors]
   "covariate adjustment": [specify covariates]
-  
+
   # Analysis Methods
   "sensitivity analysis": [specify analysis method]
   "subgroup analysis": [specify subgroup factors]
   "interim analysis": [specify stopping boundaries]
   "non-inferiority": [specify margin and test]
-  
+
   # Missing Data
   "missing at random": [specify MAR assumption]
   "missing completely at random": [specify MCAR assumption]

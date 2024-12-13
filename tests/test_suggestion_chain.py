@@ -3,7 +3,7 @@ from pathlib import Path
 import pytest
 import yaml
 
-from src.services.suggestion_chain import AnalysisMode, ChainConfig, SuggestionChain
+from services.suggestion_chain import AnalysisMode, ChainConfig, SuggestionChain
 
 
 @pytest.fixture

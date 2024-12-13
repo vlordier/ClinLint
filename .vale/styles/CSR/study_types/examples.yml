@@ -10,7 +10,7 @@ examples:
       - "Include margin justification"
       - "Report effect size with CI"
 
-  # PK/PD Study Examples  
+  # PK/PD Study Examples
   - text: "Drug concentrations were measured."
     expected_issues:
       - rule: CSR.study_types.objective.pkpd_requirements

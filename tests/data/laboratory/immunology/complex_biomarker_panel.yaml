@@ -1,0 +1,15 @@
+text: "Multi-parameter immune profiling revealed dynamic changes in T cell subsets and cytokine networks."
+expected_vale_issues:
+  - rule: CSR.laboratory.reporting
+    message: "Required laboratory reporting element missing: comprehensive immune panel"
+  - rule: CSR.scientific.precision
+    message: "Specify immune parameters and temporal patterns"
+expected_llm_feedback:
+  - "Report T cell subset frequencies (CD4+, CD8+, Tregs)"
+  - "Include memory/effector/naive ratios"
+  - "Detail cytokine panel with temporal trends"
+  - "Report activation marker profiles"
+  - "Include exhaustion marker expression"
+  - "Specify proliferation indices"
+  - "Report cytokine production capacity"
+  - "Include TCR repertoire diversity"

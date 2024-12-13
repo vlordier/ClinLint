@@ -1,0 +1,13 @@
+# Examples for statistical reporting checks
+examples:
+  - text: "The average response was approximately 65%."
+    expected_issues:
+      - rule: CSR.statistics.terminology
+        message: "Use precise statistical terminology: 'mean' instead of 'average'"
+      - rule: CSR.statistics.reporting
+        message: "Include required statistical elements: confidence interval"
+
+  - text: "All patients were analyzed."
+    expected_issues:
+      - rule: CSR.statistics.population
+        message: "Use standard analysis population terminology: 'ITT population' instead of 'all patients'"

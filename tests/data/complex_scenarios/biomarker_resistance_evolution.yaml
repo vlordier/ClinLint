@@ -1,0 +1,21 @@
+text: |
+  Longitudinal ctDNA analysis revealed emergence of multiple resistance mechanisms:
+  Week 24: EGFR T790M (VAF 0.8%) + MET amplification (CN 4.2)
+  Week 36: Loss of T790M, emergence of C797S (VAF 1.2%) + PIK3CA E545K (VAF 0.6%)
+  Week 48: Complex resistance pattern with EGFR amplification (CN 8.6), multiple PIK3CA clones (E545K, H1047R VAFs: 2.8%, 1.1%),
+  and MET exon 14 skipping variant (VAF 0.9%). Tumor heterogeneity index (Shannon diversity) increased from 0.31 to 0.85.
+expected_vale_issues:
+  - rule: CSR.biomarkers.analysis
+    message: "Required biomarker analysis element missing: clonal evolution dynamics"
+  - rule: CSR.scientific.precision
+    message: "Specify mutation frequencies and confidence intervals"
+  - rule: CSR.laboratory.reporting
+    message: "Required laboratory reporting element missing: variant validation"
+expected_llm_feedback:
+  - "Report detailed variant calling metrics and thresholds"
+  - "Include clonal frequency trajectories with CIs"
+  - "Detail phylogenetic relationships between clones"
+  - "Report tumor mutation burden evolution"
+  - "Include pathway activation analysis"
+  - "Specify validation methods for each variant"
+  - "Detail computational methods for heterogeneity assessment"

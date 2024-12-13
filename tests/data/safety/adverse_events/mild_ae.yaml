@@ -1,0 +1,10 @@
+text: "The patient experienced mild nausea."
+expected_vale_issues:
+  - rule: CSR.safety.severity
+    message: "Use CTCAE grading terminology: 'Grade 1' instead of 'mild'"
+  - rule: CSR.safety.reporting
+    message: "Include onset time and duration"
+expected_llm_feedback:
+  - "Specify exact onset time"
+  - "Report duration of event"
+  - "Include CTCAE grade"

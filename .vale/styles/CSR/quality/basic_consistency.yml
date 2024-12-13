@@ -1,0 +1,23 @@
+extends: consistency
+message: "Use consistent basic terminology: '%s' instead of '%s'"
+level: error
+ignorecase: true
+either:
+  # Basic Terms
+  "patient": "subject"
+  "subject": "participant"
+  "drug": "study medication"
+  "study medication": "investigational product"
+  "doctor": "investigator"
+  "investigator": "study physician"
+  
+  # Basic Time Points
+  "baseline": "Day 1"
+  "screening": "Day -28 to Day -1"
+  "follow-up": "30 days post-treatment"
+  
+  # Basic Assessments
+  "labs": "laboratory tests"
+  "vitals": "vital signs"
+  "physical": "physical examination"
+  "ECG": "electrocardiogram"

@@ -1,0 +1,43 @@
+# Imprecise PK terminology
+drug levels
+drug concentrations
+drug exposure
+drug absorption
+drug distribution
+drug metabolism
+drug elimination
+drug clearance
+drug accumulation
+drug steady-state
+drug bioavailability
+drug bioequivalence
+drug interactions
+drug-drug interactions
+drug-food interactions
+drug-disease interactions
+metabolic interactions
+transporter interactions
+enzyme interactions
+protein binding
+plasma binding
+tissue binding
+volume of distribution
+half-life
+clearance rate
+absorption rate
+elimination rate
+metabolic rate
+exposure-response
+dose-response
+concentration-time
+area under curve
+maximum concentration
+minimum concentration
+time to maximum
+time to minimum
+steady state
+fluctuation
+accumulation
+linearity
+non-linearity
+dose proportionality

@@ -1,0 +1,10 @@
+text: "Higher doses showed better response."
+expected_vale_issues:
+  - rule: CSR.statistics.reporting
+    message: "Required statistical elements missing: exposure-response analysis"
+  - rule: CSR.scientific.precision
+    message: "Use precise terminology: specify dose-response relationship"
+expected_llm_feedback:
+  - "Report E-R model parameters"
+  - "Include exposure metrics"
+  - "Specify response variables"

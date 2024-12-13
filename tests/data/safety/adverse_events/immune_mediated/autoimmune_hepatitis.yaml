@@ -1,0 +1,15 @@
+text: "Treatment-emergent autoimmune hepatitis with positive anti-nuclear antibodies developed after cycle 3."
+expected_vale_issues:
+  - rule: CSR.safety.severity
+    message: "Use CTCAE grading terminology: specify liver function grades"
+  - rule: CSR.safety.reporting
+    message: "Include immunological parameters"
+  - rule: CSR.laboratory.reporting
+    message: "Required laboratory reporting element missing: autoimmune markers"
+expected_llm_feedback:
+  - "Report ANA titer and pattern"
+  - "Include complete liver panel"
+  - "Report immunoglobulin levels"
+  - "Detail steroid response"
+  - "Include liver biopsy findings"
+  - "Report other autoantibodies"

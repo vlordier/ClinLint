@@ -1,0 +1,40 @@
+# Imprecise endpoint terminology
+primary endpoint
+secondary endpoint
+exploratory endpoint
+efficacy endpoint
+safety endpoint
+pharmacokinetic endpoint
+pharmacodynamic endpoint
+biomarker endpoint
+clinical endpoint
+surrogate endpoint
+composite endpoint
+key endpoint
+important endpoint
+critical endpoint
+main endpoint
+major endpoint
+minor endpoint
+additional endpoint
+supportive endpoint
+exploratory endpoint
+
+# Imprecise outcome terminology
+clinical outcome
+treatment outcome
+study outcome
+trial outcome
+patient outcome
+disease outcome
+safety outcome
+efficacy outcome
+therapeutic outcome
+beneficial outcome
+adverse outcome
+positive outcome
+negative outcome
+favorable outcome
+unfavorable outcome
+expected outcome
+unexpected outcome

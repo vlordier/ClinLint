@@ -1,0 +1,48 @@
+extends: existence
+message: "Required data integrity element missing: %s"
+level: error
+tokens:
+  # CDISC Standards
+  - SDTM compliance
+  - ADaM datasets
+  - define.xml
+  - controlled terminology
+  - SUPPQUAL datasets
+  
+  # Data Quality
+  - data validation plan
+  - edit check specifications
+  - query resolution process
+  - database lock procedures
+  - data review meetings
+  
+  # Traceability
+  - audit trail documentation
+  - version control system
+  - data lineage documentation
+  - source data verification
+  - CRF completion guidelines
+  
+  # Quality Metrics
+  - query rate
+  - missing data rate
+  - protocol deviation rate
+  - data entry timeline
+  - database lock metrics
+  
+  # Documentation
+  - data management plan
+  - statistical analysis plan
+  - validation documentation
+  - programming specifications
+  - analysis datasets
+  
+  # Data Quality
+  - data validation plan
+  - query resolution
+  - database lock
+  
+  # Traceability
+  - audit trail
+  - version control
+  - data lineage

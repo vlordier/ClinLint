@@ -1,0 +1,41 @@
+extends: substitution
+message: "Use precise scientific terminology: '%s' instead of '%s'"
+level: error
+ignorecase: true
+swap:
+  # Reject subjective/unscientific descriptors
+  excellent: [specify quantitative measure]
+  good: [specify quantitative measure]
+  poor: [specify quantitative measure]
+  better: [specify comparative measure]
+  worse: [specify comparative measure]
+  improved: [specify magnitude of change]
+  deteriorated: [specify magnitude of change]
+  
+  # Enforce precise measurements
+  "many patients": [specify exact number/percentage]
+  "few patients": [specify exact number/percentage]
+  "most patients": [specify exact number/percentage]
+  "some patients": [specify exact number/percentage]
+  "several patients": [specify exact number/percentage]
+  
+  # Enforce precise timing
+  "recently": [specify exact timepoint/interval]
+  "previously": [specify exact timepoint/interval]
+  "shortly after": [specify exact timepoint/interval]
+  "long-term": [specify duration]
+  "short-term": [specify duration]
+  
+  # Enforce precise comparisons
+  "similar to": [specify statistical comparison]
+  "comparable to": [specify statistical comparison]
+  "different from": [specify statistical difference]
+  "consistent with": [specify statistical consistency measure]
+  
+  # Enforce precise biological terminology
+  "blood levels": "plasma concentrations"
+  "kidney function": "renal function"
+  "liver function": "hepatic function"
+  "heart function": "cardiac function"
+  "brain function": "neurological function"
+  "lung function": "pulmonary function"

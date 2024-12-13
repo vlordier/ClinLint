@@ -1,0 +1,30 @@
+# Imprecise biomarker terminology
+biomarker levels
+biomarker changes
+biomarker response
+biomarker status
+marker levels
+marker changes
+marker positive
+marker negative
+expression levels
+protein levels
+RNA levels
+DNA changes
+mutation status
+variant status
+genetic changes
+molecular changes
+pathway activation
+signaling changes
+receptor status
+target engagement
+pharmacodynamic effect
+biological effect
+mechanism of action
+drug activity
+treatment effect
+biological response
+molecular response
+cellular response
+tissue response

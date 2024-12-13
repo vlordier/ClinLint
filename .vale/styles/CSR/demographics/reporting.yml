@@ -1,0 +1,13 @@
+extends: existence
+message: "Required demographic reporting element missing: %s"
+level: error
+tokens:
+  - age distribution
+  - gender distribution
+  - racial categories
+  - ethnic categories
+  - baseline characteristics
+  - inclusion criteria
+  - exclusion criteria
+  - screening failures
+  - randomization strata

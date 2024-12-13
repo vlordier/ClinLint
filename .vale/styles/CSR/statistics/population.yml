@@ -1,0 +1,10 @@
+extends: substitution
+message: "Use standard analysis population terminology: '%s' instead of '%s'"
+level: error
+swap:
+  all patients: ITT population
+  all subjects: ITT population
+  completed patients: PP population
+  completed subjects: PP population
+  safety population: safety analysis set
+  efficacy population: efficacy analysis set

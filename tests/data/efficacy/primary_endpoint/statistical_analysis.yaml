@@ -1,0 +1,10 @@
+text: "The primary endpoint showed significant improvement."
+expected_vale_issues:
+  - rule: CSR.statistics.reporting
+    message: "Include required statistical elements: p-value and CI"
+  - rule: CSR.efficacy.terminology
+    message: "Specify exact efficacy measure"
+expected_llm_feedback:
+  - "Report exact p-value"
+  - "Include 95% CI"
+  - "Specify effect size"

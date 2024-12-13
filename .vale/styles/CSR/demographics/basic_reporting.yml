@@ -1,0 +1,15 @@
+extends: existence
+message: "Required basic demographic element missing: %s"
+level: error
+tokens:
+  # Basic Demographics
+  - age
+  - sex
+  - race
+  - ethnicity
+  - weight
+  - height
+  - BMI
+  - medical history
+  - prior medications
+  - concurrent conditions

@@ -1,0 +1,28 @@
+text: |
+  Integrated single-cell and spatial analysis revealed complex resistance mechanisms:
+  scRNA-seq identified 12 distinct cell states with branched differentiation trajectory.
+  Spatial transcriptomics showed organized niches (immune-excluded vs inflamed regions).
+  Clonal evolution analysis revealed parallel resistance paths:
+  - EMT program activation (ZEB1high/VIMhigh) in hypoxic regions
+  - Stem-like state transition (SOX2/NANOG) in perivascular areas
+  - Immune evasion (B2M loss, HLA downregulation) in T-cell rich zones
+  Metabolic reprogramming evidenced by spatial metabolomics:
+  - Glycolysis activation (GLUT1/HK2/LDHA) in hypoxic regions
+  - Oxidative phosphorylation (PGC1α/TFAM) in perivascular areas
+  - Glutamine addiction (GLS1/SLC1A5) in rapidly proliferating zones
+expected_vale_issues:
+  - rule: CSR.biomarkers.advanced_profiling
+    message: "Required advanced biomarker profiling element missing: integrated analysis methodology"
+  - rule: CSR.scientific.precision
+    message: "Specify analytical methods and thresholds"
+  - rule: CSR.laboratory.reporting
+    message: "Required laboratory reporting element missing: validation procedures"
+expected_llm_feedback:
+  - "Detail single-cell analysis pipeline"
+  - "Report spatial statistics methodology"
+  - "Include trajectory inference methods"
+  - "Specify metabolomic profiling platform"
+  - "Detail clone tracking approach"
+  - "Report niche definition criteria"
+  - "Include validation experiments"
+  - "Specify bioinformatic workflows"

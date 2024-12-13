@@ -1,0 +1,24 @@
+extends: existence
+message: "Required medical device element missing: %s"
+level: error
+tokens:
+  # Technical Performance
+  - device specifications
+  - performance testing
+  - reliability data
+  - durability assessment
+  - calibration data
+  
+  # Clinical Performance
+  - device placement
+  - device function
+  - device removal
+  - device maintenance
+  - device failures
+  
+  # Safety Assessment
+  - device-related AEs
+  - procedure-related AEs
+  - device deficiencies
+  - malfunction analysis
+  - user errors

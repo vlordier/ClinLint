@@ -1,0 +1,27 @@
+extends: existence
+message: "Required multi-omics element missing: %s"
+level: error
+tokens:
+  # Integration Methods
+  - data harmonization
+  - batch correction
+  - platform normalization
+  - missing data handling
+  
+  # Analysis Approaches
+  - pathway enrichment
+  - network analysis
+  - temporal dynamics
+  - spatial correlation
+  
+  # Validation
+  - technical replication
+  - biological validation
+  - cross-platform verification
+  - external dataset comparison
+  
+  # Clinical Translation
+  - biomarker selection
+  - prediction model
+  - therapeutic targeting
+  - patient stratification

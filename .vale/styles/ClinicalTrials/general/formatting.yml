@@ -1,0 +1,32 @@
+extends: existence
+message: "Follow general formatting requirements: %s"
+level: error
+scope: text
+tokens:
+  # Third person writing
+  - \b(I|we|you|your)\b
+
+  # Redundant information
+  - \b(as mentioned above|as stated earlier|see above)\b
+
+  # Placeholder text
+  - \b(TBD|Pending|N/A|None)\b
+
+  # Undefined acronyms
+  - \b[A-Z]{2,}(?![a-z]|\(|\.)(?!.*\([A-Za-z ]+\))\b
+
+  # Incorrect decimal/thousands formatting
+  - \b\d+,\d{1,2}\b
+  - \b\d{1,3}(?:,\d{3})*\.\d+\b
+
+  # Symbols instead of words
+  - \b[#%&@]\b
+
+  # Subject/patient instead of participant
+  - \b(subjects?|patients?)\b(?!.*participants?)
+
+swap:
+  '%': percentage
+  '#': number
+  subjects: participants
+  patients: participants

@@ -1,0 +1,13 @@
+text: "Time-dependent inhibition of multiple CYP enzymes was observed with complex drug-drug interaction patterns."
+expected_vale_issues:
+  - rule: CSR.pharmacology.pk_pd
+    message: "Required PK element missing: enzyme kinetics"
+  - rule: CSR.scientific.precision
+    message: "Specify interaction mechanisms"
+expected_llm_feedback:
+  - "Report Ki and KI values for each CYP"
+  - "Include time-dependency parameters"
+  - "Specify inactivation constants"
+  - "Detail recovery kinetics"
+  - "Report clinical implications"
+  - "Include PBPK modeling results"

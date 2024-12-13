@@ -1,0 +1,10 @@
+extends: existence
+message: "Use standard causality terms (definitely/probably/possibly/unlikely related, or unrelated) instead of '%s'"
+level: error
+tokens:
+  - might be related
+  - could be related
+  - maybe related
+  - perhaps related
+  - seems related
+  - appears related

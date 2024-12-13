@@ -1,0 +1,13 @@
+text: "Clonal evolution patterns suggested acquired resistance mechanisms."
+expected_vale_issues:
+  - rule: CSR.biomarkers.analysis
+    message: "Required biomarker analysis element missing: clonal analysis"
+  - rule: CSR.scientific.precision
+    message: "Specify resistance mechanisms"
+expected_llm_feedback:
+  - "Report variant allele frequencies"
+  - "Include phylogenetic analysis"
+  - "Detail subclone emergence"
+  - "Report temporal patterns"
+  - "Include pathway analysis"
+  - "Specify resistance mutations"

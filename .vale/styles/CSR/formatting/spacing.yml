@@ -1,0 +1,33 @@
+extends: existence
+message: "Spacing requirements: %s"
+level: error
+scope: raw
+tokens:
+  # Paragraph Spacing
+  - '\n{3,}'          # Too many blank lines
+  - '[^\n]\n[^\n]'    # Missing blank line between paragraphs
+  
+  # List Spacing
+  - '^\s*[-•]\s*[A-Z]' # List item format
+  - '^\s*[0-9]+\.\s*[A-Z]' # Numbered list format
+  
+  # Table Spacing
+  - '\n\s*Table\s+\d+' # Table caption spacing
+  - '\n\s*Figure\s+\d+' # Figure caption spacing
+  
+  # Section Spacing
+  - '^[1-9].*\n[1-9]' # Missing space between sections
+  - '^[1-9].*\n\s+[1-9]' # Incorrect section indentation
+
+# Margin Requirements
+margins:
+  top: "1 inch"
+  bottom: "1 inch"
+  left: "1 inch"
+  right: "1 inch"
+
+# Line Spacing
+line_spacing: "1.5"
+
+# Paragraph Indentation
+paragraph_indent: "0.5 inch"

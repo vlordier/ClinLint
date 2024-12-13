@@ -1,0 +1,518 @@
+# Incorrect adverse event terminology
+side effect
+side effects
+negative effect
+negative effects
+complication
+complications
+problem
+problems
+(?i)reaction
+(?i)reactions
+issue
+issues
+concern
+concerns
+difficulty
+difficulties
+abnormality
+abnormalities
+anomaly
+anomalies
+irregularity
+irregularities
+incident
+incidents
+episode
+episodes
+occurrence
+occurrences
+manifestation
+manifestations
+symptom
+symptoms
+complaint
+complaints
+discomfort
+disturbance
+disturbances
+ailment
+ailments
+condition
+conditions
+disorder
+disorders
+malady
+maladies
+affliction
+afflictions
+
+# Non-American English Medical Terms (British/Australian/Canadian)
+theatre
+anaemia
+haemorrhage
+oedema
+oesophagus
+diarrhoea
+paediatric
+orthopaedic
+foetus
+leucocyte
+tumour
+centre
+litre
+metre
+programme
+practise (verb)
+defence
+licence (noun)
+analogue
+catalogue
+grey
+mould
+sulphur
+enquiry
+
+# Informal/Colloquial Medical Terms
+bug
+germ
+tummy
+belly
+doc
+meds
+labs
+stats
+vitals
+scan
+shot
+drip
+scope
+chart
+prep
+post-op
+pre-op
+check-up
+work-up
+follow-up (as noun)
+clean-up
+build-up
+set-up
+write-up
+check (for examination)
+test (unspecified)
+
+# Latin/Greek Medical Terms Without Context
+in situ
+de novo
+in vitro
+in vivo
+ex vivo
+per os
+stat
+prn
+bid
+tid
+qid
+qd
+hs
+ac
+pc
+od
+os
+ou
+
+# Informal Anatomical Terms
+gut
+brain
+heart
+kidney
+liver
+lung
+blood
+bone
+muscle
+nerve
+vessel
+artery
+vein
+
+# Informal Disease Terms
+flu
+cold
+bug
+infection
+inflammation
+growth
+mass
+spot
+lump
+swelling
+rash
+ache
+pain
+sore
+tender
+stiff
+weak
+tired
+dizzy
+sick
+ill
+
+# Incorrect severity terminology
+mild
+moderate
+severe
+serious
+life-threatening
+fatal
+minimal
+slight
+minor
+major
+significant
+insignificant
+substantial
+considerable
+negligible
+pronounced
+marked
+notable
+remarkable
+unremarkable
+intense
+extreme
+critical
+devastating
+catastrophic
+dire
+grave
+marginal
+trivial
+inconsequential
+
+# Vague statistical terms
+significant
+significantly
+trending
+trended
+approximately
+about
+around
+roughly
+presumably
+possibly
+maybe
+perhaps
+probably
+likely
+appears to
+seems to
+tends to
+generally
+usually
+typically
+often
+rarely
+frequently
+occasionally
+somewhat
+sort of
+kind of
+more or less
+virtually
+practically
+essentially
+basically
+nominally
+relatively
+comparatively
+moderately
+substantially
+considerably
+markedly
+notably
+
+# Incorrect causality terms
+might be related
+could be related
+maybe related
+perhaps related
+seems related
+appears related
+potentially related
+possibly related
+presumably related
+likely related
+probably related
+apparently related
+suspected to be related
+thought to be related
+believed to be related
+considered to be related
+may have caused
+might have caused
+could have caused
+cannot be ruled out
+temporal relationship
+temporal association
+suggestive of
+indicative of
+consistent with
+associated with
+linked to
+connected to
+correlated with
+coincident with
+concurrent with
+secondary to
+consequent to
+resulting from
+stemming from
+arising from
+following from
+due to
+because of
+attributed to
+ascribed to
+
+# Incorrect population terms
+all patients
+all subjects
+completed patients
+completed subjects
+evaluable patients
+evaluable subjects
+study population
+study cohort
+treatment group
+control group
+patient population
+subject population
+study participants
+trial participants
+enrolled patients
+enrolled subjects
+recruited patients
+recruited subjects
+screened patients
+screened subjects
+eligible patients
+eligible subjects
+
+# Vague efficacy terms
+worked well
+effective
+ineffective
+successful
+unsuccessful
+failed
+positive results
+negative results
+good response
+poor response
+excellent outcome
+satisfactory
+unsatisfactory
+adequate
+inadequate
+promising
+encouraging
+discouraging
+favorable
+unfavorable
+
+# Incorrect demographic terms
+(?i)male
+(?i)female
+(?i)caucasian
+(?i)oriental
+(?i)hispanic
+(?i)normal
+
+# Unscientific qualifiers
+very
+quite
+rather
+somewhat
+fairly
+pretty
+relatively
+extremely
+incredibly
+amazingly
+surprisingly
+remarkably
+notably
+substantially
+dramatically
+considerably
+significantly
+marginally
+slightly
+mildly
+moderately
+severely
+extensively
+minimally
+maximally
+essentially
+basically
+practically
+virtually
+literally
+actually
+really
+clearly
+obviously
+apparently
+evidently
+seemingly
+presumably
+arguably
+theoretically
+conceivably
+potentially
+possibly
+probably
+likely
+unlikely
+definitely
+certainly
+absolutely
+undoubtedly
+
+# Subjective descriptors
+good
+bad
+better
+worse
+best
+worst
+excellent
+poor
+superior
+inferior
+acceptable
+unacceptable
+tolerable
+intolerable
+remarkable
+unremarkable
+striking
+impressive
+unimpressive
+interesting
+boring
+
+# Imprecise temporal terms
+recently
+previously
+currently
+presently
+formerly
+lately
+soon
+eventually
+gradually
+rapidly
+quickly
+slowly
+suddenly
+immediately
+promptly
+at this time
+at present
+at the moment
+in the past
+in the future
+over time
+throughout
+during the study
+during treatment
+during follow-up
+at baseline
+at screening
+at enrollment
+at randomization
+at study entry
+at study completion
+at study end
+at final visit
+periodically
+intermittently
+occasionally
+frequently
+regularly
+
+# Vague magnitude descriptors
+high
+low
+higher
+lower
+increased
+decreased
+elevated
+reduced
+minimal
+maximal
+substantial
+considerable
+negligible
+marked
+pronounced
+modest
+major
+minor
+small
+large
+huge
+tiny
+
+# Imprecise comparison terms
+similar to
+different from
+comparable to
+consistent with
+in line with
+parallels
+mirrors
+matches
+equals
+exceeds
+falls short of
+greater than
+less than
+more than
+fewer than
+analogous to
+equivalent to
+identical to
+resembles
+approximates
+approaches
+deviates from
+diverges from
+varies from
+aligns with
+corresponds to
+correlates with
+associates with
+relates to
+compares to
+contrasts with
+
+# Unscientific causal language
+due to
+because of
+resulted in
+led to
+caused
+triggered
+induced
+produced
+generated
+created
+stemmed from
+arose from
+originated from

@@ -1,0 +1,13 @@
+text: "Complex metabolic drug-drug interactions involving multiple CYP enzymes and transporters were observed."
+expected_vale_issues:
+  - rule: CSR.pharmacology.pk_pd
+    message: "Required PK element missing: complex DDI assessment"
+  - rule: CSR.scientific.precision
+    message: "Specify interaction mechanisms and magnitudes"
+expected_llm_feedback:
+  - "Report specific CYP inhibition/induction parameters"
+  - "Include transporter interaction data"
+  - "Detail time-dependent effects"
+  - "Report PBPK modeling results"
+  - "Include clinical recommendations"
+  - "Specify monitoring requirements"

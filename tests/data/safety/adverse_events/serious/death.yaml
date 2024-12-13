@@ -1,0 +1,11 @@
+text: "A fatal adverse event occurred during the study."
+expected_vale_issues:
+  - rule: CSR.safety.severity
+    message: "Use CTCAE grading terminology: 'Grade 5' instead of 'fatal'"
+  - rule: CSR.safety.reporting
+    message: "Include death details and causality"
+expected_llm_feedback:
+  - "Specify cause of death"
+  - "Report time from last dose"
+  - "Include autopsy findings if available"
+  - "Report causality assessment"

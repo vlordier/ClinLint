@@ -1,0 +1,39 @@
+extends: existence
+message: "Required safety reporting element missing: %s"
+level: error
+tokens:
+  # Exposure Data
+  - treatment duration statistics
+  - dose intensity calculation
+  - dose modifications summary
+  - treatment interruptions
+  
+  # AE Summaries
+  - treatment-emergent definition
+  - severity grading system
+  - causality assessment method
+  - AE coding dictionary
+  
+  # Laboratory Data
+  - shift table methodology
+  - markedly abnormal criteria
+  - reference ranges source
+  - unit standardization
+  
+  # Vital Signs
+  - potentially clinically significant criteria
+  - measurement standardization
+  - position specifications
+  - equipment calibration
+  
+  # ECG Data
+  - central reading process
+  - interval measurements
+  - morphology assessment
+  - machine calibration
+  
+  # Physical Examination
+  - examination schedule
+  - body system assessment
+  - clinically significant changes
+  - follow-up criteria

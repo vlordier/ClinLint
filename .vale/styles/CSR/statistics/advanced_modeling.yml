@@ -1,0 +1,66 @@
+extends: existence
+message: "Required advanced statistical element missing: %s"
+level: error
+tokens:
+  # Machine Learning
+  - feature selection method
+  - cross-validation scheme
+  - hyperparameter tuning
+  - model diagnostics
+  - prediction metrics
+  - ensemble methods
+  - neural network architecture
+  - deep learning validation
+  
+  # Causal Inference
+  - propensity score method
+  - instrumental variables
+  - sensitivity analysis
+  - unmeasured confounding
+  - mediation analysis
+  - directed acyclic graphs
+  - counterfactual analysis
+  
+  # Advanced Survival
+  - competing risks
+  - multi-state models
+  - joint frailty models
+  - cure rate models
+  - landmark analysis
+  - dynamic prediction
+  - time-varying effects
+  
+  # Spatial-Temporal
+  - spatiotemporal correlation
+  - gaussian processes
+  - point processes
+  - functional data analysis
+  - wavelets
+  - changepoint detection
+  
+  # High-Dimensional
+  - dimension reduction
+  - sparse methods
+  - multiple testing
+  - false discovery control
+  - network inference
+  - pathway analysis
+  - systems modeling
+  
+  # Causal Inference
+  - propensity score method
+  - instrumental variables
+  - sensitivity analysis
+  - unmeasured confounding
+  
+  # Longitudinal Analysis
+  - random effects structure
+  - correlation structure
+  - time-varying covariates
+  - informative dropout
+  
+  # Spatial Statistics
+  - spatial correlation
+  - cluster detection
+  - geographic variation
+  - site-specific effects

@@ -1,0 +1,11 @@
+# Examples for regional regulatory requirements
+examples:
+  - text: "The study was conducted according to regulations."
+    expected_issues:
+      - rule: CSR.regulatory.regional_requirements
+        message: "Required regional regulatory element missing: 21 CFR Part 11 compliance"
+
+  - text: "Patient data was protected."
+    expected_issues:
+      - rule: CSR.regulatory.regional_requirements
+        message: "Required regional regulatory element missing: GDPR compliance statement"

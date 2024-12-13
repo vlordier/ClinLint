@@ -1,0 +1,133 @@
+extends: existence
+message: "Required ICH E3 element missing: %s"
+level: error
+tokens:
+  # Title Page Elements
+  - study title
+  - protocol identifier
+  - development phase
+  - study initiation date
+  - study completion date
+  - sponsor name
+  - responsible medical officer
+  - study centers
+  
+  # Synopsis Elements
+  - brief study description
+  - methodology summary
+  - number of subjects
+  - diagnosis and criteria
+  - test product dosage
+  - duration of treatment
+  - reference therapy
+  - efficacy conclusions
+  - safety conclusions
+  
+  # Ethics and GCP
+  - ethics committee approval
+  - GCP compliance statement
+  - informed consent process
+  - ethical conduct statement
+  - data protection measures
+  - trial registration number
+  
+  # Study Methods
+  - study design justification
+  - randomization details
+  - blinding procedures
+  - treatment assignment
+  - sample size determination
+  - interim analyses plan
+  - data quality assurance
+  - monitoring procedures
+  
+  # Statistical Elements
+  - primary analysis method
+  - secondary analyses
+  - multiplicity adjustment
+  - missing data handling
+  - interim analysis criteria
+  - sensitivity analyses
+  - subgroup analyses
+  
+  # Safety Elements
+  - adverse event collection
+  - causality assessment
+  - CTCAE grading
+  - laboratory evaluations
+  - vital signs criteria
+  - ECG assessments
+  
+  # Quality Elements
+  - monitoring frequency
+  - data validation steps
+  - query resolution
+  - database lock
+  - quality metrics
+  
+  # Synopsis Elements
+  - brief study description
+  - methodology summary
+  - number of subjects
+  - diagnosis and criteria
+  - test product dosage
+  - duration of treatment
+  - reference therapy
+  - efficacy conclusions
+  - safety conclusions
+  
+  # Ethics
+  - ethics committee approval
+  - GCP compliance statement
+  - informed consent process
+  - ethical conduct statement
+  
+  # Study Methods
+  - study design justification
+  - randomization details
+  - blinding procedures
+  - treatment assignment
+  - sample size determination
+  - interim analyses plan
+  - data quality assurance
+  
+  # Study Population
+  - disposition of subjects
+  - protocol deviations
+  - analysis populations
+  - demographic characteristics
+  - baseline characteristics
+  - prior medications
+  - concomitant medications
+  
+  # Efficacy Evaluation
+  - primary efficacy analysis
+  - secondary efficacy analysis
+  - statistical methods
+  - handling of missing data
+  - interim analyses results
+  - subgroup analyses
+  
+  # Safety Evaluation
+  - exposure to treatment
+  - adverse event summary
+  - deaths and SAEs
+  - laboratory evaluations
+  - vital signs
+  - ECG evaluations
+  - physical examinations
+  
+  # Discussion and Conclusions
+  - efficacy interpretation
+  - safety interpretation
+  - benefit-risk assessment
+  - study limitations
+  - conclusions
+  
+  # Administrative Structure
+  - investigators list
+  - study centers
+  - sponsor representatives
+  - monitoring procedures
+  - data management methods
+  - quality assurance procedures

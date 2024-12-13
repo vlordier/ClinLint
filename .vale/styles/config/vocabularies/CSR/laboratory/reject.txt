@@ -1,0 +1,91 @@
+# Non-American English Medical Terms (British/Australian/Canadian)
+theatre
+anaemia
+haemorrhage
+oedema
+oesophagus
+diarrhoea
+paediatric
+orthopaedic
+foetus
+leucocyte
+tumour
+centre
+litre
+metre
+programme
+practise (verb)
+defence
+licence (noun)
+analogue
+catalogue
+grey
+mould
+sulphur
+enquiry
+
+# Informal/Colloquial Medical Terms
+bug
+germ
+tummy
+belly
+doc
+meds
+labs
+stats
+vitals
+scan
+shot
+drip
+scope
+chart
+prep
+post-op
+pre-op
+check-up
+work-up
+follow-up (as noun)
+clean-up
+build-up
+set-up
+write-up
+check (for examination)
+test (unspecified)
+
+# Informal Anatomical Terms
+gut
+brain
+heart
+kidney
+liver
+lung
+blood
+bone
+muscle
+nerve
+vessel
+artery
+vein
+
+# Informal Disease Terms
+flu
+cold
+bug
+infection
+inflammation
+growth
+mass
+spot
+lump
+swelling
+rash
+ache
+pain
+sore
+tender
+stiff
+weak
+tired
+dizzy
+sick
+ill

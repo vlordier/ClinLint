@@ -1,0 +1,16 @@
+# Examples for ICH E3 compliance checking
+examples:
+  - text: "The study results showed improvement."
+    expected_issues:
+      - rule: CSR.regulatory.ich_e3
+        message: "Required ICH E3 element missing: efficacy results"
+    
+  - text: "5. Study Methods"
+    expected_issues:
+      - rule: CSR.regulatory.ich_e3_structure
+        message: "Missing required ICH E3 section: 5. ETHICS"
+
+  - text: "The statistical analysis was performed."
+    expected_issues:
+      - rule: CSR.regulatory.ich_e3_content
+        message: "Required ICH E3 content element missing: statistical methods"

@@ -1,0 +1,31 @@
+extends: existence
+message: "Required BE study element missing: %s"
+level: error
+tokens:
+  # Study Design
+  - reference product details
+  - test product details
+  - washout period
+  - sampling schedule
+  - fasting conditions
+  
+  # Analysis
+  - BE acceptance criteria
+  - log-transformation
+  - ANOVA model
+  - period effects
+  - sequence effects
+  
+  # Parameters
+  - AUC calculation method
+  - Cmax determination
+  - Tmax reporting
+  - elimination parameters
+  - secondary PK parameters
+  
+  # Quality
+  - analytical method validation
+  - sample handling
+  - stability data
+  - incurred sample reanalysis
+  - standard curve criteria

@@ -1,0 +1,101 @@
+extends: existence
+message: "Required advanced biomarker profiling element missing: %s"
+level: error
+tokens:
+  # Single-cell Analysis
+  - cell type deconvolution
+  - trajectory inference
+  - pseudotime analysis
+  - RNA velocity
+  - cellular states
+  - lineage tracing
+  - metacell analysis
+  - velocity estimation
+  - branching dynamics
+  - fate mapping
+  - cellular hierarchy
+  - differentiation potential
+
+  # Advanced Spatial Analysis
+  - spatial statistics
+  - neighborhood enrichment
+  - interaction networks
+  - morphological profiling
+  - tissue architecture
+  - niche identification
+  - spatial heterogeneity
+  - domain organization
+  - cellular topology
+  - spatial transcriptomics
+  - spatial proteomics
+  - spatial metabolomics
+
+  # Multi-modal Integration
+  - cross-modality alignment
+  - multi-view integration
+  - feature correspondence
+  - modality weighting
+  - batch harmonization
+  - anchor identification
+  - joint embedding
+  - transfer learning
+  - multi-omics factor analysis
+  - tensor decomposition
+  - canonical correlation
+  - multi-block analysis
+
+  # Advanced Clonal Analysis
+  - phylogenetic inference
+  - lineage reconstruction
+  - clone tracking
+  - mutation timing
+  - selection dynamics
+  - fitness landscape
+  - epistatic interactions
+  - convergent evolution
+  - parallel adaptation
+  - compensatory mutations
+  - resistance mechanisms
+  - evolutionary bottlenecks
+
+  # Systems Biology Integration
+  - network reconstruction
+  - pathway dynamics
+  - regulatory circuits
+  - feedback mechanisms
+  - attractor analysis
+  - stability assessment
+  - perturbation response
+  - network motifs
+  - information flow
+  - causal inference
+  - state transitions
+  - homeostatic control
+  
+  # Spatial Profiling
+  - spatial transcriptomics
+  - multiplexed imaging
+  - neighborhood analysis
+  - tissue architecture
+  - spatial statistics
+  
+  # Multi-omics Integration
+  - multi-modal integration
+  - pathway cross-talk
+  - regulatory networks
+  - causal inference
+  - systems biology
+  
+  # Clonal Analysis
+  - phylogenetic reconstruction
+  - clone tracking
+  - evolutionary dynamics
+  - selection pressure
+  - fitness landscape
+  
+  # Clinical Translation
+  - biomarker validation
+  - diagnostic accuracy
+  - predictive modeling
+  - treatment stratification
+  - monitoring strategy

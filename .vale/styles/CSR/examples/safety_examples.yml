@@ -1,0 +1,21 @@
+# Examples for safety reporting checks
+examples:
+  - text: "The patient had a side effect of headache."
+    expected_issues:
+      - rule: CSR.safety.adverse_events
+        message: "Use standard MedDRA terminology: 'adverse event' instead of 'side effect'"
+
+  - text: "A mild headache was reported."
+    expected_issues:
+      - rule: CSR.safety.severity
+        message: "Use CTCAE grading terminology: 'Grade 1' instead of 'mild'"
+
+  - text: "The event might be related to treatment."
+    expected_issues:
+      - rule: CSR.safety.causality
+        message: "Use standard causality terms instead of 'might be related'"
+
+  - text: "A serious adverse event occurred."
+    expected_issues:
+      - rule: CSR.safety.sae_criteria
+        message: "For SAEs, specify if event meets any of the standard criteria"

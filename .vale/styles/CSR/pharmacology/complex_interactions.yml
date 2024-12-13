@@ -1,0 +1,59 @@
+extends: existence
+message: "Required complex pharmacological interaction element missing: %s"
+level: error
+tokens:
+  # Advanced Drug-Drug Interactions
+  - mechanism-based inhibition
+  - time-dependent inhibition
+  - metabolic switching
+  - transporter-enzyme interplay
+  - compensatory pathways
+  - adaptive resistance
+  - metabolic reprogramming
+  - allosteric modulation
+  - complex formation kinetics
+  - competitive displacement
+  - sequential metabolism
+  - parallel elimination
+
+  # Complex PK/PD Modeling
+  - physiological adaptation
+  - tolerance development
+  - rebound phenomena
+  - chronopharmacology
+  - tissue distribution dynamics
+  - enterohepatic recirculation
+  - target-mediated disposition
+  - receptor trafficking
+  - signal transduction
+  - cellular adaptation
+  - network perturbation
+  - systems pharmacology
+
+  # Advanced Population Analysis
+  - mixture distributions
+  - hidden Markov models
+  - time-varying covariates
+  - non-linear mixed effects
+  - stochastic differential equations
+  - parameter distributions
+  - between-occasion variability
+  - nested random effects
+  - correlation structures
+  - heteroscedasticity
+  - residual unexplained variability
+  - shrinkage estimation
+
+  # Complex Bioavailability Factors
+  - formulation effects
+  - dissolution kinetics
+  - precipitation dynamics
+  - supersaturation effects
+  - excipient interactions
+  - pH-dependent solubility
+  - membrane permeability
+  - active transport
+  - efflux mechanisms
+  - first-pass effects
+  - gut wall metabolism
+  - lymphatic absorption

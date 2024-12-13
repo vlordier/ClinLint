@@ -1,0 +1,65 @@
+# Imprecise pediatric terminology
+child
+kid
+infant
+baby
+newborn
+toddler
+adolescent
+teen
+youth
+juvenile
+minor
+youngster
+young person
+young adult
+growing
+developing
+maturing
+progressing
+advancing
+changing
+
+# Imprecise developmental terms
+development
+growth
+maturation
+progression
+advancement
+improvement
+enhancement
+refinement
+evolution
+transformation
+modification
+alteration
+change
+shift
+transition
+conversion
+adaptation
+adjustment
+accommodation
+modification
+
+# Imprecise assessment terms
+milestone
+benchmark
+standard
+norm
+average
+typical
+usual
+normal
+common
+regular
+ordinary
+routine
+standard
+conventional
+traditional
+customary
+established
+accepted
+recognized
+acknowledged

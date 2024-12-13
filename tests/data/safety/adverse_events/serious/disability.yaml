@@ -1,0 +1,11 @@
+text: "The SAE resulted in persistent disability."
+expected_vale_issues:
+  - rule: CSR.safety.sae_criteria
+    message: "Specify disability assessment criteria"
+  - rule: CSR.safety.reporting
+    message: "Include functional impact details"
+expected_llm_feedback:
+  - "Define disability criteria"
+  - "Report functional assessments"
+  - "Include recovery timeline"
+  - "Specify rehabilitation measures"

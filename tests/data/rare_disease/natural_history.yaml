@@ -1,0 +1,13 @@
+text: "Disease progression was heterogeneous across the small patient population."
+expected_vale_issues:
+  - rule: CSR.statistics.rare_disease
+    message: "Required rare disease element missing: individual patient trajectories"
+  - rule: CSR.scientific.precision
+    message: "Specify progression parameters"
+expected_llm_feedback:
+  - "Report individual growth curves"
+  - "Include milestone achievement timing"
+  - "Detail phenotypic variation"
+  - "Report genotype-phenotype correlations"
+  - "Include family history patterns"
+  - "Specify age of onset distribution"

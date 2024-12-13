@@ -1,5 +1,4 @@
 -r base.txt
-pytest
-black
-pre-commit
-ruff
+pytest==8.3.4
+pre-commit==4.0.1
+pytest-mock==3.14.0

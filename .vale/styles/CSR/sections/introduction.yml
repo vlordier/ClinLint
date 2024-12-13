@@ -1,0 +1,33 @@
+extends: existence
+message: "Required introduction element missing: %s"
+level: error
+tokens:
+  # Background Information
+  - disease background
+  - unmet medical need
+  - therapeutic context
+  - treatment landscape
+  
+  # Product Overview
+  - investigational product description
+  - mechanism of action
+  - development history
+  - regulatory status
+  
+  # Study Rationale
+  - study justification
+  - risk-benefit considerations
+  - dose selection rationale
+  - population selection rationale
+  
+  # Previous Experience
+  - preclinical findings
+  - clinical experience summary
+  - phase 1 results
+  - phase 2 results
+  
+  # Study Objectives
+  - primary objective
+  - secondary objectives
+  - exploratory objectives
+  - study hypotheses

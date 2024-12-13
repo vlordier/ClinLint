@@ -1,0 +1,23 @@
+text: |
+  Patient exhibited Grade 3 immune-mediated hepatitis (ALT 8.2×ULN, AST 6.8×ULN) with concurrent Grade 2 pneumonitis at Week 12. 
+  Following temporary discontinuation and steroid therapy (methylprednisolone 2mg/kg/day), partial improvement was noted (ALT 2.4×ULN).
+  Upon steroid taper at Week 16, hepatitis recurred (ALT 12.3×ULN) with new-onset Grade 2 thyroiditis (TSH <0.01 mU/L, free T4 38 pmol/L).
+  Molecular analysis revealed PD-L1 adaptive resistance (TPS increase from 22% to 85%) and emergence of alternative immune checkpoints (LAG-3+TIM-3+ CD8+ T cells: 68%).
+expected_vale_issues:
+  - rule: CSR.safety.severity
+    message: "Include organ-specific CTCAE grades with laboratory parameters"
+  - rule: CSR.laboratory.reporting
+    message: "Required laboratory reporting element missing: comprehensive immune profiling"
+  - rule: CSR.scientific.precision
+    message: "Specify exact temporal relationships and dose modifications"
+  - rule: CSR.biomarkers.analysis
+    message: "Required biomarker analysis element missing: resistance mechanism characterization"
+expected_llm_feedback:
+  - "Report detailed liver function trends with reference ranges"
+  - "Include comprehensive thyroid panel with temporal evolution"
+  - "Detail steroid tapering schedule with dose adjustments"
+  - "Report cytokine profile changes (IL-6, TNF-α, IL-1β)"
+  - "Include T cell exhaustion marker quantification"
+  - "Report PD-L1 expression dynamics with validated assay"
+  - "Detail immune cell subset changes in tumor microenvironment"
+  - "Include rechallenge criteria and outcomes"

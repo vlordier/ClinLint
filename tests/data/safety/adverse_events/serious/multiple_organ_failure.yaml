@@ -1,0 +1,11 @@
+text: "The patient developed multiple organ failure."
+expected_vale_issues:
+  - rule: CSR.safety.severity
+    message: "Use CTCAE grading terminology: specify grade for each organ system"
+  - rule: CSR.safety.reporting
+    message: "Include organ-specific details"
+expected_llm_feedback:
+  - "List affected organ systems"
+  - "Report CTCAE grade per system"
+  - "Include temporal sequence"
+  - "Specify interventions per system"

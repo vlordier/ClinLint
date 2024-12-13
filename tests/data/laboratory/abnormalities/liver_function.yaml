@@ -1,0 +1,10 @@
+text: "Some patients had elevated liver enzymes."
+expected_vale_issues:
+  - rule: CSR.laboratory.reporting
+    message: "Required laboratory reporting element missing: specific parameters"
+  - rule: CSR.statistics.reporting
+    message: "Include required statistical elements: frequency data"
+expected_llm_feedback:
+  - "Specify exact liver parameters"
+  - "Report number and percentage of patients"
+  - "Include CTCAE grades"

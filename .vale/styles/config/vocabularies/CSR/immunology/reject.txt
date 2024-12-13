@@ -1,0 +1,75 @@
+# Imprecise immune terminology
+immune response
+immune reaction
+immune effect
+immune change
+immune status
+immune function
+immune activity
+immune modulation
+immune stimulation
+immune suppression
+immune activation
+immune inhibition
+immune regulation
+immune dysregulation
+immune reconstitution
+immune recovery
+immune memory
+immune tolerance
+immune surveillance
+immune evasion
+immune escape
+immune resistance
+immune exhaustion
+immune senescence
+immune competence
+immune incompetence
+immune deficiency
+immune enhancement
+immune boosting
+immune strengthening
+
+# Imprecise cellular terminology
+T cells
+B cells
+NK cells
+dendritic cells
+macrophages
+neutrophils
+monocytes
+lymphocytes
+leukocytes
+granulocytes
+plasma cells
+memory cells
+effector cells
+regulatory cells
+helper cells
+cytotoxic cells
+antigen presenting cells
+immune cells
+inflammatory cells
+infiltrating cells
+
+# Imprecise molecular terminology
+cytokines
+chemokines
+antibodies
+immunoglobulins
+complement
+interferons
+interleukins
+growth factors
+tumor necrosis factor
+transforming growth factor
+colony stimulating factor
+inflammatory mediators
+immune mediators
+immune factors
+immune molecules
+immune proteins
+immune receptors
+immune ligands
+immune checkpoints
+immune markers

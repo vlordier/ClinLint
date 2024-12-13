@@ -1,0 +1,14 @@
+extends: existence
+message: "Required basic AE reporting element missing: %s"
+level: error
+tokens:
+  # Basic AE Elements
+  - onset date
+  - resolution date
+  - severity grade
+  - causality assessment
+  - action taken
+  - outcome
+  - seriousness criteria
+  - treatment required
+  - follow-up information

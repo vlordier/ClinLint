@@ -1,0 +1,11 @@
+text: "The formulations were bioequivalent."
+expected_vale_issues:
+  - rule: CSR.pharmacology.pk_pd
+    message: "Required PK element missing: BE assessment"
+  - rule: CSR.scientific.precision
+    message: "Specify bioequivalence criteria"
+expected_llm_feedback:
+  - "Report AUC and Cmax ratios"
+  - "Include 90% CIs"
+  - "Specify BE acceptance ranges"
+  - "Report intra-subject variability"

@@ -1,0 +1,71 @@
+extends: substitution
+message: "Use precise scientific terminology: '%s' instead of '%s'"
+level: error
+ignorecase: true
+swap:
+  # Temporal Precision
+  "at the time of": [specify exact date/timepoint]
+  "during the study": [specify study period/phase]
+  "throughout treatment": [specify treatment duration]
+  "follow-up period": [specify follow-up duration]
+  "long-term": [specify duration in weeks/months/years]
+  "short-term": [specify duration in hours/days/weeks]
+  
+  # Dosing Precision
+  "dose adjustment": [specify dose modification algorithm]
+  "dose modification": [specify dose modification criteria]
+  "dose reduction": [specify magnitude of reduction]
+  "dose escalation": [specify escalation steps]
+  "therapeutic dose": [specify dose range with units]
+  "maintenance dose": [specify dose with frequency]
+  
+  # Laboratory Precision
+  "abnormal": [specify parameter and deviation]
+  "normal range": [specify reference range with units]
+  "clinically significant": [specify significance criteria]
+  "laboratory changes": [specify parameter changes]
+  "out of range": [specify direction and magnitude]
+  
+  # Population Precision
+  "elderly": [specify age range]
+  "pediatric": [specify age range]
+  "adult": [specify age range]
+  "young": [specify age range]
+  "geriatric": [specify age range]
+  
+  # Disease Precision
+  "disease progression": [specify progression criteria]
+  "clinical improvement": [specify improvement criteria]
+  "treatment response": [specify response criteria]
+  "disease severity": [specify severity scale]
+  "baseline disease": [specify disease characteristics]
+  
+  # Measurement Precision
+  "regular monitoring": [specify monitoring frequency]
+  "periodic assessment": [specify assessment schedule]
+  "routine evaluation": [specify evaluation timing]
+  "frequent monitoring": [specify monitoring intervals]
+  
+  # Statistical Precision
+  "trending": [specify trend analysis method]
+  "correlation": [specify correlation coefficient]
+  "association": [specify association measure]
+  "relationship": [specify relationship type]
+  
+  # Safety Precision
+  "closely monitored": [specify monitoring parameters]
+  "carefully observed": [specify observation criteria]
+  "well-tolerated": [specify tolerability criteria]
+  "safety concern": [specify safety parameter]
+  
+  # Compliance Precision
+  "good compliance": [specify compliance rate]
+  "poor compliance": [specify compliance rate]
+  "adherence": [specify adherence measure]
+  "non-compliance": [specify non-compliance criteria]
+  
+  # Procedural Precision
+  "standard procedure": [specify procedure details]
+  "usual care": [specify care components]
+  "routine practice": [specify practice elements]
+  "standard of care": [specify care protocol]

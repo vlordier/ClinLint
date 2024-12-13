@@ -1,0 +1,14 @@
+extends: existence
+message: "Required laboratory reporting element missing: %s"
+level: error
+tokens:
+  - reference ranges
+  - analytical methods
+  - sample handling
+  - quality control measures
+  - clinically significant changes
+  - shift tables
+  - laboratory normal ranges
+  - assay sensitivity
+  - precision measures
+  - accuracy measures

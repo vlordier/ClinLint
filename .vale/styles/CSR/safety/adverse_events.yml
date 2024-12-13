@@ -1,0 +1,15 @@
+extends: substitution
+message: "Use standard MedDRA terminology: '%s' instead of '%s'"
+level: error
+ignorecase: true
+swap:
+  side effect: adverse event
+  side effects: adverse events
+  negative effect: adverse event
+  negative effects: adverse events
+  complication: adverse event
+  complications: adverse events
+  problem: adverse event
+  problems: adverse events
+  reaction: adverse reaction
+  reactions: adverse reactions

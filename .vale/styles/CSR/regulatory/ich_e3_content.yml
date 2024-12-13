@@ -1,0 +1,56 @@
+extends: existence
+message: "Required ICH E3 content element missing: %s"
+level: error
+tokens:
+  # Study Design Elements
+  - randomization method
+  - blinding procedures
+  - treatment groups
+  - duration of treatment
+  - sequence of study periods
+  - dose selection rationale
+  
+  # Population Elements
+  - inclusion criteria details
+  - exclusion criteria details
+  - withdrawal criteria
+  - replacement procedures
+  - protocol deviation criteria
+  
+  # Statistical Elements
+  - sample size calculation
+  - significance levels
+  - analysis populations
+  - missing data handling
+  - interim analysis criteria
+  - multiplicity adjustments
+  
+  # Efficacy Elements
+  - primary endpoint definition
+  - secondary endpoint definitions
+  - analysis methods
+  - subgroup analyses
+  - multicenter adjustments
+  - baseline comparability
+  
+  # Safety Elements
+  - adverse event definitions
+  - severity classifications
+  - causality assessments
+  - coding dictionaries
+  - laboratory parameters
+  - vital signs criteria
+  
+  # Quality Elements
+  - monitoring procedures
+  - data validation methods
+  - audit procedures
+  - database lock process
+  - quality control steps
+  
+  # Administrative Elements
+  - investigator qualifications
+  - study committee structures
+  - monitoring frequency
+  - protocol amendment details
+  - documentation procedures

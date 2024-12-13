@@ -1,0 +1,24 @@
+extends: existence
+message: "Required biosimilar element missing: %s"
+level: error
+tokens:
+  # Analytical Similarity
+  - primary structure
+  - higher order structure
+  - post-translational modifications
+  - biological activity
+  - impurity profile
+  
+  # Clinical Similarity
+  - PK similarity
+  - PD similarity
+  - immunogenicity comparison
+  - efficacy equivalence
+  - safety comparability
+  
+  # Manufacturing
+  - process comparability
+  - reference product sourcing
+  - stability comparison
+  - analytical bridging
+  - batch analysis

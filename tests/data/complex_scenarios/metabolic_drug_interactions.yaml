@@ -1,0 +1,20 @@
+text: |
+  Time-dependent inhibition of CYP3A4 (KI=0.8μM, kinact=0.03min-1) was accompanied by concurrent OATP1B1 inhibition (IC50=0.3μM).
+  Metabolic profiling revealed formation of reactive intermediate M5 (t1/2=8min) through sequential oxidation via CYP2D6 and CYP3A4.
+  PBPK modeling predicted complex DDI risk with statins (AUC ratio: 2.8-4.2) and mechanism-based CYP3A4 inhibition (net effect: 67% reduction in CL).
+  Transporter-enzyme interplay resulted in nonlinear pharmacokinetics above 100mg (Km,app shift from 0.5 to 2.1μM).
+expected_vale_issues:
+  - rule: CSR.pharmacology.pk_pd
+    message: "Required PK element missing: complex DDI mechanism characterization"
+  - rule: CSR.scientific.precision
+    message: "Specify enzyme kinetics and transporter parameters"
+  - rule: CSR.laboratory.reporting
+    message: "Required laboratory reporting element missing: metabolite profiling"
+expected_llm_feedback:
+  - "Report detailed enzyme kinetics with confidence intervals"
+  - "Include time-course of enzyme inactivation"
+  - "Detail metabolite formation and elimination rates"
+  - "Report transporter kinetics with protein expression data"
+  - "Include PBPK model validation parameters"
+  - "Specify clinical monitoring recommendations"
+  - "Detail dose adjustment algorithms"

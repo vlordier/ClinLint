@@ -1,0 +1,14 @@
+extends: existence
+message: "Required protocol compliance element missing: %s"
+level: error
+tokens:
+  - protocol version
+  - amendment history
+  - GCP compliance statement
+  - monitoring plan
+  - data management plan
+  - sample size justification
+  - randomization method
+  - blinding procedures
+  - interim analysis plan
+  - stopping rules

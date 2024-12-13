@@ -1,0 +1,13 @@
+text: "A panel of genomic and proteomic markers showed predictive value for treatment response."
+expected_vale_issues:
+  - rule: CSR.biomarkers.analysis
+    message: "Required biomarker analysis element missing: multivariate modeling"
+  - rule: CSR.statistics.reporting
+    message: "Include required statistical elements: prediction metrics"
+expected_llm_feedback:
+  - "Report feature selection methodology"
+  - "Include cross-validation results"
+  - "Specify model performance metrics"
+  - "Detail variable importance measures"
+  - "Report interaction effects"
+  - "Include sensitivity analyses"

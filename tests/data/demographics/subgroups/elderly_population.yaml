@@ -1,0 +1,10 @@
+text: "The elderly subgroup showed different results."
+expected_vale_issues:
+  - rule: CSR.demographics.reporting
+    message: "Required demographic reporting element missing: age definition"
+  - rule: CSR.statistics.reporting
+    message: "Include required statistical elements: subgroup analysis"
+expected_llm_feedback:
+  - "Define elderly age cutoff"
+  - "Report interaction p-value"
+  - "Include forest plot"

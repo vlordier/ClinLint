@@ -1,0 +1,13 @@
+text: "Disease progression was analyzed using multi-state modeling with competing risks."
+expected_vale_issues:
+  - rule: CSR.statistics.advanced_methods
+    message: "Required advanced statistical element missing: multi-state model specification"
+  - rule: CSR.statistics.reporting
+    message: "Include required statistical elements: transition intensities"
+expected_llm_feedback:
+  - "Report state transition probabilities"
+  - "Include sojourn time distributions"
+  - "Detail competing risk analysis"
+  - "Report covariate effects on transitions"
+  - "Include model diagnostics"
+  - "Specify prediction methods"

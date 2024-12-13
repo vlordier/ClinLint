@@ -1,0 +1,15 @@
+text: "Complex patterns of clonal evolution with multiple convergent resistance mechanisms emerged during treatment."
+expected_vale_issues:
+  - rule: CSR.biomarkers.analysis
+    message: "Required biomarker analysis element missing: clonal dynamics"
+  - rule: CSR.scientific.precision
+    message: "Specify resistance mechanisms and evolution patterns"
+expected_llm_feedback:
+  - "Report clonal frequency trajectories"
+  - "Include phylogenetic relationships"
+  - "Detail resistance mutations"
+  - "Report competitive indices"
+  - "Include pathway activation"
+  - "Specify selective pressures"
+  - "Report epistatic interactions"
+  - "Include fitness landscape analysis"

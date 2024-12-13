@@ -1,0 +1,10 @@
+text: "A serious adverse event of pneumonia occurred."
+expected_vale_issues:
+  - rule: CSR.safety.sae_criteria
+    message: "Specify SAE criteria met"
+  - rule: CSR.safety.reporting
+    message: "Include hospitalization details"
+expected_llm_feedback:
+  - "Specify which SAE criteria were met"
+  - "Include hospitalization dates"
+  - "Report outcome of event"

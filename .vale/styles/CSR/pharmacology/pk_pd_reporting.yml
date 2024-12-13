@@ -1,0 +1,27 @@
+extends: existence
+message: "Required PK/PD element missing: %s"
+level: error
+tokens:
+  # PK Parameters
+  - absorption rate constant
+  - volume of distribution
+  - clearance parameters
+  - bioavailability assessment
+  
+  # Population PK
+  - between-subject variability
+  - covariate effects
+  - residual error model
+  - shrinkage estimates
+  
+  # PD Modeling
+  - exposure-response relationship
+  - effect compartment model
+  - tolerance development
+  - hysteresis assessment
+  
+  # Joint PK/PD
+  - linking functions
+  - turnover models
+  - indirect response models
+  - receptor occupancy

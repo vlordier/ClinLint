@@ -1,0 +1,11 @@
+extends: consistency
+message: "Maintain consistent terminology throughout document"
+level: warning
+ignorecase: true
+either:
+  "adverse event": "Adverse Event"
+  "AE": "Adverse Event"
+  "serious adverse event": "Serious Adverse Event"
+  "SAE": "Serious Adverse Event"
+  "investigational product": "Investigational Product"
+  "IP": "Investigational Product"

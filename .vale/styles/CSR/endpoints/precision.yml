@@ -1,0 +1,38 @@
+extends: substitution
+message: "Use precise endpoint terminology: '%s' instead of '%s'"
+level: error
+ignorecase: true
+swap:
+  # Primary Endpoint Precision
+  "clinical benefit": [specify measurable outcome]
+  "disease control": [specify RECIST criteria]
+  "tumor response": [specify RECIST version and criteria]
+  "progression free": [specify PFS definition and assessment]
+  "overall survival": [specify OS definition and censoring]
+  "quality of life": [specify PRO instrument and domain]
+  
+  # Secondary Endpoint Precision
+  "biomarker response": [specify biomarker and threshold]
+  "immune response": [specify immune parameters]
+  "pharmacodynamic effect": [specify PD parameters]
+  "safety profile": [specify safety parameters]
+  "tolerability": [specify tolerability criteria]
+  
+  # Time-to-Event Precision
+  "time to progression": [specify progression criteria]
+  "duration of response": [specify response criteria]
+  "time to treatment failure": [specify failure criteria]
+  "event-free survival": [specify event definition]
+  
+  # Response Assessment
+  "complete response": [specify CR criteria]
+  "partial response": [specify PR criteria]
+  "stable disease": [specify SD criteria]
+  "progressive disease": [specify PD criteria]
+  "objective response": [specify ORR criteria]
+  
+  # Patient-Reported Outcomes
+  "symptom improvement": [specify PRO instrument]
+  "functional status": [specify functional assessment]
+  "health status": [specify health status measure]
+  "patient satisfaction": [specify satisfaction scale]

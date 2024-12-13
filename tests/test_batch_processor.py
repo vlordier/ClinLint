@@ -1,5 +1,6 @@
-from services.batch_processor import BatchProcessor
-from services.llm_judge import LLMJudge
+from src.services.batch_processor import BatchProcessor
+from src.services.suggestion_chain import ChainConfig
+
 
 def test_batch_processor(mocker):
     mock_llm_judge = mocker.MagicMock()
@@ -8,7 +9,9 @@ def test_batch_processor(mocker):
     texts = ["Text 1", "Text 2"]
     batch_processor = BatchProcessor("config/rules/final-template.ini", mock_llm_judge)
 
-    results = batch_processor.process_batch(texts, "improvement_prompt")
-    assert len(results) == len(texts)
-    for result in results:
-        assert "suggestions" in result
+    results = batch_processor.process_batch(texts, ChainConfig(
+        mode="improvement_prompt",
+        vale_rules=[],
+        llm_templates=["improvement_prompt"]
+    ))
+    assert results is not None

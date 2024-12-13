@@ -1,0 +1,11 @@
+# Examples for data integrity checks
+examples:
+  - text: "The data was analyzed appropriately."
+    expected_issues:
+      - rule: CSR.quality.data_integrity
+        message: "Required data integrity element missing: SDTM compliance"
+
+  - text: "Database was locked after cleaning."
+    expected_issues:
+      - rule: CSR.quality.data_integrity
+        message: "Required data integrity element missing: data validation plan"

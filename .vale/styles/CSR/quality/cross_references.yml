@@ -1,0 +1,8 @@
+extends: existence
+message: "Verify cross-reference: %s"
+level: warning
+tokens:
+  - Table [0-9]
+  - Figure [0-9]
+  - Section [0-9]
+  - Appendix [A-Z]

@@ -1,0 +1,12 @@
+text: "CYP2D6 poor metabolizer status influenced drug exposure."
+expected_vale_issues:
+  - rule: CSR.pharmacology.pharmacogenomics
+    message: "Required pharmacogenomic element missing: metabolizer phenotype definition"
+  - rule: CSR.scientific.precision
+    message: "Specify metabolizer classification criteria"
+expected_llm_feedback:
+  - "Report specific star alleles"
+  - "Include activity score calculation"
+  - "Detail phenotype-exposure correlation"
+  - "Report dose adjustment algorithm"
+  - "Include population frequency data"

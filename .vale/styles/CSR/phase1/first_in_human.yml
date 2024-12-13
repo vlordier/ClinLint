@@ -1,0 +1,24 @@
+extends: existence
+message: "Required Phase 1 FIH element missing: %s"
+level: error
+tokens:
+  # Safety Monitoring
+  - sentinel dosing
+  - dose escalation criteria
+  - stopping rules
+  - safety review committee
+  - cohort progression
+  
+  # PK/PD Assessment
+  - first dose PK
+  - dose proportionality
+  - food effect
+  - accumulation assessment
+  - target engagement
+  
+  # Special Assessments
+  - ECG monitoring
+  - vital signs monitoring
+  - laboratory monitoring
+  - AE monitoring
+  - immunogenicity screening

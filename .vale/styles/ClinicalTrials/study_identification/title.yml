@@ -1,0 +1,19 @@
+extends: existence
+message: "Brief Title requirements: %s"
+level: error
+scope: heading
+tokens:
+  # Technical study design terms in Brief Title
+  - \b(Phase [1-4]|Single Group|Double Blind|Randomized|Pharmacokinetics)\b
+
+  # Title case formatting
+  - (?<=[a-z])[A-Z]
+  - (?<=[A-Z])[A-Z][a-z]
+
+  # Ending periods
+  - \.$
+
+  # Missing participant/condition/intervention info
+  - ^(?!.*(?:participant|patient|subject)).*$
+  - ^(?!.*(?:condition|disease|disorder|syndrome)).*$
+  - ^(?!.*(?:treatment|therapy|drug|device|procedure)).*$

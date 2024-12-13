@@ -1,0 +1,50 @@
+rules:
+  terminology:
+    extends: substitution
+    message: "Use standard MedDRA terminology: '%s' instead of '%s'"
+    level: error
+    ignorecase: true
+    swap:
+      side effect: adverse event
+      side effects: adverse events
+      negative effect: adverse event
+      negative effects: adverse events
+      complication: adverse event
+      complications: adverse events
+      problem: adverse event
+      problems: adverse events
+      reaction: adverse reaction
+      reactions: adverse reactions
+
+  causality:
+    extends: existence
+    message: "Use standard causality terms (definitely/probably/possibly/unlikely related, or unrelated) instead of '%s'"
+    level: error
+    tokens:
+      - might be related
+      - could be related
+      - maybe related
+      - perhaps related
+      - seems related
+      - appears related
+
+  severity:
+    extends: substitution
+    message: "Use CTCAE grading terminology: '%s' instead of '%s'"
+    level: error
+    swap:
+      mild: Grade 1
+      moderate: Grade 2
+      severe: Grade 3
+      life-threatening: Grade 4
+      fatal: Grade 5
+      serious: [specify CTCAE grade]
+
+  sae:
+    extends: existence
+    message: "For SAEs, specify if event meets any of the standard criteria (death, life-threatening, hospitalization, disability, congenital anomaly, important medical event)"
+    level: error
+    tokens:
+      - serious adverse event
+      - SAE
+      - serious AE

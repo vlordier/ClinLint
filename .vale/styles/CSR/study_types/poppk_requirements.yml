@@ -1,0 +1,31 @@
+extends: existence
+message: "Required Population PK element missing: %s"
+level: error
+tokens:
+  # Model Development
+  - structural model selection
+  - covariate screening
+  - random effects structure
+  - residual error model
+  - model discrimination
+  
+  # Diagnostics
+  - goodness-of-fit plots
+  - VPC results
+  - bootstrap analysis
+  - sensitivity analysis
+  - shrinkage assessment
+  
+  # Parameters
+  - between-subject variability
+  - covariate effects
+  - parameter precision
+  - correlation structure
+  - eta distributions
+  
+  # Applications
+  - dose recommendations
+  - special populations
+  - drug interactions
+  - exposure-response
+  - therapeutic monitoring

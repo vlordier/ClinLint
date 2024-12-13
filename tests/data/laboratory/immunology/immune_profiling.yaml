@@ -1,0 +1,13 @@
+text: "Comprehensive immune profiling revealed complex patterns of immune dysregulation."
+expected_vale_issues:
+  - rule: CSR.laboratory.reporting
+    message: "Required laboratory reporting element missing: immune profiling panel"
+  - rule: CSR.scientific.precision
+    message: "Specify immune parameters and changes"
+expected_llm_feedback:
+  - "Report T cell subset distributions"
+  - "Include cytokine/chemokine profiles"
+  - "Detail NK cell functionality"
+  - "Report B cell repertoire analysis"
+  - "Include immune checkpoint expression"
+  - "Specify autoantibody profiles"

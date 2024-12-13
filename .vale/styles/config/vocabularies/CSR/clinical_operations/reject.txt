@@ -1,0 +1,45 @@
+# Imprecise operational terms
+study conduct
+study execution
+study performance
+study management
+trial conduct
+trial execution
+trial performance
+trial management
+site management
+patient management
+data management
+sample management
+protocol management
+deviation management
+compliance management
+safety management
+quality management
+vendor management
+
+# Imprecise timeline terms
+study timeline
+study schedule
+study calendar
+trial timeline
+trial schedule
+trial calendar
+patient timeline
+patient schedule
+patient calendar
+visit timeline
+visit schedule
+visit calendar
+
+# Imprecise process terms
+study procedures
+trial procedures
+clinical procedures
+operational procedures
+management procedures
+handling procedures
+processing procedures
+testing procedures
+analytical procedures
+laboratory procedures

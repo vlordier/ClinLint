@@ -1,0 +1,11 @@
+text: "Bone marrow suppression was observed."
+expected_vale_issues:
+  - rule: CSR.laboratory.reporting
+    message: "Required laboratory reporting element missing: specific parameters"
+  - rule: CSR.scientific.precision
+    message: "Use precise terminology: specify affected cell lines"
+expected_llm_feedback:
+  - "Report specific cell line counts"
+  - "Include nadir values and timing"
+  - "Specify recovery patterns"
+  - "Report growth factor use"

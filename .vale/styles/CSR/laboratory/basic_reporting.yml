@@ -1,0 +1,14 @@
+extends: existence
+message: "Required basic laboratory element missing: %s"
+level: error
+tokens:
+  # Basic Lab Elements
+  - collection date
+  - analysis date
+  - reference range
+  - units
+  - clinically significant flag
+  - repeat testing
+  - sample handling
+  - analytical method
+  - quality control

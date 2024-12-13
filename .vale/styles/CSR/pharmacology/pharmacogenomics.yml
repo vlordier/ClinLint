@@ -1,0 +1,27 @@
+extends: existence
+message: "Required pharmacogenomic element missing: %s"
+level: error
+tokens:
+  # Genetic Analysis
+  - genotyping methodology
+  - variant calling pipeline
+  - quality control metrics
+  - population frequencies
+  
+  # PGx Associations
+  - genotype-phenotype correlation
+  - metabolizer status definition
+  - haplotype analysis
+  - linkage disequilibrium
+  
+  # Clinical Impact
+  - dose adjustment criteria
+  - therapeutic monitoring
+  - contraindication assessment
+  - drug-gene interactions
+  
+  # Validation
+  - analytical validation
+  - clinical validation
+  - replicate analysis
+  - concordance assessment

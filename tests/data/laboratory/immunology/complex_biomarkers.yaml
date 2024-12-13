@@ -1,0 +1,13 @@
+text: "T cell exhaustion markers and cytokine profiles showed dynamic changes during treatment."
+expected_vale_issues:
+  - rule: CSR.laboratory.reporting
+    message: "Required laboratory reporting element missing: immunological parameters"
+  - rule: CSR.scientific.precision
+    message: "Specify immune parameters and changes"
+expected_llm_feedback:
+  - "Report PD-1, LAG-3, TIM-3 expression levels"
+  - "Include cytokine panel with temporal trends"
+  - "Detail T cell functional assays"
+  - "Report memory/effector ratios"
+  - "Include TCR repertoire analysis"
+  - "Specify activation marker profiles"

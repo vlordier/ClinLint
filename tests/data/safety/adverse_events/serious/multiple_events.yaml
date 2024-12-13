@@ -1,0 +1,11 @@
+text: "Multiple SAEs occurred during the treatment period."
+expected_vale_issues:
+  - rule: CSR.safety.reporting
+    message: "Specify each SAE separately"
+  - rule: CSR.safety.severity
+    message: "Use CTCAE grading for each event"
+expected_llm_feedback:
+  - "List each SAE separately"
+  - "Include CTCAE grade for each"
+  - "Report timing relationships"
+  - "Specify causality for each"

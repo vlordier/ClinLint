@@ -1,0 +1,14 @@
+# Efficacy terminology
+extends: substitution
+message: "Use precise efficacy terminology: '%s' instead of '%s'"
+level: error
+ignorecase: true
+swap:
+  worked well: [specify efficacy measure]
+  effective: [specify efficacy measure]
+  ineffective: [specify lack of efficacy measure]
+  successful: [specify success criteria met]
+  unsuccessful: [specify success criteria not met]
+  failed: did not meet primary endpoint
+  positive results: [specify outcome measures]
+  negative results: [specify outcome measures]

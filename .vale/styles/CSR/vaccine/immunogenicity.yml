@@ -1,0 +1,24 @@
+extends: existence
+message: "Required vaccine immunogenicity element missing: %s"
+level: error
+tokens:
+  # Humoral Response
+  - neutralizing antibody titers
+  - binding antibody levels
+  - seroconversion rates
+  - geometric mean titers
+  - antibody persistence
+  
+  # Cellular Response
+  - T cell responses
+  - cytokine profiles
+  - memory B cells
+  - cellular persistence
+  - boost response
+  
+  # Special Populations
+  - age-specific responses
+  - immunocompromised subjects
+  - prior exposure effects
+  - maternal antibodies
+  - cross-reactivity

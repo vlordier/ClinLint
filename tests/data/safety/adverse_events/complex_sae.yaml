@@ -1,0 +1,15 @@
+text: "Multiple organ dysfunction syndrome with concurrent infections developed following study drug administration."
+expected_vale_issues:
+  - rule: CSR.safety.severity
+    message: "Use CTCAE grading terminology: specify grade for each system"
+  - rule: CSR.safety.reporting
+    message: "Include temporal relationship details"
+  - rule: CSR.safety.causality
+    message: "Use standard causality terms"
+expected_llm_feedback:
+  - "Report CTCAE grade per organ system"
+  - "List specific infections with causative organisms"
+  - "Include timeline from drug exposure"
+  - "Detail interventions and outcomes per system"
+  - "Report antimicrobial therapies"
+  - "Include intensive care measures"

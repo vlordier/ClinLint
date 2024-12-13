@@ -1,0 +1,7 @@
+extends: existence
+message: "For SAEs, specify if event meets any of the standard criteria (death, life-threatening, hospitalization, disability, congenital anomaly, important medical event)"
+level: error
+tokens:
+  - serious adverse event
+  - SAE
+  - serious AE

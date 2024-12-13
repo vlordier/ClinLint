@@ -1,0 +1,10 @@
+extends: substitution
+message: "Use CTCAE grading terminology: '%s' instead of '%s'"
+level: error
+swap:
+  mild: Grade 1
+  moderate: Grade 2
+  severe: Grade 3
+  life-threatening: Grade 4
+  fatal: Grade 5
+  serious: [specify CTCAE grade]

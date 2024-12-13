@@ -1,0 +1,31 @@
+# Incorrect demographic terms
+(?i)male
+(?i)female
+(?i)caucasian
+(?i)oriental
+(?i)hispanic
+(?i)normal
+
+# Incorrect population terms
+all patients
+all subjects
+completed patients
+completed subjects
+evaluable patients
+evaluable subjects
+study population
+study cohort
+treatment group
+control group
+patient population
+subject population
+study participants
+trial participants
+enrolled patients
+enrolled subjects
+recruited patients
+recruited subjects
+screened patients
+screened subjects
+eligible patients
+eligible subjects

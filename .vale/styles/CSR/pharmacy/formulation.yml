@@ -1,0 +1,24 @@
+extends: existence
+message: "Required pharmaceutical formulation element missing: %s"
+level: error
+tokens:
+  # Physical Properties
+  - particle size distribution
+  - polymorphic form
+  - crystallinity assessment
+  - solubility profile
+  - stability data
+  
+  # Manufacturing Process
+  - batch composition
+  - process parameters
+  - in-process controls
+  - batch analysis
+  - comparability assessment
+  
+  # Quality Control
+  - dissolution profile
+  - content uniformity
+  - impurity profile
+  - sterility assurance
+  - endotoxin levels

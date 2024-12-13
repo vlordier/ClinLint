@@ -1,0 +1,13 @@
+text: "Integrated safety monitoring revealed complex patterns requiring specialized assessments."
+expected_vale_issues:
+  - rule: CSR.safety.reporting
+    message: "Required safety reporting element missing: monitoring methodology"
+  - rule: CSR.scientific.precision
+    message: "Specify monitoring parameters"
+expected_llm_feedback:
+  - "Detail monitoring algorithms"
+  - "Include risk factor analysis"
+  - "Report predictive markers"
+  - "Specify intervention criteria"
+  - "Include recovery patterns"
+  - "Detail long-term outcomes"

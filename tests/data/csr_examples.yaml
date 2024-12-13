@@ -1,0 +1,745 @@
+# Test cases for CSR linting
+cases:
+  # Baseline Demographics
+  - id: demographic-detail-level
+    text: "The study enrolled elderly patients with an average age of 65."
+    expected_vale_issues:
+      - rule: CSR.Statistics.Reporting
+        message: "Include required statistical elements: demographic details"
+      - rule: CSR.Statistics.Terminology
+        message: "Use precise statistical terminology: 'mean' instead of 'average'"
+    expected_llm_feedback:
+      - "Report exact mean age with SD"
+      - "Define elderly population age range"
+      - "Include demographic breakdown by age groups"
+
+  - id: demographic-categories
+    text: "Most subjects were female and Caucasian."
+    expected_vale_issues:
+      - rule: CSR.Statistics.Reporting
+        message: "Include required statistical elements: demographic percentages"
+    expected_llm_feedback:
+      - "Provide exact percentages for each demographic category"
+      - "Use standardized race/ethnicity categories"
+      - "Include demographic tables with all categories"
+
+  # Inclusion/Exclusion Details
+  - id: inclusion-criteria-specificity
+    text: "Patients with adequate organ function were included."
+    expected_vale_issues:
+      - rule: CSR.Quality.Precision
+        message: "Specify exact criteria for organ function assessment"
+    expected_llm_feedback:
+      - "Define specific laboratory parameters for organ function"
+      - "Include reference ranges"
+      - "Specify assessment timeframe"
+
+  - id: exclusion-criteria-detail
+    text: "Subjects with significant cardiovascular disease were excluded."
+    expected_vale_issues:
+      - rule: CSR.Quality.Precision
+        message: "Define specific cardiovascular conditions"
+    expected_llm_feedback:
+      - "List specific cardiovascular conditions"
+      - "Include relevant timeframes"
+      - "Specify diagnostic criteria"
+
+  # Laboratory Data Reporting
+  - id: lab-value-precision
+    text: "Liver function tests were mostly within normal range."
+    expected_vale_issues:
+      - rule: CSR.Statistics.Reporting
+        message: "Include required statistical elements: laboratory values"
+      - rule: CSR.Quality.Precision
+        message: "Specify exact laboratory parameters"
+    expected_llm_feedback:
+      - "Report specific liver function parameters"
+      - "Include reference ranges"
+      - "Provide statistical summary"
+
+  - id: lab-abnormalities
+    text: "Some patients showed elevated creatinine levels."
+    expected_vale_issues:
+      - rule: CSR.Statistics.Reporting
+        message: "Specify number and percentage of patients"
+    expected_llm_feedback:
+      - "Define elevation threshold"
+      - "Report exact number and percentage"
+      - "Include grade classification if applicable"
+
+  # Efficacy Analysis Details
+  - id: primary-endpoint-detail
+    text: "The primary endpoint showed improvement over placebo."
+    expected_vale_issues:
+      - rule: CSR.Efficacy.Terminology
+        message: "Specify exact efficacy measure and magnitude"
+    expected_llm_feedback:
+      - "Report exact treatment difference"
+      - "Include confidence intervals"
+      - "Specify analysis timepoint"
+
+  - id: secondary-endpoint-reporting
+    text: "Secondary endpoints were generally positive."
+    expected_vale_issues:
+      - rule: CSR.Efficacy.Terminology
+        message: "Use precise efficacy terminology"
+    expected_llm_feedback:
+      - "Report each secondary endpoint separately"
+      - "Include statistical analysis for each"
+      - "Specify hierarchical testing order"
+
+  # Safety Analysis Details
+  - id: ae-frequency-reporting
+    text: "Headache was a common adverse event."
+    expected_vale_issues:
+      - rule: CSR.Safety.Terminology
+        message: "Use precise frequency terminology"
+    expected_llm_feedback:
+      - "Report exact frequency and percentage"
+      - "Include severity breakdown"
+      - "Compare to placebo rate"
+
+  - id: laboratory-safety
+    text: "No concerning safety signals were observed in lab data."
+    expected_vale_issues:
+      - rule: CSR.Safety.Reporting
+        message: "Specify laboratory safety parameters"
+    expected_llm_feedback:
+      - "Report specific laboratory parameters"
+      - "Include shift tables"
+      - "Specify clinically significant changes"
+
+  # Dosing and Administration
+  - id: dosing-schedule
+    text: "The drug was given twice daily with food."
+    expected_vale_issues:
+      - rule: CSR.Quality.Precision
+        message: "Specify exact dosing details"
+    expected_llm_feedback:
+      - "Specify exact timing of doses"
+      - "Define food requirements"
+      - "Include compliance criteria"
+
+  - id: dose-modifications
+    text: "Some patients required dose adjustments."
+    expected_vale_issues:
+      - rule: CSR.Statistics.Reporting
+        message: "Specify number and percentage of patients"
+    expected_llm_feedback:
+      - "Report exact numbers and percentages"
+      - "Specify reasons for adjustments"
+      - "Include dose adjustment algorithm"
+
+  # Protocol Deviations
+  - id: major-protocol-deviations
+    text: "There were several major protocol deviations."
+    expected_vale_issues:
+      - rule: CSR.Quality.Reporting
+        message: "Specify nature and impact of protocol deviations"
+    expected_llm_feedback:
+      - "Categorize deviation types"
+      - "Report frequencies"
+      - "Assess impact on results"
+
+  # Statistical Analysis
+  - id: analysis-populations
+    text: "Missing data was handled appropriately."
+    expected_vale_issues:
+      - rule: CSR.Statistics.Reporting
+        message: "Specify missing data handling method"
+    expected_llm_feedback:
+      - "Define missing data categories"
+      - "Specify imputation methods"
+      - "Include sensitivity analyses"
+
+  # Study Design Details
+  - id: randomization-detail
+    text: "Patients were randomized to treatment groups."
+    expected_vale_issues:
+      - rule: CSR.Quality.Precision
+        message: "Specify randomization details"
+    expected_llm_feedback:
+      - "Describe randomization method"
+      - "Include stratification factors"
+      - "Specify block size if applicable"
+
+  # Concomitant Medications
+  - id: conmed-detail
+    text: "Concomitant medications were recorded."
+    expected_vale_issues:
+      - rule: CSR.Safety.Reporting
+        message: "Specify concomitant medication details"
+    expected_llm_feedback:
+      - "List medication categories"
+      - "Include usage frequencies"
+      - "Report prohibited medications"
+
+  # Study Population Flow
+  - id: population-disposition
+    text: "Some patients discontinued early."
+    expected_vale_issues:
+      - rule: CSR.Statistics.Reporting
+        message: "Specify discontinuation details"
+    expected_llm_feedback:
+      - "Report exact numbers and percentages"
+      - "Categorize discontinuation reasons"
+      - "Include time-to-discontinuation"
+
+  # Quality Control Procedures
+  - id: data-quality-control
+    text: "Data quality was monitored throughout the study."
+    expected_vale_issues:
+      - rule: CSR.Quality.Structure
+        message: "Specify quality control procedures"
+    expected_llm_feedback:
+      - "Detail monitoring procedures"
+      - "Include query resolution process"
+      - "Report database lock procedures"
+
+  # Regulatory Compliance
+  - id: regulatory-requirements
+    text: "The study followed regulatory guidelines."
+    expected_vale_issues:
+      - rule: CSR.Regulatory.ICH_E3
+        message: "Specify applicable guidelines"
+    expected_llm_feedback:
+      - "List specific guidelines followed"
+      - "Include compliance statement"
+      - "Reference regulatory submissions"
+  # Statistical Reporting
+  - id: statistical-precision
+    text: "The drug showed significant efficacy with p<0.05."
+    expected_vale_issues:
+      - rule: CSR.Statistics.Reporting
+        message: "Include required statistical elements: exact p-value and confidence interval"
+    expected_llm_feedback:
+      - "Report exact p-value"
+      - "Include 95% CI for efficacy measure"
+
+  - id: population-terminology
+    text: "All patients (n=150) were included in the analysis."
+    expected_vale_issues:
+      - rule: CSR.Statistics.Population
+        message: "Use standard analysis population terminology: 'ITT population' instead of 'all patients'"
+    expected_llm_feedback:
+      - "Specify analysis population (ITT/PP/Safety)"
+
+  - id: statistical-methods
+    text: "The average response rate was roughly 65%."
+    expected_vale_issues:
+      - rule: CSR.Statistics.Terminology
+        message: "Use precise statistical terminology: 'mean' instead of 'average'"
+    expected_llm_feedback:
+      - "Report exact mean with SD/SE"
+      - "Include confidence intervals"
+
+  # Safety Reporting
+  - id: adverse-event-terminology
+    text: "Several side effects were observed, including mild headache and moderate nausea."
+    expected_vale_issues:
+      - rule: CSR.Safety.Terminology
+        message: "Use standard MedDRA terminology: 'adverse events' instead of 'side effects'"
+      - rule: CSR.Safety.Severity
+        message: "Use CTCAE grading terminology: 'Grade 1' instead of 'mild'"
+    expected_llm_feedback:
+      - "Use MedDRA preferred terms"
+      - "Include CTCAE grades"
+
+  - id: sae-reporting
+    text: "One serious adverse event occurred during the study."
+    expected_vale_issues:
+      - rule: CSR.Safety.SAE
+        message: "Specify SAE criteria met"
+    expected_llm_feedback:
+      - "Specify which SAE criteria were met"
+      - "Include causality assessment"
+
+  - id: causality-assessment
+    text: "The headache might be related to the study drug."
+    expected_vale_issues:
+      - rule: CSR.Safety.Causality
+        message: "Use standard causality terms instead of 'might be related'"
+    expected_llm_feedback:
+      - "Use standard causality terms"
+
+  # Efficacy Reporting
+  - id: primary-endpoint
+    text: "The treatment worked well in reducing symptoms."
+    expected_vale_issues:
+      - rule: CSR.Efficacy.Terminology
+        message: "Use precise efficacy terminology: specify efficacy measure"
+    expected_llm_feedback:
+      - "Quantify symptom reduction"
+      - "Include statistical analysis"
+
+  - id: endpoint-analysis
+    text: "The study failed to show effectiveness."
+    expected_vale_issues:
+      - rule: CSR.Efficacy.Terminology
+        message: "Use precise efficacy terminology: 'did not meet primary endpoint'"
+    expected_llm_feedback:
+      - "Specify primary endpoint results"
+      - "Include statistical analysis"
+
+  # Regulatory Compliance
+  - id: ich-e3-structure
+    text: "The study results showed positive outcomes."
+    expected_vale_issues:
+      - rule: CSR.Regulatory.ICH_E3
+        message: "Required ICH E3 element missing: efficacy results"
+    expected_llm_feedback:
+      - "Follow ICH E3 structure"
+      - "Include all required sections"
+
+  - id: cross-references
+    text: "As shown in table 1, the results were significant."
+    expected_vale_issues:
+      - rule: CSR.Quality.CrossReferences
+        message: "Verify cross-reference: Table 1"
+    expected_llm_feedback:
+      - "Use consistent cross-reference format"
+
+  # Population Description
+  - id: demographic-reporting
+    text: "Most subjects were middle-aged females."
+    expected_vale_issues:
+      - rule: CSR.Statistics.Reporting
+        message: "Include required statistical elements: demographic details"
+    expected_llm_feedback:
+      - "Provide exact age range and statistics"
+      - "Include demographic breakdown"
+
+  # Laboratory Data
+  - id: lab-data-reporting
+    text: "Lab values showed improvement over time."
+    expected_vale_issues:
+      - rule: CSR.Statistics.Reporting
+        message: "Include required statistical elements: laboratory values"
+    expected_llm_feedback:
+      - "Specify lab parameters"
+      - "Include statistical analysis"
+
+  # Dosing Information
+  - id: dosing-precision
+    text: "Subjects received approximately 100mg daily."
+    expected_vale_issues:
+      - rule: CSR.Statistics.Terminology
+        message: "Use precise terminology: specify exact dosing"
+    expected_llm_feedback:
+      - "State exact dosing regimen"
+      - "Include compliance data"
+
+  # Study Design
+  - id: study-design-clarity
+    text: "This was a randomized study."
+    expected_vale_issues:
+      - rule: CSR.Regulatory.ICH_E3
+        message: "Required ICH E3 element missing: study design details"
+    expected_llm_feedback:
+      - "Specify full study design"
+      - "Include randomization method"
+
+  # Concomitant Medications
+  - id: conmed-reporting
+    text: "Some patients took other medications."
+    expected_vale_issues:
+      - rule: CSR.Safety.Reporting
+        message: "Specify concomitant medications"
+    expected_llm_feedback:
+      - "List specific medications"
+      - "Include frequency data"
+
+  # Protocol Deviations
+  - id: deviation-reporting
+    text: "There were a few protocol violations."
+    expected_vale_issues:
+      - rule: CSR.Quality.Reporting
+        message: "Specify nature and impact of protocol deviations"
+    expected_llm_feedback:
+      - "Categorize protocol deviations"
+      - "Assess impact on results"
+
+  # Statistical Analysis Plan
+  - id: sap-compliance
+    text: "Data was analyzed as planned."
+    expected_vale_issues:
+      - rule: CSR.Statistics.Reporting
+        message: "Include required statistical elements: analysis methods"
+    expected_llm_feedback:
+      - "Reference SAP version"
+      - "Specify analysis methods"
+
+  # Quality Control
+  - id: qc-reporting
+    text: "Quality control was performed."
+    expected_vale_issues:
+      - rule: CSR.Quality.Structure
+        message: "Required section missing: quality control measures"
+    expected_llm_feedback:
+      - "Detail QC procedures"
+      - "Include data validation steps"
+
+  # Complex Statistical Analysis
+  - id: multivariate-analysis
+    text: "The analysis showed treatment differences across subgroups."
+    expected_vale_issues:
+      - rule: CSR.Statistics.Reporting
+        message: "Include required statistical elements: interaction analysis"
+      - rule: CSR.Statistics.Terminology
+        message: "Specify statistical methodology"
+    expected_llm_feedback:
+      - "Report interaction p-values"
+      - "Include forest plot for subgroups"
+      - "Specify statistical model details"
+
+  - id: multiplicity-adjustment
+    text: "Multiple endpoints were tested with p<0.05 considered significant."
+    expected_vale_issues:
+      - rule: CSR.Statistics.Reporting
+        message: "Specify multiplicity adjustment method"
+    expected_llm_feedback:
+      - "Detail multiplicity adjustment strategy"
+      - "Include adjusted significance levels"
+      - "Specify testing hierarchy"
+
+  # Complex Safety Scenarios
+  - id: safety-signal-detection
+    text: "An unexpected pattern of adverse events was observed in elderly patients."
+    expected_vale_issues:
+      - rule: CSR.Safety.Reporting
+        message: "Specify safety signal detection methodology"
+      - rule: CSR.Safety.Terminology
+        message: "Use standard MedDRA groupings"
+    expected_llm_feedback:
+      - "Include statistical analysis of AE patterns"
+      - "Report relative risks and CIs"
+      - "Detail signal detection methods"
+
+  - id: complex-causality
+    text: "Multiple factors contributed to the serious adverse event."
+    expected_vale_issues:
+      - rule: CSR.Safety.Causality
+        message: "Use standard causality assessment methodology"
+    expected_llm_feedback:
+      - "Apply structured causality assessment"
+      - "Include competing risk analysis"
+      - "Detail confounding factors"
+
+  # Advanced Efficacy Analysis
+  - id: longitudinal-analysis
+    text: "The treatment effect varied over the study duration."
+    expected_vale_issues:
+      - rule: CSR.Statistics.Reporting
+        message: "Specify longitudinal analysis methodology"
+    expected_llm_feedback:
+      - "Include mixed model details"
+      - "Report temporal trends"
+      - "Specify covariance structure"
+
+  - id: sensitivity-analyses
+    text: "Results were robust to missing data."
+    expected_vale_issues:
+      - rule: CSR.Statistics.Reporting
+        message: "Detail sensitivity analysis methodology"
+    expected_llm_feedback:
+      - "Specify missing data mechanisms"
+      - "Include multiple imputation details"
+      - "Report tipping point analysis"
+
+  # Complex Population Analysis
+  - id: exposure-response
+    text: "Drug exposure correlated with clinical response."
+    expected_vale_issues:
+      - rule: CSR.Statistics.Reporting
+        message: "Specify exposure-response modeling approach"
+    expected_llm_feedback:
+      - "Include PK/PD model details"
+      - "Report exposure metrics"
+      - "Detail covariate effects"
+
+  - id: population-pharmacokinetics
+    text: "Drug clearance showed demographic differences."
+    expected_vale_issues:
+      - rule: CSR.Statistics.Reporting
+        message: "Specify population PK analysis methodology"
+    expected_llm_feedback:
+      - "Include PopPK model structure"
+      - "Report parameter estimates with CI"
+      - "Detail covariate selection process"
+
+  # Regulatory Documentation
+  - id: integrated-analyses
+    text: "Results were consistent with previous studies."
+    expected_vale_issues:
+      - rule: CSR.Regulatory.ICH_E3
+        message: "Required integrated analysis details missing"
+    expected_llm_feedback:
+      - "Include meta-analysis methodology"
+      - "Report heterogeneity assessment"
+      - "Detail cross-study comparisons"
+
+  # Complex Safety Analysis
+  - id: benefit-risk
+    text: "The benefit-risk assessment supported approval."
+    expected_vale_issues:
+      - rule: CSR.Safety.Reporting
+        message: "Specify benefit-risk methodology"
+    expected_llm_feedback:
+      - "Include quantitative B-R framework"
+      - "Report utility weights"
+      - "Detail sensitivity analyses"
+
+  # Advanced Statistical Methods
+  - id: bayesian-analysis
+    text: "Prior information was incorporated into the analysis."
+    expected_vale_issues:
+      - rule: CSR.Statistics.Reporting
+        message: "Specify Bayesian analysis methodology"
+    expected_llm_feedback:
+      - "Detail prior distributions"
+      - "Report posterior probabilities"
+      - "Include sensitivity to priors"
+
+  - id: adaptive-design
+    text: "The sample size was adjusted based on interim results."
+    expected_vale_issues:
+      - rule: CSR.Statistics.Reporting
+        message: "Specify adaptive design methodology"
+    expected_llm_feedback:
+      - "Detail interim analysis plan"
+      - "Report alpha spending function"
+      - "Include stopping boundaries"
+
+  # Complex Laboratory Analysis
+  - id: biomarker-analysis
+    text: "Multiple biomarkers predicted treatment response."
+    expected_vale_issues:
+      - rule: CSR.Statistics.Reporting
+        message: "Specify biomarker analysis methodology"
+    expected_llm_feedback:
+      - "Include feature selection methods"
+      - "Report prediction metrics"
+      - "Detail validation approach"
+
+  # Advanced Safety Monitoring
+  - id: safety-monitoring
+    text: "The DSMB reviewed accumulating safety data."
+    expected_vale_issues:
+      - rule: CSR.Safety.Reporting
+        message: "Specify safety monitoring methodology"
+    expected_llm_feedback:
+      - "Detail monitoring frequency"
+      - "Include stopping criteria"
+      - "Report DSMB recommendations"
+
+  # Complex Protocol Compliance
+  - id: protocol-adherence
+    text: "Treatment compliance varied among sites."
+    expected_vale_issues:
+      - rule: CSR.Quality.Reporting
+        message: "Specify compliance analysis methodology"
+    expected_llm_feedback:
+      - "Include site-level metrics"
+      - "Report compliance distributions"
+      - "Detail remediation measures"
+
+  # Advanced Quality Control
+  - id: data-quality
+    text: "Source data verification was performed."
+    expected_vale_issues:
+      - rule: CSR.Quality.Structure
+        message: "Specify data quality control methodology"
+    expected_llm_feedback:
+      - "Detail SDV sampling approach"
+      - "Report error rates"
+      - "Include query resolution metrics"
+
+  # Advanced Statistical Methods
+  - id: mixed-models
+    text: "Repeated measures analysis was performed."
+    expected_vale_issues:
+      - rule: CSR.Statistics.Advanced
+        message: "Required advanced statistical element missing: covariance structure"
+    expected_llm_feedback:
+      - "Specify covariance structure"
+      - "Include model diagnostics"
+      - "Report likelihood ratio tests"
+
+  - id: bayesian-analysis
+    text: "A Bayesian approach was used."
+    expected_vale_issues:
+      - rule: CSR.Statistics.Advanced
+        message: "Required advanced statistical element missing: prior distributions"
+    expected_llm_feedback:
+      - "Detail prior distributions"
+      - "Report convergence diagnostics"
+      - "Include sensitivity to priors"
+
+  # PK/PD Analysis
+  - id: population-pk
+    text: "Population PK analysis was conducted."
+    expected_vale_issues:
+      - rule: CSR.Pharmacology.PK_PD
+        message: "Required PK/PD element missing: between-subject variability"
+    expected_llm_feedback:
+      - "Report variance components"
+      - "Detail covariate effects"
+      - "Include diagnostic plots"
+
+  - id: exposure-response
+    text: "Exposure-response relationships were evaluated."
+    expected_vale_issues:
+      - rule: CSR.Pharmacology.PK_PD
+        message: "Required PK/PD element missing: linking functions"
+    expected_llm_feedback:
+      - "Specify model structure"
+      - "Include goodness-of-fit"
+      - "Report parameter estimates"
+
+  # Biomarker Analysis
+  - id: biomarker-validation
+    text: "Biomarker assays were validated."
+    expected_vale_issues:
+      - rule: CSR.Biomarkers.Analysis
+        message: "Required biomarker analysis element missing: analytical validation"
+    expected_llm_feedback:
+      - "Report precision metrics"
+      - "Include stability data"
+      - "Detail calibration curves"
+
+  - id: predictive-biomarkers
+    text: "Biomarkers predicted treatment response."
+    expected_vale_issues:
+      - rule: CSR.Biomarkers.Analysis
+        message: "Required biomarker analysis element missing: prediction metrics"
+    expected_llm_feedback:
+      - "Include ROC analysis"
+      - "Report sensitivity/specificity"
+      - "Detail cross-validation results"
+
+  # Complex Study Designs
+  - id: adaptive-sample-size
+    text: "Sample size was adjusted based on interim analysis."
+    expected_vale_issues:
+      - rule: CSR.Statistics.Advanced
+        message: "Required advanced statistical element missing: conditional power"
+    expected_llm_feedback:
+      - "Report conditional power"
+      - "Detail decision rules"
+      - "Include type I error control"
+
+  - id: enrichment-design
+    text: "Adaptive enrichment was implemented."
+    expected_vale_issues:
+      - rule: CSR.Study_Design.Advanced
+        message: "Required design element missing: enrichment criteria"
+    expected_llm_feedback:
+      - "Specify selection criteria"
+      - "Include power calculations"
+      - "Report adaptation rules"
+
+  # Missing Data Handling
+  - id: pattern-mixture
+    text: "Missing data was analyzed using pattern mixture models."
+    expected_vale_issues:
+      - rule: CSR.Statistics.Advanced
+        message: "Required advanced statistical element missing: pattern mixture models"
+    expected_llm_feedback:
+      - "Detail pattern definitions"
+      - "Include sensitivity parameters"
+      - "Report tipping point analysis"
+
+  # Time-to-Event Analysis
+  - id: competing-risks
+    text: "Competing risks were considered in survival analysis."
+    expected_vale_issues:
+      - rule: CSR.Statistics.Advanced
+        message: "Required advanced statistical element missing: hazard function specification"
+    expected_llm_feedback:
+      - "Report cumulative incidence"
+      - "Include Gray's test results"
+      - "Detail cause-specific hazards"
+
+  # Protocol Compliance
+  - id: protocol-version
+    text: "The protocol was followed."
+    expected_vale_issues:
+      - rule: CSR.Protocol.Compliance
+        message: "Required protocol compliance element missing: protocol version"
+    expected_llm_feedback:
+      - "Specify protocol version number"
+      - "Include amendment history"
+      - "Reference GCP compliance"
+
+  - id: monitoring-compliance
+    text: "Study monitoring was conducted."
+    expected_vale_issues:
+      - rule: CSR.Protocol.Compliance
+        message: "Required protocol compliance element missing: monitoring plan"
+    expected_llm_feedback:
+      - "Detail monitoring frequency"
+      - "Specify monitoring procedures"
+      - "Include monitoring findings"
+
+  # Study Design Methodology
+  - id: randomization-methodology
+    text: "This was a randomized study."
+    expected_vale_issues:
+      - rule: CSR.Study_Design.Methodology
+        message: "Use precise study design terminology: 'specify randomization method' instead of 'randomized'"
+    expected_llm_feedback:
+      - "Detail randomization method"
+      - "Specify block size"
+      - "Include stratification factors"
+
+  - id: blinding-methodology
+    text: "The study was double-blind."
+    expected_vale_issues:
+      - rule: CSR.Study_Design.Methodology
+        message: "Use precise study design terminology: 'specify blinding procedures' instead of 'double-blind'"
+    expected_llm_feedback:
+      - "Detail blinding procedures"
+      - "Specify unblinding criteria"
+      - "Include emergency unblinding process"
+
+  # Laboratory Reporting
+  - id: lab-reference-ranges
+    text: "Laboratory values were assessed."
+    expected_vale_issues:
+      - rule: CSR.Laboratory.Reporting
+        message: "Required laboratory reporting element missing: reference ranges"
+    expected_llm_feedback:
+      - "Include reference ranges"
+      - "Specify analytical methods"
+      - "Detail quality control measures"
+
+  - id: lab-significant-changes
+    text: "Some laboratory values changed during treatment."
+    expected_vale_issues:
+      - rule: CSR.Laboratory.Reporting
+        message: "Required laboratory reporting element missing: clinically significant changes"
+    expected_llm_feedback:
+      - "Define clinically significant changes"
+      - "Include shift tables"
+      - "Report grade changes"
+
+  # Demographics Reporting
+  - id: age-distribution
+    text: "The study included adult patients."
+    expected_vale_issues:
+      - rule: CSR.Demographics.Reporting
+        message: "Required demographic reporting element missing: age distribution"
+    expected_llm_feedback:
+      - "Report age range"
+      - "Include descriptive statistics"
+      - "Provide age category breakdown"
+
+  - id: racial-categories
+    text: "Various racial groups were represented."
+    expected_vale_issues:
+      - rule: CSR.Demographics.Reporting
+        message: "Required demographic reporting element missing: racial categories"
+    expected_llm_feedback:
+      - "Use standardized racial categories"
+      - "Report exact percentages"
+      - "Include regional distribution"

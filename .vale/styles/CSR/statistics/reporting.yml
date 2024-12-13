@@ -1,0 +1,106 @@
+extends: existence
+message: "Include required statistical elements: %s"
+level: error
+tokens:
+  # Hypothesis Testing
+  - \bp[ ]*[<>]=?[ ]*[0-9.]+\b
+  - \balpha[ ]*=[ ]*0\.[0-9]+\b
+  - \btype I error rate\b
+  - \btype II error rate\b
+  - \bpower calculation\b
+  - \bsample size justification\b
+  - \bnon-inferiority margin\b
+  - \bequivalence margins\b
+  
+  # Descriptive Statistics
+  - \b95%[ ]*CI\b
+  - \bconfidence interval\b
+  - \bstandard deviation\b
+  - \bSD\b
+  - \bstandard error\b
+  - \bSE\b
+  - \bmedian\b
+  - \bIQR\b
+  - \brange\b
+  - \bgeometric mean\b
+  - \bcoefficient of variation\b
+  - \bCV%\b
+  - \bquartiles\b
+  - \bpercentiles\b
+  
+  # Effect Size Measures
+  - \bodds ratio\b
+  - \brisk ratio\b
+  - \bhazard ratio\b
+  - \brisk difference\b
+  - \brate ratio\b
+  - \brate difference\b
+  - \brelative risk\b
+  - \brelative risk reduction\b
+  - \babsolute risk reduction\b
+  - \bnumber needed to treat\b
+  - \bNNT\b
+  
+  # Model Parameters
+  - \bregression coefficient\b
+  - \bparameter estimate\b
+  - \bstandard error of estimate\b
+  - \bdegrees of freedom\b
+  - \bdf\b
+  - \badjusted R-squared\b
+  - \bAIC\b
+  - \bBIC\b
+  - \blikelihood ratio\b
+  - \bWald statistic\b
+  
+  # Distribution Properties
+  - \bnormality test\b
+  - \bhomogeneity test\b
+  - \bvariance components\b
+  - \bintra-class correlation\b
+  - \bICC\b
+  - \bKappa statistic\b
+  
+  # Missing Data
+  - \bmissing data pattern\b
+  - \bimputation method\b
+  - \bsensitivity analysis\b
+  - \btipping point analysis\b
+  
+  # Multiplicity
+  - \bmultiplicity adjustment\b
+  - \bBonferroni correction\b
+  - \bHochberg procedure\b
+  - \bHolm procedure\b
+  - \bDunnett's test\b
+  - \bTukey's test\b
+  
+  # Time-to-Event
+  - \bKaplan-Meier estimate\b
+  - \bmedian survival time\b
+  - \bhazard function\b
+  - \bcumulative hazard\b
+  - \bcensoring rate\b
+  
+  # Repeated Measures
+  - \bcovariance structure\b
+  - \bcompound symmetry\b
+  - \bautoregressive\b
+  - \bunstructured\b
+  - \bkenward-roger approximation\b
+  
+  # Categorical Analysis
+  - \bcontingency table\b
+  - \bChi-square test\b
+  - \bFisher's exact test\b
+  - \bMcNemar's test\b
+  - \bCochran-Mantel-Haenszel\b
+  
+  # Continuous Analysis
+  - \bt-test\b
+  - \bWilcoxon test\b
+  - \bMann-Whitney test\b
+  - \bANOVA\b
+  - \bANCOVA\b
+  - \bKruskal-Wallis test\b
+  - \bFriedman test\b

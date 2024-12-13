@@ -1,0 +1,13 @@
+text: "Cytokine release syndrome developed with elevated inflammatory markers."
+expected_vale_issues:
+  - rule: CSR.laboratory.reporting
+    message: "Required laboratory reporting element missing: cytokine panel"
+  - rule: CSR.safety.severity
+    message: "Use CTCAE grading terminology: specify CRS grade"
+expected_llm_feedback:
+  - "Report IL-6, TNF-α, IL-1β levels"
+  - "Include ferritin and CRP"
+  - "Specify CRS grading criteria"
+  - "Detail tocilizumab response"
+  - "Report hemophagocytosis markers"
+  - "Include organ dysfunction parameters"

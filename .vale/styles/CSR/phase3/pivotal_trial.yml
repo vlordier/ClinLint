@@ -1,0 +1,24 @@
+extends: existence
+message: "Required Phase 3 pivotal element missing: %s"
+level: error
+tokens:
+  # Primary Analysis
+  - superiority margin
+  - non-inferiority margin
+  - stratification factors
+  - interim analyses
+  - multiplicity adjustment
+  
+  # Subgroup Analyses
+  - pre-specified subgroups
+  - interaction testing
+  - forest plots
+  - consistency assessment
+  - treatment effect
+  
+  # Safety Analysis
+  - integrated safety summary
+  - risk assessment
+  - benefit-risk evaluation
+  - special populations
+  - long-term safety

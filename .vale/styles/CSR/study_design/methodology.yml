@@ -1,0 +1,14 @@
+extends: substitution
+message: "Use precise study design terminology: '%s' instead of '%s'"
+level: error
+ignorecase: true
+swap:
+  "randomized": [specify randomization method]
+  "blinded": [specify blinding details]
+  "double-blind": [specify blinding procedures]
+  "open-label": [specify open-label procedures]
+  "crossover": [specify washout period]
+  "parallel group": [specify allocation ratio]
+  "adaptive": [specify adaptation rules]
+  "non-inferiority": [specify non-inferiority margin]
+  "superiority": [specify clinically meaningful difference]

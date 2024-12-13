@@ -1,0 +1,30 @@
+extends: existence
+message: "Required oncology response element missing: %s"
+level: error
+tokens:
+  # RECIST 1.1 Elements
+  - target lesion measurements
+  - non-target lesion assessment
+  - new lesion documentation
+  - overall response determination
+  - confirmation of response
+  - progression documentation
+  
+  # iRECIST Elements
+  - iUPD confirmation
+  - iCPD documentation
+  - immune response patterns
+  - pseudoprogression assessment
+  
+  # Modified RECIST Elements
+  - mRECIST criteria
+  - HCC specific measurements
+  - enhancement patterns
+  - viable tumor assessment
+  
+  # RANO Criteria
+  - T1 gadolinium imaging
+  - FLAIR/T2 changes
+  - corticosteroid dose
+  - clinical status
+  - measurable disease

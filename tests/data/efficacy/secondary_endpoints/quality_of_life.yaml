@@ -1,0 +1,10 @@
+text: "Quality of life showed improvement."
+expected_vale_issues:
+  - rule: CSR.efficacy.terminology
+    message: "Specify QoL instrument and domains"
+  - rule: CSR.statistics.reporting
+    message: "Include required statistical elements: mean change and CI"
+expected_llm_feedback:
+  - "Specify QoL instrument used"
+  - "Report domain scores"
+  - "Include statistical analysis"

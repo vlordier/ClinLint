@@ -1,0 +1,39 @@
+extends: existence
+message: "Required advanced statistical element missing: %s"
+level: error
+tokens:
+  # Mixed Models
+  - random effects specification
+  - covariance structure
+  - model diagnostics
+  - likelihood ratio tests
+  
+  # Multiple Comparisons
+  - multiplicity adjustment method
+  - family-wise error rate
+  - false discovery rate
+  - hierarchical testing procedure
+  
+  # Bayesian Analysis
+  - prior distributions
+  - posterior probabilities
+  - credible intervals
+  - convergence diagnostics
+  
+  # Missing Data
+  - missing data mechanism
+  - sensitivity analysis approach
+  - multiple imputation method
+  - pattern mixture models
+  
+  # Survival Analysis
+  - censoring mechanism
+  - hazard function specification
+  - proportional hazards assumption
+  - time-varying covariates
+  
+  # Adaptive Designs
+  - interim analysis plan
+  - alpha spending function
+  - conditional power
+  - sample size re-estimation

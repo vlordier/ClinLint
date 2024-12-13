@@ -1,0 +1,11 @@
+text: "Drug interactions were evaluated."
+expected_vale_issues:
+  - rule: CSR.pharmacology.pk_pd
+    message: "Required PK element missing: interaction assessment"
+  - rule: CSR.scientific.precision
+    message: "Specify interaction mechanisms"
+expected_llm_feedback:
+  - "Report specific CYP interactions"
+  - "Include AUC ratios with CI"
+  - "Specify clinical significance"
+  - "Detail dosing recommendations"

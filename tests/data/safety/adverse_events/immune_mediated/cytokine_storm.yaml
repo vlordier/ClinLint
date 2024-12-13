@@ -1,0 +1,15 @@
+text: "Grade 4 cytokine release syndrome with multi-organ dysfunction developed 6 hours post-infusion."
+expected_vale_issues:
+  - rule: CSR.safety.severity
+    message: "Include organ-specific CTCAE grades"
+  - rule: CSR.laboratory.reporting
+    message: "Required laboratory reporting element missing: cytokine panel"
+  - rule: CSR.safety.reporting
+    message: "Include temporal progression details"
+expected_llm_feedback:
+  - "Report IL-6, TNF-α, IL-1β, IFN-γ levels with trends"
+  - "Include organ-specific dysfunction parameters"
+  - "Detail tocilizumab/steroid interventions"
+  - "Report hemophagocytosis markers"
+  - "Include coagulopathy parameters"
+  - "Specify vasopressor requirements"

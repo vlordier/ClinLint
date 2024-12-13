@@ -1,0 +1,23 @@
+extends: substitution
+message: "Use standard protocol deviation classification: '%s' instead of '%s'"
+level: error
+ignorecase: true
+swap:
+  # Important Protocol Deviations
+  "major deviation": "Important Protocol Deviation"
+  "significant deviation": "Important Protocol Deviation"
+  "critical deviation": "Important Protocol Deviation"
+  
+  # Deviation Categories
+  "inclusion/exclusion": "Eligibility Criteria Deviation"
+  "informed consent": "Informed Consent Deviation"
+  "study procedures": "Study Procedure Deviation"
+  "study treatment": "Study Treatment Deviation"
+  "visit schedule": "Study Visit Deviation"
+  "safety reporting": "Safety Reporting Deviation"
+  
+  # Impact Assessment
+  "affected data": [specify impacted endpoints]
+  "compromised safety": [specify safety impact]
+  "data integrity": [specify integrity impact]
+  "subject rights": [specify rights impact]

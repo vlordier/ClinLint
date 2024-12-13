@@ -1,0 +1,26 @@
+text: |
+  Complex metabolic network analysis revealed:
+  - Parallel metabolic pathways: CYP3A4/2D6/2C19 with competitive substrate binding
+  - Time-dependent inhibition (KI=0.2μM, kinact=0.04min-1) of CYP3A4
+  - Transporter-enzyme interplay: OATP1B1/BCRP/P-gp modulation
+  - Metabolic switching under enzyme saturation (Km shift 0.5→2.1μM)
+  - Adaptive resistance through UGT1A1/SULT1A1 upregulation
+  PBPK modeling predicted:
+  - Non-linear pharmacokinetics above 200mg (AUC ratio 2.8)
+  - Complex DDI risk with statins (OATP1B1/CYP3A4 interplay)
+  - Food effect on bioavailability (high-fat meal: -45%)
+expected_vale_issues:
+  - rule: CSR.pharmacology.pk_pd
+    message: "Required PK element missing: network analysis methodology"
+  - rule: CSR.scientific.precision
+    message: "Specify analytical methods and parameters"
+  - rule: CSR.laboratory.reporting
+    message: "Required laboratory reporting element missing: enzyme kinetics"
+expected_llm_feedback:
+  - "Report detailed enzyme kinetics"
+  - "Include transporter parameters"
+  - "Detail PBPK model structure"
+  - "Specify DDI predictions"
+  - "Include sensitivity analysis"
+  - "Report model validation"
+  - "Detail clinical implications"

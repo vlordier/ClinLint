@@ -1,0 +1,289 @@
+# Standard terminology for adverse events
+Adverse Event
+Serious Adverse Event
+Treatment-Emergent Adverse Event
+TEAE
+Treatment-Related Adverse Event
+TRAE
+Adverse Drug Reaction
+ADR
+Suspected Unexpected Serious Adverse Reaction
+SUSAR
+Non-Serious Adverse Event
+NSAE
+Drug-Induced Liver Injury
+DILI
+Immune-Mediated Adverse Event
+imAE
+Infusion-Related Reaction
+IRR
+Injection Site Reaction
+ISR
+Special Interest Adverse Event
+AESI
+Protocol-Specified Adverse Event
+PSAE
+Treatment-Discontinued Adverse Event
+TDAE
+Recurrent Adverse Event
+RAE
+Delayed Adverse Event
+DAE
+Cumulative Adverse Event
+CAE
+
+# Statistical terminology
+intention-to-treat
+per-protocol
+safety analysis set
+modified intention-to-treat
+mITT
+ITT
+PP
+full analysis set
+FAS
+completer population
+evaluable population
+pharmacokinetic population
+PK population
+pharmacodynamic population
+PD population
+interim analysis population
+sensitivity analysis population
+subgroup analysis population
+
+# Study design terminology
+double-blind
+single-blind
+open-label
+randomized
+parallel-group
+crossover
+factorial
+adaptive design
+basket trial
+umbrella trial
+platform trial
+enrichment design
+sequential design
+dose-escalation
+dose-finding
+withdrawal design
+add-on design
+non-inferiority design
+superiority design
+equivalence design
+pragmatic trial
+explanatory trial
+
+# Laboratory terminology
+clinically significant
+not clinically significant
+reference range
+normal range
+upper limit of normal
+ULN
+lower limit of normal
+LLN
+analytical sensitivity
+analytical specificity
+precision
+accuracy
+reproducibility
+limit of detection
+LOD
+limit of quantification
+LOQ
+coefficient of variation
+CV
+quality control
+QC
+calibration curve
+matrix effect
+sample stability
+freeze-thaw stability
+long-term stability
+
+# Regulatory terminology
+Good Clinical Practice
+GCP
+International Council for Harmonisation
+ICH
+ICH E3
+ICH E6(R2)
+ICH E8
+ICH E9
+ICH M4
+FDA Guidance
+EMA Guideline
+PMDA Requirements
+21 CFR Part 11
+GDPR Compliance
+Data Protection Impact Assessment
+DPIA
+Clinical Trial Regulation
+CTR
+Investigational New Drug
+IND
+Clinical Trial Application
+CTA
+New Drug Application
+NDA
+Marketing Authorization Application
+MAA
+
+# Safety terminology
+CTCAE Grade 1
+CTCAE Grade 2
+CTCAE Grade 3
+CTCAE Grade 4
+CTCAE Grade 5
+MedDRA System Organ Class
+SOC
+MedDRA Preferred Term
+PT
+MedDRA High Level Term
+HLT
+MedDRA High Level Group Term
+HLGT
+MedDRA Lowest Level Term
+LLT
+WHO-DD
+WHO Drug Dictionary
+WHO-ART
+Standardised MedDRA Query
+SMQ
+Company Standardised MedDRA Query
+CMQ
+
+# Causality terminology
+definitely related
+probably related
+possibly related
+unlikely related
+unrelated
+reasonable possibility
+no reasonable possibility
+certain
+probable/likely
+possible
+unlikely
+conditional/unclassified
+unassessable/unclassifiable
+
+# Demographics terminology
+race
+ethnicity
+sex
+gender
+age group
+childbearing potential
+WOCBP
+reproductive status
+menopausal status
+body mass index
+BMI
+body surface area
+BSA
+performance status
+ECOG status
+Karnofsky score
+socioeconomic status
+educational level
+geographical region
+screening failure
+screen failure
+
+# Efficacy terminology
+primary endpoint
+secondary endpoint
+exploratory endpoint
+surrogate endpoint
+composite endpoint
+time-to-event endpoint
+binary endpoint
+continuous endpoint
+ordinal endpoint
+categorical endpoint
+patient-reported outcome
+PRO
+clinician-reported outcome
+ClinRO
+observer-reported outcome
+ObsRO
+performance outcome
+PerfO
+biomarker
+pharmacodynamic marker
+predictive biomarker
+prognostic biomarker
+safety biomarker
+monitoring biomarker
+pharmacological biomarker
+
+# Study procedures terminology
+informed consent
+screening visit
+baseline visit
+treatment visit
+follow-up visit
+end-of-study visit
+unscheduled visit
+early termination visit
+safety follow-up
+telephone contact
+remote visit
+telemedicine visit
+protocol-specified procedure
+protocol-required procedure
+study-specific procedure
+
+# Pharmacology terminology
+maximum concentration
+Cmax
+time to maximum concentration
+Tmax
+area under the curve
+AUC
+AUC0-t
+AUC0-inf
+half-life
+t1/2
+volume of distribution
+Vd
+clearance
+CL
+bioavailability
+F
+steady state
+accumulation ratio
+dose proportionality
+exposure-response relationship
+population pharmacokinetics
+PopPK
+physiologically-based pharmacokinetics
+PBPK
+
+# Quality terminology
+protocol deviation
+major protocol deviation
+minor protocol deviation
+protocol violation
+important protocol deviation
+critical finding
+major finding
+minor finding
+data query
+query resolution
+source data verification
+SDV
+source document review
+SDR
+database lock
+quality tolerance limit
+QTL
+risk-based monitoring
+RBM
+key risk indicator
+KRI
+quality metric

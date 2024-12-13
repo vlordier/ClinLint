@@ -1,0 +1,27 @@
+extends: existence
+message: "Required conclusion element missing: %s"
+level: error
+tokens:
+  # Primary Conclusions
+  - primary objective conclusion
+  - efficacy conclusion
+  - safety conclusion
+  - benefit-risk conclusion
+  
+  # Supporting Conclusions
+  - secondary objective conclusions
+  - subgroup conclusions
+  - population applicability
+  - dosing recommendations
+  
+  # Clinical Implications
+  - therapeutic value assessment
+  - clinical practice impact
+  - treatment guidelines implications
+  - prescribing considerations
+  
+  # Future Directions
+  - additional research needs
+  - ongoing studies
+  - planned analyses
+  - regulatory implications

@@ -1,0 +1,61 @@
+StylesPath: .vale/styles
+MinAlertLevel: suggestion
+
+Packages:
+  CSR: YES
+
+Vocabularies:
+  CSR: YES
+
+# Use custom vocabulary
+Vocab = CSR
+
+Rules:
+  # Safety rules
+  CSR.safety.adverse_events: YES
+  CSR.safety.causality: YES
+  CSR.safety.severity: YES
+  CSR.safety.sae_criteria: YES
+
+  # Regulatory rules
+  CSR.regulatory.ich_e3: YES
+  CSR.regulatory.regional_requirements: YES
+  CSR.regulatory.ich_e3_structure: YES
+  CSR.regulatory.ich_e3_content: YES
+
+  # Statistical rules
+  CSR.statistics.terminology: YES
+  CSR.statistics.reporting: YES
+  CSR.statistics.population: YES
+  CSR.statistics.advanced_methods: YES
+
+  # Efficacy rules
+  CSR.efficacy.terminology: YES
+
+  # Quality rules
+  CSR.quality.structure: YES
+  CSR.quality.cross_references: YES
+  CSR.quality.consistency: YES
+  CSR.quality.data_integrity: YES
+
+  # Section rules
+  CSR.sections.introduction: YES
+  CSR.sections.methods: YES
+  CSR.sections.results: YES
+  CSR.sections.discussion: YES
+  CSR.sections.conclusions: YES
+
+  # Protocol rules
+  CSR.protocol.compliance: YES
+
+  # Study Design rules
+  CSR.study_design.methodology: YES
+
+  # Laboratory rules
+  CSR.laboratory.reporting: YES
+
+  # Demographics rules
+  CSR.demographics.reporting: YES
+
+  # Biomarker rules
+  CSR.biomarkers.analysis_requirements: YES

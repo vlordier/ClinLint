@@ -1,0 +1,38 @@
+extends: existence
+message: "Document structure requirements: %s"
+level: error
+scope: raw
+tokens:
+  # Section Numbering
+  - '^(?![1-9][0-9]*\.)\s*[A-Z]'  # Missing section number
+  - '^[1-9][0-9]*(?!\.)' # Missing period after section number
+  
+  # Heading Levels
+  - '^[1-9]\.[1-9][0-9]*\.[1-9][0-9]*\.[1-9][0-9]*\.'  # Max 3 subsection levels
+  
+  # Page Layout
+  - '^\s*Page \d+\s*$'  # Page numbers format
+  - '^\s*Table \d+\s*$' # Table numbers format
+  - '^\s*Figure \d+\s*$' # Figure numbers format
+  
+  # Cross References
+  - '\(Table\s+\d+\)'   # Table references format
+  - '\(Figure\s+\d+\)'  # Figure references format
+  - '\(Section\s+\d+\)' # Section references format
+
+# Required Section Order
+order:
+  - "TITLE PAGE"
+  - "SYNOPSIS"
+  - "TABLE OF CONTENTS"
+  - "LIST OF ABBREVIATIONS"
+  - "ETHICS"
+  - "INVESTIGATORS"
+  - "STUDY OBJECTIVES"
+  - "INVESTIGATIONAL PLAN"
+  - "STUDY PATIENTS"
+  - "EFFICACY EVALUATION"
+  - "SAFETY EVALUATION"
+  - "DISCUSSION"
+  - "CONCLUSIONS"
+  - "REFERENCES"

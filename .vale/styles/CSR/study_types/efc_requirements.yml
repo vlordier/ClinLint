@@ -1,0 +1,38 @@
+extends: existence
+message: "Required EFC study element missing: %s"
+level: error
+tokens:
+  # Primary Analysis
+  - superiority margin
+  - non-inferiority margin
+  - stratification factors
+  - interim analysis criteria
+  - multiplicity adjustment
+  
+  # Population
+  - sample size rationale
+  - power calculations
+  - dropout assumptions
+  - analysis sets definition
+  - subgroup definitions
+  
+  # Efficacy
+  - primary endpoint definition
+  - key secondary endpoints
+  - sensitivity analyses
+  - missing data handling
+  - estimands framework
+  
+  # Safety
+  - safety monitoring plan
+  - DSMB charter
+  - stopping rules
+  - risk mitigation measures
+  - safety follow-up period
+  
+  # Study Conduct
+  - randomization method
+  - blinding procedures
+  - unblinding criteria
+  - treatment compliance
+  - protocol adherence

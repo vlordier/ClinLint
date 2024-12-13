@@ -1,0 +1,11 @@
+text: "Resistance markers emerged during treatment."
+expected_vale_issues:
+  - rule: CSR.biomarkers.analysis
+    message: "Required biomarker analysis element missing: resistance profiling"
+  - rule: CSR.scientific.precision
+    message: "Specify resistance mechanism"
+expected_llm_feedback:
+  - "List specific mutations/variants"
+  - "Report frequency of emergence"
+  - "Include temporal patterns"
+  - "Correlate with treatment outcome"

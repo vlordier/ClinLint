@@ -1,0 +1,24 @@
+text: |
+  Longitudinal immune profiling revealed complex escape mechanisms:
+  Baseline: PD-L1 TPS 80%, CD8+ TILs 45%, Th1/Th2 ratio 2.8
+  Week 12: PD-L1 downregulation (TPS 15%), emergence of LAG-3+/TIM-3+ exhausted CD8+ (68%),
+  MDSC expansion (CD11b+CD33+CD14-HLA-DRlow: 28% vs 5% baseline)
+  Week 24: B7-H3/B7-H4 upregulation, loss of MHC-I expression (β2M mutation, VAF 15%),
+  shift to TGF-β-high/IL-12-low microenvironment with M2 macrophage polarization (CD163+CD206+: 65%)
+  Week 36: Complex immune evasion with loss of cancer-testis antigens (MAGE-A3/NY-ESO-1),
+  gain of CD73/A2AR adenosine axis activation, and emergence of PD-L1- IFN-γ-resistant clones
+expected_vale_issues:
+  - rule: CSR.laboratory.reporting
+    message: "Required laboratory reporting element missing: comprehensive immune profiling"
+  - rule: CSR.scientific.precision
+    message: "Specify immune parameter quantification methods"
+  - rule: CSR.biomarkers.analysis
+    message: "Required biomarker analysis element missing: resistance mechanism characterization"
+expected_llm_feedback:
+  - "Report detailed flow cytometry gating strategies"
+  - "Include cytokine/chemokine quantification methods"
+  - "Detail spatial immune profiling methodology"
+  - "Report antigen presentation machinery analysis"
+  - "Include T cell receptor repertoire analysis"
+  - "Specify immune escape mechanism validation"
+  - "Detail microenvironment characterization methods"

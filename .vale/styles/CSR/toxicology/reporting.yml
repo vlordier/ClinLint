@@ -1,0 +1,38 @@
+extends: existence
+message: "Required toxicology reporting element missing: %s"
+level: error
+tokens:
+  # General Toxicology
+  - dose selection rationale
+  - exposure assessment
+  - toxicokinetic analysis
+  - safety margin calculation
+  - risk assessment
+  
+  # Organ-specific Toxicity
+  - target organ identification
+  - severity grading
+  - reversibility assessment
+  - mechanism evaluation
+  - biomarker correlation
+  
+  # Special Toxicology
+  - genotoxicity assessment
+  - carcinogenicity evaluation
+  - reproductive toxicity
+  - developmental toxicity
+  - immunotoxicity
+  
+  # Safety Pharmacology
+  - cardiovascular assessment
+  - respiratory evaluation
+  - neurological examination
+  - gastrointestinal effects
+  - renal function
+  
+  # Risk Management
+  - monitoring recommendations
+  - mitigation strategies
+  - stopping criteria
+  - reversibility data
+  - long-term follow-up

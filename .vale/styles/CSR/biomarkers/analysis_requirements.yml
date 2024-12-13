@@ -1,0 +1,27 @@
+extends: existence
+message: "Required biomarker analysis element missing: %s"
+level: error
+tokens:
+  # Assay Validation
+  - analytical validation
+  - precision assessment
+  - accuracy metrics
+  - stability data
+  
+  # Statistical Analysis
+  - normalization method
+  - batch effect correction
+  - outlier detection
+  - missing value imputation
+  
+  # Predictive Modeling
+  - feature selection method
+  - model validation approach
+  - cross-validation scheme
+  - prediction metrics
+  
+  # Clinical Correlation
+  - biomarker-outcome association
+  - time-dependent analysis
+  - subgroup effects
+  - multivariate adjustment

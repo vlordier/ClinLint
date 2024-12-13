@@ -1,0 +1,31 @@
+extends: existence
+message: "Required PK study element missing: %s"
+level: error
+tokens:
+  # Study Design
+  - dose levels
+  - escalation criteria
+  - sampling strategy
+  - washout periods
+  - food effect assessment
+  
+  # Analysis
+  - non-compartmental analysis
+  - compartmental modeling
+  - dose proportionality
+  - time dependencies
+  - accumulation assessment
+  
+  # Parameters
+  - absorption parameters
+  - distribution volume
+  - clearance calculation
+  - half-life determination
+  - bioavailability assessment
+  
+  # Special Populations
+  - hepatic impairment
+  - renal impairment
+  - elderly subjects
+  - gender differences
+  - ethnic factors

@@ -1,0 +1,16 @@
+extends: existence
+message: "Time Frame requirements: %s"
+level: error
+scope: text
+tokens:
+  # Non-specific time frames
+  - \b(postoperative|throughout the study|through study completion|from randomization to end of study)\b
+  
+  # Missing time units
+  - \b\d+(?!\s*(?:second|minute|hour|day|week|month|year)s?\b)
+  
+  # One-letter abbreviations
+  - \b[DWM]\d+\b
+  
+  # Missing assessment points for change measures
+  - \bchange\b(?!.*(?:from|between|at))

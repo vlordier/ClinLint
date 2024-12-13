@@ -1,0 +1,15 @@
+text: "Machine learning algorithms identified complex patterns of adverse events requiring specialized monitoring."
+expected_vale_issues:
+  - rule: CSR.safety.reporting
+    message: "Required safety reporting element missing: monitoring methodology"
+  - rule: CSR.scientific.precision
+    message: "Specify monitoring parameters and algorithms"
+expected_llm_feedback:
+  - "Detail algorithm specifications"
+  - "Report feature importance rankings"
+  - "Include validation metrics"
+  - "Specify alert thresholds"
+  - "Report positive predictive value"
+  - "Include false positive analysis"
+  - "Detail intervention criteria"
+  - "Report monitoring frequency"

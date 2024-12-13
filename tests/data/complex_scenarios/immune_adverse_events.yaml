@@ -1,0 +1,21 @@
+text: |
+  Patient developed Grade 4 cytokine release syndrome with concurrent Grade 3 immune-mediated colitis and Grade 2 pneumonitis.
+  Peak cytokine levels: IL-6 1200pg/mL (ULN 5), TNF-α 800pg/mL (ULN 20), IL-1β 150pg/mL (ULN 15).
+  Endoscopy revealed diffuse colonic ulceration (Mayo score 3) with elevated calprotectin (2800μg/g).
+  CT showed ground-glass opacities (GGO) in bilateral lower lobes (total GGO score 18/24).
+  Treatment required tocilizumab (8mg/kg q6h×3), high-dose steroids (methylprednisolone 2mg/kg/day), and infliximab (5mg/kg×1).
+expected_vale_issues:
+  - rule: CSR.safety.severity
+    message: "Include organ-specific CTCAE grades with temporal evolution"
+  - rule: CSR.laboratory.reporting
+    message: "Required laboratory reporting element missing: cytokine dynamics"
+  - rule: CSR.scientific.precision
+    message: "Specify intervention timing and responses"
+expected_llm_feedback:
+  - "Report detailed cytokine trends with assay specifications"
+  - "Include comprehensive inflammatory marker panel"
+  - "Detail organ-specific severity criteria"
+  - "Report intervention timing and dose adjustments"
+  - "Include recovery patterns for each system"
+  - "Specify rechallenge criteria if applicable"
+  - "Detail long-term follow-up requirements"

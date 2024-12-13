@@ -1,0 +1,36 @@
+extends: existence
+message: "Table formatting requirements: %s"
+level: error
+scope: table
+tokens:
+  # Table Headers
+  - '^[a-z]'          # Headers must be capitalized
+  - '[^\|]\s{2,}[^\|]' # Excessive spacing in cells
+  
+  # Table Numbers
+  - 'Table\s+\d+(?!\.)' # Missing period after table number
+  - 'Table\s+\d+\.[^A-Z]' # Missing capital after table number
+  
+  # Table Footnotes
+  - '^[a-z]:'         # Footnote format
+  - '^[^a-z]:'        # Invalid footnote marker
+  
+  # Table Borders
+  - '[^\|]$'          # Missing vertical borders
+  - '^[^\|]'          # Missing vertical borders
+  
+  # Cell Alignment
+  - '\|\s{2,}[^\s]'   # Inconsistent cell padding
+  - '[^\s]\s{2,}\|'   # Inconsistent cell padding
+
+# Table Caption Requirements
+caption:
+  location: "above"
+  format: "Table X. Description"
+  period: required
+
+# Column Header Requirements
+headers:
+  alignment: "center"
+  style: "bold"
+  borders: "required"

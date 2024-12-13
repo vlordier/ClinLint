@@ -1,0 +1,33 @@
+extends: existence
+message: "Required results element missing: %s"
+level: error
+tokens:
+  # Study Population
+  - participant disposition
+  - protocol deviations
+  - demographics summary
+  - baseline characteristics
+  
+  # Efficacy Results
+  - primary endpoint results
+  - secondary endpoint results
+  - subgroup analyses
+  - sensitivity analyses
+  
+  # Safety Results
+  - exposure summary
+  - adverse event summary
+  - laboratory results
+  - vital signs results
+  
+  # Other Analyses
+  - pharmacokinetic results
+  - biomarker results
+  - quality of life results
+  - compliance data
+  
+  # Data Quality
+  - protocol adherence rates
+  - missing data patterns
+  - data validation results
+  - audit findings

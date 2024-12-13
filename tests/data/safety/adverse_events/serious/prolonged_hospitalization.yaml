@@ -1,0 +1,11 @@
+text: "The SAE led to prolonged hospitalization."
+expected_vale_issues:
+  - rule: CSR.safety.sae_criteria
+    message: "Specify duration of hospitalization extension"
+  - rule: CSR.safety.reporting
+    message: "Include original and extended dates"
+expected_llm_feedback:
+  - "Report original planned discharge date"
+  - "Report actual discharge date"
+  - "Specify reason for extension"
+  - "Include medical interventions during extension"

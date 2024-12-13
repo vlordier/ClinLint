@@ -1,0 +1,24 @@
+extends: existence
+message: "Required post-marketing element missing: %s"
+level: error
+tokens:
+  # Safety Monitoring
+  - spontaneous reporting
+  - targeted follow-up
+  - pregnancy registry
+  - special populations
+  - long-term outcomes
+  
+  # Effectiveness
+  - real-world effectiveness
+  - comparative effectiveness
+  - utilization patterns
+  - adherence data
+  - treatment patterns
+  
+  # Risk Management
+  - risk minimization
+  - medication errors
+  - off-label use
+  - abuse potential
+  - misuse patterns

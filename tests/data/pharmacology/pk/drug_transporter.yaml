@@ -1,0 +1,11 @@
+text: "The drug showed P-glycoprotein interaction."
+expected_vale_issues:
+  - rule: CSR.pharmacology.pk_pd
+    message: "Required PK element missing: transporter assessment"
+  - rule: CSR.scientific.precision
+    message: "Specify transporter interaction parameters"
+expected_llm_feedback:
+  - "Report IC50 values"
+  - "Include efflux ratios"
+  - "Specify substrate/inhibitor status"
+  - "Detail clinical implications"

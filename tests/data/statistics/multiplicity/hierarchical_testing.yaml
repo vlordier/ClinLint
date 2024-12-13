@@ -1,0 +1,10 @@
+text: "Multiple endpoints were tested."
+expected_vale_issues:
+  - rule: CSR.statistics.reporting
+    message: "Required statistical elements missing: multiplicity adjustment"
+  - rule: CSR.statistics.advanced_methods
+    message: "Required advanced statistical element missing: hierarchical testing procedure"
+expected_llm_feedback:
+  - "Specify testing hierarchy"
+  - "Report adjusted alpha levels"
+  - "Include gatekeeping strategy"

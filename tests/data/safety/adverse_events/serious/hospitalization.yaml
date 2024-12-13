@@ -1,0 +1,10 @@
+text: "A serious adverse event requiring hospitalization occurred."
+expected_vale_issues:
+  - rule: CSR.safety.sae_criteria
+    message: "Specify hospitalization duration and outcome"
+  - rule: CSR.safety.reporting
+    message: "Include admission/discharge dates"
+expected_llm_feedback:
+  - "Report hospital admission date"
+  - "Report discharge date"
+  - "Specify event outcome"

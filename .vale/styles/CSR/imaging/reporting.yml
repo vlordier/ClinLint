@@ -1,0 +1,38 @@
+extends: existence
+message: "Required imaging reporting element missing: %s"
+level: error
+tokens:
+  # Acquisition Parameters
+  - imaging protocol
+  - acquisition parameters
+  - reconstruction parameters
+  - contrast administration
+  - patient positioning
+  
+  # Quality Control
+  - image quality assessment
+  - artifact evaluation
+  - motion correction
+  - calibration verification
+  - standardization measures
+  
+  # Interpretation Methods
+  - reading methodology
+  - blinding procedures
+  - consensus process
+  - adjudication criteria
+  - discrepancy resolution
+  
+  # Quantification
+  - measurement technique
+  - volumetric analysis
+  - density assessment
+  - signal intensity
+  - contrast enhancement
+  
+  # Response Assessment
+  - response criteria
+  - progression criteria
+  - measurement variability
+  - reader agreement
+  - clinical correlation

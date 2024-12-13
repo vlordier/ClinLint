@@ -1,0 +1,13 @@
+text: "Time-dependent CYP3A4 induction with autoinduction characteristics was observed."
+expected_vale_issues:
+  - rule: CSR.pharmacology.pk_pd
+    message: "Required PK element missing: enzyme kinetics"
+  - rule: CSR.scientific.precision
+    message: "Specify induction parameters"
+expected_llm_feedback:
+  - "Report fold-change in activity"
+  - "Include EC50 values"
+  - "Specify Emax parameters"
+  - "Detail time course"
+  - "Report mRNA levels"
+  - "Include protein expression"

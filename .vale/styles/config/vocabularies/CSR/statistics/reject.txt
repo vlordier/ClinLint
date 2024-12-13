@@ -1,0 +1,190 @@
+# Vague statistical terms
+significant
+significantly
+trending
+trended
+approximately
+about
+around
+roughly
+presumably
+possibly
+maybe
+perhaps
+probably
+likely
+appears to
+seems to
+tends to
+generally
+usually
+typically
+often
+rarely
+frequently
+occasionally
+somewhat
+sort of
+kind of
+more or less
+virtually
+practically
+essentially
+basically
+nominally
+relatively
+comparatively
+moderately
+substantially
+considerably
+markedly
+notably
+
+# Unscientific qualifiers
+very
+quite
+rather
+somewhat
+fairly
+pretty
+relatively
+extremely
+incredibly
+amazingly
+surprisingly
+remarkably
+notably
+substantially
+dramatically
+considerably
+significantly
+marginally
+slightly
+mildly
+moderately
+severely
+extensively
+minimally
+maximally
+essentially
+basically
+practically
+virtually
+literally
+actually
+really
+clearly
+obviously
+apparently
+evidently
+seemingly
+presumably
+arguably
+theoretically
+conceivably
+potentially
+possibly
+probably
+likely
+unlikely
+definitely
+certainly
+absolutely
+undoubtedly
+
+# Imprecise temporal terms
+recently
+previously
+currently
+presently
+formerly
+lately
+soon
+eventually
+gradually
+rapidly
+quickly
+slowly
+suddenly
+immediately
+promptly
+at this time
+at present
+at the moment
+in the past
+in the future
+over time
+throughout
+during the study
+during treatment
+during follow-up
+at baseline
+at screening
+at enrollment
+at randomization
+at study entry
+at study completion
+at study end
+at final visit
+periodically
+intermittently
+occasionally
+frequently
+regularly
+
+# Vague magnitude descriptors
+high
+low
+higher
+lower
+increased
+decreased
+elevated
+reduced
+minimal
+maximal
+substantial
+considerable
+negligible
+marked
+pronounced
+modest
+major
+minor
+small
+large
+huge
+tiny
+
+# Imprecise comparison terms
+similar to
+different from
+comparable to
+consistent with
+in line with
+parallels
+mirrors
+matches
+equals
+exceeds
+falls short of
+greater than
+less than
+more than
+fewer than
+analogous to
+equivalent to
+identical to
+resembles
+approximates
+approaches
+deviates from
+diverges from
+varies from
+aligns with
+corresponds to
+correlates with
+associates with
+relates to
+compares to
+contrasts with

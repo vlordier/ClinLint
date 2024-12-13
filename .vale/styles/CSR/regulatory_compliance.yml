@@ -1,0 +1,15 @@
+# ICH E3 compliance
+extends: existence
+message: "Required ICH E3 element missing: %s"
+level: error
+tokens:
+  - study objectives
+  - inclusion criteria
+  - exclusion criteria
+  - primary endpoint
+  - statistical methods
+  - study population
+  - efficacy results
+  - safety results
+  - study limitations
+  - ethical considerations

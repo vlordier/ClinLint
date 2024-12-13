@@ -1,0 +1,123 @@
+# Incorrect adverse event terminology
+side effect
+side effects
+negative effect
+negative effects
+complication
+complications
+problem
+problems
+(?i)reaction
+(?i)reactions
+issue
+issues
+concern
+concerns
+difficulty
+difficulties
+abnormality
+abnormalities
+anomaly
+anomalies
+irregularity
+irregularities
+incident
+incidents
+episode
+episodes
+occurrence
+occurrences
+manifestation
+manifestations
+symptom
+symptoms
+complaint
+complaints
+discomfort
+disturbance
+disturbances
+ailment
+ailments
+condition
+conditions
+disorder
+disorders
+malady
+maladies
+affliction
+afflictions
+
+# Incorrect severity terminology
+mild
+moderate
+severe
+serious
+life-threatening
+fatal
+minimal
+slight
+minor
+major
+significant
+insignificant
+substantial
+considerable
+negligible
+pronounced
+marked
+notable
+remarkable
+unremarkable
+intense
+extreme
+critical
+devastating
+catastrophic
+dire
+grave
+marginal
+trivial
+inconsequential
+
+# Incorrect causality terms
+might be related
+could be related
+maybe related
+perhaps related
+seems related
+appears related
+potentially related
+possibly related
+presumably related
+likely related
+probably related
+apparently related
+suspected to be related
+thought to be related
+believed to be related
+considered to be related
+may have caused
+might have caused
+could have caused
+cannot be ruled out
+temporal relationship
+temporal association
+suggestive of
+indicative of
+consistent with
+associated with
+linked to
+connected to
+correlated with
+coincident with
+concurrent with
+secondary to
+consequent to
+resulting from
+stemming from
+arising from
+following from
+due to
+because of
+attributed to
+ascribed to

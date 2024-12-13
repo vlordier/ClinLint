@@ -1,0 +1,15 @@
+text: "Grade 3 immune-related adverse events affecting multiple organ systems developed with overlapping onset patterns."
+expected_vale_issues:
+  - rule: CSR.safety.severity
+    message: "Include organ-specific CTCAE grades"
+  - rule: CSR.laboratory.reporting
+    message: "Required laboratory reporting element missing: immune parameters"
+expected_llm_feedback:
+  - "Report affected organ systems"
+  - "Include autoantibody profiles"
+  - "Detail cytokine patterns"
+  - "Report temporal relationships"
+  - "Include steroid requirements"
+  - "Specify immunosuppression needs"
+  - "Report resolution patterns"
+  - "Include rechallenge outcomes"

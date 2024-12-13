@@ -1,0 +1,42 @@
+extends: existence
+message: "Use scientific writing style: %s"
+level: error
+tokens:
+  # Avoid personal pronouns
+  - \b(I|we|you|your)\b
+  
+  # Avoid colloquial expressions
+  - \b(bottom line|rule of thumb|ballpark|game changer)\b
+  
+  # Avoid anthropomorphizing
+  - \b(the study shows|the data suggests|the results demonstrate)\b
+  
+  # Avoid dramatic language
+  - \b(dramatic|dramatic(ally)?|striking(ly)?|remarkable|remarkable(ly)?)\b
+  
+  # Avoid speculative language
+  - \b(might|could|may|possibly|probably|presumably|perhaps|maybe)\b
+  
+  # Avoid vague temporal references
+  - \b(recent(ly)?|current(ly)?|previous(ly)?|eventual(ly)?)\b
+  
+  # Avoid non-specific quantifiers
+  - \b(many|few|several|some|most|various)\b
+  
+  # Avoid subjective qualifiers
+  - \b(very|quite|rather|fairly|pretty|relatively)\b
+  
+  # Require precise comparisons
+  - \b(similar|different|comparable|consistent)\b(?! with [0-9])
+  
+  # Require precise measurements
+  - \b(high|low|increased|decreased)(?! by [0-9]|\([0-9])\b
+  
+  # Require specific timepoints
+  - \b(short[- ]term|long[- ]term|brief|prolonged)(?! \([0-9]|\[[0-9])\b
+  
+  # Require statistical support
+  - \b(correlation|association|relationship|connection|link)(?! coefficient|analysis|\([rp]=)\b
+  
+  # Require precise biological terms
+  - \b(blood levels|kidney|liver|heart|brain|lung)(?! function test|\(.*\))\b

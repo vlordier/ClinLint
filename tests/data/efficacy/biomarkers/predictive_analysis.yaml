@@ -1,0 +1,11 @@
+text: "Biomarker analysis showed correlation with response."
+expected_vale_issues:
+  - rule: CSR.biomarkers.analysis
+    message: "Required biomarker analysis element missing: statistical methodology"
+  - rule: CSR.statistics.reporting
+    message: "Include required statistical elements: correlation coefficient"
+expected_llm_feedback:
+  - "Report correlation coefficient"
+  - "Include confidence intervals"
+  - "Specify statistical method"
+  - "Report predictive values"

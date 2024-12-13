@@ -1,0 +1,13 @@
+text: "Complex metabolic networks involving multiple CYP isoforms showed time-dependent changes."
+expected_vale_issues:
+  - rule: CSR.pharmacology.pk_pd
+    message: "Required PK element missing: metabolic pathway analysis"
+  - rule: CSR.scientific.precision
+    message: "Specify metabolic parameters"
+expected_llm_feedback:
+  - "Report activity ratios for each CYP"
+  - "Include metabolite profiles"
+  - "Detail reaction phenotyping"
+  - "Report enzyme kinetics"
+  - "Include PBPK modeling"
+  - "Specify metabolic interactions"

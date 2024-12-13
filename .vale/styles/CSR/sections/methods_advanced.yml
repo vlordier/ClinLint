@@ -1,0 +1,45 @@
+extends: existence
+message: "Required methods section element missing: %s"
+level: error
+tokens:
+  # Study Design Details
+  - adaptive design rules
+  - interim analysis criteria
+  - sample size re-estimation
+  - futility boundaries
+  - success criteria
+  
+  # Population Details
+  - genetic screening
+  - biomarker stratification
+  - enrichment criteria
+  - exclusion rationale
+  - withdrawal criteria
+  
+  # Treatment Details
+  - dose modification rules
+  - combination sequences
+  - rescue medication
+  - prohibited treatments
+  - compliance assessment
+  
+  # Assessment Details
+  - imaging protocols
+  - central review process
+  - adjudication procedures
+  - PRO administration
+  - quality of life tools
+  
+  # Laboratory Details
+  - sample processing
+  - analytical validation
+  - reference ranges
+  - critical values
+  - batch effects
+  
+  # Statistical Details
+  - multiplicity control
+  - missing data methods
+  - sensitivity approaches
+  - subgroup analyses
+  - modeling strategy

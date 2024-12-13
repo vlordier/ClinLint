@@ -1,0 +1,14 @@
+extends: existence
+message: "Required section missing: %s"
+level: error
+tokens:
+  - synopsis
+  - table of contents
+  - list of abbreviations
+  - ethics statement
+  - study objectives
+  - methodology
+  - results
+  - discussion
+  - conclusions
+  - references

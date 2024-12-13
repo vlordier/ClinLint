@@ -1,0 +1,11 @@
+text: "Patient had headache."
+expected_vale_issues:
+  - rule: CSR.safety.basic_ae_reporting
+    message: "Required basic AE reporting element missing: severity grade"
+  - rule: CSR.safety.reporting
+    message: "Include onset and duration"
+expected_llm_feedback:
+  - "Report CTCAE grade"
+  - "Specify onset date"
+  - "Include duration"
+  - "Report outcome"

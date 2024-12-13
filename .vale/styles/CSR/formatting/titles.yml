@@ -1,0 +1,46 @@
+extends: existence
+message: "Title formatting requirements: %s"
+level: error
+scope: heading
+tokens:
+  # Title Case Rules
+  - '[a-z](?=[A-Z])'  # Missing space between words
+  - '[A-Z]{2,}'       # All caps words (except approved abbreviations)
+  - '[a-z]\.'         # Periods in titles
+  
+  # Spacing Rules
+  - '\s{2,}'          # Multiple spaces
+  - '^\s'             # Leading spaces
+  - '\s$'             # Trailing spaces
+  
+  # Numbering Format
+  - '^[0-9]+\.'       # Missing space after number
+  - '^[0-9]+[^.]'     # Missing period after number
+  
+  # Subtitle Format
+  - '^[0-9]+\.[0-9]+[^.]'  # Missing period in subsection
+  - '^[0-9]+\.[0-9]+\s[a-z]' # Lowercase after subsection number
+
+# Title Case Exceptions (common abbreviations and terms)
+exceptions:
+  - "pH"
+  - "DNA"
+  - "RNA"
+  - "CSR"
+  - "ICH"
+  - "GCP"
+  - "FDA"
+  - "EMA"
+  - "PMDA"
+  - "IND"
+  - "NDA"
+  - "BLA"
+  - "CTA"
+  - "MAA"
+  - "PK"
+  - "PD"
+  - "AE"
+  - "SAE"
+  - "ECG"
+  - "MRI"
+  - "CT"

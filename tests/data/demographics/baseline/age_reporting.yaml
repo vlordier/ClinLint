@@ -1,0 +1,10 @@
+text: "The study included elderly patients."
+expected_vale_issues:
+  - rule: CSR.demographics.reporting
+    message: "Required demographic reporting element missing: age distribution"
+  - rule: CSR.scientific.precision
+    message: "Use precise terminology: specify age range"
+expected_llm_feedback:
+  - "Report age range"
+  - "Include mean/median age with SD/IQR"
+  - "Provide age category breakdown"

@@ -1,0 +1,42 @@
+rules:
+  terminology:
+    extends: substitution
+    message: "Use precise statistical terminology: '%s' instead of '%s'"
+    level: error
+    ignorecase: true
+    swap:
+      average: mean
+      roughly: [specify confidence interval]
+      approximately: [specify confidence interval]
+      around: [specify exact value]
+      about: [specify exact value]
+      significant difference: [specify p-value and CI]
+      significant improvement: [specify effect size and p-value]
+
+  reporting:
+    extends: existence
+    message: "Include required statistical elements: %s"
+    level: error
+    tokens:
+      - \bp[ ]*[<>]=?[ ]*[0-9.]+\b
+      - \b95%[ ]*CI\b
+      - \bconfidence interval\b
+      - \bstandard deviation\b
+      - \bSD\b
+      - \bstandard error\b
+      - \bSE\b
+      - \bmedian\b
+      - \bIQR\b
+      - \brange\b
+
+  population:
+    extends: substitution
+    message: "Use standard analysis population terminology: '%s' instead of '%s'"
+    level: error
+    swap:
+      all patients: ITT population
+      all subjects: ITT population
+      completed patients: PP population
+      completed subjects: PP population
+      safety population: safety analysis set
+      efficacy population: efficacy analysis set

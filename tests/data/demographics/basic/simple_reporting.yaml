@@ -1,0 +1,10 @@
+text: "Study included adults."
+expected_vale_issues:
+  - rule: CSR.demographics.basic_reporting
+    message: "Required basic demographic element missing: age range"
+  - rule: CSR.scientific.precision
+    message: "Specify exact age range"
+expected_llm_feedback:
+  - "Report age range with mean/median"
+  - "Include standard deviation"
+  - "Provide age categories"

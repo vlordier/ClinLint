@@ -1,0 +1,10 @@
+text: "A life-threatening adverse event of anaphylaxis occurred."
+expected_vale_issues:
+  - rule: CSR.safety.severity
+    message: "Use CTCAE grading terminology: 'Grade 4' instead of 'life-threatening'"
+  - rule: CSR.safety.reporting
+    message: "Include intervention details"
+expected_llm_feedback:
+  - "Specify interventions administered"
+  - "Report time to resolution"
+  - "Include follow-up assessments"

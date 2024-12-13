@@ -1,0 +1,14 @@
+name: Text Improvement Suggestions
+description: Suggest specific improvements based on issues identified by Vale.
+template: |
+  You are an expert in medical writing and regulatory compliance. The following issues were identified in the text by a rule-based linting tool:
+
+  Issues:
+  {vale_issues}
+
+  Here is the original text:
+  ---
+  {text}
+  ---
+
+  Provide actionable suggestions to improve the text based on these issues. Your suggestions should align with ICH E3 guidelines and maintain clarity and professionalism.

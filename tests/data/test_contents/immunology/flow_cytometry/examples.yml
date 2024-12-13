@@ -1,0 +1,21 @@
+# Flow cytometry test cases
+examples:
+  - id: panel-validation
+    text: "T cells were analyzed by flow cytometry."
+    expected_issues:
+      - rule: CSR.immunology.flow_cytometry
+        message: "Required flow cytometry element missing: compensation controls"
+    expected_feedback:
+      - "Specify panel design details"
+      - "Include compensation strategy"
+      - "Detail gating hierarchy"
+
+  - id: qc-reporting
+    text: "Samples were analyzed on a flow cytometer."
+    expected_issues:
+      - rule: CSR.immunology.flow_cytometry
+        message: "Required flow cytometry element missing: instrument calibration"
+    expected_feedback:
+      - "Report QC measures"
+      - "Include calibration data"
+      - "Specify instrument settings"

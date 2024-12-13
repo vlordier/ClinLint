@@ -1,0 +1,65 @@
+extends: existence
+message: "Required Phase 3 element missing: %s"
+level: error
+tokens:
+  # Primary Analysis Elements
+  - primary endpoint analysis with superiority/non-inferiority hypothesis
+  - statistical power calculation with assumptions
+  - multiplicity control with family-wise error rate
+  - subgroup analyses with interaction testing
+  - sensitivity analyses with missing data approaches
+  - interim analyses with alpha spending function
+  - adaptive design elements with type I error control
+  - estimand framework with intercurrent events
+  - protocol deviation impact assessment
+  - per-protocol analysis criteria
+  
+  # Long-term Safety Elements
+  - exposure duration with cumulative assessment
+  - adverse event patterns with temporal analysis
+  - laboratory abnormality trends
+  - vital sign monitoring strategy
+  - ECG interval analysis
+  - immunogenicity assessment
+  - pregnancy surveillance
+  - special population safety
+  - drug-drug interaction monitoring
+  - hepatic safety monitoring
+  - cardiovascular safety assessment
+  - risk management strategy
+  
+  # Comparator Study Elements
+  - active control justification with clinical practice
+  - non-inferiority margin with historical evidence
+  - assay sensitivity demonstration
+  - constancy assumption validation
+  - comparative safety analysis
+  - comparative effectiveness metrics
+  - cost-effectiveness analysis
+  - quality of life comparison
+  - patient preference assessment
+  - healthcare resource utilization
+  
+  # Population Elements
+  - demographic representation
+  - geographic diversity
+  - ethnic factors analysis
+  - age group stratification
+  - comorbidity assessment
+  - concomitant medication impact
+  - compliance monitoring
+  - discontinuation patterns
+  - lost to follow-up analysis
+  - protocol violation assessment
+  
+  # Regulatory Elements
+  - registration trial requirements
+  - marketing application strategy
+  - labeling considerations
+  - risk evaluation strategy
+  - post-marketing commitments
+  - pediatric investigation plan
+  - special population requirements
+  - regional regulatory alignment
+  - advisory committee preparation
+  - inspection readiness assessment

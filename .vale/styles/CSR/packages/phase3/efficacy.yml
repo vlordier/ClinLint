@@ -1,0 +1,23 @@
+extends: existence
+message: "Required Phase 3 efficacy element missing: %s"
+level: error
+tokens:
+  # Primary Analysis Elements
+  - confirmatory efficacy analysis with pre-specified hypothesis
+  - non-inferiority margin with clinical justification
+  - superiority margin with effect size rationale
+  - multiplicity adjustment with FWER control
+  - interim analysis with alpha spending
+  - sample size re-estimation criteria
+  - missing data approach with sensitivity
+  - estimand framework with ICE strategy
+  
+  # Secondary Analyses
+  - hierarchical testing with ordered endpoints
+  - subgroup analysis with interaction testing
+  - sensitivity analysis with robustness check
+  - multicenter analysis with poolability
+  - covariate adjustment with specification
+  - time-to-event analysis with censoring
+  - repeated measures with mixed models
+  - categorical analysis with odds ratios

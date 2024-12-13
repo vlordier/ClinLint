@@ -1,0 +1,45 @@
+extends: existence
+message: "Required FTIH study element missing: %s"
+level: error
+tokens:
+  # Safety Monitoring
+  - sentinel dosing strategy
+  - dose escalation criteria
+  - stopping rules
+  - safety review committee
+  - cohort progression rules
+  - adverse event monitoring
+  - safety parameters
+  - risk mitigation measures
+  
+  # PK Assessment
+  - first dose PK
+  - single ascending dose
+  - multiple ascending dose
+  - dose proportionality
+  - food effect assessment
+  - drug-drug interactions
+  - special populations
+  
+  # PD Assessment
+  - biomarker selection
+  - target engagement
+  - proof of mechanism
+  - dose-response relationship
+  - therapeutic window
+  - safety margins
+  
+  # Study Design
+  - cohort size rationale
+  - dose selection rationale
+  - dosing interval
+  - washout period
+  - blinding procedures
+  - randomization method
+  
+  # Special Assessments
+  - ECG monitoring
+  - vital signs monitoring
+  - laboratory monitoring
+  - immunogenicity screening
+  - safety biomarkers

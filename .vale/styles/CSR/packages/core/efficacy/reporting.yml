@@ -1,0 +1,33 @@
+extends: existence
+message: "Required efficacy reporting element missing: %s"
+level: error
+tokens:
+  # Results Presentation
+  - primary outcome with precision
+  - secondary outcomes with hierarchy
+  - subgroup results with interaction
+  - sensitivity analyses with impact
+  - interim analyses with decisions
+  - safety outcomes with integration
+  - exploratory analyses with context
+  - supplementary results with rationale
+  
+  # Data Quality
+  - completeness assessment
+  - consistency checks
+  - protocol adherence
+  - data cleaning steps
+  - query resolution
+  - audit findings
+  - monitoring results
+  - validation status
+  
+  # Interpretation
+  - clinical significance
+  - statistical significance
+  - effect size relevance
+  - benefit assessment
+  - limitations discussion
+  - generalizability
+  - external validity
+  - clinical context

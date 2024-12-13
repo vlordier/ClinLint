@@ -1,0 +1,22 @@
+extends: existence
+message: "Required Phase 1 safety element missing: %s"
+level: error
+tokens:
+  # Core Safety Monitoring
+  - sentinel dosing strategy with observation period
+  - dose escalation criteria with decision rules
+  - stopping rules with quantitative thresholds
+  - safety review committee charter
+  - cohort progression criteria
+  - adverse event monitoring plan
+  - laboratory monitoring schedule
+  - ECG assessment timing
+  - vital signs monitoring plan
+  - physical examination requirements
+  
+  # Special Safety Assessments
+  - immunogenicity screening
+  - QT/QTc evaluation
+  - organ function monitoring
+  - safety biomarker panel
+  - drug-drug interaction screening

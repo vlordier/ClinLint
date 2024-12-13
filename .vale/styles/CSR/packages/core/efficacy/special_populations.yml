@@ -1,0 +1,53 @@
+extends: existence
+message: "Required special population efficacy element missing: %s"
+level: error
+tokens:
+  # Pediatric Population
+  - age-appropriate endpoints with validation
+  - developmental assessment with milestones
+  - growth parameters with trajectories
+  - cognitive function with tools
+  - quality of life with pediatric instruments
+  - family impact with measures
+  - school performance with metrics
+  - peer interaction with assessment
+  
+  # Geriatric Population
+  - functional status with ADL scales
+  - cognitive status with assessment
+  - frailty measures with scores
+  - falls risk with evaluation
+  - polypharmacy impact with analysis
+  - caregiver burden with tools
+  - social support with assessment
+  - independence measures with scales
+  
+  # Pregnancy/Lactation
+  - maternal outcomes with monitoring
+  - fetal outcomes with assessment
+  - pregnancy complications with tracking
+  - lactation effects with measurement
+  - developmental outcomes with follow-up
+  - reproductive toxicity with evaluation
+  - fertility impact with analysis
+  - birth defects with surveillance
+  
+  # Organ Impairment
+  - hepatic adjustment with Child-Pugh
+  - renal modification with CrCl/eGFR
+  - cardiac consideration with NYHA
+  - respiratory assessment with function
+  - neurological status with scales
+  - metabolic impact with parameters
+  - dose modification with algorithms
+  - monitoring frequency with criteria
+  
+  # Genetic Subgroups
+  - pharmacogenetic analysis with markers
+  - metabolizer status with phenotype
+  - ethnic differences with factors
+  - genetic variants with response
+  - biomarker correlation with outcomes
+  - pathway analysis with targets
+  - resistance patterns with mechanisms
+  - susceptibility factors with assessment

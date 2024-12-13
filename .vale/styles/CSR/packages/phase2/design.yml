@@ -1,0 +1,23 @@
+extends: existence
+message: "Required Phase 2 design element missing: %s"
+level: error
+tokens:
+  # Design Elements
+  - adaptive design features with rules
+  - interim analysis with criteria
+  - sample size with justification
+  - randomization with stratification
+  - control selection with rationale
+  - blinding procedures with maintenance
+  - crossover considerations with washout
+  - enrichment strategy with biomarkers
+  
+  # Population Elements
+  - patient selection with criteria
+  - disease characteristics with staging
+  - prior therapy with restrictions
+  - concomitant medications with rules
+  - demographic factors with balance
+  - genetic screening with markers
+  - organ function with requirements
+  - compliance assessment with measures

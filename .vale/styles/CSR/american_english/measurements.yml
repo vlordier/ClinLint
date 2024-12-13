@@ -1,0 +1,55 @@
+extends: existence
+message: "Use SI units: %s"
+level: error
+tokens:
+  # Weight
+  - '\b[0-9]+\s*lb\b'
+  - '\b[0-9]+\s*oz\b'
+  - '\b[0-9]+\s*gr\b'
+  
+  # Volume
+  - '\b[0-9]+\s*qt\b'
+  - '\b[0-9]+\s*fl\s*oz\b'
+  - '\b[0-9]+\s*pt\b'
+  - '\b[0-9]+\s*gal\b'
+  
+  # Length
+  - '\b[0-9]+\s*mi\b'
+  - '\b[0-9]+\s*ft\b'
+  - '\b[0-9]+\s*in\b'
+  - '\b[0-9]+\s*yd\b'
+  
+  # Temperature
+  - '\b[0-9]+\s*°F\b'
+  - '\b[0-9]+\s*degrees\s*F\b'
+  - '\b[0-9]+\s*degrees\s*Fahrenheit\b'
+  
+  # Pressure
+  - '\b[0-9]+\s*psi\b'
+  - '\b[0-9]+\s*inHg\b'
+  
+  # Area
+  - '\b[0-9]+\s*sq\s*ft\b'
+  - '\b[0-9]+\s*sq\s*in\b'
+  - '\b[0-9]+\s*sq\s*mi\b'
+  - '\b[0-9]+\s*acre\b'
+  
+  # Speed
+  - '\b[0-9]+\s*mph\b'
+  - '\b[0-9]+\s*ft/s\b'
+  
+  # Energy
+  - '\b[0-9]+\s*BTU\b'
+  - '\b[0-9]+\s*Cal\b'
+  
+  # Power
+  - '\b[0-9]+\s*hp\b'
+  - '\b[0-9]+\s*BTU/h\b'
+  
+  # Flow
+  - '\b[0-9]+\s*gal/min\b'
+  - '\b[0-9]+\s*fl\s*oz/min\b'
+  
+  # Density
+  - '\b[0-9]+\s*lb/ft3\b'
+  - '\b[0-9]+\s*lb/in3\b'

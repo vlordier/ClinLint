@@ -1,0 +1,31 @@
+extends: existence
+message: "Required PVR element missing: %s"
+level: error
+tokens:
+  # Safety Analysis
+  - signal detection
+  - case evaluation
+  - aggregate analysis
+  - literature review
+  - clinical trial safety
+  
+  # Risk Assessment
+  - identified risks
+  - potential risks
+  - missing information
+  - risk factors
+  - at-risk populations
+  
+  # Risk Management
+  - minimization measures
+  - effectiveness assessment
+  - additional monitoring
+  - study commitments
+  - regulatory obligations
+  
+  # Benefit Evaluation
+  - efficacy maintenance
+  - therapeutic value
+  - alternative treatments
+  - medical need
+  - benefit-risk balance

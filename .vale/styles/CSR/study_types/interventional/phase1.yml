@@ -1,0 +1,63 @@
+extends: existence
+message: "Required Phase 1 element missing: %s"
+level: error
+tokens:
+  # SAD Study Elements
+  - dose escalation criteria with quantitative rules
+  - stopping rules with specific thresholds
+  - safety monitoring plan with time windows
+  - PK sampling schedule with time points
+  - dose proportionality assessment method
+  - cohort progression criteria with metrics
+  - interim safety analysis plan
+  - dose adjustment algorithms
+  - toxicity management procedures
+  - subject replacement criteria
+  
+  # MAD Study Elements
+  - steady state assessment timing
+  - accumulation ratio calculation
+  - time dependency evaluation
+  - metabolite profiling strategy
+  - washout period justification
+  - trough concentration monitoring
+  - dose titration procedures
+  - safety biomarker tracking
+  - tolerance assessment plan
+  - drug-drug interaction screening
+  
+  # BA Study Elements
+  - absolute bioavailability design
+  - relative bioavailability criteria
+  - food effect assessment timing
+  - formulation comparison methods
+  - absorption sites evaluation
+  - reference product selection
+  - crossover design details
+  - sample size justification
+  - statistical analysis plan
+  - bioequivalence criteria
+  
+  # PK/PD Study Elements
+  - concentration-time profile analysis
+  - exposure parameter calculations
+  - effect measure definitions
+  - PK-PD relationship modeling
+  - modeling approach validation
+  - covariate analysis plan
+  - population PK strategy
+  - exposure-response assessment
+  - therapeutic window evaluation
+  - target engagement metrics
+  
+  # Early Safety Elements
+  - adverse event grading criteria
+  - laboratory monitoring schedule
+  - ECG assessment timing
+  - vital signs measurement plan
+  - physical exam requirements
+  - immunogenicity screening
+  - safety biomarker panel
+  - alert value thresholds
+  - causality assessment method
+  - risk mitigation strategies

@@ -9,10 +9,37 @@ tokens:
   - treatment interruptions
   
   # AE Summaries
-  - treatment-emergent definition
-  - severity grading system
-  - causality assessment method
-  - AE coding dictionary
+  - treatment-emergent definition with time window, baseline comparison, and washout period validation
+  - severity grading system with CTCAE version, grade-specific criteria, and adjudication process
+  - causality assessment method with standardized algorithm, reviewer qualifications, and inter-rater reliability
+  - AE coding dictionary with version, maintenance procedures, and query resolution workflow
+  - exposure-adjusted incidence rates with person-time denominators and confidence intervals
+  - time-to-onset analysis with Kaplan-Meier estimates and competing risks framework
+  - duration of events with resolution patterns and time-to-resolution analysis
+  - recurrence patterns with between-episode intervals and conditional probability assessment
+  - risk factor analysis with multivariate modeling and machine learning approaches
+  - subgroup safety analysis with forest plots and interaction testing
+  - cumulative incidence with Nelson-Aalen estimates and time-varying covariates
+  - competing risk analysis for safety events with cause-specific hazards
+  - dose-response relationship for AEs with exposure-safety modeling
+  - temporal clustering analysis with scan statistics and permutation testing
+  - sequence of events analysis with transition probabilities
+  - drug-drug interaction safety assessment with physiological modeling
+  - laboratory abnormality correlation with mechanistic investigation
+  - vital sign association analysis with longitudinal modeling
+  - ECG finding relationships with cardiac safety assessment
+  - physical exam correlation with standardized documentation
+  - safety signal detection with disproportionality analysis
+  - benefit-risk assessment with quantitative framework
+  - long-term safety with extended follow-up analysis
+  - special population safety with targeted assessment
+  - pregnancy exposure registry with outcome tracking
+  - pediatric safety with developmental assessment
+  - elderly safety with frailty analysis
+  - organ impairment safety with PK/PD correlation
+  - immunogenicity assessment with anti-drug antibodies
+  - infusion/injection site reactions with severity grading
+  - medication errors with root cause analysis
   
   # Laboratory Data
   - shift table methodology

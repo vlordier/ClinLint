@@ -1,0 +1,39 @@
+extends: existence
+message: "Required Phase 4 efficacy element missing: %s"
+level: error
+tokens:
+  # Real-World Effectiveness
+  - comparative effectiveness with active comparator
+  - treatment patterns with utilization
+  - adherence assessment with factors
+  - persistence analysis with duration
+  - switching patterns with reasons
+  - dose optimization with real-world
+  - combination therapy with outcomes
+  - sequential therapy with strategies
+  - treatment algorithms with validation
+  - guideline compliance with impact
+
+  # Long-term Outcomes
+  - sustained efficacy with durability
+  - disease progression with modification
+  - quality of life with maintenance
+  - functional status with trajectory
+  - productivity with assessment
+  - healthcare utilization with costs
+  - hospitalization with prevention
+  - mortality with survival analysis
+  - morbidity with complications
+  - disability with prevention
+
+  # Population Effectiveness
+  - subgroup effectiveness with interaction
+  - demographic factors with outcomes
+  - comorbidity impact with adjustment
+  - concomitant medication with effects
+  - healthcare setting with variation
+  - provider factors with influence
+  - access barriers with solutions
+  - disparities with mitigation
+  - equity analysis with measures
+  - implementation with strategies

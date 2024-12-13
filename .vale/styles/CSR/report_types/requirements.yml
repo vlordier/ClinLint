@@ -1,0 +1,51 @@
+extends: existence
+message: "Required %s element missing: %s"
+level: error
+tokens:
+  # CSR Requirements
+  - protocol synopsis
+  - study objectives
+  - investigational plan
+  - ethics statement
+  - study population
+  - efficacy evaluation
+  - safety evaluation
+  - benefit-risk assessment
+  - integrated summaries
+  - statistical analyses
+  
+  # DSUR Requirements
+  - reference safety information
+  - estimated exposure
+  - interval line listings
+  - cumulative tabulations
+  - significant findings
+  - risk evaluation
+  - benefit assessment
+  - risk management updates
+  - late-breaking information
+  - overall safety assessment
+  
+  # IB Requirements
+  - physical/chemical properties
+  - non-clinical studies
+  - effects in humans
+  - clinical studies
+  - marketing experience
+  - risk management
+  - investigator guidance
+  - dosing instructions
+  - adverse reaction monitoring
+  - precautions/contraindications
+  
+  # PVR Requirements
+  - safety signals
+  - risk identification
+  - benefit evaluation
+  - risk minimization
+  - effectiveness assessment
+  - spontaneous reporting
+  - literature findings
+  - clinical trial safety
+  - post-marketing data
+  - regulatory actions

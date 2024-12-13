@@ -3,36 +3,46 @@ message: "Use precise endpoint terminology: '%s' instead of '%s'"
 level: error
 ignorecase: true
 swap:
-  # Primary Endpoint Precision
-  "clinical benefit": [specify measurable outcome]
-  "disease control": [specify RECIST criteria]
-  "tumor response": [specify RECIST version and criteria]
-  "progression free": [specify PFS definition and assessment]
-  "overall survival": [specify OS definition and censoring]
-  "quality of life": [specify PRO instrument and domain]
+  # Primary Endpoint Reporting
+  "improved": "[specify absolute change (Δ=X) and relative change (%Δ=Y) with 95% CI]"
+  "responded": "[specify response criteria met: parameter improved by X (95% CI: L-U, p=0.XXX)]"
+  "achieved endpoint": "[specify endpoint criterion: X achieved target of Y (95% CI: L-U, p=0.XXX)]"
+  "met criteria": "[specify criteria met: X reached threshold Y (95% CI: L-U, p=0.XXX)]"
+  "showed benefit": "[specify benefit measure: X improved by Y units (95% CI: L-U, p=0.XXX)]"
+  "demonstrated effect": "[specify effect size: X changed by Y (95% CI: L-U, p=0.XXX)]"
   
-  # Secondary Endpoint Precision
-  "biomarker response": [specify biomarker and threshold]
-  "immune response": [specify immune parameters]
-  "pharmacodynamic effect": [specify PD parameters]
-  "safety profile": [specify safety parameters]
-  "tolerability": [specify tolerability criteria]
+  # Comparative Endpoints
+  "better than": "[specify comparative measure: ΔX vs control = Y (95% CI: L-U, p=0.XXX)]"
+  "superior to": "[specify superiority margin: X exceeded Y by Z (95% CI: L-U, p=0.XXX)]"
+  "non-inferior to": "[specify NI margin: X within Y of Z (95% CI: L-U, p=0.XXX)]"
+  "equivalent to": "[specify equivalence margins: |X-Y| ≤ Z (95% CI: L-U, p=0.XXX)]"
+  "different from": "[specify difference: ΔX between groups = Y (95% CI: L-U, p=0.XXX)]"
   
-  # Time-to-Event Precision
-  "time to progression": [specify progression criteria]
-  "duration of response": [specify response criteria]
-  "time to treatment failure": [specify failure criteria]
-  "event-free survival": [specify event definition]
+  # Time-to-Event Endpoints
+  "time to event": "[specify median time = X months (95% CI: L-U), HR=Y (95% CI: L-U, p=0.XXX)]"
+  "duration of": "[specify median duration = X months (95% CI: L-U)]"
+  "progression-free": "[specify median PFS = X months (95% CI: L-U), HR=Y (95% CI: L-U, p=0.XXX)]"
+  "overall survival": "[specify median OS = X months (95% CI: L-U), HR=Y (95% CI: L-U, p=0.XXX)]"
   
-  # Response Assessment
-  "complete response": [specify CR criteria]
-  "partial response": [specify PR criteria]
-  "stable disease": [specify SD criteria]
-  "progressive disease": [specify PD criteria]
-  "objective response": [specify ORR criteria]
+  # Response Endpoints
+  "complete response": "[specify CR rate = X% (n/N) (95% CI: L-U)]"
+  "partial response": "[specify PR rate = X% (n/N) (95% CI: L-U)]"
+  "objective response": "[specify ORR = X% (n/N) (95% CI: L-U)]"
+  "disease control": "[specify DCR = X% (n/N) (95% CI: L-U)]"
   
-  # Patient-Reported Outcomes
-  "symptom improvement": [specify PRO instrument]
-  "functional status": [specify functional assessment]
-  "health status": [specify health status measure]
-  "patient satisfaction": [specify satisfaction scale]
+  # PRO/QoL Endpoints
+  "quality of life": "[specify instrument, domain score Δ = X (95% CI: L-U, p=0.XXX)]"
+  "symptom improvement": "[specify PRO tool, symptom score Δ = X (95% CI: L-U, p=0.XXX)]"
+  "patient reported": "[specify instrument, score Δ = X (95% CI: L-U, p=0.XXX)]"
+  "functional status": "[specify scale, score Δ = X (95% CI: L-U, p=0.XXX)]"
+  
+  # Biomarker Endpoints
+  "biomarker change": "[specify biomarker Δ = X (95% CI: L-U, p=0.XXX)]"
+  "marker response": "[specify marker, threshold criterion met by X% (95% CI: L-U)]"
+  "pharmacodynamic": "[specify PD parameter Δ = X (95% CI: L-U, p=0.XXX)]"
+  
+  # Safety Endpoints
+  "adverse events": "[specify AE rate = X% (n/N) (95% CI: L-U)]"
+  "toxicity": "[specify toxicity grade ≥X in Y% (n/N) (95% CI: L-U)]"
+  "tolerability": "[specify discontinuation rate = X% (n/N) (95% CI: L-U)]"
+  "safety profile": "[specify key safety parameters with rates and 95% CIs]"

@@ -2,12 +2,58 @@ extends: existence
 message: "Required demographic reporting element missing: %s"
 level: error
 tokens:
-  - age distribution
-  - gender distribution
-  - racial categories
-  - ethnic categories
-  - baseline characteristics
-  - inclusion criteria
-  - exclusion criteria
-  - screening failures
-  - randomization strata
+  # Age Reporting
+  - age range \([0-9]+[-–][0-9]+ years\)
+  - mean age \([0-9]+\.[0-9]+ years, SD [0-9]+\.[0-9]+\)
+  - median age \([0-9]+\.[0-9]+ years, IQR [0-9]+\.[0-9]+[-–][0-9]+\.[0-9]+\)
+  - age categories \(<[0-9]+, [0-9]+[-–][0-9]+, >[0-9]+ years\)
+  - age distribution histogram
+  - age by treatment group
+  - age-related comorbidities
+  - geriatric assessment results
+  - pediatric development stages
+  - age-specific safety analysis
+  
+  # Sex/Gender Reporting
+  - sex assigned at birth
+  - gender identity
+  - sex ratio \([0-9]+:[0-9]+\)
+  - percentage by sex \([0-9]+\.[0-9]+%\)
+  
+  # Race/Ethnicity
+  - racial distribution with percentages
+  - ethnic distribution with percentages
+  - regional demographics
+  - ancestry documentation
+  
+  # Physical Characteristics
+  - height \(mean ± SD\)
+  - weight \(mean ± SD\)
+  - BMI \(mean ± SD\)
+  - BSA \(mean ± SD\)
+  
+  # Medical History
+  - relevant medical conditions
+  - prior therapies
+  - concomitant medications
+  - risk factors
+  
+  # Stratification Factors
+  - stratification variables
+  - subgroup definitions
+  - population characteristics
+  - baseline disease status
+  
+  # Screening/Enrollment
+  - screening disposition
+  - inclusion verification
+  - exclusion documentation
+  - enrollment ratios
+  - randomization factors
+
+nonstandard:
+  gender: sex
+  male/female ratio: sex ratio
+  racial mix: racial distribution
+  ethnic mix: ethnic distribution
+  age group: age category

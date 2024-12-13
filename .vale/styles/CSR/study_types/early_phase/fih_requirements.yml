@@ -1,0 +1,63 @@
+extends: existence
+message: "Required FIH study element missing: %s"
+level: error
+tokens:
+  # Dose Escalation Design
+  - starting dose justification with NOAEL/MABEL approach
+  - dose escalation algorithm with decision rules
+  - sentinel dosing strategy with observation period
+  - cohort size rationale with statistical considerations
+  - dose increment limits with safety margins
+  - stopping criteria with quantitative thresholds
+  - dose limiting toxicity definition with grading
+  - maximum tolerated dose criteria with assessment
+  - optimal biological dose determination
+  - exposure-response modeling approach
+  
+  # Safety Monitoring
+  - real-time safety review process
+  - safety review committee charter
+  - adverse event reporting timelines
+  - alert laboratory values with thresholds
+  - ECG monitoring schedule with criteria
+  - vital signs monitoring frequency
+  - physical exam requirements
+  - safety biomarker assessment plan
+  - immunogenicity screening approach
+  - protocol-specific toxicity management
+  
+  # PK/PD Assessment
+  - intensive PK sampling schedule
+  - PK parameter estimation methods
+  - dose proportionality assessment
+  - food effect evaluation design
+  - drug-drug interaction screening
+  - metabolite profiling approach
+  - PD biomarker validation status
+  - PK/PD modeling strategy
+  - target engagement assessment
+  - receptor occupancy measurement
+  
+  # Study Population
+  - healthy volunteer selection criteria
+  - medical/surgical history requirements
+  - concomitant medication restrictions
+  - dietary/lifestyle restrictions
+  - contraception requirements
+  - withdrawal criteria specifics
+  - replacement subject criteria
+  - genetic screening requirements
+  - special population considerations
+  - demographic balance targets
+
+  # Operational Elements
+  - site qualification criteria
+  - investigator experience requirements
+  - research unit specifications
+  - emergency response capabilities
+  - subject monitoring facilities
+  - laboratory certification status
+  - sample handling procedures
+  - data review frequency
+  - safety reporting infrastructure
+  - quality control measures

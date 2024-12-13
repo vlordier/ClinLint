@@ -1,8 +1,32 @@
 extends: existence
 message: "Verify cross-reference: %s"
-level: warning
+level: error
 tokens:
-  - Table [0-9]
-  - Figure [0-9]
-  - Section [0-9]
-  - Appendix [A-Z]
+  # Table References
+  - "Table [0-9]+(?![.)])"  # Missing period/parenthesis
+  - "table [0-9]+"  # Lowercase "table"
+  - "Tab\. [0-9]+"  # Abbreviated form
+  - "Tables [0-9]+-[0-9]+"  # Table ranges
+  
+  # Figure References
+  - "Figure [0-9]+(?![.)])"  # Missing period/parenthesis
+  - "figure [0-9]+"  # Lowercase "figure"
+  - "Fig\. [0-9]+"  # Abbreviated form
+  - "Figures [0-9]+-[0-9]+"  # Figure ranges
+  
+  # Section References
+  - "Section [0-9]+(?![.)])"  # Missing period/parenthesis
+  - "section [0-9]+"  # Lowercase "section"
+  - "Sect\. [0-9]+"  # Abbreviated form
+  - "Sections [0-9]+-[0-9]+"  # Section ranges
+  
+  # Appendix References
+  - "Appendix [A-Z](?![.)])"  # Missing period/parenthesis
+  - "appendix [A-Z]"  # Lowercase "appendix"
+  - "App\. [A-Z]"  # Abbreviated form
+  - "Appendices [A-Z]-[A-Z]"  # Appendix ranges
+
+exceptions:
+  - "Table of Contents"
+  - "List of Figures"
+  - "List of Tables"

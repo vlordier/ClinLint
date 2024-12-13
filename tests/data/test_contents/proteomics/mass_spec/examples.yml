@@ -1,0 +1,21 @@
+# Mass spectrometry test cases
+examples:
+  - id: method-validation
+    text: "Proteins were analyzed by mass spectrometry."
+    expected_issues:
+      - rule: CSR.proteomics.mass_spec
+        message: "Required mass spectrometry element missing: protein extraction method"
+    expected_feedback:
+      - "Detail sample preparation"
+      - "Specify instrument parameters"
+      - "Include quality metrics"
+
+  - id: data-analysis
+    text: "Protein identification was performed."
+    expected_issues:
+      - rule: CSR.proteomics.mass_spec
+        message: "Required mass spectrometry element missing: database search"
+    expected_feedback:
+      - "Specify search parameters"
+      - "Include FDR criteria"
+      - "Report identification metrics"

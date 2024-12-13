@@ -1,0 +1,24 @@
+extends: existence
+message: "Required generic bioequivalence element missing: %s"
+level: error
+tokens:
+  # Study Design Elements
+  - reference product details
+  - test product details
+  - crossover design
+  - washout period
+  - sampling schedule
+  
+  # Analysis Elements
+  - BE acceptance criteria
+  - statistical approach
+  - transformation method
+  - variance components
+  - confidence intervals
+  
+  # Quality Elements
+  - analytical method validation
+  - sample handling
+  - stability data
+  - assay performance
+  - standard curves

@@ -1,0 +1,23 @@
+extends: existence
+message: "Required Phase 2 efficacy element missing: %s"
+level: error
+tokens:
+  # Primary Efficacy Elements
+  - dose-response relationship with modeling
+  - exposure-response correlation with analysis
+  - biomarker response with validation
+  - clinical endpoint with definition
+  - effect size estimation with precision
+  - therapeutic window with margins
+  - optimal dose selection with criteria
+  - treatment duration with rationale
+  
+  # Secondary Assessments
+  - pharmacodynamic markers with validation
+  - quality of life measures with tools
+  - functional assessments with scales
+  - symptom reduction with scoring
+  - disease modification with markers
+  - resistance development with monitoring
+  - durability of response with follow-up
+  - predictive factors with analysis

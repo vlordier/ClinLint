@@ -1,0 +1,35 @@
+extends: existence
+message: "Required FDC element missing: %s"
+level: error
+tokens:
+  # Component Analysis
+  - individual PK profiles
+  - interaction assessment
+  - bioequivalence data
+  - dissolution profiles
+  - stability studies
+  - impurity profiles
+  
+  # Clinical Requirements
+  - combination rationale
+  - dose optimization
+  - population selection
+  - switching studies
+  - compliance assessment
+  - preference evaluation
+  
+  # Manufacturing
+  - process validation
+  - content uniformity
+  - batch analysis
+  - stability data
+  - container closure
+  - shelf life determination
+  
+  # Regulatory Elements
+  - CTD requirements
+  - bridging strategy
+  - reference products
+  - comparability data
+  - labeling requirements
+  - patent certification

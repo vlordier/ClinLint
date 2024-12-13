@@ -1,0 +1,33 @@
+extends: existence
+message: "Required efficacy quality element missing: %s"
+level: error
+tokens:
+  # Data Quality
+  - source verification
+  - data validation
+  - query management
+  - coding standards
+  - reconciliation
+  - audit trail
+  - database lock
+  - archiving procedures
+  
+  # Analysis Quality
+  - statistical review
+  - programming validation
+  - output verification
+  - documentation standards
+  - reproducibility checks
+  - peer review process
+  - quality metrics
+  - deviation impact
+  
+  # Reporting Quality
+  - completeness check
+  - consistency review
+  - accuracy verification
+  - formatting standards
+  - cross-reference validation
+  - terminology compliance
+  - version control
+  - approval process

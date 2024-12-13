@@ -1,0 +1,15 @@
+extends: existence
+message: "Required safety reporting elements missing: %s"
+level: error
+scope: text
+tokens:
+  - adverse event reporting
+  - causality assessment
+  - severity grading
+  - serious adverse events
+  - safety monitoring
+  - laboratory abnormalities
+  - vital signs
+  - ECG findings
+  - physical examination
+  - concomitant medications

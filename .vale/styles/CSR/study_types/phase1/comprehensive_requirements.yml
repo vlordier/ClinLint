@@ -1,0 +1,99 @@
+extends: existence
+message: "Required Phase 1 element missing: %s"
+level: error
+tokens:
+  # First-in-Human Elements
+  - starting dose justification with NOAEL/MABEL approach
+  - sentinel dosing strategy with observation period
+  - dose escalation algorithm with decision rules
+  - stopping criteria with quantitative thresholds
+  - safety review committee charter
+  - cohort size rationale
+  - dose increment limits
+  - maximum dose criteria
+  - optimal biological dose determination
+  - exposure-response modeling approach
+  
+  # SAD Study Elements
+  - single dose levels with rationale
+  - dose escalation criteria with safety margins
+  - PK sampling schedule with timepoints
+  - safety monitoring plan with parameters
+  - washout period justification
+  - food effect assessment design
+  - crossover considerations
+  - sample size justification
+  - statistical analysis plan
+  - interim analysis criteria
+  
+  # MAD Study Elements
+  - multiple dose levels with rationale
+  - steady state assessment timing
+  - accumulation ratio calculation
+  - time dependency evaluation
+  - metabolite profiling strategy
+  - trough concentration monitoring
+  - dose titration procedures
+  - safety biomarker tracking
+  - tolerance assessment plan
+  - drug-drug interaction screening
+  
+  # Food Effect Elements
+  - meal composition details
+  - timing of meals
+  - fasting duration requirements
+  - meal effect analysis plan
+  - bioequivalence assessment
+  - statistical approach
+  - sample size considerations
+  - sequence randomization
+  - washout period justification
+  - clinical relevance criteria
+  
+  # Drug-Drug Interaction Elements
+  - perpetrator selection rationale
+  - victim drug considerations
+  - timing of co-administration
+  - PK sampling strategy
+  - metabolic pathway analysis
+  - transporter assessment
+  - statistical analysis plan
+  - clinical relevance criteria
+  - labeling implications
+  - dose adjustment recommendations
+  
+  # Safety Monitoring Elements
+  - vital signs monitoring frequency
+  - ECG assessment schedule
+  - laboratory test panels
+  - adverse event monitoring
+  - causality assessment
+  - severity grading
+  - stopping rules
+  - rescue procedures
+  - follow-up requirements
+  - safety review process
+  
+  # PK/PD Elements
+  - PK parameter estimation
+  - exposure metrics calculation
+  - dose proportionality assessment
+  - bioavailability determination
+  - clearance pathways
+  - volume of distribution
+  - half-life estimation
+  - metabolite profiling
+  - PD marker assessment
+  - exposure-response modeling
+  
+  # Special Assessments
+  - QT/QTc evaluation
+  - immunogenicity screening
+  - biomarker analysis
+  - receptor occupancy
+  - target engagement
+  - mechanism validation
+  - proof of mechanism
+  - proof of principle
+  - dose selection support
+  - go/no-go criteria

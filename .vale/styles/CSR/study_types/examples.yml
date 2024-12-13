@@ -1,0 +1,71 @@
+# Test cases for study type validation
+examples:
+  # EFC (Efficacy) Study Examples
+  - text: "The primary endpoint showed improvement."
+    expected_issues:
+      - rule: CSR.study_types.efc_requirements
+        message: "Required EFC study element missing: superiority margin"
+    expected_feedback:
+      - "Specify statistical hypothesis"
+      - "Include margin justification"
+      - "Report effect size with CI"
+
+  # PK/PD Study Examples  
+  - text: "Drug concentrations were measured."
+    expected_issues:
+      - rule: CSR.study_types.objective.pkpd_requirements
+        message: "Required PK/PD element missing: sampling strategy"
+    expected_feedback:
+      - "Detail sampling timepoints"
+      - "Include analytical methods"
+      - "Report PK parameters"
+
+  # FTIH Study Examples
+  - text: "The first dose was administered safely."
+    expected_issues:
+      - rule: CSR.study_types.first_in_human.requirements
+        message: "Required FTIH element missing: sentinel dosing strategy"
+    expected_feedback:
+      - "Specify dose escalation criteria"
+      - "Include safety monitoring plan"
+      - "Detail stopping rules"
+
+  # PoC Study Examples
+  - text: "Target engagement was demonstrated."
+    expected_issues:
+      - rule: CSR.study_types.interventional.phase2
+        message: "Required proof of concept element missing: biological activity"
+    expected_feedback:
+      - "Quantify target engagement"
+      - "Report biomarker response"
+      - "Include mechanism validation"
+
+  # BA/BE Study Examples
+  - text: "The products were bioequivalent."
+    expected_issues:
+      - rule: CSR.study_types.be_requirements
+        message: "Required BE study element missing: BE acceptance criteria"
+    expected_feedback:
+      - "Specify BE margins"
+      - "Include statistical analysis"
+      - "Report confidence intervals"
+
+  # LTSS Examples
+  - text: "Long-term safety was acceptable."
+    expected_issues:
+      - rule: CSR.study_types.safety.longterm
+        message: "Required long-term safety element missing: cumulative exposure"
+    expected_feedback:
+      - "Report exposure duration"
+      - "Include safety trends"
+      - "Detail adverse events"
+
+  # PMS Examples
+  - text: "Post-marketing surveillance showed good tolerability."
+    expected_issues:
+      - rule: CSR.post_marketing.surveillance
+        message: "Required post-marketing element missing: spontaneous reporting"
+    expected_feedback:
+      - "Include reporting rates"
+      - "Detail safety signals"
+      - "Report usage patterns"

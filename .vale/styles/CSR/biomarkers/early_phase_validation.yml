@@ -1,0 +1,51 @@
+extends: existence
+message: "Required early phase biomarker validation element missing: %s"
+level: error
+tokens:
+  # Analytical Validation
+  - assay precision with acceptance criteria
+  - accuracy assessment methods
+  - specificity determination
+  - sensitivity thresholds
+  - reproducibility testing
+  - stability requirements
+  - sample handling procedures
+  - calibration standards
+  - quality control measures
+  - method transfer validation
+  
+  # Clinical Validation
+  - baseline variability assessment
+  - temporal profile characterization
+  - biological variability estimation
+  - confounding factor evaluation
+  - technical artifact screening
+  - reference range establishment
+  - decision point validation
+  - longitudinal tracking plan
+  - population heterogeneity analysis
+  - covariate impact assessment
+  
+  # Target Engagement
+  - receptor occupancy measurement
+  - pathway modulation assessment
+  - downstream effect monitoring
+  - duration of inhibition/activation
+  - dose-response relationship
+  - temporal relationship analysis
+  - reversibility evaluation
+  - compensatory mechanism screening
+  - resistance development monitoring
+  - combination effect assessment
+  
+  # Safety Biomarkers
+  - organ toxicity indicators
+  - immune response markers
+  - mechanism-based toxicity
+  - early warning indicators
+  - recovery markers
+  - cumulative effect monitoring
+  - off-target effect screening
+  - tissue damage markers
+  - repair/regeneration indicators
+  - adaptation response markers

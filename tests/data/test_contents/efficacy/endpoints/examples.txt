@@ -1,0 +1,5 @@
+# Example efficacy endpoint text
+The treatment worked well.
+A positive response was observed.
+The study failed to show efficacy.
+Clinical benefit was demonstrated.

@@ -1,0 +1,149 @@
+# Test cases for special populations
+examples:
+  # Pediatric Population Examples
+  - id: pediatric-dosing
+    text: "The medication was given to children."
+    expected_issues:
+      - rule: CSR.special_populations.requirements
+        message: "Required special population element missing: age-appropriate formulation"
+    expected_feedback:
+      - "Specify age-appropriate formulation details"
+      - "Include weight-based dosing"
+      - "Detail administration instructions"
+
+  - id: pediatric-safety
+    text: "The treatment was safe in children."
+    expected_issues:
+      - rule: CSR.special_populations.requirements
+        message: "Required special population element missing: developmental assessment"
+    expected_feedback:
+      - "Include growth monitoring data"
+      - "Report developmental outcomes"
+      - "Detail safety parameters"
+
+  # Geriatric Population Examples
+  - id: geriatric-efficacy
+    text: "Elderly patients showed response."
+    expected_issues:
+      - rule: CSR.special_populations.requirements
+        message: "Required special population element missing: comorbidity assessment"
+    expected_feedback:
+      - "Specify age-related comorbidities"
+      - "Include organ function status"
+      - "Report polypharmacy evaluation"
+
+  - id: geriatric-safety
+    text: "The drug was tolerated by older patients."
+    expected_issues:
+      - rule: CSR.special_populations.requirements
+        message: "Required special population element missing: frailty measures"
+    expected_feedback:
+      - "Include frailty assessment"
+      - "Report fall risk evaluation"
+      - "Detail cognitive function"
+
+  # Pregnancy Examples
+  - id: pregnancy-exposure
+    text: "Pregnant women were monitored."
+    expected_issues:
+      - rule: CSR.special_populations.requirements
+        message: "Required special population element missing: pregnancy registry"
+    expected_feedback:
+      - "Include pregnancy registry data"
+      - "Report fetal outcomes"
+      - "Detail maternal monitoring"
+
+  # Organ Impairment Examples
+  - id: renal-impairment
+    text: "Patients with kidney disease received treatment."
+    expected_issues:
+      - rule: CSR.special_populations.requirements
+        message: "Required special population element missing: renal modification"
+    expected_feedback:
+      - "Specify dose modifications"
+      - "Include monitoring frequency"
+      - "Report PK alterations"
+
+  # Genetic Subgroup Examples
+  - id: pharmacogenetic-analysis
+    text: "Genetic factors affected response."
+    expected_issues:
+      - rule: CSR.special_populations.requirements
+        message: "Required special population element missing: metabolizer status"
+    expected_feedback:
+      - "Include metabolizer phenotypes"
+      - "Report genetic variants"
+      - "Detail response correlation"
+
+  # Post-Marketing Examples
+  - id: safety-surveillance
+    text: "Post-marketing safety was monitored."
+    expected_issues:
+      - rule: CSR.post_marketing.surveillance_requirements
+        message: "Required post-marketing element missing: safety signal detection"
+    expected_feedback:
+      - "Include signal detection methods"
+      - "Report adverse event rates"
+      - "Detail risk minimization"
+
+  - id: effectiveness-monitoring
+    text: "Real-world data was collected."
+    expected_issues:
+      - rule: CSR.post_marketing.surveillance_requirements
+        message: "Required post-marketing element missing: drug utilization review"
+    expected_feedback:
+      - "Include utilization patterns"
+      - "Report effectiveness measures"
+      - "Detail healthcare resource use"
+
+  - id: orphan-study-design
+    text: "Historical controls were used."
+    expected_issues:
+      - rule: CSR.study_types.special.orphan_requirements
+        message: "Required orphan drug study element missing: control justification"
+    expected_feedback:
+      - "Justify historical control use"
+      - "Include matching criteria"
+      - "Report bias assessment"
+
+  # GCP Compliance Examples
+  - id: gcp-documentation
+    text: "The study was conducted according to GCP."
+    expected_issues:
+      - rule: CSR.study_types.special.gcp_requirements
+        message: "Required GCP element missing: protocol compliance"
+    expected_feedback:
+      - "Detail compliance measures"
+      - "Include monitoring reports"
+      - "Report deviation handling"
+
+  - id: gcp-quality-metrics
+    text: "Quality control was performed."
+    expected_issues:
+      - rule: CSR.study_types.special.gcp_requirements
+        message: "Required GCP element missing: quality metrics"
+    expected_feedback:
+      - "Report monitoring frequency"
+      - "Include query metrics"
+      - "Detail resolution times"
+
+  # Patient-to-Patient Examples
+  - id: p2p-recruitment
+    text: "Patients recruited other participants."
+    expected_issues:
+      - rule: CSR.study_types.special.p2p_requirements
+        message: "Required P2P element missing: peer recruitment strategy"
+    expected_feedback:
+      - "Detail recruitment process"
+      - "Include network analysis"
+      - "Report success rates"
+
+  - id: p2p-interaction
+    text: "Participants shared experiences."
+    expected_issues:
+      - rule: CSR.study_types.special.p2p_requirements
+        message: "Required P2P element missing: interaction patterns"
+    expected_feedback:
+      - "Analyze communication patterns"
+      - "Report engagement metrics"
+      - "Include quality measures"

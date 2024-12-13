@@ -1,0 +1,24 @@
+extends: existence
+message: "Required device pivotal study element missing: %s"
+level: error
+tokens:
+  # Performance Elements
+  - device specifications
+  - performance requirements
+  - success criteria
+  - reliability data
+  - durability assessment
+  
+  # Safety Elements
+  - adverse device effects
+  - device deficiencies
+  - malfunction analysis
+  - risk assessment
+  - user errors
+  
+  # Clinical Elements
+  - effectiveness measures
+  - patient outcomes
+  - user satisfaction
+  - quality of life
+  - device-specific endpoints

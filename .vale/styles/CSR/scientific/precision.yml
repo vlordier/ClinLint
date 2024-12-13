@@ -3,6 +3,37 @@ message: "Use precise scientific terminology: '%s' instead of '%s'"
 level: error
 ignorecase: true
 swap:
+  # Laboratory Terminology
+  "lab": "laboratory"
+  "labs": "laboratory tests"
+  "blood work": "laboratory tests"
+  "blood test": "laboratory assessment"
+  "normal range": "reference range"
+  "abnormal": [specify parameter and deviation from reference range]
+  
+  # Vital Signs Terminology
+  "BP": "blood pressure"
+  "pulse": "heart rate"
+  "temp": "temperature"
+  "O2 sat": "oxygen saturation"
+  
+  # Time References
+  "baseline": "Day 1"
+  "screening": "Day -28 to Day -1"
+  "follow-up": [specify exact follow-up period]
+  "long-term": [specify duration in weeks/months/years]
+  
+  # Measurement Precision
+  "about": [specify exact value with units]
+  "approximately": [specify exact value with units]
+  "around": [specify exact value with units]
+  "nearly": [specify exact value with units]
+  "almost": [specify exact value with units]
+  
+  # Statistical Terms
+  "significant": [specify p-value and confidence interval]
+  "correlation": [specify correlation coefficient and p-value]
+  "trend": [specify direction and magnitude of change]
   # Temporal Precision
   "at the time of": [specify exact date/timepoint]
   "during the study": [specify study period/phase]

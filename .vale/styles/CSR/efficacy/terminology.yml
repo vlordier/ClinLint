@@ -3,11 +3,22 @@ message: "Use precise efficacy terminology: '%s' instead of '%s'"
 level: error
 ignorecase: true
 swap:
-  worked well: [specify efficacy measure]
-  effective: [specify efficacy measure]
-  ineffective: [specify lack of efficacy measure]
-  successful: [specify success criteria met]
-  unsuccessful: [specify success criteria not met]
-  failed: did not meet primary endpoint
-  positive results: [specify outcome measures]
-  negative results: [specify outcome measures]
+  # Efficacy Claims Must Include Quantification
+  "improved": "[specify absolute change (Δ=X.XX ± SE) and relative change (%Δ=XX.X% ± SE) with 95% CI (LL.L to UU.U), p=0.XXX, power=0.XX]"
+  "decreased": "[specify absolute reduction and relative reduction with 95% CI]"
+  "increased": "[specify absolute increase and relative increase with 95% CI]"
+  "better": "[specify treatment difference with 95% CI]"
+  "worse": "[specify treatment difference with 95% CI]"
+  "effective": "[specify primary endpoint result with p-value and 95% CI]"
+  "ineffective": "[specify primary endpoint result with p-value and 95% CI]"
+  "successful": "[specify success criteria met with statistical evidence]"
+  "unsuccessful": "[specify criteria not met with statistical evidence]"
+  "failed": "did not meet primary endpoint [specify actual results]"
+  "positive results": "[specify outcome measures with effect sizes]"
+  "negative results": "[specify outcome measures with effect sizes]"
+  "significant improvement": "[specify effect size, p-value, and 95% CI]"
+  "non-significant": "[specify actual p-value and confidence interval]"
+  "trending": "[specify actual trend with statistical evidence]"
+  "comparable": "[specify equivalence margins and statistical comparison]"
+  "similar": "[specify difference and confidence interval]"
+  "different": "[specify magnitude of difference with confidence interval]"

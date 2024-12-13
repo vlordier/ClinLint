@@ -1,0 +1,8 @@
+# Example AE reporting text for testing
+The subject experienced an adverse event of headache (Grade 1).
+The subject had Grade 2 pyrexia.
+A serious adverse event (Grade 3 pneumonia) occurred during treatment.
+The event was probably related to study drug.
+The subject developed Grade 4 neutropenia, definitely related to study drug.
+Treatment was discontinued due to Grade 3 hepatotoxicity.
+Multiple adverse events were reported: Grade 2 nausea, Grade 1 fatigue.

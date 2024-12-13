@@ -1,0 +1,23 @@
+extends: existence
+message: "Required vital signs element missing: %s"
+level: error
+tokens:
+  # Core Vital Signs
+  - blood pressure with position
+  - heart rate with method
+  - respiratory rate with timing
+  - temperature with site
+  - oxygen saturation with conditions
+  - weight with clothing status
+  - height with technique
+  - BMI with calculation
+
+  # Measurement Requirements
+  - standardized procedures
+  - equipment calibration
+  - measurement timing
+  - repeat measurements
+  - position specifications
+  - environmental conditions
+  - observer training
+  - quality control measures

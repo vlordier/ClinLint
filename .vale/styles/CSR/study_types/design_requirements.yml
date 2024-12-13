@@ -1,0 +1,158 @@
+extends: existence
+message: "Required study design element missing: %s"
+level: error
+tokens:
+  # RCT Elements
+  - randomization method
+  - allocation concealment
+  - stratification factors
+  - block size
+  - randomization ratio
+  - control group definition
+  - adaptive elements
+  - interim analyses
+  - sample size re-estimation
+  - futility criteria
+  - success criteria
+  
+  # EFC Elements
+  - superiority hypothesis
+  - non-inferiority margin
+  - equivalence bounds
+  - multiplicity control
+  - sensitivity analyses
+  - subgroup analyses
+  
+  # PK/PD Elements
+  - sampling strategy
+  - washout period
+  - food effect assessment
+  - drug-drug interactions
+  - population analysis
+  - exposure-response
+  
+  # FTIH Elements
+  - sentinel dosing
+  - dose escalation rules
+  - safety monitoring plan
+  - stopping criteria
+  - cohort progression
+  - biomarker assessment
+  
+  # PoC Elements
+  - target engagement
+  - biomarker response
+  - preliminary efficacy
+  - dose-response
+  - mechanism validation
+  - population selection
+  
+  # BA/BE Elements
+  - reference product
+  - test product
+  - crossover design
+  - replicate design
+  - fasting conditions
+  - fed conditions
+  
+  # LTSS Elements
+  - exposure duration
+  - safety monitoring
+  - periodic assessment
+  - cumulative analysis
+  - risk management
+  - withdrawal criteria
+  
+  # PMS Elements
+  - surveillance method
+  - reporting system
+  - signal detection
+  - risk minimization
+  - effectiveness monitoring
+  - registry design
+  
+  # DBRCT Additional Elements
+  - blinding procedures
+  - unblinding criteria
+  - blinding verification
+  - emergency unblinding process
+  - maintenance of blind
+  - blinding assessment
+  
+  # Observational Elements
+  - selection criteria
+  - exposure assessment
+  - outcome ascertainment
+  - confounding control
+  - bias assessment
+  - follow-up procedures
+  
+  # Single-Arm Elements
+  - historical control data
+  - baseline comparison
+  - within-subject comparison
+  - external control justification
+  - effect size estimation
+  
+  # Crossover Elements
+  - sequence randomization
+  - washout period
+  - carryover assessment
+  - period effects
+  - sequence effects
+  - crossover analysis
+  
+  # Adaptive Elements
+  - adaptation rules
+  - interim analyses
+  - decision criteria
+  - sample size adjustment
+  - allocation updates
+  - type I error control
+  
+  # Open-Label Elements
+  - bias mitigation
+  - objective endpoints
+  - blinded assessment
+  - standardized procedures
+  - quality control measures
+  
+  # PIP Elements
+  - age-appropriate design
+  - developmental assessment
+  - pediatric endpoints
+  - growth monitoring
+  - safety adaptations
+  - family considerations
+  
+  # QST Elements
+  - standardized testing
+  - equipment validation
+  - operator training
+  - environmental control
+  - data quality measures
+  - normative comparisons
+  
+  # FDC Elements
+  - component interaction
+  - combination rationale
+  - bioequivalence design
+  - manufacturing validation
+  - stability assessment
+  - regulatory strategy
+  
+  # IVIVC Elements
+  - dissolution correlation
+  - in vivo predictability
+  - validation approach
+  - regulatory impact
+  - specification setting
+  - post-approval changes
+  
+  # ITP Elements
+  - preference documentation
+  - selection criteria
+  - outcome correlation
+  - bias mitigation
+  - pattern analysis
+  - practice variation

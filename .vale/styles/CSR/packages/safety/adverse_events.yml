@@ -1,0 +1,32 @@
+extends: substitution
+message: "Use standard MedDRA terminology: '%s' instead of '%s'"
+level: error
+ignorecase: true
+swap:
+  # Basic Terms with MedDRA LLT/PT
+  side effect: adverse event [specify MedDRA PT]
+  side effects: adverse events [specify MedDRA PTs]
+  negative effect: adverse event [specify MedDRA PT]
+  negative effects: adverse events [specify MedDRA PTs]
+  complication: adverse event [specify MedDRA PT]
+  complications: adverse events [specify MedDRA PTs]
+  problem: adverse event [specify MedDRA PT]
+  problems: adverse events [specify MedDRA PTs]
+  reaction: adverse reaction [specify MedDRA PT]
+  reactions: adverse reactions [specify MedDRA PTs]
+extends: substitution
+message: "Use standard MedDRA terminology: '%s' instead of '%s'"
+level: error
+ignorecase: true
+swap:
+  # Basic Terms with MedDRA LLT/PT
+  side effect: adverse event [specify MedDRA PT]
+  side effects: adverse events [specify MedDRA PTs]
+  negative effect: adverse event [specify MedDRA PT]
+  negative effects: adverse events [specify MedDRA PTs]
+  complication: adverse event [specify MedDRA PT]
+  complications: adverse events [specify MedDRA PTs]
+  problem: adverse event [specify MedDRA PT]
+  problems: adverse events [specify MedDRA PTs]
+  reaction: adverse reaction [specify MedDRA PT]
+  reactions: adverse reactions [specify MedDRA PTs]

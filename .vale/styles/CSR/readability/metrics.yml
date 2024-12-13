@@ -1,0 +1,45 @@
+extends: readability
+message: "Improve readability:"
+level: warning
+metrics:
+  # Sentence Length
+  - name: SentenceLength
+    description: "Consider splitting sentences longer than 25 words"
+    max: 25
+    scope: sentence
+  
+  # Paragraph Length
+  - name: ParagraphLength
+    description: "Consider breaking paragraphs longer than 6 sentences"
+    max: 6
+    scope: paragraph
+    
+  # Word Length
+  - name: WordLength
+    description: "Consider simplifying words longer than 3 syllables"
+    max: 3
+    scope: word
+    
+  # Readability Scores
+  - name: FleschKincaid
+    description: "Aim for Flesch-Kincaid grade level below 12"
+    max: 12
+    scope: text
+    
+  # Passive Voice
+  - name: PassiveVoice
+    description: "Limit passive voice to less than 10% of sentences"
+    max: 0.10
+    scope: text
+
+exceptions:
+  # Technical terms exempt from word length check
+  - pharmacokinetic
+  - pharmacodynamic
+  - cardiovascular
+  - hematological
+  - immunological
+  - gastrointestinal
+  - neurological
+  - ophthalmological
+  - dermatological

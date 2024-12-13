@@ -1,0 +1,31 @@
+# Examples for regulatory submission requirements
+examples:
+  # IND Examples
+  - text: "The drug will be tested in humans."
+    expected_issues:
+      - rule: CSR.regulatory.submission_requirements
+        message: "Required IND element missing: investigational plan"
+    expected_feedback:
+      - "Include detailed investigational plan"
+      - "Specify phase-appropriate requirements"
+      - "Detail safety monitoring procedures"
+
+  # NDA Examples
+  - text: "Clinical trials showed efficacy."
+    expected_issues:
+      - rule: CSR.regulatory.submission_requirements
+        message: "Required NDA element missing: integrated summaries"
+    expected_feedback:
+      - "Include ISE and ISS"
+      - "Provide complete clinical data"
+      - "Detail safety analysis"
+
+  # ANDA Examples
+  - text: "The generic product was tested."
+    expected_issues:
+      - rule: CSR.regulatory.submission_requirements
+        message: "Required ANDA element missing: bioequivalence data"
+    expected_feedback:
+      - "Include BE study results"
+      - "Provide statistical analysis"
+      - "Compare to reference product"

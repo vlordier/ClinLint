@@ -1,0 +1,35 @@
+extends: existence
+message: "Required PIP element missing: %s"
+level: error
+tokens:
+  # Age-Specific Requirements
+  - age-appropriate formulation
+  - dosing recommendations
+  - age group stratification
+  - developmental stages
+  - growth assessment
+  - maturation indices
+  
+  # Study Design Elements
+  - pediatric endpoints
+  - safety monitoring plan
+  - long-term follow-up
+  - developmental outcomes
+  - quality of life measures
+  - parent/caregiver input
+  
+  # Regulatory Elements
+  - PIP number
+  - EMA requirements
+  - deferral justification
+  - waiver rationale
+  - modification history
+  - compliance statement
+  
+  # Special Considerations
+  - vulnerable population protection
+  - assent procedures
+  - age-appropriate consent
+  - recruitment strategy
+  - retention measures
+  - family burden assessment

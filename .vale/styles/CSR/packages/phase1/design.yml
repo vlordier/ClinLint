@@ -1,0 +1,22 @@
+extends: existence
+message: "Required Phase 1 design element missing: %s"
+level: error
+tokens:
+  # Study Design Elements
+  - starting dose justification
+  - dose escalation algorithm
+  - cohort size rationale
+  - sentinel dosing procedures
+  - safety review timing
+  - interim analysis plan
+  - stopping criteria
+  - adaptive elements
+  - sample size considerations
+  
+  # Population Elements
+  - healthy volunteer criteria
+  - patient selection rationale
+  - exclusion justification
+  - withdrawal criteria
+  - replacement procedures
+  - special population considerations

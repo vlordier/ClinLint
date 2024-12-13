@@ -1,0 +1,35 @@
+extends: existence
+message: "Required IVIVC element missing: %s"
+level: error
+tokens:
+  # In Vitro Studies
+  - dissolution method
+  - media selection
+  - sampling times
+  - analytical method
+  - discriminatory power
+  - robustness testing
+  
+  # In Vivo Studies
+  - bioavailability data
+  - absorption profiles
+  - elimination kinetics
+  - food effect assessment
+  - formulation effects
+  - lot-to-lot variability
+  
+  # Correlation Analysis
+  - level A correlation
+  - level B correlation
+  - level C correlation
+  - predictability assessment
+  - internal validation
+  - external validation
+  
+  # Regulatory Impact
+  - biowaiver justification
+  - post-approval changes
+  - specification setting
+  - risk assessment
+  - regulatory strategy
+  - compliance documentation

@@ -1,0 +1,16 @@
+extends: existence
+message: "Required document structure elements missing: %s"
+level: error
+scope: text
+tokens:
+  - title page
+  - synopsis
+  - table of contents
+  - list of abbreviations
+  - ethics statement
+  - study objectives
+  - methodology
+  - results
+  - discussion
+  - conclusions
+  - references

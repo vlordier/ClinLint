@@ -1,0 +1,99 @@
+extends: existence
+message: "Required Phase 2 element missing: %s"
+level: error
+tokens:
+  # Proof of Concept Elements
+  - target engagement assessment with quantitative metrics
+  - biological activity demonstration with mechanism validation
+  - preliminary efficacy signals with effect size estimation
+  - safety signal detection with risk characterization
+  - biomarker response analysis with validation status
+  - PK/PD relationship with modeling approach
+  - exposure-response assessment with therapeutic window
+  - mechanism of action validation with biomarker data
+  - patient selection strategy with enrichment criteria
+  - go/no-go decision criteria with thresholds
+  
+  # Dose-Response Elements
+  - dose selection rationale with preclinical support
+  - dose-response modeling with statistical approach
+  - optimal dose determination with algorithm
+  - therapeutic window assessment with safety margins
+  - dosing frequency justification with PK support
+  - dose modification rules with criteria
+  - food effect assessment with clinical relevance
+  - drug-drug interaction screening with priority list
+  - bioavailability assessment with formulation impact
+  - accumulation assessment with steady-state analysis
+  
+  # Early Efficacy Elements
+  - efficacy signal detection with power analysis
+  - effect size estimation with precision metrics
+  - population selection criteria with rationale
+  - endpoint validation with measurement properties
+  - sample size justification with assumptions
+  - interim analysis plan with decision rules
+  - futility assessment with stopping rules
+  - success criteria with statistical justification
+  - subgroup analysis with interaction testing
+  - sensitivity analysis with robustness assessment
+  
+  # Safety Monitoring Elements
+  - safety parameter selection with rationale
+  - adverse event monitoring with causality assessment
+  - laboratory monitoring with alert values
+  - ECG assessment with QT analysis
+  - vital signs monitoring with thresholds
+  - physical examination with focused assessment
+  - safety biomarker panel with validation status
+  - immunogenicity screening with assay validation
+  - organ function monitoring with criteria
+  - cumulative safety assessment with periodicity
+  
+  # Biomarker Elements
+  - biomarker selection with biological rationale
+  - analytical validation with performance metrics
+  - clinical validation with outcome correlation
+  - sampling strategy with time points
+  - stability assessment with storage conditions
+  - assay performance with quality controls
+  - data analysis plan with statistical methods
+  - reference ranges with population basis
+  - longitudinal analysis with time course
+  - population variability with covariates
+  
+  # Study Design Elements
+  - adaptive design features with implementation
+  - randomization strategy with allocation ratio
+  - blinding procedures with maintenance plan
+  - control selection with justification
+  - stratification factors with rationale
+  - visit schedule with time windows
+  - withdrawal criteria with definitions
+  - missing data handling with methods
+  - protocol deviation management with impact
+  - quality control measures with metrics
+  
+  # Population Elements
+  - inclusion criteria with scientific basis
+  - exclusion criteria with safety rationale
+  - washout requirements with duration
+  - prior therapy restrictions with impact
+  - concomitant medication rules with rationale
+  - contraception requirements with duration
+  - population enrichment with strategy
+  - demographic targets with representation
+  - medical history requirements with relevance
+  - screening procedures with sequence
+  
+  # Operational Elements
+  - site selection with criteria
+  - investigator requirements with experience
+  - monitoring strategy with frequency
+  - data management plan with standards
+  - safety reporting with timelines
+  - protocol training with documentation
+  - drug supply management with accountability
+  - sample handling with procedures
+  - documentation requirements with forms
+  - quality assurance with audits

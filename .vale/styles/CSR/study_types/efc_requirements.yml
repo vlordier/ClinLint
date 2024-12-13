@@ -2,37 +2,94 @@ extends: existence
 message: "Required EFC study element missing: %s"
 level: error
 tokens:
-  # Primary Analysis
-  - superiority margin
-  - non-inferiority margin
-  - stratification factors
-  - interim analysis criteria
-  - multiplicity adjustment
+  # Primary Analysis - Statistical
+  - superiority margin with clinical justification
+  - non-inferiority margin with historical evidence
+  - stratification factors with balance assessment
+  - interim analysis criteria with alpha spending
+  - multiplicity adjustment with FWER control
+  - alpha spending function with information fractions
+  - conditional power calculations with futility rules
+  - futility boundaries with stopping criteria
+  - adaptive design elements with type I error control
+  - sample size re-estimation with trigger criteria
+  - group sequential boundaries with efficacy/futility
+  - treatment effect estimation with bias adjustment
   
-  # Population
-  - sample size rationale
-  - power calculations
-  - dropout assumptions
-  - analysis sets definition
-  - subgroup definitions
+  # Population - Design
+  - sample size rationale with effect size assumptions
+  - power calculations with sensitivity analysis
+  - dropout assumptions with empirical support
+  - analysis sets definition with decision rules
+  - subgroup definitions with interaction testing
+  - enrichment criteria with biomarker validation
+  - population selection with external validity
+  - inclusion justification with scientific rationale
+  - stratification implementation with IWRS
+  - demographic representation requirements
+  - geographic diversity considerations
+  - site selection criteria
   
-  # Efficacy
-  - primary endpoint definition
-  - key secondary endpoints
-  - sensitivity analyses
-  - missing data handling
-  - estimands framework
+  # Efficacy - Methodology
+  - primary endpoint definition with precise criteria
+  - key secondary endpoints with hierarchical testing
+  - sensitivity analyses with missing data approaches
+  - missing data handling with pattern analysis
+  - estimands framework with ICE strategies
+  - intercurrent events with handling rules
+  - treatment policy with detailed specifications
+  - composite endpoints with component validation
+  - clinically meaningful difference with anchoring
+  - effect size estimation with precision requirements
+  - treatment effect consistency across sites
+  - subgroup heterogeneity assessment methods
+  - longitudinal analysis with mixed models
+  - repeated measures with covariance structure
+  - time-to-event analysis with censoring rules
+  - competing risks with cumulative incidence
   
-  # Safety
-  - safety monitoring plan
-  - DSMB charter
-  - stopping rules
-  - risk mitigation measures
-  - safety follow-up period
+  # Safety - Monitoring
+  - safety monitoring plan with trigger criteria
+  - DSMB charter with meeting frequency
+  - stopping rules with implementation details
+  - risk mitigation measures with effectiveness
+  - safety follow-up period with rationale
+  - adverse event monitoring with causality
+  - laboratory assessments with alert values
+  - vital signs monitoring with thresholds
+  - integrated safety analysis with pooling rules
+  - risk-benefit assessment with framework
+  - special population safety with subgroup analysis
+  - long-term safety with extended follow-up
+  - cardiovascular safety with adjudication
+  - hepatic safety with Hy's law criteria
+  - renal safety with monitoring algorithm
+  - immunogenicity with testing strategy
   
-  # Study Conduct
-  - randomization method
-  - blinding procedures
-  - unblinding criteria
-  - treatment compliance
-  - protocol adherence
+  # Study Conduct - Operations
+  - randomization method with backup procedures
+  - blinding procedures with packaging details
+  - unblinding criteria with documentation
+  - treatment compliance with verification
+  - protocol adherence with deviation management
+  - site monitoring with risk-based approach
+  - data quality control with metrics
+  - audit procedures with selection criteria
+  - GCP compliance verification with evidence
+  - regulatory inspections with readiness
+  - investigator qualification with training
+  - site initiation with requirements
+  - ongoing oversight with escalation
+  - study closeout with archiving
+  
+  # Regulatory - Documentation
+  - registration requirements with timelines
+  - submission planning with milestones
+  - health authority interactions with minutes
+  - advisory committee preparation with briefing
+  - labeling considerations with endpoints
+  - post-marketing commitments with design
+  - pediatric investigation plan with timelines
+  - special population requirements with data
+  - regional regulatory alignment with strategy
+  - inspection readiness with documentation

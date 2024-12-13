@@ -1,0 +1,43 @@
+extends: existence
+message: "Required statistical reporting element missing: %s"
+level: error
+tokens:
+  # Primary Analysis Reporting
+  - "primary endpoint result: [point estimate with 95% CI and p-value]"
+  - "treatment difference: [Δ=X.XX (95% CI: L.LL-U.UU), p=0.XXX]"
+  - "adjusted analysis: [specify covariates and method]"
+  - "missing data impact: [sensitivity analysis results]"
+  - "subgroup consistency: [interaction p-value]"
+  
+  # Secondary Endpoint Reporting
+  - "multiplicity adjusted p-value"
+  - "hierarchical testing order"
+  - "family-wise error rate control"
+  - "conditional power for key secondaries"
+  
+  # Time-to-Event Analysis
+  - "median time: [X.X months (95% CI: L.L-U.U)]"
+  - "hazard ratio: [HR=X.XX (95% CI: L.LL-U.UU), p=0.XXX]"
+  - "number of events: [n (%)]"
+  - "censoring impact: [sensitivity analysis]"
+  
+  # Categorical Endpoints
+  - "response rate: [XX.X% (n/N) (95% CI: L.L%-U.U%)]"
+  - "odds ratio: [OR=X.XX (95% CI: L.LL-U.UU)]"
+  - "risk difference: [RD=X.X% (95% CI: L.L%-U.U%)]"
+  - "number needed to treat: [NNT=XX (95% CI: L-U)]"
+  
+  # Continuous Endpoints
+  - "mean change: [ΔX.XX ± SD (95% CI: L.LL-U.UU)]"
+  - "effect size: [Cohen's d=X.XX (95% CI: L.LL-U.UU)]"
+  - "repeated measures: [specify model and covariance]"
+  - "MMRM results: [LSM difference with CI]"
+
+nonstandard:
+  significant: "[specify exact p-value and clinical relevance]"
+  improved: "[specify absolute and relative changes with CI]"
+  effective: "[specify primary endpoint with effect size]"
+  comparable: "[specify equivalence margins and analysis]"
+  different: "[specify magnitude of difference with CI]"
+  trend: "[specify direction and magnitude with CI]"
+  correlation: "[specify coefficient with CI and p-value]"

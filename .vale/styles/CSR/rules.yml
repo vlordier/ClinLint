@@ -1,61 +1,59 @@
 StylesPath: .vale/styles
-MinAlertLevel: suggestion
+MinAlertLevel: error
 
 Packages:
   CSR: YES
+  Vale.Spelling: YES
+  Vale.Terms: YES
 
 Vocabularies:
   CSR: YES
+  Medical: YES
 
-# Use custom vocabulary
-Vocab = CSR
+Formats:
+  md: YES
+  rst: YES
+  adoc: YES
 
 Rules:
-  # Safety rules
-  CSR.safety.adverse_events: YES
-  CSR.safety.causality: YES
-  CSR.safety.severity: YES
-  CSR.safety.sae_criteria: YES
+  # Clinical Domain Rules
+  CSR.clinical.safety.reporting: error
+  CSR.clinical.safety.adverse_events: error
+  CSR.clinical.safety.causality: error
+  CSR.clinical.safety.severity: error
+  CSR.clinical.efficacy.reporting: error
+  CSR.clinical.laboratory.reporting: error
+  CSR.clinical.demographics.reporting: error
+  
+  # Special Population Rules
+  CSR.study_types.special.orphan_requirements: error
+  CSR.study_types.special.gcp_requirements: error
+  CSR.study_types.special.p2p_requirements: error
+  
+  # Regulatory Rules
+  CSR.regulatory.ich.compliance: error
+  CSR.regulatory.ich.structure: error
+  CSR.regulatory.regional.requirements: error
+  
+  # Quality Rules
+  CSR.quality.structure.base: error
+  CSR.quality.consistency.terminology: error
+  CSR.quality.data.integrity: error
+  
+  # Statistical Rules
+  CSR.statistics.methods.base: error
+  CSR.statistics.reporting.requirements: error
+  CSR.statistics.populations.definitions: error
+  
+  # Formatting Rules
+  CSR.formatting.document: error
+  CSR.formatting.tables: error
+  CSR.formatting.references: error
 
-  # Regulatory rules
-  CSR.regulatory.ich_e3: YES
-  CSR.regulatory.regional_requirements: YES
-  CSR.regulatory.ich_e3_structure: YES
-  CSR.regulatory.ich_e3_content: YES
+# Global configuration  
+IgnoredScopes:
+  - code
+  - tt
+  - url
 
-  # Statistical rules
-  CSR.statistics.terminology: YES
-  CSR.statistics.reporting: YES
-  CSR.statistics.population: YES
-  CSR.statistics.advanced_methods: YES
-
-  # Efficacy rules
-  CSR.efficacy.terminology: YES
-
-  # Quality rules
-  CSR.quality.structure: YES
-  CSR.quality.cross_references: YES
-  CSR.quality.consistency: YES
-  CSR.quality.data_integrity: YES
-
-  # Section rules
-  CSR.sections.introduction: YES
-  CSR.sections.methods: YES
-  CSR.sections.results: YES
-  CSR.sections.discussion: YES
-  CSR.sections.conclusions: YES
-
-  # Protocol rules
-  CSR.protocol.compliance: YES
-
-  # Study Design rules
-  CSR.study_design.methodology: YES
-
-  # Laboratory rules
-  CSR.laboratory.reporting: YES
-
-  # Demographics rules
-  CSR.demographics.reporting: YES
-
-  # Biomarker rules
-  CSR.biomarkers.analysis_requirements: YES
+WordTemplate: \b(?:[A-Z]\.?\s*){2,}|[A-Z][a-z]+'?[a-z]+|[A-Z]+\b

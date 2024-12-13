@@ -1,0 +1,56 @@
+# Test cases for metadata requirements
+examples:
+  # Document Control Examples
+  - id: doc-control
+    text: "The study report was prepared."
+    expected_issues:
+      - rule: CSR.metadata.requirements
+        message: "Required document metadata element missing: document number format"
+    expected_feedback:
+      - "Include document control number"
+      - "Specify version number"
+      - "Add effective date"
+
+  # Author Information Examples
+  - id: author-info
+    text: "The report was reviewed."
+    expected_issues:
+      - rule: CSR.metadata.requirements
+        message: "Required document metadata element missing: author identification"
+    expected_feedback:
+      - "Include author names"
+      - "Specify reviewer names"
+      - "Add approval signatures"
+
+  # Version Control Examples
+  - id: version-control
+    text: "Changes were made to the document."
+    expected_issues:
+      - rule: CSR.metadata.requirements
+        message: "Required document metadata element missing: version history table"
+    expected_feedback:
+      - "Include version history"
+      - "Detail changes made"
+      - "Add change justification"
+
+  # Regional Requirements Examples
+  - id: regional-reqs
+    text: "The submission was prepared."
+    expected_issues:
+      - rule: CSR.regulatory.regional_specific
+        message: "Required regional regulatory element missing: FDA requirements"
+    expected_feedback:
+      - "Include Form 1571"
+      - "Add financial disclosure"
+      - "Specify debarment status"
+
+  # Version Consistency Examples
+  - id: consistency
+    text: "Protocol version 2.0 was referenced."
+    expected_issues:
+      - rule: CSR.quality.version_consistency
+        message: "Version consistency issue: protocol version reference"
+    expected_feedback:
+      - "Verify protocol version"
+      - "Check cross-references"
+      - "Ensure consistency"

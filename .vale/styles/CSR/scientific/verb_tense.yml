@@ -1,0 +1,183 @@
+extends: existence
+message: "Use appropriate verb tense: %s"
+level: error
+tokens:
+  # Methods Section (Simple Past) - Core Study Actions
+  - "is performed": "was performed"
+  - "is conducted": "was conducted"
+  - "is administered": "was administered"
+  - "is analyzed": "was analyzed"
+  - "is measured": "was measured"
+  - "is evaluated": "was evaluated"
+  - "is assessed": "was assessed"
+  - "is recorded": "was recorded"
+  - "is collected": "was collected"
+  - "is monitored": "was monitored"
+  - "is randomized": "was randomized"
+  - "is stratified": "was stratified"
+  - "is calculated": "was calculated"
+  - "is determined": "was determined"
+  - "is obtained": "was obtained"
+  - "is processed": "was processed"
+  - "is prepared": "was prepared"
+  - "is documented": "was documented"
+  - "is verified": "was verified"
+  - "is validated": "was validated"
+  
+  # Methods Section (Simple Past) - Additional Study Procedures
+  - "is screened": "was screened"
+  - "is enrolled": "was enrolled"
+  - "is assigned": "was assigned"
+  - "is dosed": "was dosed"
+  - "is titrated": "was titrated"
+  - "is discontinued": "was discontinued"
+  - "is withdrawn": "was withdrawn"
+  - "is followed": "was followed"
+  - "is examined": "was examined"
+  - "is interviewed": "was interviewed"
+  - "is questioned": "was questioned"
+  - "is surveyed": "was surveyed"
+  - "is tested": "was tested"
+  - "is sampled": "was sampled"
+  - "is biopsied": "was biopsied"
+  - "is imaged": "was imaged"
+  - "is scanned": "was scanned"
+  - "is photographed": "was photographed"
+  - "is recorded": "was recorded"
+  - "is videotaped": "was videotaped"
+
+  # Methods Section (Simple Past) - Data Management
+  - "is entered": "was entered"
+  - "is coded": "was coded"
+  - "is cleaned": "was cleaned"
+  - "is queried": "was queried"
+  - "is verified": "was verified"
+  - "is audited": "was audited"
+  - "is exported": "was exported"
+  - "is imported": "was imported"
+  - "is merged": "was merged"
+  - "is transformed": "was transformed"
+
+  # Methods Section (Simple Past) - Laboratory Procedures
+  - "is centrifuged": "was centrifuged"
+  - "is aliquoted": "was aliquoted"
+  - "is frozen": "was frozen"
+  - "is thawed": "was thawed"
+  - "is assayed": "was assayed"
+  - "is sequenced": "was sequenced"
+  - "is genotyped": "was genotyped"
+  - "is amplified": "was amplified"
+  - "is purified": "was purified"
+  - "is extracted": "was extracted"
+
+  # Methods Section (Simple Past) - Statistical Analysis
+  - "is imputed": "was imputed"
+  - "is modeled": "was modeled"
+  - "is regressed": "was regressed"
+  - "is adjusted": "was adjusted"
+  - "is standardized": "was standardized"
+  - "is normalized": "was normalized"
+  - "is transformed": "was transformed"
+  - "is tested": "was tested"
+  - "is compared": "was compared"
+  - "is correlated": "was correlated"
+  
+  # Results Section (Simple Past)
+  - "subjects are": "subjects were"
+  - "data shows": "data showed"
+  - "analysis reveals": "analysis revealed"
+  - "results indicate": "results indicated"
+  - "demonstrates": "demonstrated"
+  - "proves": "proved"
+  - "suggests": "suggested"
+  - "appears": "appeared"
+  - "seems": "seemed"
+  - "exhibits": "exhibited"
+  - "displays": "displayed"
+  - "presents": "presented"
+  - "manifests": "manifested"
+  - "represents": "represented"
+  - "correlates": "correlated"
+  - "corresponds": "corresponded"
+  - "matches": "matched"
+  - "confirms": "confirmed"
+  - "validates": "validated"
+  
+  # Discussion Section (Present Tense for Interpretation)
+  - "data showed": "these data show" [when interpreting]
+  - "results indicated": "these results indicate" [when interpreting]
+  - "was observed": "is observed" [when interpreting]
+  - "was found": "is found" [when interpreting]
+  - "was noted": "is noted" [when interpreting]
+  - "was demonstrated": "is demonstrated" [when interpreting]
+  - "was confirmed": "is confirmed" [when interpreting]
+  - "was established": "is established" [when interpreting]
+  - "was validated": "is validated" [when interpreting]
+  - "was determined": "is determined" [when interpreting]
+  
+  # Background/Introduction (Present Tense)
+  - "was known": "is known"
+  - "was established": "is established"
+  - "was understood": "is understood"
+  - "was considered": "is considered"
+  - "was recognized": "is recognized"
+  - "was accepted": "is accepted"
+  - "was believed": "is believed"
+  - "was thought": "is thought"
+  - "was hypothesized": "is hypothesized"
+  - "was proposed": "is proposed"
+  
+  # Conclusions (Present Tense)
+  - "demonstrated": "demonstrates"
+  - "showed": "shows"
+  - "provided": "provides"
+  - "supported": "supports"
+  - "confirmed": "confirms"
+  - "validated": "validates"
+  - "established": "establishes"
+  - "indicated": "indicates"
+  - "suggested": "suggests"
+  - "proved": "proves"
+
+  # Methods Details (Simple Past)
+  - "is injected": "was injected"
+  - "is infused": "was infused"
+  - "is sampled": "was sampled"
+  - "is extracted": "was extracted"
+  - "is purified": "was purified"
+  - "is quantified": "was quantified"
+  - "is calibrated": "was calibrated"
+  - "is standardized": "was standardized"
+  - "is normalized": "was normalized"
+  - "is adjusted": "was adjusted"
+
+  # Statistical Analysis (Simple Past)
+  - "is computed": "was computed"
+  - "is estimated": "was estimated"
+  - "is tested": "was tested"
+  - "is compared": "was compared"
+  - "is modeled": "was modeled"
+  - "is fitted": "was fitted"
+  - "is regressed": "was regressed"
+  - "is predicted": "was predicted"
+  - "is simulated": "was simulated"
+  - "is bootstrapped": "was bootstrapped"
+
+scopes:
+  - heading
+  - paragraph
+  - list
+  - table
+
+exceptions:
+  # Standard phrases that don't follow the rules
+  - "it was determined that"
+  - "it was noted that"
+  - "as previously described"
+  - "as mentioned above"
+  - "it was observed that"
+  - "it was found that"
+  - "it was demonstrated that"
+  - "it was shown that"
+  - "it has been established that"
+  - "it has been demonstrated that"

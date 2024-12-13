@@ -1,0 +1,31 @@
+extends: existence
+message: "Required flow cytometry element missing: %s"
+level: error
+tokens:
+  # Panel Design
+  - compensation controls
+  - fluorochrome selection
+  - antibody titration
+  - viability staining
+  - gating strategy
+  
+  # Quality Control
+  - instrument calibration
+  - PMT voltage settings
+  - daily QC beads
+  - standardization beads
+  - batch effects
+  
+  # Analysis Methods
+  - population identification
+  - marker expression levels
+  - proliferation indices
+  - cytokine production
+  - functional assays
+  
+  # Data Processing
+  - compensation matrix
+  - doublet exclusion
+  - debris removal
+  - normalization method
+  - batch correction

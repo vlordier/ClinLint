@@ -1,0 +1,5 @@
+# Example causality assessment text
+The headache appears related to treatment.
+The event could be related to study drug.
+A possible relationship exists.
+The AE is perhaps related to IP.

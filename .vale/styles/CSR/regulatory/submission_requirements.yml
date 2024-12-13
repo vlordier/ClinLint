@@ -1,0 +1,38 @@
+extends: existence
+message: "Required regulatory submission element missing: %s"
+level: error
+tokens:
+  # IND Requirements
+  - investigational plan
+  - chemistry manufacturing controls
+  - pharmacology toxicology data
+  - previous human experience
+  - investigator brochure
+  - protocol synopsis
+  - phase appropriate data
+  - safety monitoring plan
+  - form 1571 elements
+  
+  # NDA/BLA Requirements
+  - clinical efficacy summary
+  - integrated safety summary
+  - risk management plan
+  - manufacturing information
+  - product quality data
+  - labeling proposal
+  - financial certification
+  - patent certification
+  - user fee cover sheet
+  - environmental assessment
+  
+  # ANDA Requirements
+  - bioequivalence data
+  - chemistry differences
+  - labeling comparison
+  - patent certification
+  - manufacturing compliance
+  - reference listed drug
+  - formulation assessment
+  - stability data
+  - facility information
+  - method validation

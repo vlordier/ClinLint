@@ -2,13 +2,36 @@ extends: existence
 message: "Required laboratory reporting element missing: %s"
 level: error
 tokens:
-  - reference ranges
-  - analytical methods
-  - sample handling
-  - quality control measures
-  - clinically significant changes
-  - shift tables
-  - laboratory normal ranges
-  - assay sensitivity
-  - precision measures
-  - accuracy measures
+  - reference ranges with source, dates, population characteristics, and periodic updates
+  - analytical methods with full validation package, method transfer data, and cross-validation
+  - sample handling with stability data, temperature monitoring, and chain of custody
+  - quality control measures with Westgard rules, acceptance criteria, and corrective actions
+  - clinically significant changes with CTCAE grading, medical review, and trend analysis
+  - shift tables with baseline categories, visit windows, and categorical analysis
+  - laboratory normal ranges with age/sex/ethnicity/genetic adjustments
+  - assay sensitivity with LLOQ/ULOQ, measurement uncertainty, and detection probability
+  - precision measures with intra/inter-assay CV%, reproducibility studies
+  - accuracy measures with recovery data, linearity assessment, and bias estimation
+  - batch effect analysis with statistical adjustment methods and normalization
+  - sample integrity assessment with rejection criteria and quality indicators
+  - hemolysis impact evaluation with graded interference and correction algorithms
+  - lipemia interference analysis with quantitative thresholds and mitigation strategies
+  - critical value reporting with notification procedures and escalation protocol
+  - trend analysis methods with statistical algorithms and pattern recognition
+  - method comparison studies with regression analysis and method agreement
+  - analytical specificity assessment with cross-reactivity studies
+  - matrix effect evaluation with ion suppression/enhancement
+  - carryover assessment with contamination control
+  - reagent lot tracking with bridging studies and stability monitoring
+  - calibration verification with traceability to reference standards
+  - proficiency testing with inter-laboratory comparison
+  - instrument qualification with preventive maintenance
+  - reference material traceability with certification documentation
+  - sample storage conditions with stability assessment
+  - sample transport validation with temperature mapping
+  - analytical run acceptance with system suitability
+  - repeat analysis criteria with documentation requirements
+  - dilution protocols with linearity verification
+  - interference testing with endogenous/exogenous substances
+  - reference interval verification with healthy population
+  - panic value management with clinical correlation

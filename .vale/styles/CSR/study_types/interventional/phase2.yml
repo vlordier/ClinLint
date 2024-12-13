@@ -1,0 +1,24 @@
+extends: existence
+message: "Required Phase 2 element missing: %s"
+level: error
+tokens:
+  # Proof of Concept Elements
+  - target engagement
+  - biological activity
+  - preliminary efficacy
+  - safety signals
+  - biomarker response
+  
+  # Dose-Response Elements
+  - dose selection rationale
+  - exposure-response
+  - optimal dose determination
+  - therapeutic window
+  - dosing frequency
+  
+  # Pilot Efficacy Elements
+  - efficacy signals
+  - effect size estimation
+  - population selection
+  - endpoint validation
+  - sample size justification

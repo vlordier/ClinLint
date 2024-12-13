@@ -1,0 +1,33 @@
+extends: existence
+message: "Required efficacy analysis element missing: %s"
+level: error
+tokens:
+  # Statistical Methods
+  - primary analysis specification
+  - model assumptions verification
+  - covariate adjustment plan
+  - interaction assessment
+  - sensitivity analysis approach
+  - subgroup analysis methods
+  - interim analysis rules
+  - multiplicity control
+  
+  # Population Definition
+  - analysis set criteria
+  - exclusion rationale
+  - protocol deviation impact
+  - missing data patterns
+  - intercurrent events
+  - censoring mechanisms
+  - dropout patterns
+  - compliance impact
+  
+  # Effect Measures
+  - point estimates with precision
+  - confidence intervals with level
+  - effect size with interpretation
+  - clinical relevance criteria
+  - number needed to treat
+  - relative risk reduction
+  - absolute risk reduction
+  - treatment difference

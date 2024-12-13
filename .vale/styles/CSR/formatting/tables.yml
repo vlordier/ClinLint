@@ -10,27 +10,69 @@ tokens:
   # Table Numbers
   - 'Table\s+\d+(?!\.)' # Missing period after table number
   - 'Table\s+\d+\.[^A-Z]' # Missing capital after table number
+  - 'Table\s+[0-9]+(?!\.)[0-9]+' # Non-sequential table numbers
   
   # Table Footnotes
   - '^[a-z]:'         # Footnote format
   - '^[^a-z]:'        # Invalid footnote marker
+  - '^[^a-z0-9]:'     # Invalid footnote reference
   
   # Table Borders
   - '[^\|]$'          # Missing vertical borders
   - '^[^\|]'          # Missing vertical borders
+  - '^[^+\-|]'        # Invalid border character
   
   # Cell Alignment
   - '\|\s{2,}[^\s]'   # Inconsistent cell padding
   - '[^\s]\s{2,}\|'   # Inconsistent cell padding
+  - '^\s+\|'          # Leading spaces before border
+  - '\|\s+$'          # Trailing spaces after border
 
 # Table Caption Requirements
 caption:
   location: "above"
-  format: "Table X. Description"
-  period: required
+  format: "Table %d. %s"
+  numbering: "sequential"
+  period: "required"
+  case: "sentence"
+  max_length: 200
+  min_length: 20
 
 # Column Header Requirements
 headers:
   alignment: "center"
   style: "bold"
   borders: "required"
+  case: "title"
+  wrap: "no-wrap"
+  max_width: 50
+
+# Cell Requirements
+cells:
+  alignment: "left"
+  padding: 1
+  max_width: 100
+  wrap: "wrap"
+  empty: "not-allowed"
+
+# Footnote Requirements
+footnotes:
+  marker: "alphabetical"
+  location: "below"
+  separator: "required"
+  style: "sentence"
+
+# Size Limits
+limits:
+  min_rows: 2
+  max_rows: 50
+  min_cols: 2
+  max_cols: 12
+  max_width: 150
+
+# Cross-reference Requirements
+xref:
+  format: "Table %d"
+  case: "title"
+  range_separator: "–"
+  list_separator: ", "

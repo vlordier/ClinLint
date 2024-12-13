@@ -1,0 +1,27 @@
+extends: existence
+message: "Required safety element missing: %s"
+level: error
+tokens:
+  # Core Safety Elements
+  - adverse event reporting
+  - causality assessment
+  - severity grading
+  - serious adverse events
+  - safety monitoring
+  - laboratory abnormalities
+  - vital signs
+  - ECG findings
+  - physical examination
+  - concomitant medications
+
+  # Advanced Safety Elements  
+  - exposure duration
+  - dose modifications
+  - treatment interruptions
+  - safety signals
+  - risk assessment
+  - benefit-risk evaluation
+  - special populations
+  - long-term safety
+  - pregnancy surveillance
+  - pediatric safety

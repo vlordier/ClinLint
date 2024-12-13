@@ -1,0 +1,38 @@
+extends: existence
+message: "Required synopsis element missing: %s"
+level: error
+tokens:
+  # Study Identification
+  - protocol number
+  - study phase
+  - study dates
+  - sponsor name
+  - investigational product
+  
+  # Study Design
+  - study design summary
+  - control type
+  - randomization method
+  - blinding status
+  - treatment duration
+  
+  # Study Population
+  - key inclusion criteria
+  - key exclusion criteria
+  - number of subjects planned
+  - number of subjects enrolled
+  - analysis populations
+  
+  # Study Results
+  - primary efficacy results
+  - key secondary results
+  - safety summary
+  - risk-benefit conclusion
+  - study limitations
+  
+  # Statistical Methods
+  - primary analysis method
+  - handling of missing data
+  - interim analyses
+  - sample size rationale
+  - multiplicity approach

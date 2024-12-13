@@ -1,0 +1,71 @@
+extends: existence
+message: "Required endpoint reporting element missing: %s"
+level: error
+tokens:
+  # Primary Endpoint Reporting
+  - point estimate with units
+  - 95% confidence interval
+  - p-value to 3 decimal places
+  - statistical method reference
+  - analysis population size
+  - missing data handling
+  - multiplicity adjustment
+  - stratification factors
+  
+  # Time-to-Event Endpoints
+  - median time with CI
+  - hazard ratio with CI
+  - number of events
+  - censoring rules
+  - Kaplan-Meier estimates
+  - proportional hazards check
+  - competing risks analysis
+  - stratified analysis results
+  
+  # Response Endpoints
+  - response definition
+  - response rate with CI
+  - odds ratio with CI
+  - number of responders
+  - time to response
+  - duration of response
+  - best overall response
+  - response by subgroup
+  
+  # Change from Baseline
+  - baseline values by group
+  - absolute change with CI
+  - relative change with CI
+  - MMRM model details
+  - covariance structure
+  - handling of intercurrent events
+  - sensitivity analyses
+  - tipping point analysis
+  
+  # PRO/QoL Endpoints
+  - instrument validation
+  - completion rates
+  - domain scores with CI
+  - minimally important difference
+  - cumulative distribution
+  - time to deterioration
+  - missing data pattern
+  - estimand definition
+  
+  # Composite Endpoints
+  - component definitions
+  - component results
+  - first event analysis
+  - competing risk analysis
+  - sensitivity analyses
+  - hierarchical testing
+  - clinical relevance
+  - number needed to treat
+
+nonstandard:
+  improved: "[specify absolute and relative changes with CI]"
+  decreased: "[specify magnitude of reduction with CI]"
+  increased: "[specify magnitude of increase with CI]"
+  significant: "[specify p-value and clinical relevance]"
+  trending: "[specify actual trend with statistical evidence]"
+  comparable: "[specify equivalence margins and analysis]"

@@ -1,0 +1,33 @@
+extends: existence
+message: "Required FIH safety monitoring element missing: %s"
+level: error
+tokens:
+  # Dose Escalation Safety
+  - sentinel dosing strategy with observation period
+  - dose escalation criteria with quantitative rules
+  - stopping rules with specific thresholds
+  - safety review committee charter
+  - cohort progression criteria
+  - dose limiting toxicity definition
+  - maximum tolerated dose criteria
+  - optimal biological dose determination
+  
+  # Core Safety Monitoring
+  - real-time safety review process
+  - adverse event reporting timelines
+  - alert laboratory values with thresholds
+  - ECG monitoring schedule with criteria
+  - vital signs monitoring frequency
+  - physical exam requirements
+  - safety biomarker assessment plan
+  - immunogenicity screening approach
+  
+  # Special Safety Assessments
+  - QT/QTc evaluation protocol
+  - organ function monitoring plan
+  - immune response monitoring
+  - cytokine release assessment
+  - complement activation testing
+  - coagulation monitoring plan
+  - cardiovascular assessment plan
+  - respiratory function monitoring

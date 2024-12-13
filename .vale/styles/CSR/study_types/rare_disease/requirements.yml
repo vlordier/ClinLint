@@ -1,0 +1,31 @@
+extends: existence
+message: "Required rare disease element missing: %s"
+level: error
+tokens:
+  # Disease Characterization
+  - natural history data
+  - phenotype description
+  - genotype correlation
+  - disease progression
+  - biomarker validation
+  
+  # Study Design
+  - adaptive elements
+  - enrichment strategy
+  - historical controls
+  - crossover considerations
+  - withdrawal criteria
+  
+  # Endpoint Selection
+  - surrogate endpoints
+  - composite endpoints
+  - patient-reported outcomes
+  - quality of life measures
+  - functional assessments
+  
+  # Special Considerations
+  - genetic counseling
+  - registry integration
+  - long-term follow-up
+  - family impact
+  - burden of disease

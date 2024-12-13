@@ -1,0 +1,24 @@
+extends: existence
+message: "Required cohort study element missing: %s"
+level: error
+tokens:
+  # Prospective Elements
+  - exposure assessment
+  - outcome ascertainment
+  - follow-up procedures
+  - loss to follow-up
+  - confounding control
+  
+  # Retrospective Elements
+  - data source validation
+  - selection criteria
+  - exposure reconstruction
+  - outcome validation
+  - bias assessment
+  
+  # Common Elements
+  - cohort definition
+  - comparison groups
+  - effect measures
+  - adjustment methods
+  - sensitivity analyses

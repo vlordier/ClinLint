@@ -1,0 +1,38 @@
+extends: existence
+message: "Required study conduct element missing: %s"
+level: error
+tokens:
+  # Study Procedures
+  - screening procedures
+  - randomization process
+  - treatment administration
+  - dose modifications
+  - follow-up procedures
+  
+  # Study Assessments
+  - efficacy assessments
+  - safety monitoring
+  - laboratory testing
+  - imaging procedures
+  - quality of life measures
+  
+  # Data Collection
+  - CRF completion
+  - source documentation
+  - data validation
+  - query resolution
+  - database lock
+  
+  # Protocol Changes
+  - amendment summary
+  - implementation dates
+  - impact assessment
+  - communication plan
+  - regulatory notifications
+  
+  # Study Management
+  - site management
+  - drug accountability
+  - monitoring activities
+  - investigator meetings
+  - site training

@@ -1,0 +1,23 @@
+extends: existence
+message: "Required Phase 1 PK/PD element missing: %s"
+level: error
+tokens:
+  # PK Elements
+  - sampling schedule with timepoints
+  - dose proportionality assessment
+  - food effect evaluation
+  - bioavailability determination
+  - drug-drug interaction analysis
+  - population PK approach
+  - metabolite profiling
+  - mass balance assessment
+  
+  # PD Elements
+  - biomarker selection rationale
+  - target engagement measures
+  - proof of mechanism data
+  - exposure-response relationship
+  - therapeutic window assessment
+  - safety margins calculation
+  - receptor occupancy analysis
+  - pathway modulation evidence

@@ -1,0 +1,48 @@
+extends: existence
+message: "Use standard clinical units: %s"
+level: error
+tokens:
+  # Vital Signs
+  '\b[0-9]+\s*mmHG\b': 'Use mmHg for blood pressure'
+  '\b[0-9]+\s*MM\s*HG\b': 'Use mmHg for blood pressure'
+  '\b[0-9]+\s*mm\s*hg\b': 'Use mmHg for blood pressure'
+  '\b[0-9]+\s*BPM\b': 'Use beats/min for heart rate'
+  '\b[0-9]+\s*/min\b': 'Use beats/min for heart rate'
+  '\b[0-9]+\s*C\b': 'Use °C for temperature'
+  '\b[0-9]+\s*F\b': 'Use °C for temperature'
+
+  # Laboratory Values
+  '\b[0-9]+\s*K/uL\b': 'Use ×10⁹/L for cell counts'
+  '\b[0-9]+\s*K/mm3\b': 'Use ×10⁹/L for cell counts'
+  '\b[0-9]+\s*mg/dl\b': 'Use mg/dL for chemistry values'
+  '\b[0-9]+\s*mg/dL\b': 'Use mg/dL for chemistry values'
+  '\b[0-9]+\s*g/dl\b': 'Use g/dL for hemoglobin'
+  '\b[0-9]+\s*g/L\b': 'Use g/L for proteins'
+  '\b[0-9]+\s*U/l\b': 'Use U/L for enzymes'
+  '\b[0-9]+\s*IU/l\b': 'Use U/L for enzymes'
+  '\b[0-9]+\s*mEq/l\b': 'Use mmol/L for electrolytes'
+  '\b[0-9]+\s*meq/L\b': 'Use mmol/L for electrolytes'
+
+  # Drug Concentrations
+  '\b[0-9]+\s*ug/ml\b': 'Use μg/mL for drug concentrations'
+  '\b[0-9]+\s*mcg/ml\b': 'Use μg/mL for drug concentrations'
+  '\b[0-9]+\s*ng/ml\b': 'Use ng/mL for drug concentrations'
+  '\b[0-9]+\s*pg/ml\b': 'Use pg/mL for drug concentrations'
+
+  # Physical Measurements
+  '\b[0-9]+\s*KG\b': 'Use kg for weight'
+  '\b[0-9]+\s*CM\b': 'Use cm for height'
+  '\b[0-9]+\s*M2\b': 'Use m² for BSA'
+  '\b[0-9]+\s*m2\b': 'Use m² for BSA'
+
+  # Time
+  '\b[0-9]+\s*HR\b': 'Use h for hours'
+  '\b[0-9]+\s*hrs\b': 'Use h for hours'
+  '\b[0-9]+\s*MIN\b': 'Use min for minutes'
+  '\b[0-9]+\s*SEC\b': 'Use s for seconds'
+
+  # Dosing
+  '\b[0-9]+\s*mg/kg/day\b': 'Use mg/kg/d for daily weight-based dosing'
+  '\b[0-9]+\s*mg/kg/hr\b': 'Use mg/kg/h for hourly weight-based dosing'
+  '\b[0-9]+\s*ml/hr\b': 'Use mL/h for infusion rates'
+  '\b[0-9]+\s*cc/hr\b': 'Use mL/h for infusion rates'

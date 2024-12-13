@@ -1,0 +1,24 @@
+extends: existence
+message: "Required adaptive design element missing: %s"
+level: error
+tokens:
+  # Design Elements
+  - adaptation rules
+  - interim analyses
+  - decision criteria
+  - sample size adjustment
+  - allocation rules
+  
+  # Statistical Elements
+  - type I error control
+  - power maintenance
+  - estimation methods
+  - simulation results
+  - operating characteristics
+  
+  # Operational Elements
+  - randomization updates
+  - supply management
+  - blinding maintenance
+  - data monitoring
+  - decision implementation

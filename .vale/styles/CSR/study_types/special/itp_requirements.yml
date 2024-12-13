@@ -1,0 +1,35 @@
+extends: existence
+message: "Required ITP element missing: %s"
+level: error
+tokens:
+  # Investigator Elements
+  - experience criteria
+  - specialty requirements
+  - practice setting
+  - patient volume
+  - treatment expertise
+  - decision rationale
+  
+  # Treatment Selection
+  - preference documentation
+  - selection criteria
+  - alternative options
+  - switching criteria
+  - modification rules
+  - discontinuation reasons
+  
+  # Documentation
+  - preference recording
+  - justification log
+  - deviation tracking
+  - outcome correlation
+  - pattern analysis
+  - bias assessment
+  
+  # Analysis Methods
+  - preference patterns
+  - outcome correlation
+  - practice variations
+  - specialty differences
+  - geographic trends
+  - temporal changes

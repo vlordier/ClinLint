@@ -1,0 +1,33 @@
+extends: existence
+message: "Required efficacy endpoint element missing: %s"
+level: error
+tokens:
+  # Primary Endpoint Elements
+  - endpoint definition with precise criteria
+  - statistical hypothesis with margins
+  - analysis method with assumptions
+  - missing data approach with sensitivity
+  - multiplicity adjustment with FWER
+  - estimand framework with ICE strategy
+  - subgroup analysis with interaction
+  - interim analysis with alpha spending
+  
+  # Secondary Endpoints
+  - hierarchical testing order
+  - family-wise error control
+  - conditional power assessment
+  - sensitivity analysis plan
+  - estimand alignment
+  - intercurrent events
+  - missing data handling
+  - supplementary analyses
+
+  # Time-to-Event Analysis
+  - event definition with criteria
+  - censoring rules with rationale
+  - competing risks framework
+  - time-dependent effects
+  - proportional hazards check
+  - stratification factors
+  - interim monitoring
+  - sequential boundaries

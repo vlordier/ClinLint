@@ -1,0 +1,12 @@
+extends: substitution
+message: "Use standard terminology: '%s' instead of '%s'"
+level: error
+ignorecase: true
+swap:
+  "side effect": "adverse event"
+  "patient": "subject"
+  "significant": "[specify statistical significance]"
+  "normal range": "[specify reference range]"
+  "approximately": "[specify exact value]"
+  "about": "[specify precise measure]"
+  "around": "[specify exact timepoint]"

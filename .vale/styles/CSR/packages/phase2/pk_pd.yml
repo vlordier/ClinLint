@@ -1,0 +1,23 @@
+extends: existence
+message: "Required Phase 2 PK/PD element missing: %s"
+level: error
+tokens:
+  # PK Elements
+  - steady-state assessment with timing
+  - dose proportionality with analysis
+  - drug accumulation with ratio
+  - clearance pathways with contribution
+  - volume of distribution with calculation
+  - bioavailability assessment with factors
+  - drug-drug interactions with screening
+  - food effect evaluation with design
+  
+  # PD Elements
+  - target engagement with measurement
+  - receptor occupancy with analysis
+  - biomarker response with validation
+  - pathway modulation with evidence
+  - resistance mechanisms with monitoring
+  - adaptation assessment with time course
+  - combination effects with interaction
+  - systems pharmacology with modeling

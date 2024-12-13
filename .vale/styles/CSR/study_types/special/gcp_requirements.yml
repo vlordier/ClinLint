@@ -1,0 +1,43 @@
+extends: existence
+message: "Required GCP element missing: %s"
+level: error
+tokens:
+  # Essential Documents
+  - protocol compliance
+  - informed consent process
+  - IRB/IEC approval
+  - investigator qualifications
+  - monitoring reports
+  - safety reporting
+  - data verification
+  - quality assurance
+  
+  # Study Conduct
+  - delegation log
+  - training documentation
+  - source data verification
+  - drug accountability
+  - temperature monitoring
+  - deviation reporting
+  - corrective actions
+  - preventive measures
+  
+  # Data Management
+  - data entry procedures
+  - query resolution
+  - coding standards
+  - database validation
+  - audit trail
+  - archiving procedures
+  - data protection
+  - backup procedures
+  
+  # Quality Metrics
+  - monitoring frequency
+  - protocol adherence rate
+  - consent documentation
+  - SAE reporting timeline
+  - query resolution time
+  - missing data rate
+  - dropout rate
+  - inspection readiness

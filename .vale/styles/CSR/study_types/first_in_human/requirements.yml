@@ -1,0 +1,31 @@
+extends: existence
+message: "Required FIH study element missing: %s"
+level: error
+tokens:
+  # Safety Monitoring
+  - sentinel dosing
+  - dose escalation rules
+  - stopping criteria
+  - safety review process
+  - cohort progression
+  
+  # PK/PD Assessment
+  - first dose PK
+  - dose proportionality
+  - food effect
+  - accumulation ratio
+  - target engagement
+  
+  # Biomarker Analysis
+  - pharmacodynamic markers
+  - safety biomarkers
+  - target modulation
+  - mechanism validation
+  - response prediction
+  
+  # Risk Mitigation
+  - subject selection
+  - dosing strategy
+  - monitoring frequency
+  - rescue procedures
+  - risk management

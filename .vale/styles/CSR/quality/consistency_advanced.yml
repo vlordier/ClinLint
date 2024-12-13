@@ -3,6 +3,41 @@ message: "Maintain precise terminology consistency throughout document"
 level: error
 ignorecase: true
 either:
+  # Standard Abbreviations (First Mention)
+  "AE": "Adverse Event (AE)"
+  "SAE": "Serious Adverse Event (SAE)"
+  "ECG": "Electrocardiogram (ECG)"
+  "BMI": "Body Mass Index (BMI)"
+  "BP": "Blood Pressure (BP)"
+  "HR": "Heart Rate (HR)"
+  "RR": "Respiratory Rate (RR)"
+  "CBC": "Complete Blood Count (CBC)"
+  "CRF": "Case Report Form (CRF)"
+  "CSR": "Clinical Study Report (CSR)"
+  "DMC": "Data Monitoring Committee (DMC)"
+  "ICF": "Informed Consent Form (ICF)"
+  "IMP": "Investigational Medicinal Product (IMP)"
+  "PK": "Pharmacokinetic (PK)"
+  "PD": "Pharmacodynamic (PD)"
+  
+  # Laboratory Units (SI)
+  "glucose": "glucose (mmol/L)"
+  "creatinine": "creatinine (μmol/L)"
+  "hemoglobin": "hemoglobin (g/L)"
+  "platelets": "platelets (×10⁹/L)"
+  "WBC": "WBC (×10⁹/L)"
+  "ALT": "ALT (U/L)"
+  "AST": "AST (U/L)"
+  "bilirubin": "bilirubin (μmol/L)"
+  
+  # Vital Signs Units
+  "blood pressure": "blood pressure (mmHg)"
+  "heart rate": "heart rate (beats/min)"
+  "temperature": "temperature (°C)"
+  "respiratory rate": "respiratory rate (breaths/min)"
+  "oxygen saturation": "oxygen saturation (%)"
+  "weight": "weight (kg)"
+  "height": "height (cm)"
   # Time References
   "screening period": "Screening Period (Day -28 to Day -1)"
   "treatment period": "Treatment Period (Day 1 to Week X)"

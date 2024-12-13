@@ -1,0 +1,43 @@
+extends: existence
+message: "Required patient-to-patient study element missing: %s"
+level: error
+tokens:
+  # Study Design
+  - peer recruitment
+  - community engagement
+  - social network analysis
+  - participant roles
+  - interaction patterns
+  - communication channels
+  - support mechanisms
+  - retention strategies
+  
+  # Data Collection
+  - peer reporting
+  - experience sharing
+  - narrative collection
+  - behavioral tracking
+  - interaction logging
+  - outcome documentation
+  - adherence monitoring
+  - engagement metrics
+  
+  # Quality Control
+  - peer verification
+  - cross-validation
+  - consistency checks
+  - reliability measures
+  - bias assessment
+  - authenticity verification
+  - data triangulation
+  - quality indicators
+  
+  # Ethics/Privacy
+  - confidentiality measures
+  - privacy protection
+  - consent procedures
+  - data sharing rules
+  - boundary management
+  - role definitions
+  - conflict resolution
+  - withdrawal procedures

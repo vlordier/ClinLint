@@ -1,0 +1,50 @@
+extends: existence
+message: "Required special population element missing: %s"
+level: error
+tokens:
+  # Pediatric Population
+  - age-appropriate formulation
+  - developmental assessment
+  - growth monitoring
+  - pediatric PK/PD
+  - age-stratified safety
+  - long-term effects
+  - cognitive development
+  - physical maturation
+  
+  # Geriatric Population
+  - comorbidity assessment
+  - polypharmacy evaluation
+  - cognitive function
+  - physical function
+  - fall risk assessment
+  - organ function status
+  - frailty measures
+  - social support needs
+  
+  # Pregnancy/Lactation
+  - pregnancy registry
+  - fetal outcomes
+  - lactation studies
+  - maternal outcomes
+  - developmental follow-up
+  - birth defect monitoring
+  - breast milk exposure
+  
+  # Organ Impairment
+  - hepatic adjustment
+  - renal modification
+  - cardiac consideration
+  - dose modification
+  - monitoring frequency
+  - safety parameters
+  - PK alterations
+  
+  # Genetic Subgroups
+  - pharmacogenetic analysis
+  - metabolizer status
+  - genetic variants
+  - ethnic differences
+  - biomarker correlation
+  - response prediction
+  - adverse event patterns

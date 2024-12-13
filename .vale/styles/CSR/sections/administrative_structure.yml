@@ -1,0 +1,33 @@
+extends: existence
+message: "Required administrative structure element missing: %s"
+level: error
+tokens:
+  # Study Personnel
+  - sponsor representatives
+  - coordinating investigator
+  - principal investigators
+  - study coordinators
+  - medical monitors
+  
+  # Study Committees
+  - steering committee
+  - data monitoring committee
+  - endpoint adjudication committee
+  - safety review board
+  - ethics committee
+  
+  # Service Providers
+  - contract research organization
+  - central laboratory
+  - bioanalytical laboratory
+  - ECG core laboratory
+  - imaging core laboratory
+  - biostatistics vendor
+  - data management vendor
+  
+  # Quality Management
+  - monitoring strategy
+  - audit program
+  - quality control procedures
+  - training requirements
+  - documentation standards

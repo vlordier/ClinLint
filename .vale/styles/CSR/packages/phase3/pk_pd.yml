@@ -1,0 +1,23 @@
+extends: existence
+message: "Required Phase 3 PK/PD element missing: %s"
+level: error
+tokens:
+  # Population PK Elements
+  - exposure-response relationship with modeling
+  - covariate effects with clinical relevance
+  - special population analysis with adjustments
+  - drug-drug interactions with mechanism
+  - food effect with clinical impact
+  - dose optimization with target exposure
+  - therapeutic drug monitoring with criteria
+  - metabolite profiling with contribution
+  
+  # Advanced PD Analysis
+  - biomarker response with validation
+  - receptor occupancy with time course
+  - resistance development with mechanisms
+  - tolerance assessment with adaptation
+  - rebound effects with management
+  - withdrawal phenomena with timing
+  - chronopharmacology with patterns
+  - system adaptation with homeostasis

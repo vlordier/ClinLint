@@ -1,0 +1,39 @@
+extends: existence
+message: "Required post-marketing surveillance element missing: %s"
+level: error
+tokens:
+  # Safety Monitoring
+  - adverse event reporting rates
+  - safety signal detection
+  - risk minimization effectiveness
+  - medication errors tracking
+  - product complaints analysis
+  - periodic safety updates
+  - real-world safety data
+  
+  # Effectiveness Monitoring
+  - real-world effectiveness
+  - treatment patterns
+  - drug utilization review
+  - comparative effectiveness
+  - patient-reported outcomes
+  - healthcare resource use
+  - quality of life measures
+  
+  # Population Analysis
+  - demographic patterns
+  - off-label use monitoring
+  - special population outcomes
+  - pregnancy registry data
+  - pediatric safety profile
+  - geriatric use patterns
+  - comorbidity impact
+  
+  # Quality Monitoring
+  - product quality complaints
+  - manufacturing deviations
+  - stability monitoring
+  - supply chain integrity
+  - counterfeit detection
+  - storage compliance
+  - handling procedures

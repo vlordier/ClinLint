@@ -2,20 +2,73 @@ extends: existence
 message: "Include required statistical elements: %s"
 level: error
 tokens:
-  # Hypothesis Testing
-  - \bp[ ]*[<>]=?[ ]*[0-9.]+\b
-  - \balpha[ ]*=[ ]*0\.[0-9]+\b
-  - \btype I error rate\b
-  - \btype II error rate\b
-  - \bpower calculation\b
-  - \bsample size justification\b
-  - \bnon-inferiority margin\b
-  - \bequivalence margins\b
-  
-  # Descriptive Statistics
-  - \b95%[ ]*CI\b
-  - \bconfidence interval\b
-  - \bstandard deviation\b
+  # Primary Analysis Requirements
+  - \bp-value reported to 3 decimal places \(p=[0-9]\.[0-9]{3}\)\b
+  - \b95% CI reported with exact bounds \([0-9]+\.[0-9]+-[0-9]+\.[0-9]+\)\b
+  - \beffect size with standardized measure \(Cohen's d/Hedges' g/Glass's Δ\)\b
+  - \bclinical relevance threshold specified \(MCID/MID\)\b
+  - \bprimary endpoint analysis method fully specified\b
+  - \bmultiplicity adjustment method detailed\b
+  - \binterim analysis alpha spending function\b
+  - \bstopping boundaries with exact values\b
+  - \bpoint estimate with standard error \(estimate ± SE\)\b
+  - \bmodel diagnostics reported \(residuals, influence, fit\)\b
+  - \bsensitivity analyses specified \(assumptions tested\)\b
+  - \bsubgroup analyses pre-specified with interaction tests\b
+  - \bmissing data mechanism evaluated \(MCAR/MAR/MNAR\)\b
+  - \bbaseline covariate adjustment method specified\b
+  - \banalysis population clearly defined \(ITT/PP/mITT\)\b
+  - \bprotocol deviations impact assessed\b
+
+  # Sample Size and Power
+  - \btype I error α=[0-9]\.[0-9]{3} \(two-sided\)\b
+  - \btype II error β=[0-9]\.[0-9]{2}, power=[0-9]{2}%\b
+  - \beffect size assumption with justification\b
+  - \bdropout rate with sensitivity analysis\b
+  - \bsample size re-estimation criteria\b
+  - \bconditional power calculations\b
+  - \bfutility boundaries with thresholds\b
+  - \binterim sample size adjustment rules\b
+
+  # Missing Data Handling
+  - \bmissing data pattern analysis required\b
+  - \bprimary imputation method specified\b
+  - \bsensitivity analyses with different mechanisms\b
+  - \btipping point analysis required\b
+  - \bpattern mixture models specified\b
+  - \bmultiple imputation with m=[0-9]+ datasets\b
+  - \bcontrol-based imputation methods\b
+  - \breference-based imputation approaches\b
+
+  # Subgroup Analyses
+  - \bpre-specified subgroups with rationale\b
+  - \binteraction tests with significance level\b
+  - \bforest plots with consistency assessment\b
+  - \bmultiplicity control for subgroups\b
+  - \btreatment effect heterogeneity tests\b
+  - \bsubgroup sample size considerations\b
+  - \bpredictive/prognostic factor analyses\b
+  - \bstratification factor analyses\b
+
+  # Model Validation
+  - \bmodel assumptions verification required\b
+  - \bdiagnostic plots specification\b
+  - \bgoodness-of-fit measures required\b
+  - \bresidual analysis methodology\b
+  - \binfluential observation assessment\b
+  - \bcross-validation procedures\b
+  - \bbootstrap validation methods\b
+  - \bexternal validation approach\b
+
+  # Estimand Framework
+  - \bintercurrent event strategies specified\b
+  - \bestimand attributes fully defined\b
+  - \bsensitivity analyses for ICE handling\b
+  - \bprincipal stratum definition\b
+  - \bhypothetical strategies detailed\b
+  - \btreatment policy approach specified\b
+  - \bcomposite strategy definition\b
+  - \bwhile on treatment analysis scope\b
   - \bSD\b
   - \bstandard error\b
   - \bSE\b

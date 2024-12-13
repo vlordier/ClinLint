@@ -1,15 +1,69 @@
-# ICH E3 compliance
 extends: existence
-message: "Required ICH E3 element missing: %s"
+message: "Required regulatory element missing: %s"
 level: error
 tokens:
-  - study objectives
-  - inclusion criteria
-  - exclusion criteria
-  - primary endpoint
-  - statistical methods
-  - study population
-  - efficacy results
-  - safety results
-  - study limitations
-  - ethical considerations
+  # ICH E3 Structure Requirements
+  - title page requirements
+  - synopsis format
+  - table of contents structure
+  - study objectives hierarchy
+  - ethics section placement
+  - investigational plan details
+  - study population description
+  - efficacy evaluation format
+  - safety evaluation structure
+  - discussion organization
+  - conclusion requirements
+  - reference formatting
+  
+  # ICH E6(R2) GCP Documentation
+  - protocol compliance verification
+  - GCP training records
+  - monitoring plan adherence
+  - data quality assurance
+  - essential documents maintenance
+  - investigator oversight
+  - sponsor responsibilities
+  - regulatory notifications
+  
+  # Regional Requirements
+  - FDA Form 1572 compliance
+  - EMA requirements
+  - PMDA considerations
+  - local regulatory adherence
+  - submission readiness
+  - inspection preparation
+  
+  # Quality System Elements
+  - SOPs referenced
+  - quality manual compliance
+  - audit documentation
+  - CAPA system reference
+  - deviation management
+  - change control process
+  - document control system
+  - training documentation
+  
+  # Safety Reporting Requirements
+  - expedited reporting criteria
+  - periodic safety updates
+  - SUSAR reporting
+  - development safety update
+  - risk management plan
+  - pharmacovigilance system
+  
+  # Clinical Trial Registration
+  - registry identification
+  - results posting timeline
+  - protocol registration
+  - amendment tracking
+  - results disclosure
+  - transparency requirements
+  
+  # Data Standards Compliance
+  - CDISC conformance
+  - SDTM implementation
+  - ADaM specifications
+  - define.xml documentation
+  - controlled terminology
+  - data validation rules

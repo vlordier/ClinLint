@@ -1,0 +1,124 @@
+extends: substitution
+message: "Use American English spelling: '%s' instead of '%s'"
+level: error
+ignorecase: true
+swap:
+  # British to American
+  "analyse": "analyze"
+  "analysed": "analyzed"
+  "analysing": "analyzing"
+  "behaviour": "behavior"
+  "catalogue": "catalog"
+  "centre": "center"
+  "colour": "color"
+  "defence": "defense"
+  "dialyse": "dialyze"
+  "dialogue": "dialog"
+  "enrol": "enroll"
+  "enrolled": "enrolled"
+  "enrolling": "enrolling"
+  "favour": "favor"
+  "favourable": "favorable"
+  "fulfil": "fulfill"
+  "haemoglobin": "hemoglobin"
+  "labelled": "labeled"
+  "labelling": "labeling"
+  "leucocyte": "leukocyte"
+  "licence": "license"
+  "litre": "liter"
+  "metre": "meter"
+  "modelled": "modeled"
+  "modelling": "modeling"
+  "oedema": "edema"
+  "oesophagus": "esophagus"
+  "organisation": "organization"
+  "paralyse": "paralyze"
+  "practise": "practice"
+  "programme": "program"
+  "randomise": "randomize"
+  "randomised": "randomized"
+  "randomising": "randomizing"
+  "signalled": "signaled"
+  "signalling": "signaling"
+  "standardise": "standardize"
+  "theatre": "theater"
+  "tumour": "tumor"
+  
+  # Date Formats (European/International to American)
+  "[0-9]{2}/[0-9]{2}/[0-9]{4}": "MM/DD/YYYY"
+  "[0-9]{2}-[0-9]{2}-[0-9]{4}": "MM-DD-YYYY"
+  "[0-9]{2}\.[0-9]{2}\.[0-9]{4}": "MM.DD.YYYY"
+  
+  # Units (SI to US Common)
+  "°C": "°F"
+  "centimetre": "centimeter"
+  "millilitre": "milliliter"
+  "gramme": "gram"
+  
+  # Common ESL Errors
+  "informations": "information"
+  "researches": "research"
+  "evidences": "evidence"
+  "feedbacks": "feedback"
+  "advices": "advice"
+  "equipments": "equipment"
+  "staffs": "staff"
+  "criterias": "criteria"
+  "phenomenons": "phenomena"
+  "datum": "data point"
+  
+  # German Speaker Common Errors
+  "protocol-conform": "protocol-compliant"
+  "after finished": "after finishing"
+  "since existing": "since existence"
+  "beside": "besides"
+  "besides of": "besides"
+  "in parallel to": "in parallel with"
+  
+  # French Speaker Common Errors
+  "planified": "planned"
+  "controlate": "control"
+  "experimented": "experienced"
+  "precise": "specify"
+  "precise that": "specify that"
+  "dispose": "have"
+  "dispose of": "have"
+  
+  # Spanish Speaker Common Errors
+  "in base of": "based on"
+  "in base to": "based on"
+  "according with": "according to"
+  "by the contrary": "on the contrary"
+  "in the other hand": "on the other hand"
+  
+  # Chinese Speaker Common Errors
+  "make research": "conduct research"
+  "do research": "conduct research"
+  "make analysis": "perform analysis"
+  "do analysis": "perform analysis"
+  "already finished": "has finished"
+  "already completed": "has completed"
+  
+  # Article Usage Errors
+  "the baseline": "baseline"
+  "the screening": "screening"
+  "the randomization": "randomization"
+  "the treatment": "treatment"
+  "the safety": "safety"
+  "the efficacy": "efficacy"
+  
+  # Preposition Errors
+  "different than": "different from"
+  "similar than": "similar to"
+  "discuss about": "discuss"
+  "comprised of": "composed of"
+  "in relation with": "in relation to"
+  "in comparison with": "compared with"
+  
+  # Verb Tense/Form Errors
+  "has been showed": "has been shown"
+  "have been showed": "have been shown"
+  "was showed": "was shown"
+  "were showed": "were shown"
+  "has showed": "has shown"
+  "have showed": "have shown"

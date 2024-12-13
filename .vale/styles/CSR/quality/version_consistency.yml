@@ -1,0 +1,38 @@
+extends: existence
+message: "Version consistency issue: %s"
+level: error
+tokens:
+  # Version Elements
+  - protocol version reference
+  - SAP version reference
+  - ICF version reference
+  - CRF version reference
+  - IB version reference
+  
+  # Cross-Document Consistency
+  - study objectives match
+  - endpoint definitions match
+  - analysis methods match
+  - population definitions match
+  - safety parameters match
+  
+  # Internal Consistency
+  - repeated statements
+  - conflicting numbers
+  - inconsistent dates
+  - mismatched references
+  - contradictory conclusions
+  
+  # Change Documentation
+  - amendment rationale
+  - impact assessment
+  - implementation dates
+  - affected sections
+  - regulatory notifications
+  
+  # Version Control
+  - document history
+  - revision tracking
+  - change summary
+  - approval status
+  - distribution record

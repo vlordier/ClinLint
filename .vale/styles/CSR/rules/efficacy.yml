@@ -1,0 +1,13 @@
+extends: existence
+message: "Required efficacy reporting elements missing: %s"
+level: error
+scope: text
+tokens:
+  - primary endpoint analysis
+  - secondary endpoints
+  - statistical methods
+  - subgroup analyses
+  - sensitivity analyses
+  - multiplicity adjustments
+  - missing data handling
+  - interim analyses

@@ -1,0 +1,52 @@
+extends: existence
+message: "Required regional regulatory element missing: %s"
+level: error
+tokens:
+  # FDA Requirements
+  - form 1571 elements
+  - financial disclosure
+  - debarment certification
+  - pediatric assessment
+  - PDUFA requirements
+  - REMS documentation
+  - clinical site information
+  - investigator qualification
+  
+  # EMA Requirements
+  - RMP requirements
+  - PIP compliance
+  - orphan designation
+  - PRIME status
+  - SME status
+  - national requirements
+  - translations needed
+  - local representatives
+  
+  # PMDA Requirements
+  - STED documentation
+  - bridging strategy
+  - ethnic factors
+  - local development
+  - consultation records
+  - Japanese guidelines
+  - regional requirements
+  - translation verification
+  
+  # Health Canada
+  - NOC requirements
+  - NOC/c conditions
+  - priority review
+  - screening checklist
+  - labeling requirements
+  - risk management
+  - post-market commitments
+  
+  # Common Requirements
+  - eCTD structure
+  - submission format
+  - validation rules
+  - technical requirements
+  - lifecycle management
+  - review timelines
+  - fees structure
+  - contact information

@@ -1,0 +1,31 @@
+extends: existence
+message: "Required gene therapy element missing: %s"
+level: error
+tokens:
+  # Vector Characteristics
+  - vector description
+  - biodistribution profile
+  - shedding assessment
+  - integration analysis
+  - persistence evaluation
+  
+  # Expression Analysis
+  - transgene expression
+  - expression duration
+  - tissue specificity
+  - dose-response relationship
+  - expression stability
+  
+  # Safety Monitoring
+  - insertional mutagenesis
+  - germline transmission
+  - immune response
+  - oncogenic potential
+  - long-term follow-up
+  
+  # Manufacturing
+  - vector production
+  - purification process
+  - potency assay
+  - stability data
+  - characterization tests

@@ -1,0 +1,36 @@
+extends: existence
+message: "Required core element missing: %s"
+level: error
+tokens:
+  # Document Structure
+  - title page
+  - synopsis
+  - table of contents
+  - list of abbreviations
+  - ethics statement
+  - study objectives
+  - methodology
+  - results
+  - discussion
+  - conclusions
+  - references
+
+  # Administrative Elements  
+  - protocol version
+  - amendment history
+  - GCP compliance
+  - monitoring plan
+  - data management
+  - quality control
+  - training records
+  - documentation standards
+
+  # Version Control
+  - document number
+  - version number
+  - effective date
+  - review date
+  - approval signatures
+  - distribution list
+  - change history
+  - superseded documents

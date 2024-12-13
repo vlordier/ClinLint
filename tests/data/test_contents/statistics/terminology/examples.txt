@@ -1,0 +1,5 @@
+# Example statistical terminology text
+The average response was approximately 65%.
+Most patients showed improvement.
+Results were roughly consistent.
+A significant difference was observed.

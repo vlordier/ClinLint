@@ -1,0 +1,35 @@
+extends: existence
+message: "Required QST element missing: %s"
+level: error
+tokens:
+  # Testing Parameters
+  - thermal thresholds
+  - mechanical thresholds
+  - pain thresholds
+  - temporal summation
+  - conditioned pain modulation
+  - wind-up ratio
+  
+  # Methodology
+  - equipment calibration
+  - standardized instructions
+  - testing environment
+  - subject positioning
+  - practice sessions
+  - rest intervals
+  
+  # Quality Control
+  - operator training
+  - reliability assessment
+  - reproducibility data
+  - artifact handling
+  - data validation
+  - normative data
+  
+  # Analysis Methods
+  - threshold calculation
+  - response latency
+  - stimulus-response curves
+  - adaptation patterns
+  - sensory profiles
+  - phenotype classification

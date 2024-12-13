@@ -1,0 +1,27 @@
+extends: existence
+message: "Required laboratory safety element missing: %s"
+level: error
+tokens:
+  # Core Laboratory Elements
+  - reference ranges with source
+  - analytical methods with validation
+  - sample handling with stability
+  - quality control with measures
+  - clinically significant changes
+  - shift tables with categories
+  - laboratory normal ranges
+  - assay sensitivity with limits
+  - precision measures with CV%
+  - accuracy measures with recovery
+  - batch effect analysis
+  - sample integrity assessment
+
+  # Critical Values
+  - alert value reporting
+  - notification procedures
+  - escalation protocol
+  - trend analysis methods
+  - method comparison studies
+  - analytical specificity
+  - matrix effect evaluation
+  - carryover assessment

@@ -1,0 +1,39 @@
+extends: existence
+message: "Required Phase 1 efficacy element missing: %s"
+level: error
+tokens:
+  # Proof of Mechanism
+  - target engagement assessment with quantitative metrics
+  - biomarker response with validation status
+  - PK/PD relationship with modeling approach
+  - exposure-response with therapeutic window
+  - mechanism validation with biomarker data
+  - biological activity with pathway analysis
+  - receptor occupancy with time course
+  - signal transduction with markers
+  - pathway modulation with evidence
+  - homeostatic feedback with adaptation
+
+  # Early Clinical Activity
+  - preliminary efficacy signals with effect size
+  - dose-response modeling with statistics
+  - optimal dose determination with algorithm
+  - therapeutic window with safety margins
+  - dosing frequency with PK support
+  - accumulation assessment with steady-state
+  - food effect with clinical relevance
+  - drug-drug interactions with priority
+  - bioavailability with formulation impact
+  - exposure metrics with variability
+
+  # Biomarker Development
+  - biomarker selection with biological rationale
+  - analytical validation with performance metrics
+  - clinical validation with outcome correlation
+  - sampling strategy with time points
+  - stability assessment with conditions
+  - assay performance with controls
+  - data analysis with statistics
+  - reference ranges with population basis
+  - longitudinal analysis with time course
+  - population variability with covariates

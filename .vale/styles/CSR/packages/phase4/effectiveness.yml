@@ -1,0 +1,27 @@
+extends: existence
+message: "Required Phase 4 effectiveness element missing: %s"
+level: error
+tokens:
+  # Real-World Effectiveness
+  - comparative effectiveness with active comparator
+  - treatment patterns with utilization
+  - adherence assessment with factors
+  - persistence analysis with duration
+  - switching patterns with reasons
+  - dose optimization with real-world
+  - combination therapy with outcomes
+  - sequential therapy with strategies
+  - treatment algorithms with validation
+  - guideline compliance with impact
+  
+  # Healthcare Outcomes
+  - quality of life with long-term
+  - resource utilization with costs
+  - hospitalization rates with causes
+  - emergency visits with patterns
+  - work productivity with assessment
+  - caregiver burden with impact
+  - social functioning with measures
+  - economic outcomes with analysis
+  - healthcare access with barriers
+  - satisfaction measures with validation

@@ -1,0 +1,40 @@
+extends: existence
+message: "Package organization for CSR styles"
+level: error
+
+packages:
+  core:
+    - base
+    - clinical
+    - safety
+    - efficacy
+    - quality
+    
+  phase_specific:
+    - phase1
+    - phase2  
+    - phase3
+    - phase4
+    
+  special_types:
+    - pediatric
+    - geriatric
+    - rare_disease
+    - oncology
+    - vaccine
+    - device
+    
+  regulatory:
+    - ich_e3
+    - regional
+    - submission
+    
+  scientific:
+    - terminology
+    - precision
+    - writing_style
+    
+  technical:
+    - formatting
+    - structure
+    - cross_references

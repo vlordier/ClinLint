@@ -1,0 +1,38 @@
+extends: existence
+message: "Required core clinical trial element missing: %s"
+level: error
+tokens:
+  # Essential Documentation
+  - protocol version with amendments
+  - informed consent documentation
+  - IRB/IEC approvals
+  - investigator qualifications
+  - monitoring reports
+  - data management plan
+  - statistical analysis plan
+  - quality control procedures
+  
+  # Study Design Elements
+  - study objectives with hierarchy
+  - endpoint definitions with criteria
+  - population selection with rationale
+  - randomization methodology
+  - blinding procedures
+  - control justification
+  - sample size determination
+  
+  # Safety Monitoring
+  - safety parameters with thresholds
+  - adverse event reporting
+  - laboratory monitoring
+  - stopping criteria
+  - DSMB charter
+  - risk management plan
+  
+  # Quality Management
+  - GCP compliance evidence
+  - monitoring strategy
+  - data validation plan
+  - deviation management
+  - documentation standards
+  - archiving procedures

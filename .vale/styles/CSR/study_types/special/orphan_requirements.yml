@@ -1,0 +1,43 @@
+extends: existence
+message: "Required orphan drug study element missing: %s"
+level: error
+tokens:
+  # Disease Characterization
+  - natural history data
+  - disease registry data
+  - phenotype classification
+  - genotype correlation
+  - biomarker validation
+  - progression markers
+  - survival patterns
+  - quality of life impact
+  
+  # Study Design Elements
+  - adaptive design features
+  - enrichment strategy
+  - historical controls
+  - external controls
+  - crossover feasibility
+  - early stopping rules
+  - interim analyses
+  - sample size justification
+  
+  # Special Considerations
+  - genetic counseling
+  - family history
+  - pediatric aspects
+  - long-term outcomes
+  - registry integration
+  - biorepository procedures
+  - mutation analysis
+  - pathway analysis
+  
+  # Regulatory Elements
+  - orphan designation
+  - expedited programs
+  - conditional approval
+  - post-approval commitments
+  - registry requirements
+  - safety monitoring
+  - risk management
+  - periodic benefit assessment

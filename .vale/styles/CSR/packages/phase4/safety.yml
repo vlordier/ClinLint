@@ -1,0 +1,27 @@
+extends: existence
+message: "Required Phase 4 safety element missing: %s"
+level: error
+tokens:
+  # Post-Marketing Safety
+  - spontaneous reporting with signal detection
+  - active surveillance with targeted monitoring
+  - comparative safety with real-world data
+  - long-term safety with registry data
+  - special population safety with subgroups
+  - drug utilization with pattern analysis
+  - medication errors with prevention
+  - off-label use with monitoring
+  - abuse/misuse with risk management
+  - pregnancy registry with outcomes
+  
+  # Risk Management
+  - risk minimization with effectiveness
+  - additional monitoring with criteria
+  - safety communication with assessment
+  - regulatory reporting with compliance
+  - benefit-risk with periodic review
+  - label updates with justification
+  - safety alerts with dissemination
+  - corrective actions with implementation
+  - preventive measures with validation
+  - quality system with maintenance

@@ -1,0 +1,45 @@
+# Test cases for different report types
+examples:
+  # CSR Examples
+  - id: csr-basic
+    text: "The study was completed."
+    expected_issues:
+      - rule: CSR.report_types.requirements
+        message: "Required CSR element missing: protocol synopsis"
+    expected_feedback:
+      - "Include complete protocol synopsis"
+      - "Detail study design"
+      - "Specify objectives"
+
+  # DSUR Examples
+  - id: dsur-safety
+    text: "Safety was monitored during the period."
+    expected_issues:
+      - rule: CSR.report_types.requirements
+        message: "Required DSUR element missing: estimated exposure"
+    expected_feedback:
+      - "Include cumulative exposure data"
+      - "Report interval findings"
+      - "Assess risk changes"
+
+  # IB Examples
+  - id: ib-content
+    text: "The drug showed activity in preclinical studies."
+    expected_issues:
+      - rule: CSR.report_types.requirements
+        message: "Required IB element missing: physical/chemical properties"
+    expected_feedback:
+      - "Include complete drug description"
+      - "Detail manufacturing process"
+      - "Specify formulation details"
+
+  # PVR Examples
+  - id: pvr-assessment
+    text: "New safety information was reviewed."
+    expected_issues:
+      - rule: CSR.report_types.requirements
+        message: "Required PVR element missing: safety signals"
+    expected_feedback:
+      - "Detail signal assessment"
+      - "Include causality evaluation"
+      - "Report risk changes"

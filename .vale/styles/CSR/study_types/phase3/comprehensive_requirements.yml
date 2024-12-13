@@ -1,0 +1,96 @@
+extends: existence
+message: "Required Phase 3 element missing: %s"
+level: error
+tokens:
+  # Primary Analysis Elements
+  - confirmatory efficacy analysis with pre-specified hypothesis
+  - non-inferiority margin with clinical justification
+  - superiority margin with effect size rationale
+  - multiplicity adjustment with FWER control
+  - interim analysis with alpha spending
+  - sample size re-estimation criteria
+  - missing data approach with sensitivity
+  - estimand framework with ICE strategy
+  - subgroup analysis with interaction testing
+  - multicenter analysis with poolability
+  - covariate adjustment with specification
+  - stratification factors with rationale
+  
+  # Long-term Safety Elements
+  - cumulative exposure assessment
+  - time-dependent AE analysis
+  - laboratory trend evaluation
+  - vital sign monitoring strategy
+  - ECG interval analysis
+  - immunogenicity assessment
+  - pregnancy surveillance
+  - pediatric safety monitoring
+  - geriatric safety profile
+  - organ impairment safety
+  - drug-drug interaction profile
+  - QT/QTc evaluation strategy
+  
+  # Quality of Life Elements
+  - PRO instrument validation
+  - HRQL domain assessment
+  - functional status measures
+  - symptom burden evaluation
+  - treatment satisfaction
+  - caregiver burden assessment
+  - productivity impact
+  - healthcare utilization
+  
+  # Population Elements
+  - demographic representation
+  - ethnic factor analysis
+  - geographic diversity
+  - age group stratification
+  - comorbidity assessment
+  - concomitant medication impact
+  - compliance monitoring
+  - discontinuation patterns
+  - lost to follow-up analysis
+  
+  # Regulatory Elements
+  - registration trial requirements
+  - marketing application strategy
+  - labeling considerations
+  - risk evaluation strategy
+  - post-marketing commitments
+  - pediatric investigation plan
+  - special population requirements
+  - regional regulatory alignment
+  - advisory committee preparation
+  
+  # Comparative Elements
+  - active control justification
+  - historical evidence synthesis
+  - assay sensitivity demonstration
+  - constancy assumption validation
+  - bridge study requirements
+  - therapeutic equivalence bounds
+  - comparative safety analysis
+  - comparative effectiveness
+  - cost-effectiveness analysis
+  
+  # Implementation Elements
+  - site selection criteria
+  - investigator qualifications
+  - monitoring strategy
+  - data quality metrics
+  - protocol compliance measures
+  - GCP inspection readiness
+  - safety reporting procedures
+  - database lock criteria
+  - blind maintenance procedures
+  
+  # Analysis Strategy
+  - primary analysis method
+  - sensitivity analysis plan
+  - missing data handling
+  - intercurrent events
+  - multiplicity control
+  - interim analyses
+  - subgroup analyses
+  - safety analyses
+  - PK/PD analyses

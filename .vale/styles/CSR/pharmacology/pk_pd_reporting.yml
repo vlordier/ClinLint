@@ -2,26 +2,105 @@ extends: existence
 message: "Required PK/PD element missing: %s"
 level: error
 tokens:
-  # PK Parameters
-  - absorption rate constant
-  - volume of distribution
-  - clearance parameters
-  - bioavailability assessment
+  # PK Parameters - Basic
+  - absorption rate constant (ka, h⁻¹)
+  - volume of distribution (Vd, L or L/kg)
+  - clearance (CL, L/h or mL/min)
+  - bioavailability (F, %)
+  - terminal half-life (t1/2, h)
+  - accumulation ratio (Rac, unitless)
+  - time to steady state (Tss, days)
+  - dose proportionality (slope, 90% CI)
+  - peak concentration (Cmax, ng/mL)
+  - time to peak (Tmax, h)
+  - area under curve (AUC0-t, AUC0-inf, ng·h/mL)
+  - elimination rate constant (ke, h⁻¹)
+  - mean residence time (MRT, h)
+  - distribution phases (α, β, h⁻¹)
+
+  # PK Parameters - Advanced
+  - apparent volume (V/F, L)
+  - apparent clearance (CL/F, L/h)
+  - bioequivalence metrics (90% CI)
+  - food effect (GMR, 90% CI)
+  - drug-drug interactions (AUCR, CmaxR)
+  - metabolite profiling (% parent)
+  - mass balance recovery (% dose)
+  - protein binding (fu, %)
+  - blood-to-plasma ratio (B/P ratio)
+  - tissue distribution (Kp values)
+  - enterohepatic circulation (AUC ratio)
+  - flip-flop kinetics (ka/ke ratio)
+  - non-linear pharmacokinetics (dose vs AUC)
+
+  # Population PK Parameters
+  - between-subject variability (CV%)
+  - covariate effects (% change)
+  - residual error (additive, proportional)
+  - shrinkage estimates (η, ε)
+  - condition number (κ)
+  - correlation matrix (r values)
+  - random effects distribution
+  - allometric scaling exponents
+
+  # PD Parameters
+  - Emax (units per endpoint)
+  - EC50 (ng/mL)
+  - Hill coefficient (n)
+  - effect delay (keO, h⁻¹)
+  - baseline effect (E0)
+  - placebo response
+  - tolerance development (k)
+  - rebound magnitude
+
+  # PK/PD Relationships
+  - exposure-response slope
+  - therapeutic window
+  - safety margins
+  - target engagement (%)
+  - receptor occupancy
+  - temporal relationships
+  - effect compartment (Ce)
+  - hysteresis assessment
   
   # Population PK
   - between-subject variability
   - covariate effects
   - residual error model
   - shrinkage estimates
+  - eta-shrinkage
+  - epsilon-shrinkage
+  - condition number
+  - correlation matrix
+  - omega matrices
+  - random effects distribution
+  - interoccasion variability
+  - allometric scaling
   
   # PD Modeling
   - exposure-response relationship
   - effect compartment model
   - tolerance development
   - hysteresis assessment
+  - Emax model parameters
+  - EC50 estimation
+  - baseline effect
+  - effect delay
+  - sigmoid Emax model
+  - competitive antagonism
+  - partial agonism
+  - receptor desensitization
   
   # Joint PK/PD
   - linking functions
   - turnover models
   - indirect response models
   - receptor occupancy
+  - target-mediated disposition
+  - competitive binding
+  - signal transduction
+  - homeostatic feedback
+  - transit compartments
+  - effect compartment link
+  - physiological adaptation
+  - tolerance mechanisms

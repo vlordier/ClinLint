@@ -1,0 +1,79 @@
+extends: existence
+message: "Required Phase 4 element missing: %s"
+level: error
+tokens:
+  # Post-Marketing Safety Elements
+  - safety surveillance with active monitoring
+  - spontaneous reporting analysis
+  - targeted safety studies
+  - pregnancy registry outcomes
+  - lactation study results
+  - pediatric safety assessment
+  - geriatric safety profile
+  - special population monitoring
+  - drug-drug interaction studies
+  - medication error analysis
+  - abuse potential assessment
+  - withdrawal syndrome evaluation
+  
+  # Real-World Effectiveness Elements
+  - comparative effectiveness research
+  - patient-reported outcomes
+  - quality of life measures
+  - treatment satisfaction assessment
+  - adherence patterns analysis
+  - persistence evaluation
+  - treatment switching patterns
+  - dose optimization studies
+  - subgroup effectiveness analysis
+  - long-term efficacy maintenance
+  - durability of response
+  - resistance development monitoring
+  
+  # Healthcare System Elements
+  - utilization patterns analysis
+  - prescribing practice assessment
+  - treatment algorithm position
+  - guideline implementation
+  - formulary placement impact
+  - healthcare resource utilization
+  - cost-effectiveness analysis
+  - budget impact analysis
+  - insurance coverage patterns
+  - reimbursement considerations
+  
+  # Population Characteristics
+  - real-world population demographics
+  - comorbidity patterns
+  - concomitant medication use
+  - lifestyle factor impact
+  - socioeconomic influences
+  - geographic variation analysis
+  - ethnic factor assessment
+  - genetic subgroup analysis
+  - rare subpopulation studies
+  - special population access
+  
+  # Risk Management Elements
+  - risk minimization effectiveness
+  - additional monitoring measures
+  - educational program impact
+  - healthcare provider awareness
+  - patient understanding assessment
+  - medication guide effectiveness
+  - risk communication strategy
+  - registry enrollment patterns
+  - long-term safety commitment
+  - benefit-risk re-evaluation
+  
+  # Regulatory Elements
+  - post-marketing requirements
+  - commitment fulfillment status
+  - regulatory reporting compliance
+  - periodic safety updates
+  - risk management plan updates
+  - labeling revision assessment
+  - regulatory inspection findings
+  - corrective action implementation
+  - preventive measure effectiveness
+  - compliance monitoring system

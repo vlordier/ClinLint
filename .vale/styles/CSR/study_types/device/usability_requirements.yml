@@ -1,0 +1,31 @@
+extends: existence
+message: "Required device usability element missing: %s"
+level: error
+tokens:
+  # User Interface
+  - user workflow analysis
+  - error pattern analysis
+  - task completion rate
+  - time-on-task metrics
+  - user satisfaction score
+  
+  # Human Factors
+  - use environment assessment
+  - user population analysis
+  - physical demands evaluation
+  - cognitive load assessment
+  - training effectiveness
+  
+  # Safety Features
+  - fail-safe mechanisms
+  - error prevention features
+  - alarm systems
+  - emergency procedures
+  - backup systems
+  
+  # Performance Measures
+  - accuracy assessment
+  - precision evaluation
+  - reliability testing
+  - durability measures
+  - maintenance requirements

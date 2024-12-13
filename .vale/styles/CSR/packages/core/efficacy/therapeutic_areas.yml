@@ -1,0 +1,73 @@
+extends: existence
+message: "Required therapeutic area efficacy element missing: %s"
+level: error
+tokens:
+  # Oncology
+  - tumor response with RECIST
+  - progression-free survival with censoring
+  - overall survival with maturity
+  - quality of life with cancer-specific
+  - tumor markers with validation
+  - immune response with monitoring
+  - resistance development with mechanisms
+  - combination effects with synergy
+  
+  # Cardiovascular
+  - MACE outcomes with adjudication
+  - blood pressure with standardization
+  - heart rate with monitoring
+  - ECG parameters with intervals
+  - exercise tolerance with testing
+  - cardiac function with imaging
+  - vascular assessment with methods
+  - thrombotic events with classification
+  
+  # Neurology
+  - cognitive function with batteries
+  - motor function with scales
+  - behavioral assessment with tools
+  - quality of life with neuro-specific
+  - imaging outcomes with standardization
+  - biomarker panels with validation
+  - functional independence with measures
+  - caregiver assessment with burden
+  
+  # Immunology
+  - immune response with markers
+  - autoantibody levels with assays
+  - inflammation markers with panels
+  - infection risk with monitoring
+  - vaccination response with titers
+  - tolerance development with assessment
+  - immunogenicity with antibodies
+  - immune function with tests
+  
+  # Metabolic/Endocrine
+  - glycemic control with HbA1c
+  - lipid profiles with panels
+  - hormone levels with assays
+  - body composition with measures
+  - metabolic markers with panels
+  - organ function with monitoring
+  - dietary factors with assessment
+  - lifestyle impact with evaluation
+  
+  # Respiratory
+  - lung function with spirometry
+  - symptom scores with validation
+  - exacerbation rates with definition
+  - quality of life with respiratory
+  - exercise capacity with testing
+  - imaging findings with standardization
+  - biomarker panels with validation
+  - medication use with tracking
+  
+  # Psychiatry
+  - symptom scales with validation
+  - functional assessment with tools
+  - quality of life with mental health
+  - cognitive function with testing
+  - behavioral measures with rating
+  - social functioning with scales
+  - caregiver burden with assessment
+  - medication adherence with monitoring

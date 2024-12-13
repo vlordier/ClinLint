@@ -1,0 +1,31 @@
+extends: existence
+message: "Required mass spectrometry element missing: %s"
+level: error
+tokens:
+  # Sample Preparation
+  - protein extraction method
+  - digestion protocol
+  - fractionation strategy
+  - cleanup procedure
+  - internal standards
+  
+  # Instrument Parameters
+  - mass analyzer type
+  - ionization method
+  - collision energy
+  - resolution settings
+  - scan parameters
+  
+  # Data Analysis
+  - database search
+  - FDR threshold
+  - quantification method
+  - normalization approach
+  - statistical testing
+  
+  # Quality Metrics
+  - mass accuracy
+  - retention time stability
+  - injection reproducibility
+  - peptide identification rate
+  - protein coverage

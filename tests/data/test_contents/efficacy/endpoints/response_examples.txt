@@ -1,0 +1,6 @@
+# Examples of efficacy endpoints
+Primary: 45% reduction in HAM-D17 score at Week 8
+Secondary: 60% achieved MADRS response (≥50% reduction)
+Exploratory: 35% improvement in CGI-S scores
+Time to response: median 4.2 weeks (95% CI: 3.8-4.6)
+Duration of response: mean 16.4 weeks (SD 4.2)

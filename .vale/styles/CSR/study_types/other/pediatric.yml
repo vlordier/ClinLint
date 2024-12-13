@@ -1,0 +1,24 @@
+extends: existence
+message: "Required pediatric study element missing: %s"
+level: error
+tokens:
+  # Age-Specific Elements
+  - age group stratification
+  - developmental assessment
+  - growth parameters
+  - maturation indices
+  - age-appropriate endpoints
+  
+  # Safety Elements
+  - pediatric safety monitoring
+  - growth/development impact
+  - long-term effects
+  - special population risks
+  - age-specific adverse events
+  
+  # Practical Elements
+  - formulation suitability
+  - dosing considerations
+  - administration methods
+  - compliance assessment
+  - caregiver instructions

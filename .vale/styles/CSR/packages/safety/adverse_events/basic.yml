@@ -1,0 +1,23 @@
+extends: existence
+message: "Required basic AE reporting element missing: %s"
+level: error
+tokens:
+  # Core AE Elements
+  - onset date with exact timing and relationship to dosing
+  - resolution date with outcome status and follow-up plan
+  - severity grade with CTCAE version and grading criteria
+  - causality assessment with standardized method and reviewer
+  - action taken with rationale and outcome
+  - outcome with follow-up status and residual effects
+  - seriousness criteria with justification and documentation
+  - treatment required with details and response
+  - follow-up information with timeline and resolution
+  
+  # Documentation Requirements
+  - source documentation with verification
+  - narrative completion with standardization
+  - chronological sequence with temporal relationships
+  - medical review status with signature
+  - query resolution with tracking
+  - coding verification with dictionary version
+  - reconciliation status with database lock

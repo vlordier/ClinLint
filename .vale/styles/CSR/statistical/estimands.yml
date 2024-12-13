@@ -1,0 +1,201 @@
+extends: existence
+message: "Required estimands framework element missing: %s"
+level: error
+tokens:
+  # Treatment Attribute
+  - treatment regimen specification with exact doses/schedule/formulation/route/timing/bioavailability
+  - treatment duration with time windows/acceptable deviations/minimum exposure/maximum duration
+  - handling of dose modifications with criteria/documentation/impact assessment/PK implications
+  - rescue medication rules with thresholds/monitoring/washout requirements/interaction potential
+  - prohibited medications with washout periods/verification/screening confirmation/metabolic impact
+  - treatment compliance definition with thresholds/assessment/documentation/adherence support
+  - treatment switching criteria with timing/documentation/crossover procedures/washout validation
+  - concomitant medication restrictions with therapeutic classes/interactions/combination effects
+  - drug accountability procedures with reconciliation/discrepancy resolution/compliance verification
+  - treatment dispensing with chain of custody/temperature monitoring/stability assessment
+  - treatment preparation with stability requirements/expiration tracking/compatibility testing
+  - treatment storage with temperature monitoring/excursion management/stability validation
+  - treatment blinding with packaging/labeling/emergency unblinding/maintenance procedures
+  - treatment allocation with randomization/stratification/blocking/adaptive features
+  - treatment administration with timing windows/food restrictions/drug-drug interactions
+
+  # Population Attribute
+  - target population definition with inclusion/exclusion criteria/rationale/representativeness
+  - analysis population specification with estimand alignment/sensitivity considerations
+  - subpopulation definitions with stratification factors/interaction assessment
+  - generalizability assessment with external validity/population characteristics
+  - demographic restrictions with scientific justification/impact analysis
+  - comorbidity criteria with impact assessment/confounding control
+  - prior therapy requirements with washout verification/carryover assessment
+  - concurrent therapy restrictions with interaction potential/monitoring plan
+  - genetic/biomarker criteria with assay validation/classification accuracy
+  - organ function requirements with assessment methods/threshold justification
+  - pregnancy/lactation criteria with monitoring requirements/outcome tracking
+  - age restrictions with developmental considerations/safety implications
+  - geographic considerations with ethnic factors/standard of care variations
+  - lifestyle factors with compliance impact/modification effects
+  - vulnerability assessment with protection measures/ethical considerations
+
+  # Variable/Endpoint Attribute
+  - endpoint definition with precise measurement methods/tools/instruments/scales
+  - measurement timing with windows/frequency/duration/sequence/anchoring
+  - assessment standardization with training/certification/quality control
+  - data collection with source documentation/verification/monitoring
+  - missing data prevention with completion strategies/backup assessments
+  - measurement properties with validity/reliability/responsiveness/precision
+  - clinically meaningful thresholds with anchor-based/distribution-based methods
+  - multiplicity considerations with family-wise error/false discovery control
+  - surrogate validation with biological plausibility/correlation strength
+  - composite components with individual measures/weights/combinations
+  - derived variables with algorithms/computations/transformations
+  - auxiliary data with supportive measurements/contextual information
+  - technology requirements with devices/software/calibration/maintenance
+  - assessment burden with feasibility/participant impact/site resources
+  - cultural adaptation with translation/validation/equivalence testing
+
+  # Intercurrent Events Attribute
+  - treatment discontinuation strategy with rationale/documentation/impact assessment
+  - rescue medication strategy with criteria/timing/analysis approach/sensitivity
+  - study withdrawal handling with reasons/patterns/missing data/bias assessment
+  - protocol deviation strategy with classification/documentation/analysis impact
+  - treatment switching approach with criteria/timing/analytical methods/bias
+  - competing risk events with definitions/assessment/analysis methodology
+  - medication compliance with thresholds/monitoring/analytical approach
+  - concomitant therapy with restrictions/documentation/analysis strategy
+  - adverse event impact with severity/causality/outcome/analysis method
+  - disease progression with criteria/documentation/analytical handling
+  - death event strategy with cause/timing/censoring/competing risks
+  - pregnancy occurrence with monitoring/outcome/analysis approach
+  - loss to follow-up with patterns/reasons/analytical methods/bias
+  - administrative censoring with rules/documentation/analysis impact
+  - pandemic-related events with classification/documentation/analysis
+
+  # Population-level Summary Attribute
+  - effect measure specification with parameter definition/interpretation/clinical relevance
+  - estimation method with statistical properties/assumptions/diagnostics/validation
+  - uncertainty quantification with standard errors/confidence intervals/prediction bounds
+  - missing data approach with imputation/sensitivity/pattern analysis/bias assessment
+  - covariate adjustment with selection criteria/model specification/interaction testing
+  - subgroup analysis with pre-specification/multiplicity/heterogeneity assessment
+  - interim analysis with alpha spending/futility/adaptation/information fraction
+  - meta-analytic framework with fixed/random effects/heterogeneity/publication bias
+  - bayesian methods with prior specification/posterior inference/model averaging
+  - causal inference with assumptions/identification/estimation/sensitivity analysis
+  - longitudinal modeling with random effects/correlation structure/time windows
+  - joint modeling with shared parameters/latent variables/multivariate outcomes
+  - competing risks with cumulative incidence/cause-specific hazards/subdistribution
+  - mediation analysis with direct/indirect effects/decomposition/sensitivity
+  - prediction modeling with validation/calibration/discrimination/reclassification
+
+  # Biomarker Analysis Attribute
+  - biomarker qualification with analytical validation/clinical validation/utility evidence
+  - sampling strategy with collection timing/processing methods/stability requirements
+  - assay validation with precision/accuracy/sensitivity/specificity/reproducibility
+  - quality control with internal standards/calibrators/reference materials/drift monitoring
+  - missing data patterns with technical failures/stability issues/handling strategy
+  - batch effects with randomization/normalization/correction methods/validation
+  - multiplicity with biomarker families/pathway analysis/network integration
+  - longitudinal profiling with temporal patterns/trajectory modeling/changepoint detection
+  - population heterogeneity with subgroup identification/mixture modeling/clustering
+  - treatment-biomarker interaction with effect modification/predictive value/threshold optimization
+  - mechanistic assessment with pathway analysis/network modeling/systems biology integration
+  - composite signatures with feature selection/weighting/validation/replication evidence
+  - reference ranges with healthy population/disease state/demographic factors/confounders
+  - technology platforms with cross-platform validation/data integration/harmonization methods
+  - regulatory considerations with context of use/validation requirements/submission strategy
+
+  # Benefit-Risk Assessment Framework
+  - benefit characterization with magnitude/duration/consistency/uncertainty quantification
+  - risk identification with frequency/severity/causality/preventability assessment
+  - benefit categories with survival/symptoms/function/quality of life/resource utilization
+  - risk categories with mortality/morbidity/burden/inconvenience/economic impact
+  - effect modifiers with subgroup impacts/environmental factors/genetic determinants
+  - uncertainty sources with statistical/methodological/assumptions/generalizability
+  - preference data with patient/caregiver/clinician perspectives/utility measures
+  - contextual factors with therapeutic alternatives/unmet need/healthcare setting
+  - temporal considerations with onset/duration/reversibility/long-term implications
+  - population impact with public health/societal/healthcare system considerations
+  - regulatory context with precedent/guidelines/requirements/submission strategy
+  - value framework with QALY/DALY/WTP thresholds/cost-effectiveness metrics
+  - communication strategy with labeling/risk management/educational materials
+  - monitoring plan with pharmacovigilance/registry/post-marketing commitments
+  - decision framework with threshold criteria/stopping rules/continuation parameters
+  
+  # Population Attribute
+  - target population with inclusion/exclusion rationale
+  - analysis population with estimand alignment
+  - subpopulation definitions with stratification factors
+  - generalizability criteria with external validity
+  - demographic restrictions with justification
+  - comorbidity criteria with impact assessment
+  - prior/concurrent therapy requirements
+  - washout period specifications
+  
+  # Variable/Endpoint Attribute
+  - endpoint definition with precise measurements
+  - timing windows with acceptable deviations
+  - assessment methods with validation evidence
+  - missing data patterns with mechanisms
+  - reliability metrics with acceptance criteria
+  - clinically meaningful thresholds
+  - measurement error assessment
+  - endpoint hierarchy with multiplicity
+  
+  # Intercurrent Events
+  - ICE inventory with detection methods
+  - treatment policy strategy with rationale
+  - hypothetical strategy with assumptions
+  - composite strategy with components
+  - while-on-treatment scope with censoring
+  - principal stratum with identification
+  - competing risks framework
+  - time-to-event considerations
+  
+  # Population-level Summary
+  - effect measure with precision requirements
+  - statistical model with assumptions
+  - estimation method with properties
+  - sensitivity analyses with scenarios
+  - supplementary analyses with purpose
+  - subgroup analyses with interaction
+  - missing data approach with sensitivity
+  - multiplicity adjustment method
+  
+  # Regulatory Documentation
+  - ICH E9(R1) compliance evidence
+  - regulatory authority correspondence
+  - pre-specification documentation
+  - protocol-SAP alignment evidence
+  - DMC charter alignment
+  - interim analysis rules
+  - adaptation criteria if applicable
+  - estimand specification location
+
+nonstandard:
+  "efficacy analysis": "[specify complete estimand attributes: population, treatment, variable, ICEs, summary]"
+  "primary analysis": "[define full estimand framework with all 5 attributes]"
+  "treatment effect": "[specify population-level summary with precision metrics]"
+  "missing data": "[specify handling per ICE strategy with sensitivity analyses]"
+  "protocol deviation": "[classify as ICE with handling strategy]"
+  "discontinued treatment": "[specify ICE strategy with rationale]"
+  "rescue medication": "[define treatment policy with thresholds]"
+  "study withdrawal": "[specify ICE approach with censoring rules]"
+  "loss to follow-up": "[distinguish between ICE and missing with approach]"
+  "treatment switching": "[specify ICE strategy with timing]"
+  "death": "[define ICE classification with competing risks]"
+  "non-compliance": "[specify handling strategy with thresholds]"
+  "prohibited medication": "[define treatment policy with consequences]"
+  "incomplete data": "[distinguish ICE vs missing with methods]"
+  "treatment failure": "[specify definition and handling approach]"
+  "disease progression": "[define assessment and handling strategy]"
+  "adverse event": "[specify impact on estimand framework]"
+
+exceptions:
+  - "estimand framework"
+  - "ICH E9(R1)"
+  - "ICE strategy"
+  - "while-on-treatment"
+  - "treatment policy"
+  - "hypothetical strategy"
+  - "composite strategy"
+  - "principal stratum"

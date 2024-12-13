@@ -1,0 +1,13 @@
+extends: existence
+message: "Required quality elements missing: %s"
+level: error
+scope: text
+tokens:
+  - protocol compliance
+  - GCP adherence
+  - data integrity
+  - monitoring procedures
+  - audit findings
+  - database validation
+  - quality metrics
+  - deviation reporting

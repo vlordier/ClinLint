@@ -4,13 +4,13 @@ level: error
 ignorecase: true
 swap:
   # Basic Statistical Terms
-  average: mean
-  roughly: [specify exact value with CI]
-  approximately: [specify exact value with CI]
-  around: [specify exact value with precision]
-  about: [specify exact value with precision]
-  nearly: [specify exact value with precision]
-  almost: [specify exact value with precision]
+  average: "mean (specify units)"
+  roughly: "mean ± SD (specify units)"
+  approximately: "mean (95% CI: X-Y) (specify units)"
+  around: "mean (95% CI: X-Y) (specify units)"
+  about: "mean (95% CI: X-Y) (specify units)"
+  nearly: "mean (95% CI: X-Y) (specify units)"
+  almost: "mean (95% CI: X-Y) (specify units)"
   
   # Advanced Statistical Terms
   "pooled analysis": [specify meta-analytic method]

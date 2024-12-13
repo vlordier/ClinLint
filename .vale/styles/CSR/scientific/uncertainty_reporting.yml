@@ -1,0 +1,50 @@
+extends: existence
+message: "Required scientific precision element missing: %s"
+level: error
+tokens:
+  # Primary/Key Secondary Endpoints (Strict Requirements)
+  - '\b(?:primary|key secondary) (?:endpoint|outcome|analysis)\b(?![^.]*(?:\b(?:difference|change|effect)\b[^.]*=\s*[-+]?\d+\.?\d*\s*(?:%|\w+)\s*\(95%\s*CI:\s*[-+]?\d+\.?\d*\s*(?:%|\w+)\s*[-–]\s*[-+]?\d+\.?\d*\s*(?:%|\w+)\),\s*p\s*[<>=]\s*0\.\d{3},\s*(?:Cohen\'s d|Hedges\' g|Glass\' Δ)\s*=\s*[-+]?\d+\.\d{2}\s*\(95%\s*CI:[^)]+\),\s*(?:MCID|MID|clinical relevance threshold)\s*=\s*[-+]?\d+\.?\d*\s*(?:%|\w+),\s*(?:NNT|NNH)\s*=\s*\d+\s*\(95%\s*CI:[^)]+\)))'
+
+  # Mandatory Elements for All Numerical Results
+  - '\b\d+\.?\d*\b(?!\s*\(95%\s*CI:[^)]+\))'  # Number without CI
+  - '\b(?:mean|median)\b(?!\s*=\s*[-+]?\d+\.?\d*\s*\(95%\s*CI:[^)]+\))'  # Central tendency without CI
+  - '\b(?:increase|decrease|change|difference)\b(?!\s*=\s*[-+]?\d+\.?\d*\s*(?:%|\w+)\s*\(95%\s*CI:[^)]+\))'  # Change without CI
+  - '\bp\s*[<>=]\s*0\.\d+\b(?!\s*,\s*(?:effect size|Cohen\'s d|Hedges\' g|Glass\' Δ)\s*=)'  # P-value without effect size
+  - '\b(?:significant|significance)\b(?![^.]*p\s*[<>=]\s*0\.\d{3}[^.]*(?:effect size|Cohen\'s d|Hedges\' g|Glass\' Δ)\s*=)'  # Significance claim without p-value and effect size
+
+  # Statistical Precision Requirements
+  - '\bp\s*[<>=]\s*0\.\d{1,2}\b'  # P-values must have 3 decimal places
+  - '\b(?:CI|confidence interval)\b(?!.*95%)'  # CIs must be 95%
+  - '\beffect size\b(?!\s*=\s*[-+]?\d+\.\d{2})'  # Effect sizes must have 2 decimal places
+
+  # Format Requirements
+  - 'mean\s+\d+\.?\d*\s*\([^)]*SD[^)]*\)(?!\s*,\s*95%\s*CI)'  # Mean+SD without CI
+  - 'median\s+\d+\.?\d*\s*\([^)]*IQR[^)]*\)(?!\s*,\s*95%\s*CI)'  # Median+IQR without CI
+  - '\b(?:HR|OR|RR)\s*=\s*\d+\.?\d*\b(?!\s*\(95%\s*CI[^)]*\))'  # Effect measure without CI
+  - '\b(?:difference|delta)\s*=\s*\d+\.?\d*\b(?!\s*\(95%\s*CI[^)]*\))'  # Difference without CI
+
+  # Special Cases
+  - '\b(?:correlation|r)\s*=\s*[+-]?\d+\.?\d*\b(?!\s*\(95%\s*CI[^)]*\))'  # Correlation without CI
+  - '\b(?:sensitivity|specificity)\s*=\s*\d+\.?\d*%\b(?!\s*\(95%\s*CI[^)]*\))'  # Diagnostic measures without CI
+  - '\b(?:AUC|C-statistic)\s*=\s*\d+\.?\d*\b(?!\s*\(95%\s*CI[^)]*\))'  # Model performance without CI
+  - '\b(?:superiority|non-inferiority|equivalence)\b(?!\s*[^\.]*margin.*?\d+\.?\d*\s*(?:%|\w+))' # Comparative claim without margin
+
+nonstandard:
+  '\d+\.?\d*\s*±\s*\d+\.?\d*': '[specify if ± represents SD, SE, or CI]'
+  '\d+\.?\d*\s*\(±\d+\.?\d*\)': '[specify if ± represents SD, SE, or CI]'
+  'approximately\s+\d+': '[provide exact value with uncertainty measure]'
+  'about\s+\d+': '[provide exact value with uncertainty measure]'
+  'around\s+\d+': '[provide exact value with uncertainty measure]'
+  '\d+\.?\d*\s*\([^)]*range[^)]*\)': '[provide appropriate uncertainty measure (SD/SE/CI) not range]'
+  'trending\s+(?:up|down|higher|lower)': '[specify magnitude of change with CI]'
+  'numerical\s+(?:increase|decrease)': '[specify exact change with CI]'
+  'clinically\s+(?:meaningful|relevant|important)': '[specify clinical significance criteria]'
+
+exceptions:
+  - 'n\s*=\s*\d+'  # Sample size
+  - 'N\s*=\s*\d+'  # Population size
+  - '\b\d{4}\b'    # Years
+  - 'version\s+\d+' # Version numbers
+  - 'visit\s+\d+'   # Visit numbers
+  - 'day\s+[-]?\d+' # Study days
+  - 'grade\s+\d+'   # AE grades

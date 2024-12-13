@@ -1,0 +1,31 @@
+extends: existence
+message: "Required adverse event reporting element missing: %s"
+level: error
+tokens:
+  # Core AE Elements
+  - onset date with exact timing
+  - resolution date with outcome
+  - severity grade with CTCAE version
+  - causality assessment with method
+  - action taken with rationale
+  - outcome with follow-up
+  - seriousness criteria with documentation
+  - treatment required with details
+  - follow-up information with timeline
+
+  # Documentation Requirements  
+  - source documentation with verification
+  - narrative completion with standardization
+  - chronological sequence with relationships
+  - medical review with signature
+  - query resolution with tracking
+  - coding verification with dictionary
+  - reconciliation with database lock
+
+  # Special Categories
+  - deaths with autopsy findings
+  - life-threatening events with interventions
+  - hospitalizations with duration
+  - disabilities with assessment
+  - congenital anomalies with outcomes
+  - medically important events with criteria

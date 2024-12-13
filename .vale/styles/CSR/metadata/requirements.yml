@@ -1,0 +1,37 @@
+extends: existence
+message: "Required document metadata element missing: %s"
+level: error
+tokens:
+  # Document Control
+  - document number format
+  - version number format
+  - effective date format
+  - review date format
+  - approval signatures
+  - distribution list
+  - confidentiality statement
+  - archival requirements
+  
+  # Author Information
+  - author identification
+  - reviewer identification
+  - approver identification
+  - role definitions
+  - delegation records
+  - signature requirements
+  
+  # Version Control
+  - version history table
+  - change description
+  - change justification
+  - impact assessment
+  - superseded documents
+  - related documents
+  
+  # Electronic Requirements
+  - electronic signatures
+  - audit trail elements
+  - system validation status
+  - backup procedures
+  - retention schedule
+  - access controls

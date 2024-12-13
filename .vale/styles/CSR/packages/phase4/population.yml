@@ -1,0 +1,27 @@
+extends: existence
+message: "Required Phase 4 population element missing: %s"
+level: error
+tokens:
+  # Population Characteristics
+  - demographic representation with diversity
+  - comorbidity patterns with impact
+  - concomitant medications with interactions
+  - lifestyle factors with influence
+  - genetic factors with response
+  - environmental factors with effects
+  - healthcare setting with variation
+  - geographic distribution with access
+  - socioeconomic status with outcomes
+  - cultural factors with adherence
+  
+  # Special Populations
+  - elderly patients with frailty
+  - pediatric subjects with development
+  - pregnancy outcomes with registry
+  - organ impairment with adaptation
+  - genetic variants with response
+  - ethnic differences with factors
+  - rare conditions with management
+  - vulnerable groups with protection
+  - high-risk patients with monitoring
+  - complex cases with strategies

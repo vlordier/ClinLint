@@ -1,0 +1,7 @@
+# Examples of PK exposure parameters
+Cmax: 120 ng/mL (CV% 15.3)
+AUC0-24: 2450 ng*h/mL (CV% 22.1)
+Tmax: 2.5 h (range 1.0-4.0)
+t1/2: 12.3 h (CV% 18.7)
+Vd/F: 245 L (CV% 25.4)
+CL/F: 15.6 L/h (CV% 20.3)

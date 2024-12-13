@@ -1,0 +1,43 @@
+extends: existence
+message: "Required long-term safety element missing: %s"
+level: error
+tokens:
+  # Exposure Assessment
+  - cumulative exposure
+  - treatment duration
+  - dose modifications
+  - treatment interruptions
+  - compliance patterns
+  - drug holidays
+  
+  # Safety Monitoring
+  - periodic assessments
+  - safety parameters
+  - laboratory monitoring
+  - physical examinations
+  - specialized testing
+  - imaging requirements
+  
+  # Adverse Events
+  - cumulative incidence
+  - time-to-onset
+  - severity patterns
+  - chronicity assessment
+  - recurrence patterns
+  - resolution rates
+  
+  # Special Interest
+  - targeted events
+  - potential risks
+  - identified risks
+  - emerging concerns
+  - class effects
+  - delayed toxicity
+  
+  # Quality of Life
+  - functional status
+  - symptom burden
+  - patient satisfaction
+  - treatment burden
+  - adherence impact
+  - discontinuation reasons

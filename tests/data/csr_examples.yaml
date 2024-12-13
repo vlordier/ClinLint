@@ -57,6 +57,33 @@ cases:
       - "Include reference ranges"
       - "Provide statistical summary"
 
+  - id: vague-terms
+    text: "The treatment was effective."
+    expected_vale_issues:
+      - rule: CSR.Precision
+        message: "Use precise terminology"
+    expected_llm_feedback:
+      - "Specify efficacy metrics"
+      - "Include statistical significance"
+
+  - id: measurement-precision  
+    text: "Approximately 50% of patients responded."
+    expected_vale_issues:
+      - rule: CSR.Precision
+        message: "Use exact measurements"
+    expected_llm_feedback:
+      - "Report exact percentage"
+      - "Include confidence interval"
+
+  - id: terminology-consistency
+    text: "The medicine was well-tolerated."
+    expected_vale_issues:
+      - rule: CSR.Terminology
+        message: "Use 'study drug' instead of 'medicine'"
+    expected_llm_feedback:
+      - "Use standard terminology"
+      - "Include adverse event rates"
+
   - id: lab-abnormalities
     text: "Some patients showed elevated creatinine levels."
     expected_vale_issues:

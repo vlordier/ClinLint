@@ -1,58 +1,47 @@
 StylesPath: .vale/styles
 MinAlertLevel: error
 
-# Core packages
 Packages:
   CSR: YES
   Vale.Spelling: YES
   Vale.Terms: YES
 
-# Core vocabularies
 Vocabularies:
   CSR: YES
   Medical: YES
 
-# Document formats
 Formats:
   md: YES
   rst: YES
   html: YES
   xml: YES
 
-# Core rules organized by domain
 Rules:
-  # Safety rules
   CSR.safety.adverse_events: error
   CSR.safety.causality: error
   CSR.safety.severity: error
   CSR.safety.monitoring: error
 
-  # Efficacy rules
   CSR.efficacy.endpoints: error
   CSR.efficacy.analysis: error
   CSR.efficacy.reporting: error
 
-  # Statistical rules
   CSR.statistics.methods: error
   CSR.statistics.reporting: error
   CSR.statistics.terminology: error
 
-  # Quality rules
   CSR.quality.structure: error
   CSR.quality.consistency: error
   CSR.quality.validation: error
 
-  # Regulatory rules
   CSR.regulatory.ich: error
   CSR.regulatory.regional: error
 
-  # Study type rules
   CSR.study_types.phase1: error
   CSR.study_types.phase2: error
   CSR.study_types.phase3: error
   CSR.study_types.phase4: error
 
-# Global settings
 IgnoredScopes:
-  - code
-  - url
+  code: true
+  url: true

@@ -32,7 +32,9 @@ def test_merge_responses_multiple_issues():
     assert len(result["llm_suggestions"]) == 2
 
 def test_merge_responses_invalid_input():
-    with pytest.raises(ValueError):
+    with pytest.raises(TypeError):
         merge_responses(None, {"feedback": []})
-    with pytest.raises(ValueError):
+    with pytest.raises(TypeError):
         merge_responses([], None)
+    with pytest.raises(ValueError):
+        merge_responses([{"invalid": "structure"}], {"feedback": []})

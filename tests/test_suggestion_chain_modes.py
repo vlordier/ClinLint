@@ -14,7 +14,12 @@ def mock_llm_judge():
             return {"feedback": ["Default feedback"]}
     return MockLLMJudge()
 
-def test_vale_only_mode(mock_llm_judge):
+@pytest.mark.parametrize("text, expected_issues", [
+    ("The patient showed significant improvement.", ["CSR.Precision", "CSR.Consistency"]),
+    ("Approximately 50% of subjects responded.", ["CSR.Precision"]),
+    ("The results were not statistically significant.", ["CSR.Statistical"])
+])
+def test_vale_only_mode(mock_llm_judge, text, expected_issues):
     chain = SuggestionChain(".vale/styles/CSR/rules.yml", mock_llm_judge)
     config = ChainConfig(
         mode=AnalysisMode.VALE_ONLY,
@@ -23,7 +28,7 @@ def test_vale_only_mode(mock_llm_judge):
 
     result = chain.generate_suggestions(
         "The patient showed significant improvement.",
-        ChainConfig(
+        config=ChainConfig(
             mode=AnalysisMode.VALE_ONLY,
             vale_rules=["CSR.Precision", "CSR.Consistency"],
             llm_templates=[]
@@ -49,7 +54,12 @@ def test_llm_only_mode(mock_llm_judge):
     )
     assert result is not None
 
-def test_combined_mode(mock_llm_judge):
+@pytest.mark.parametrize("text, vale_rules, llm_templates", [
+    ("The patient showed significant improvement.", ["CSR.Precision"], ["improvement_prompt"]),
+    ("Approximately 50% of subjects responded.", ["CSR.Consistency"], ["generic_prompt"]),
+    ("The results were not statistically significant.", ["CSR.Statistical"], ["csr_section_prompt"])
+])
+def test_combined_mode(mock_llm_judge, text, vale_rules, llm_templates):
     chain = SuggestionChain(".vale/styles/CSR/rules.yml", mock_llm_judge)
     config = ChainConfig(
         mode=AnalysisMode.COMBINED,
@@ -63,7 +73,12 @@ def test_combined_mode(mock_llm_judge):
     )
     assert result is not None
 
-def test_section_specific_analysis(mock_llm_judge):
+@pytest.mark.parametrize("text, section_name", [
+    ("The treatment showed significant results (p>0.05).", "Statistical Analysis"),
+    ("The study was conducted in accordance with GCP.", "Study Conduct"),
+    ("The adverse events were mild and transient.", "Safety Reporting")
+])
+def test_section_specific_analysis(mock_llm_judge, text, section_name):
     chain = SuggestionChain(".vale/styles/CSR/rules.yml", mock_llm_judge)
     config = ChainConfig(
         mode=AnalysisMode.COMBINED,

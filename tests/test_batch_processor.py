@@ -10,7 +10,7 @@ def test_batch_processor(mocker):
     batch_processor = BatchProcessor("config/rules/final-template.ini", mock_llm_judge)
 
     results = batch_processor.process_batch(texts, ChainConfig(
-        mode="improvement_prompt",
+        mode="llm_only",
         vale_rules=[],
         llm_templates=["improvement_prompt"]
     ))

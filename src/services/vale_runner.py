@@ -28,7 +28,7 @@ def run_vale_on_text(
             raise ConfigurationError("Vale executable not found in PATH")
         try:
             process = subprocess.Popen(
-                [vale_path, "--config", config_path, "--output=JSON", "-"],
+                [vale_path, "--output=JSON", "--config", config_path, "-"],
                 stdin=subprocess.PIPE,
                 stdout=subprocess.PIPE,
                 stderr=subprocess.PIPE,

@@ -1,0 +1,183 @@
+# Imprecise time series terminology
+
+## Pattern Description
+good pattern
+poor pattern
+better pattern
+worse pattern
+reasonable pattern
+adequate pattern
+inadequate pattern
+satisfactory pattern
+unsatisfactory pattern
+acceptable pattern
+
+## Model Description
+good model
+poor model
+better model
+worse model
+reasonable model
+adequate model
+inadequate model
+satisfactory model
+unsatisfactory model
+acceptable model
+
+## Fit Description
+good fit
+poor fit
+better fit
+worse fit
+reasonable fit
+adequate fit
+inadequate fit
+satisfactory fit
+unsatisfactory fit
+acceptable fit
+
+## Performance Description
+good performance
+poor performance
+better performance
+worse performance
+reasonable performance
+adequate performance
+inadequate performance
+satisfactory performance
+unsatisfactory performance
+acceptable performance
+
+## Forecast Description
+good forecast
+poor forecast
+better forecast
+worse forecast
+reasonable forecast
+adequate forecast
+inadequate forecast
+satisfactory forecast
+unsatisfactory forecast
+acceptable forecast
+# Imprecise time series terminology
+
+## Pattern Description
+good pattern
+poor pattern
+better pattern
+worse pattern
+reasonable pattern
+adequate pattern
+inadequate pattern
+satisfactory pattern
+unsatisfactory pattern
+acceptable pattern
+
+## Model Description
+good model
+poor model
+better model
+worse model
+reasonable model
+adequate model
+inadequate model
+satisfactory model
+unsatisfactory model
+acceptable model
+
+## Fit Description
+good fit
+poor fit
+better fit
+worse fit
+reasonable fit
+adequate fit
+inadequate fit
+satisfactory fit
+unsatisfactory fit
+acceptable fit
+
+## Performance Description
+good performance
+poor performance
+better performance
+worse performance
+reasonable performance
+adequate performance
+inadequate performance
+satisfactory performance
+unsatisfactory performance
+acceptable performance
+
+## Analysis Description
+good analysis
+poor analysis
+better analysis
+worse analysis
+reasonable analysis
+adequate analysis
+inadequate analysis
+satisfactory analysis
+unsatisfactory analysis
+acceptable analysis
+# Imprecise time series terminology
+
+## Pattern Description
+good pattern
+poor pattern
+better pattern
+worse pattern
+reasonable pattern
+adequate pattern
+inadequate pattern
+satisfactory pattern
+unsatisfactory pattern
+acceptable pattern
+
+## Model Description
+good model
+poor model
+better model
+worse model
+reasonable model
+adequate model
+inadequate model
+satisfactory model
+unsatisfactory model
+acceptable model
+
+## Fit Description
+good fit
+poor fit
+better fit
+worse fit
+reasonable fit
+adequate fit
+inadequate fit
+satisfactory fit
+unsatisfactory fit
+acceptable fit
+
+## Performance Description
+good performance
+poor performance
+better performance
+worse performance
+reasonable performance
+adequate performance
+inadequate performance
+satisfactory performance
+unsatisfactory performance
+acceptable performance
+
+## Analysis Description
+good analysis
+poor analysis
+better analysis
+worse analysis
+reasonable analysis
+adequate analysis
+inadequate analysis
+satisfactory analysis
+unsatisfactory analysis
+acceptable analysis

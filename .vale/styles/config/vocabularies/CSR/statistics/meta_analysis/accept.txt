@@ -1,0 +1,49 @@
+# Meta-Analysis Terminology
+
+## Effect Measures
+standardized mean difference
+mean difference
+risk difference
+risk ratio
+odds ratio
+hazard ratio
+correlation coefficient
+proportion difference
+rate difference
+number needed to treat
+
+## Heterogeneity Assessment
+between-study variance
+I-squared statistic
+Q statistic
+tau-squared
+H-squared
+prediction interval
+heterogeneity test
+subgroup analysis
+meta-regression
+sensitivity analysis
+
+## Publication Bias
+funnel plot
+trim and fill
+fail-safe N
+regression test
+rank correlation
+contour-enhanced funnel
+selection model
+p-curve analysis
+p-uniform method
+weight function model
+
+## Synthesis Methods
+fixed effect model
+random effects model
+mixed effects model
+network meta-analysis
+individual participant data
+aggregate data analysis
+cumulative meta-analysis
+sequential meta-analysis
+multivariate meta-analysis
+robust meta-analysis

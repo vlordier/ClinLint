@@ -1,0 +1,49 @@
+# Bayesian Analysis Terminology
+
+## Prior Specifications
+informative prior
+non-informative prior
+conjugate prior
+hierarchical prior
+empirical prior
+reference prior
+skeptical prior
+enthusiastic prior
+robust prior
+weakly informative prior
+
+## Posterior Analysis
+posterior distribution
+credible interval
+highest density region
+posterior probability
+marginal posterior
+joint posterior
+posterior predictive
+posterior odds
+Bayes factor
+model averaging
+
+## Computation Methods
+Markov Chain Monte Carlo
+Gibbs sampling
+Metropolis-Hastings
+Hamiltonian Monte Carlo
+sequential Monte Carlo
+importance sampling
+particle filtering
+variational inference
+approximate Bayesian
+stochastic approximation
+
+## Model Assessment
+posterior predictive check
+deviance information criterion
+widely applicable information criterion
+leave-one-out cross-validation
+expected predictive accuracy
+effective sample size
+convergence diagnostics
+chain mixing
+parameter recovery
+model comparison

@@ -10,14 +10,12 @@ tokens:
   - immunogenicity assessment with impact analysis
   - QT/QTc evaluation with thorough analysis
   - hepatic safety monitoring with Hy's law assessment
-  - renal safety monitoring with function markers
   - cardiovascular risk assessment with MACE analysis
   - pregnancy surveillance with outcome tracking
-  
-  # Advanced Safety Monitoring
-  - biomarker safety correlation with mechanism
-  - organ system assessment with targeted monitoring
-  - delayed toxicity evaluation with follow-up plan
+  - pediatric safety with developmental assessment
+  - geriatric safety with comorbidity analysis
+  - genetic factors with safety correlation
+  - environmental interactions with risk assessment
   - withdrawal effects with systematic assessment
   - abuse potential with structured evaluation
   - carcinogenicity signals with long-term data

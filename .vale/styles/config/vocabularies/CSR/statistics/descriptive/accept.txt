@@ -1,0 +1,37 @@
+# Descriptive Statistics Terminology
+
+## Central Tendency
+arithmetic mean
+geometric mean
+harmonic mean
+median
+mode
+trimmed mean
+winsorized mean
+weighted mean
+robust mean
+location parameter
+
+## Dispersion Measures
+standard deviation
+variance
+coefficient of variation
+range
+interquartile range
+mean absolute deviation
+median absolute deviation
+quantiles
+percentiles
+deciles
+
+## Distribution Properties
+skewness
+kurtosis
+moments
+cumulants
+quantile function
+probability density
+cumulative distribution
+hazard function
+survival function
+characteristic function

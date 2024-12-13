@@ -1,59 +1,58 @@
 StylesPath: .vale/styles
 MinAlertLevel: error
 
+# Core packages
 Packages:
   CSR: YES
   Vale.Spelling: YES
   Vale.Terms: YES
 
+# Core vocabularies  
 Vocabularies:
   CSR: YES
   Medical: YES
 
+# Document formats
 Formats:
   md: YES
   rst: YES
-  adoc: YES
+  html: YES
+  xml: YES
 
+# Core rules organized by domain
 Rules:
-  # Clinical Domain Rules
-  CSR.clinical.safety.reporting: error
-  CSR.clinical.safety.adverse_events: error
-  CSR.clinical.safety.causality: error
-  CSR.clinical.safety.severity: error
-  CSR.clinical.efficacy.reporting: error
-  CSR.clinical.laboratory.reporting: error
-  CSR.clinical.demographics.reporting: error
-  
-  # Special Population Rules
-  CSR.study_types.special.orphan_requirements: error
-  CSR.study_types.special.gcp_requirements: error
-  CSR.study_types.special.p2p_requirements: error
-  
-  # Regulatory Rules
-  CSR.regulatory.ich.compliance: error
-  CSR.regulatory.ich.structure: error
-  CSR.regulatory.regional.requirements: error
-  
-  # Quality Rules
-  CSR.quality.structure.base: error
-  CSR.quality.consistency.terminology: error
-  CSR.quality.data.integrity: error
-  
-  # Statistical Rules
-  CSR.statistics.methods.base: error
-  CSR.statistics.reporting.requirements: error
-  CSR.statistics.populations.definitions: error
-  
-  # Formatting Rules
-  CSR.formatting.document: error
-  CSR.formatting.tables: error
-  CSR.formatting.references: error
+  # Safety rules
+  CSR.safety.adverse_events: error
+  CSR.safety.causality: error 
+  CSR.safety.severity: error
+  CSR.safety.monitoring: error
 
-# Global configuration  
+  # Efficacy rules
+  CSR.efficacy.endpoints: error
+  CSR.efficacy.analysis: error
+  CSR.efficacy.reporting: error
+
+  # Statistical rules  
+  CSR.statistics.methods: error
+  CSR.statistics.reporting: error
+  CSR.statistics.terminology: error
+
+  # Quality rules
+  CSR.quality.structure: error
+  CSR.quality.consistency: error
+  CSR.quality.validation: error
+
+  # Regulatory rules
+  CSR.regulatory.ich: error
+  CSR.regulatory.regional: error
+
+  # Study type rules
+  CSR.study_types.phase1: error
+  CSR.study_types.phase2: error
+  CSR.study_types.phase3: error
+  CSR.study_types.phase4: error
+
+# Global settings
 IgnoredScopes:
   - code
-  - tt
   - url
-
-WordTemplate: \b(?:[A-Z]\.?\s*){2,}|[A-Z][a-z]+'?[a-z]+|[A-Z]+\b

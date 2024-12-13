@@ -1,0 +1,51 @@
+# Solid Tumor Assessment
+
+## Primary Tumor Characteristics
+tumor size
+tumor mass
+tumor volume
+tumor density
+tumor composition
+tumor consistency
+tumor texture
+tumor vascularity
+
+## Tumor Location and Extent
+tumor location
+tumor position
+tumor boundaries
+tumor margins
+tumor borders
+tumor extent
+tumor depth
+tumor dimensions
+
+## Tumor Behavior
+tumor invasion
+tumor spread
+tumor growth
+tumor development
+tumor progression
+tumor evolution
+tumor transformation
+tumor differentiation
+
+## Tumor Microenvironment
+tumor stroma
+tumor vasculature
+tumor inflammation
+tumor infiltration
+tumor necrosis
+tumor fibrosis
+tumor calcification
+tumor hemorrhage
+
+## Metastatic Features
+metastatic deposit
+metastatic focus
+metastatic lesion
+metastatic site
+metastatic spread
+metastatic pattern
+metastatic burden
+metastatic potential

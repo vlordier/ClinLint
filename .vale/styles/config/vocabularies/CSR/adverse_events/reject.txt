@@ -1,123 +1,189 @@
-# Incorrect adverse event terminology
-side effect
-side effects
-negative effect
-negative effects
-complication
-complications
-problem
-problems
-(?i)reaction
-(?i)reactions
-issue
-issues
-concern
-concerns
-difficulty
-difficulties
-abnormality
-abnormalities
-anomaly
-anomalies
-irregularity
-irregularities
-incident
-incidents
-episode
-episodes
-occurrence
-occurrences
-manifestation
-manifestations
-symptom
-symptoms
-complaint
-complaints
-discomfort
-disturbance
-disturbances
-ailment
-ailments
-condition
-conditions
-disorder
-disorders
-malady
-maladies
-affliction
-afflictions
+# Adverse Event Documentation
+# Use specific, standardized terminology for adverse event reporting
 
-# Incorrect severity terminology
-mild
-moderate
-severe
-serious
-life-threatening
-fatal
-minimal
-slight
-minor
-major
-significant
-insignificant
-substantial
-considerable
-negligible
-pronounced
-marked
-notable
-remarkable
-unremarkable
-intense
-extreme
-critical
-devastating
-catastrophic
-dire
-grave
-marginal
-trivial
-inconsequential
+## Classification
+avoid: untoward effect
+prefer: adverse event (specify CTCAE v5.0 term and grade)
 
-# Incorrect causality terms
-might be related
-could be related
-maybe related
-perhaps related
-seems related
-appears related
-potentially related
-possibly related
-presumably related
-likely related
-probably related
-apparently related
-suspected to be related
-thought to be related
-believed to be related
-considered to be related
-may have caused
-might have caused
-could have caused
-cannot be ruled out
-temporal relationship
-temporal association
-suggestive of
-indicative of
-consistent with
-associated with
-linked to
-connected to
-correlated with
-coincident with
-concurrent with
-secondary to
-consequent to
-resulting from
-stemming from
-arising from
-following from
-due to
-because of
-attributed to
-ascribed to
+avoid: unwanted effect
+prefer: adverse event (specify CTCAE v5.0 term and grade)
+
+avoid: harmful effect
+prefer: adverse event (specify CTCAE v5.0 term and grade)
+
+avoid: detrimental effect
+prefer: adverse event (specify CTCAE v5.0 term and grade)
+
+## Onset Description
+avoid: acute onset
+prefer: onset at [specific timepoint/date]
+
+avoid: chronic onset
+prefer: onset over [specific duration]
+
+avoid: sudden onset
+prefer: onset within [specific timeframe]
+
+## Resolution Documentation
+avoid: resolved spontaneously
+prefer: resolved without intervention by [date]
+
+avoid: resolved with treatment
+prefer: resolved following [specific intervention] on [date]
+
+avoid: resolved completely
+prefer: returned to baseline on [date]
+
+## Severity Grading
+avoid: mild
+prefer: CTCAE Grade 1 [include specific criteria]
+
+avoid: moderate
+prefer: CTCAE Grade 2 [include specific criteria]
+
+avoid: severe
+prefer: CTCAE Grade 3 [include specific criteria]
+
+avoid: life-threatening
+prefer: CTCAE Grade 4 [include specific criteria]
+
+avoid: fatal
+prefer: CTCAE Grade 5
+
+avoid: serious
+prefer: meets ICH serious criteria [specify which criteria]
+
+## Duration Description
+avoid: brief
+prefer: lasting [specific duration]
+
+avoid: prolonged
+prefer: persisting for [specific duration]
+
+avoid: intermittent
+prefer: occurring at [specific intervals]
+
+avoid: continuous
+prefer: ongoing from [start date] to [end date]
+
+## Causality Assessment
+avoid: related
+prefer: causality assessed as [definite/probable/possible/unlikely] based on [specific criteria]
+
+avoid: unrelated
+prefer: causality assessed as not related based on [specific criteria]
+
+avoid: possibly related
+prefer: causality assessed as possible based on [specific criteria]
+
+## Action Taken
+avoid: stopped treatment
+prefer: study treatment permanently discontinued on [date]
+
+avoid: reduced dose
+prefer: dose reduced to [specific dose] on [date]
+
+avoid: interrupted treatment
+prefer: study treatment temporarily interrupted from [start date] to [end date]
+
+## Outcome Documentation
+avoid: recovered
+prefer: resolved to baseline on [date]
+
+avoid: improving
+prefer: severity decreased from Grade [X] to Grade [Y] on [date]
+
+avoid: worsening
+prefer: severity increased from Grade [X] to Grade [Y] on [date]
+
+## Temporal Patterns
+# Use specific onset dates/times instead of:
+acute onset
+chronic onset
+sudden onset
+gradual onset
+rapid onset
+slow onset
+immediate onset
+delayed onset
+early onset
+late onset
+initial onset
+subsequent onset
+recurrent onset
+intermittent onset
+periodic onset
+cyclical onset
+continuous onset
+persistent onset
+transient onset
+temporary onset
+
+## Resolution Patterns
+# Use specific dates and interventions instead of:
+resolved spontaneously
+resolved without intervention
+resolved with treatment
+resolved completely
+resolved partially
+resolved gradually
+resolved quickly
+resolved slowly
+improved over time
+worsened over time
+stabilized over time
+fluctuated over time
+persisted despite treatment
+recurred after resolution
+relapsed after improvement
+progressed despite management
+responded to treatment
+failed to respond
+refractory to treatment
+resistant to therapy
+
+## Medical Interventions
+# Use specific intervention types/names instead of:
+medical attention
+medical care
+medical treatment
+medical therapy
+medical management
+medical intervention
+clinical attention
+clinical care
+clinical treatment
+clinical therapy
+clinical management
+clinical intervention
+therapeutic attention
+therapeutic care
+therapeutic treatment
+therapeutic management
+therapeutic intervention
+supportive care
+supportive treatment
+supportive therapy
+
+## Monitoring
+# Use specific monitoring parameters/schedules instead of:
+close monitoring
+careful monitoring
+regular monitoring
+periodic monitoring
+frequent monitoring
+infrequent monitoring
+continuous monitoring
+intermittent monitoring
+routine monitoring
+special monitoring
+enhanced monitoring
+reduced monitoring
+standard monitoring
+intensive monitoring
+minimal monitoring
+optimal monitoring
+adequate monitoring
+inadequate monitoring
+appropriate monitoring
+inappropriate monitoring

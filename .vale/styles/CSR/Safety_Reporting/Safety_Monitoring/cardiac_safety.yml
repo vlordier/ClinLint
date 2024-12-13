@@ -1,0 +1,17 @@
+extends: existence
+message: "Required cardiac safety element missing: %s"
+level: error
+tokens:
+  # ECG Analysis
+  - QT/QTc evaluation with thorough analysis
+  - heart rate assessment
+  - rhythm analysis
+  - conduction intervals
+  - morphology changes
+  
+  # Hemodynamic Monitoring
+  - blood pressure trends
+  - orthostatic changes
+  - cardiac output
+  - peripheral resistance
+  - volume status

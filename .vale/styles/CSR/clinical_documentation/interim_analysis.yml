@@ -1,0 +1,33 @@
+extends: existence
+message: "Required interim analysis element missing: %s"
+level: error
+tokens:
+  # Analysis Planning
+  - interim timing with information fraction
+  - stopping boundaries with criteria
+  - alpha spending with function
+  - beta spending with power
+  - futility assessment with rules
+  - success criteria with thresholds
+  - safety monitoring with limits
+  - sample size adjustment with rules
+  
+  # Operational Aspects
+  - DSMB charter with procedures
+  - unblinding procedures with controls
+  - data cleaning with requirements
+  - analysis datasets with specifications
+  - programming validation with checks
+  - output generation with templates
+  - review process with timeline
+  - decision making with documentation
+  
+  # Documentation Requirements
+  - statistical methods with justification
+  - analysis results with interpretation
+  - committee recommendations with rationale
+  - regulatory notifications with timing
+  - trial continuation with modifications
+  - communication plan with stakeholders
+  - database status with verification
+  - quality control with metrics

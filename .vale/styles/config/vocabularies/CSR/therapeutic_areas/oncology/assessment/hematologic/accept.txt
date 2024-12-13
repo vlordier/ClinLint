@@ -1,0 +1,51 @@
+# Hematologic Malignancy Assessment
+
+## Bone Marrow Assessment
+bone marrow involvement
+bone marrow infiltration
+bone marrow cellularity
+bone marrow fibrosis
+bone marrow necrosis
+bone marrow recovery
+bone marrow function
+bone marrow reserve
+
+## Lymphoid Assessment
+lymph node status
+lymph node involvement
+lymph node enlargement
+lymph node consistency
+lymph node distribution
+lymph node pattern
+lymph node architecture
+lymph node vascularity
+
+## Disease Burden Markers
+disease burden
+tumor burden
+leukemic burden
+lymphoma burden
+myeloma burden
+cellular burden
+molecular burden
+genetic burden
+
+## Cell Population Analysis
+malignant cells
+cancer cells
+blast cells
+abnormal cells
+atypical cells
+neoplastic cells
+transformed cells
+clonal cells
+
+## Disease Distribution
+disease distribution
+disease extent
+disease pattern
+disease spread
+disease involvement
+disease infiltration
+disease progression
+disease evolution

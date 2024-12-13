@@ -1,0 +1,61 @@
+# Gastrointestinal Assessment
+
+## Digestive Function
+gastric emptying
+intestinal motility
+nutrient absorption
+enzyme secretion
+acid production
+bile secretion
+pancreatic function
+mucosal integrity
+barrier function
+digestive capacity
+
+## Motility Assessment
+peristaltic activity
+contractile function
+transit time
+sphincter function
+propulsive activity
+segmental motility
+migrating complexes
+postprandial motility
+fasting motility
+colonic motility
+
+## Secretory Function
+acid secretion
+bicarbonate secretion
+mucus production
+enzyme production
+hormone secretion
+fluid secretion
+electrolyte transport
+nutrient transport
+ion exchange
+absorption capacity
+
+## Mucosal Assessment
+mucosal integrity
+barrier function
+epithelial health
+villous structure
+crypt architecture
+microvascular pattern
+inflammatory status
+immune response
+regenerative capacity
+protective function
+
+## Functional Testing
+gastric analysis
+absorption tests
+breath tests
+motility studies
+secretion studies
+pH monitoring
+manometry
+impedance testing
+transit studies
+permeability tests

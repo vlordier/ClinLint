@@ -1,6 +1,0 @@
-# Examples of disease progression biomarkers
-CRP increased by 45% (baseline: 3.2 mg/L)
-IL-6 levels doubled after 4 weeks
-TNF-α showed 30% reduction post-treatment
-Neutrophil:lymphocyte ratio increased 2.5-fold
-CD4+ T cell count decreased by 200 cells/μL

@@ -1,0 +1,61 @@
+# Endocrine Disorders
+
+## Hormone Excess
+hypersecretion
+overproduction
+hyperfunction
+hormone excess
+receptor hypersensitivity
+feedback resistance
+autonomous secretion
+ectopic production
+hyperplasia
+adenoma
+
+## Hormone Deficiency
+hyposecretion
+underproduction
+hypofunction
+hormone deficiency
+receptor insensitivity
+feedback disruption
+secretory failure
+synthetic defect
+hypoplasia
+atrophy
+
+## Metabolic Disorders
+glucose dysregulation
+lipid disorders
+protein catabolism
+energy imbalance
+substrate dysutilization
+metabolic dysfunction
+oxidative stress
+anabolic deficiency
+catabolic excess
+metabolic inflexibility
+
+## Regulatory Disorders
+feedback dysfunction
+axis disruption
+rhythm disturbance
+secretory dysregulation
+transport defect
+binding abnormality
+clearance disorder
+metabolic block
+receptor dysfunction
+signal disruption
+
+## System Dysfunction
+neuroendocrine disruption
+metabolic derangement
+homeostatic failure
+regulatory failure
+endocrine resistance
+hormone insensitivity
+end-organ dysfunction
+tissue resistance
+metabolic crisis
+endocrine emergency

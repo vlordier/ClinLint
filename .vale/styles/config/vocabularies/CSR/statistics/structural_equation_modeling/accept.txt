@@ -1,0 +1,76 @@
+# Structural Equation Modeling (SEM) Terminology
+
+## Model Specification
+# Path Components
+direct effects
+indirect effects
+total effects
+mediation paths
+moderation effects
+recursive paths
+non-recursive paths
+feedback loops
+correlated errors
+residual correlations
+
+# Variable Types
+observed variables
+latent variables
+exogenous variables
+endogenous variables
+mediating variables
+moderating variables
+composite variables
+formative indicators
+reflective indicators
+disturbance terms
+
+## Estimation Methods
+# Basic Methods
+maximum likelihood
+generalized least squares
+weighted least squares
+unweighted least squares
+asymptotic distribution free
+robust maximum likelihood
+full information maximum likelihood
+limited information maximum likelihood
+two-stage least squares
+three-stage least squares
+
+# Advanced Estimation
+bayesian estimation
+markov chain monte carlo
+gibbs sampling
+metropolis-hastings
+hamiltonian monte carlo
+variational bayes
+stochastic approximation
+expectation-maximization
+quasi-maximum likelihood
+simulated maximum likelihood
+
+## Model Assessment
+# Fit Indices
+chi-square test
+root mean square error
+standardized root mean residual
+comparative fit index
+tucker-lewis index
+normed fit index
+non-normed fit index
+parsimony normed fit
+relative fit index
+incremental fit index
+
+# Modification Indices
+lagrange multiplier tests
+wald tests
+modification indices
+expected parameter change
+standardized residuals
+normalized residuals
+modification potential
+parameter constraints
+model restrictions
+specification searches

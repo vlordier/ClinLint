@@ -1,0 +1,335 @@
+# Oncology Terminology
+
+## Solid Tumor Assessment
+tumor size
+tumor mass
+tumor volume
+tumor density
+tumor characteristics
+tumor features
+tumor appearance
+tumor location
+tumor extent
+tumor borders
+tumor margins
+tumor invasion
+tumor spread
+tumor growth
+tumor development
+
+## Hematologic Malignancy Assessment
+blood cancer
+bone marrow involvement
+lymph node status
+disease burden
+cancer cells
+malignant cells
+blood counts
+marrow function
+cellular composition
+disease distribution
+cancer progression
+disease advancement
+cancer evolution
+disease transformation
+malignant process
+
+## Treatment Response Assessment
+cancer response
+tumor response
+disease control
+treatment effect
+therapeutic impact
+clinical benefit
+disease modification
+cancer control
+tumor control
+response duration
+treatment outcome
+therapeutic outcome
+clinical outcome
+disease outcome
+cancer outcome
+
+## Disease Monitoring
+progression status
+metastatic status
+disease status
+clinical status
+radiological status
+biochemical status
+molecular status
+pathological status
+response status
+remission status
+relapse status
+recurrence status
+survival status
+outcome status
+prognosis status
+
+## Cancer Staging
+early stage
+late stage
+advanced stage
+metastatic stage
+disease stage
+cancer stage
+tumor stage
+clinical stage
+pathological stage
+prognostic stage
+anatomical stage
+biological stage
+molecular stage
+genetic stage
+phenotypic stage
+
+## Disease Burden Assessment
+tumor burden
+disease burden
+metastatic burden
+cancer burden
+symptom burden
+treatment burden
+clinical burden
+radiological burden
+molecular burden
+genetic burden
+cellular burden
+tissue burden
+organ burden
+systemic burden
+total burden
+
+# Cardiovascular Terminology
+
+## Cardiac Function Assessment
+heart function
+cardiac function
+myocardial function
+ventricular function
+atrial function
+cardiac performance
+heart performance
+myocardial performance
+cardiac status
+heart condition
+
+## Hemodynamic Parameters
+blood pressure
+cardiac output
+stroke volume
+ejection fraction
+blood flow
+vascular resistance
+pulse pressure
+mean arterial pressure
+central venous pressure
+cardiac index
+
+## Rhythm Assessment
+heart rhythm
+cardiac rhythm
+arrhythmia
+dysrhythmia
+conduction status
+electrical activity
+pacemaker function
+heart block
+rhythm disturbance
+conduction abnormality
+
+## Vascular Assessment
+vascular health
+vessel status
+arterial condition
+venous status
+endothelial function
+vascular tone
+vessel compliance
+vascular resistance
+circulation status
+perfusion status
+
+## Cardiovascular Monitoring
+cardiovascular status
+hemodynamic status
+cardiac monitoring
+circulatory monitoring
+cardiovascular stability
+cardiac compensation
+cardiovascular reserve
+cardiac adaptation
+circulatory response
+cardiovascular tolerance
+
+# Imprecise neurology terminology
+brain function
+nerve activity
+neural status
+cognitive status
+neurological condition
+brain performance
+nerve conduction
+neural processing
+brain activity
+nervous system
+neural pathway
+brain circuit
+nerve transmission
+neural network
+brain connectivity
+
+# Imprecise immunology terminology
+immune status
+immune function
+immune response
+immune activity
+immune condition
+immune performance
+immune reaction
+immune process
+immune state
+immune health
+immune capacity
+immune reserve
+immune potential
+immune capability
+immune competence
+
+# Imprecise respiratory terminology
+lung function
+breathing status
+respiratory condition
+airway health
+pulmonary status
+breathing pattern
+respiratory effort
+lung capacity
+airway resistance
+breathing reserve
+respiratory rate
+oxygen status
+ventilation status
+gas exchange
+respiratory efficiency
+
+# Imprecise gastroenterology terminology
+digestive function
+gut health
+intestinal status
+stomach condition
+bowel activity
+digestive process
+gastrointestinal state
+absorption status
+motility pattern
+digestive capacity
+gut flora
+intestinal barrier
+stomach acid
+bowel movement
+digestive efficiency
+
+# Imprecise endocrinology terminology
+hormone level
+endocrine function
+metabolic status
+glucose control
+thyroid activity
+adrenal function
+pancreatic status
+hormone balance
+metabolic rate
+insulin response
+cortisol level
+hormone regulation
+endocrine feedback
+metabolic control
+hormone sensitivity
+
+# Imprecise rheumatology terminology
+joint function
+inflammatory status
+arthritic condition
+musculoskeletal health
+joint mobility
+inflammatory activity
+connective tissue
+joint flexibility
+bone density
+muscle strength
+joint stability
+tissue integrity
+inflammatory response
+joint protection
+movement capacity
+
+# Imprecise dermatology terminology
+skin condition
+dermal status
+cutaneous health
+skin integrity
+tissue healing
+dermal response
+skin barrier
+wound status
+tissue repair
+skin sensitivity
+dermal reaction
+skin tolerance
+tissue recovery
+skin protection
+dermal defense
+
+# Imprecise nephrology terminology
+kidney function
+renal status
+filtration rate
+fluid balance
+electrolyte status
+kidney performance
+renal clearance
+urinary output
+kidney reserve
+fluid status
+electrolyte balance
+renal capacity
+kidney efficiency
+waste elimination
+fluid regulation
+
+# Imprecise hepatology terminology
+liver function
+hepatic status
+metabolic capacity
+detoxification
+bile production
+liver efficiency
+hepatic reserve
+metabolic state
+liver clearance
+protein synthesis
+hepatic metabolism
+bile secretion
+liver capacity
+metabolic function
+hepatic activity
+
+# Imprecise hematology terminology
+blood count
+marrow function
+clotting status
+bleeding tendency
+blood formation
+cellular production
+blood cell status
+coagulation state
+marrow activity
+blood composition
+cellular maturation
+blood cell development
+marrow capacity
+blood cell function
+hematopoietic activity

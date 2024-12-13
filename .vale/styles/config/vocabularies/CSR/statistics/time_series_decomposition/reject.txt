@@ -1,0 +1,873 @@
+# Imprecise time series decomposition terminology
+
+## Decomposition Quality
+good decomposition
+poor decomposition
+better decomposition
+worse decomposition
+reasonable decomposition
+adequate decomposition
+inadequate decomposition
+satisfactory decomposition
+unsatisfactory decomposition
+acceptable decomposition
+
+## Component Description
+strong component
+weak component
+moderate component
+significant component
+insignificant component
+important component
+unimportant component
+meaningful component
+negligible component
+substantial component
+
+## Trend Description
+clear trend
+unclear trend
+strong trend
+weak trend
+obvious trend
+subtle trend
+apparent trend
+hidden trend
+visible trend
+invisible trend
+
+## Seasonal Pattern
+strong seasonality
+weak seasonality
+moderate seasonality
+significant seasonality
+insignificant seasonality
+important seasonality
+unimportant seasonality
+meaningful seasonality
+negligible seasonality
+substantial seasonality
+
+## Cycle Description
+clear cycle
+unclear cycle
+strong cycle
+weak cycle
+obvious cycle
+subtle cycle
+apparent cycle
+hidden cycle
+visible cycle
+invisible cycle
+
+## Model Performance
+good performance
+poor performance
+better performance
+worse performance
+reasonable performance
+adequate performance
+inadequate performance
+satisfactory performance
+unsatisfactory performance
+acceptable performance
+
+## Adjustment Quality
+good adjustment
+poor adjustment
+better adjustment
+worse adjustment
+reasonable adjustment
+adequate adjustment
+inadequate adjustment
+satisfactory adjustment
+unsatisfactory adjustment
+acceptable adjustment
+
+## Analysis Quality
+good analysis
+poor analysis
+better analysis
+worse analysis
+reasonable analysis
+adequate analysis
+inadequate analysis
+satisfactory analysis
+unsatisfactory analysis
+acceptable analysis
+# Imprecise time series decomposition terminology
+
+## Decomposition Quality
+good decomposition
+poor decomposition
+better decomposition
+worse decomposition
+reasonable decomposition
+adequate decomposition
+inadequate decomposition
+satisfactory decomposition
+unsatisfactory decomposition
+acceptable decomposition
+
+## Component Description
+strong component
+weak component
+moderate component
+significant component
+insignificant component
+important component
+unimportant component
+meaningful component
+negligible component
+substantial component
+
+## Trend Description
+clear trend
+unclear trend
+strong trend
+weak trend
+obvious trend
+subtle trend
+apparent trend
+hidden trend
+visible trend
+invisible trend
+
+## Seasonal Pattern
+strong seasonality
+weak seasonality
+moderate seasonality
+significant seasonality
+insignificant seasonality
+important seasonality
+unimportant seasonality
+meaningful seasonality
+negligible seasonality
+substantial seasonality
+
+## Cycle Description
+clear cycle
+unclear cycle
+strong cycle
+weak cycle
+obvious cycle
+subtle cycle
+apparent cycle
+hidden cycle
+visible cycle
+invisible cycle
+
+## Model Performance
+good performance
+poor performance
+better performance
+worse performance
+reasonable performance
+adequate performance
+inadequate performance
+satisfactory performance
+unsatisfactory performance
+acceptable performance
+
+## Adjustment Quality
+good adjustment
+poor adjustment
+better adjustment
+worse adjustment
+reasonable adjustment
+adequate adjustment
+inadequate adjustment
+satisfactory adjustment
+unsatisfactory adjustment
+acceptable adjustment
+
+## Analysis Quality
+good analysis
+poor analysis
+better analysis
+worse analysis
+reasonable analysis
+adequate analysis
+inadequate analysis
+satisfactory analysis
+unsatisfactory analysis
+acceptable analysis
+# Imprecise time series decomposition terminology
+
+## Decomposition Quality
+good decomposition
+poor decomposition
+better decomposition
+worse decomposition
+reasonable decomposition
+adequate decomposition
+inadequate decomposition
+satisfactory decomposition
+unsatisfactory decomposition
+acceptable decomposition
+
+## Component Description
+strong component
+weak component
+moderate component
+significant component
+insignificant component
+important component
+unimportant component
+meaningful component
+negligible component
+substantial component
+
+## Trend Description
+clear trend
+unclear trend
+strong trend
+weak trend
+obvious trend
+subtle trend
+apparent trend
+hidden trend
+visible trend
+invisible trend
+
+## Seasonal Pattern
+strong seasonality
+weak seasonality
+moderate seasonality
+significant seasonality
+insignificant seasonality
+important seasonality
+unimportant seasonality
+meaningful seasonality
+negligible seasonality
+substantial seasonality
+
+## Cycle Description
+clear cycle
+unclear cycle
+strong cycle
+weak cycle
+obvious cycle
+subtle cycle
+apparent cycle
+hidden cycle
+visible cycle
+invisible cycle
+
+## Model Performance
+good performance
+poor performance
+better performance
+worse performance
+reasonable performance
+adequate performance
+inadequate performance
+satisfactory performance
+unsatisfactory performance
+acceptable performance
+
+## Adjustment Quality
+good adjustment
+poor adjustment
+better adjustment
+worse adjustment
+reasonable adjustment
+adequate adjustment
+inadequate adjustment
+satisfactory adjustment
+unsatisfactory adjustment
+acceptable adjustment
+
+## Analysis Quality
+good analysis
+poor analysis
+better analysis
+worse analysis
+reasonable analysis
+adequate analysis
+inadequate analysis
+satisfactory analysis
+unsatisfactory analysis
+acceptable analysis
+# Imprecise time series decomposition terminology
+
+## Decomposition Quality
+good decomposition
+poor decomposition
+better decomposition
+worse decomposition
+reasonable decomposition
+adequate decomposition
+inadequate decomposition
+satisfactory decomposition
+unsatisfactory decomposition
+acceptable decomposition
+
+## Component Description
+strong component
+weak component
+moderate component
+significant component
+insignificant component
+important component
+unimportant component
+meaningful component
+negligible component
+substantial component
+
+## Trend Description
+clear trend
+unclear trend
+strong trend
+weak trend
+obvious trend
+subtle trend
+apparent trend
+hidden trend
+visible trend
+invisible trend
+
+## Seasonal Pattern
+strong seasonality
+weak seasonality
+moderate seasonality
+significant seasonality
+insignificant seasonality
+important seasonality
+unimportant seasonality
+meaningful seasonality
+negligible seasonality
+substantial seasonality
+
+## Cycle Description
+clear cycle
+unclear cycle
+strong cycle
+weak cycle
+obvious cycle
+subtle cycle
+apparent cycle
+hidden cycle
+visible cycle
+invisible cycle
+
+## Model Performance
+good performance
+poor performance
+better performance
+worse performance
+reasonable performance
+adequate performance
+inadequate performance
+satisfactory performance
+unsatisfactory performance
+acceptable performance
+
+## Adjustment Quality
+good adjustment
+poor adjustment
+better adjustment
+worse adjustment
+reasonable adjustment
+adequate adjustment
+inadequate adjustment
+satisfactory adjustment
+unsatisfactory adjustment
+acceptable adjustment
+
+## Analysis Quality
+good analysis
+poor analysis
+better analysis
+worse analysis
+reasonable analysis
+adequate analysis
+inadequate analysis
+satisfactory analysis
+unsatisfactory analysis
+acceptable analysis
+# Imprecise time series decomposition terminology
+
+## Decomposition Quality
+good decomposition
+poor decomposition
+better decomposition
+worse decomposition
+reasonable decomposition
+adequate decomposition
+inadequate decomposition
+satisfactory decomposition
+unsatisfactory decomposition
+acceptable decomposition
+
+## Component Description
+strong component
+weak component
+moderate component
+significant component
+insignificant component
+important component
+unimportant component
+meaningful component
+negligible component
+substantial component
+
+## Trend Description
+clear trend
+unclear trend
+strong trend
+weak trend
+obvious trend
+subtle trend
+apparent trend
+hidden trend
+visible trend
+invisible trend
+
+## Seasonal Pattern
+strong seasonality
+weak seasonality
+moderate seasonality
+significant seasonality
+insignificant seasonality
+important seasonality
+unimportant seasonality
+meaningful seasonality
+negligible seasonality
+substantial seasonality
+
+## Cycle Description
+clear cycle
+unclear cycle
+strong cycle
+weak cycle
+obvious cycle
+subtle cycle
+apparent cycle
+hidden cycle
+visible cycle
+invisible cycle
+
+## Model Performance
+good performance
+poor performance
+better performance
+worse performance
+reasonable performance
+adequate performance
+inadequate performance
+satisfactory performance
+unsatisfactory performance
+acceptable performance
+
+## Adjustment Quality
+good adjustment
+poor adjustment
+better adjustment
+worse adjustment
+reasonable adjustment
+adequate adjustment
+inadequate adjustment
+satisfactory adjustment
+unsatisfactory adjustment
+acceptable adjustment
+
+## Analysis Quality
+good analysis
+poor analysis
+better analysis
+worse analysis
+reasonable analysis
+adequate analysis
+inadequate analysis
+satisfactory analysis
+unsatisfactory analysis
+acceptable analysis
+# Imprecise time series decomposition terminology
+
+## Decomposition Quality
+good decomposition
+poor decomposition
+better decomposition
+worse decomposition
+reasonable decomposition
+adequate decomposition
+inadequate decomposition
+satisfactory decomposition
+unsatisfactory decomposition
+acceptable decomposition
+
+## Component Description
+strong component
+weak component
+moderate component
+significant component
+insignificant component
+important component
+unimportant component
+meaningful component
+negligible component
+substantial component
+
+## Trend Description
+clear trend
+unclear trend
+strong trend
+weak trend
+obvious trend
+subtle trend
+apparent trend
+hidden trend
+visible trend
+invisible trend
+
+## Seasonal Pattern
+strong seasonality
+weak seasonality
+moderate seasonality
+significant seasonality
+insignificant seasonality
+important seasonality
+unimportant seasonality
+meaningful seasonality
+negligible seasonality
+substantial seasonality
+
+## Cycle Description
+clear cycle
+unclear cycle
+strong cycle
+weak cycle
+obvious cycle
+subtle cycle
+apparent cycle
+hidden cycle
+visible cycle
+invisible cycle
+
+## Model Performance
+good performance
+poor performance
+better performance
+worse performance
+reasonable performance
+adequate performance
+inadequate performance
+satisfactory performance
+unsatisfactory performance
+acceptable performance
+
+## Adjustment Quality
+good adjustment
+poor adjustment
+better adjustment
+worse adjustment
+reasonable adjustment
+adequate adjustment
+inadequate adjustment
+satisfactory adjustment
+unsatisfactory adjustment
+acceptable adjustment
+
+## Analysis Quality
+good analysis
+poor analysis
+better analysis
+worse analysis
+reasonable analysis
+adequate analysis
+inadequate analysis
+satisfactory analysis
+unsatisfactory analysis
+acceptable analysis
+# Imprecise time series decomposition terminology
+
+## Decomposition Quality
+good decomposition
+poor decomposition
+better decomposition
+worse decomposition
+reasonable decomposition
+adequate decomposition
+inadequate decomposition
+satisfactory decomposition
+unsatisfactory decomposition
+acceptable decomposition
+
+## Component Description
+strong component
+weak component
+moderate component
+significant component
+insignificant component
+important component
+unimportant component
+meaningful component
+negligible component
+substantial component
+
+## Trend Description
+clear trend
+unclear trend
+strong trend
+weak trend
+obvious trend
+subtle trend
+apparent trend
+hidden trend
+visible trend
+invisible trend
+
+## Seasonal Pattern
+strong seasonality
+weak seasonality
+moderate seasonality
+significant seasonality
+insignificant seasonality
+important seasonality
+unimportant seasonality
+meaningful seasonality
+negligible seasonality
+substantial seasonality
+
+## Cycle Description
+clear cycle
+unclear cycle
+strong cycle
+weak cycle
+obvious cycle
+subtle cycle
+apparent cycle
+hidden cycle
+visible cycle
+invisible cycle
+
+## Model Performance
+good performance
+poor performance
+better performance
+worse performance
+reasonable performance
+adequate performance
+inadequate performance
+satisfactory performance
+unsatisfactory performance
+acceptable performance
+
+## Adjustment Quality
+good adjustment
+poor adjustment
+better adjustment
+worse adjustment
+reasonable adjustment
+adequate adjustment
+inadequate adjustment
+satisfactory adjustment
+unsatisfactory adjustment
+acceptable adjustment
+
+## Analysis Quality
+good analysis
+poor analysis
+better analysis
+worse analysis
+reasonable analysis
+adequate analysis
+inadequate analysis
+satisfactory analysis
+unsatisfactory analysis
+acceptable analysis
+# Imprecise time series decomposition terminology
+
+## Decomposition Quality
+good decomposition
+poor decomposition
+better decomposition
+worse decomposition
+reasonable decomposition
+adequate decomposition
+inadequate decomposition
+satisfactory decomposition
+unsatisfactory decomposition
+acceptable decomposition
+
+## Component Description
+strong component
+weak component
+moderate component
+significant component
+insignificant component
+important component
+unimportant component
+meaningful component
+negligible component
+substantial component
+
+## Trend Description
+clear trend
+unclear trend
+strong trend
+weak trend
+obvious trend
+subtle trend
+apparent trend
+hidden trend
+visible trend
+invisible trend
+
+## Seasonal Pattern
+strong seasonality
+weak seasonality
+moderate seasonality
+significant seasonality
+insignificant seasonality
+important seasonality
+unimportant seasonality
+meaningful seasonality
+negligible seasonality
+substantial seasonality
+
+## Cycle Description
+clear cycle
+unclear cycle
+strong cycle
+weak cycle
+obvious cycle
+subtle cycle
+apparent cycle
+hidden cycle
+visible cycle
+invisible cycle
+
+## Model Performance
+good performance
+poor performance
+better performance
+worse performance
+reasonable performance
+adequate performance
+inadequate performance
+satisfactory performance
+unsatisfactory performance
+acceptable performance
+
+## Adjustment Quality
+good adjustment
+poor adjustment
+better adjustment
+worse adjustment
+reasonable adjustment
+adequate adjustment
+inadequate adjustment
+satisfactory adjustment
+unsatisfactory adjustment
+acceptable adjustment
+
+## Analysis Quality
+good analysis
+poor analysis
+better analysis
+worse analysis
+reasonable analysis
+adequate analysis
+inadequate analysis
+satisfactory analysis
+unsatisfactory analysis
+acceptable analysis
+# Imprecise time series decomposition terminology
+
+## Decomposition Quality
+good decomposition
+poor decomposition
+better decomposition
+worse decomposition
+reasonable decomposition
+adequate decomposition
+inadequate decomposition
+satisfactory decomposition
+unsatisfactory decomposition
+acceptable decomposition
+
+## Component Description
+strong component
+weak component
+moderate component
+significant component
+insignificant component
+important component
+unimportant component
+meaningful component
+negligible component
+substantial component
+
+## Trend Description
+clear trend
+unclear trend
+strong trend
+weak trend
+obvious trend
+subtle trend
+apparent trend
+hidden trend
+visible trend
+invisible trend
+
+## Seasonal Pattern
+strong seasonality
+weak seasonality
+moderate seasonality
+significant seasonality
+insignificant seasonality
+important seasonality
+unimportant seasonality
+meaningful seasonality
+negligible seasonality
+substantial seasonality
+
+## Cycle Description
+clear cycle
+unclear cycle
+strong cycle
+weak cycle
+obvious cycle
+subtle cycle
+apparent cycle
+hidden cycle
+visible cycle
+invisible cycle
+
+## Model Performance
+good performance
+poor performance
+better performance
+worse performance
+reasonable performance
+adequate performance
+inadequate performance
+satisfactory performance
+unsatisfactory performance
+acceptable performance
+
+## Adjustment Quality
+good adjustment
+poor adjustment
+better adjustment
+worse adjustment
+reasonable adjustment
+adequate adjustment
+inadequate adjustment
+satisfactory adjustment
+unsatisfactory adjustment
+acceptable adjustment
+
+## Analysis Quality
+good analysis
+poor analysis
+better analysis
+worse analysis
+reasonable analysis
+adequate analysis
+inadequate analysis
+satisfactory analysis
+unsatisfactory analysis
+acceptable analysis

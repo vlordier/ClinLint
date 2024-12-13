@@ -1,0 +1,61 @@
+# Immunological Disorders
+
+## Autoimmune Conditions
+autoantibody profiles
+autoimmune markers
+tissue specificity
+organ involvement
+disease activity
+inflammatory status
+immune complex deposition
+complement consumption
+autoimmune progression
+treatment response
+
+## Immunodeficiencies
+immune cell counts
+functional deficits
+infection susceptibility
+immune reconstitution
+pathogen clearance
+vaccination response
+antibody production
+cellular immunity
+innate immunity
+adaptive immunity
+
+## Allergic Disorders
+allergen specificity
+IgE responses
+mast cell activation
+basophil activity
+eosinophil counts
+allergic inflammation
+immediate responses
+delayed responses
+tolerance development
+desensitization
+
+## Transplant Immunology
+graft rejection
+host response
+immune tolerance
+chimerism
+graft survival
+immunosuppression
+rejection markers
+immune monitoring
+donor specificity
+transplant outcome
+
+## Cancer Immunology
+tumor immunity
+immune escape
+immunosurveillance
+immune checkpoint
+antitumor response
+immune infiltration
+tumor antigens
+immune evasion
+immunotherapy response
+immune resistance

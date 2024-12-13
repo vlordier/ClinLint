@@ -1,0 +1,121 @@
+# Nephrological Assessment
+
+## Glomerular Function
+filtration rate
+glomerular pressure
+filtration fraction
+barrier integrity
+protein selectivity
+charge selectivity
+size selectivity
+podocyte function
+basement membrane
+endothelial function
+
+## Tubular Function
+reabsorption capacity
+secretion efficiency
+concentration ability
+dilution capacity
+acid-base handling
+electrolyte transport
+glucose handling
+protein processing
+organic acid transport
+drug excretion
+
+## Vascular Function
+renal blood flow
+plasma flow
+vascular resistance
+autoregulation
+perfusion pressure
+medullary flow
+cortical flow
+vascular tone
+endothelial function
+microcirculation
+
+## Endocrine Function
+renin secretion
+erythropoietin production
+vitamin D activation
+prostaglandin synthesis
+kinin generation
+aldosterone response
+vasopressin action
+natriuretic peptides
+endothelin activity
+hormone metabolism
+
+## Inflammatory Status
+immune complex deposition
+complement activation
+cellular infiltration
+cytokine profile
+inflammatory mediators
+oxidative stress
+fibrogenic factors
+tissue repair
+immune response
+inflammatory resolution
+
+## Metabolic Function
+acid-base balance
+electrolyte homeostasis
+mineral metabolism
+nitrogen balance
+osmotic regulation
+volume status
+energy metabolism
+protein handling
+glucose regulation
+lipid processing
+
+## Structural Integrity
+parenchymal architecture
+tubular morphology
+glomerular structure
+vascular pattern
+interstitial space
+capsular integrity
+tissue organization
+cellular arrangement
+matrix composition
+basement membrane
+
+## Repair Mechanisms
+regenerative capacity
+scarring patterns
+fibrosis development
+tissue remodeling
+cellular recovery
+matrix turnover
+wound healing
+tissue adaptation
+compensatory changes
+repair efficiency
+
+## Hemodynamic Status
+pressure regulation
+flow distribution
+volume control
+cardiac output
+systemic resistance
+venous return
+arterial compliance
+pressure gradients
+flow patterns
+vascular tone
+
+## Excretory Function
+waste elimination
+toxin clearance
+drug excretion
+metabolite handling
+solute transport
+water balance
+concentration gradient
+osmotic work
+excretion pattern
+clearance efficiency

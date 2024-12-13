@@ -1,0 +1,56 @@
+extends: existence
+message: "Required section scoping: %s"
+level: error
+scopes:
+  # Title page elements
+  - heading.h1
+  - heading.h2
+  - heading.h3
+  - paragraph
+  
+  # Synopsis elements  
+  - summary
+  - ~table
+  - ~figure
+  
+  # Methods sections
+  - heading.methods
+  - paragraph.methods
+  - list.methods
+  - table.methods
+  
+  # Results sections
+  - heading.results
+  - paragraph.results
+  - table.results
+  - figure.results
+  
+  # Safety sections
+  - heading.safety
+  - paragraph.safety
+  - table.safety
+  - list.safety
+  
+  # Discussion sections
+  - heading.discussion
+  - paragraph.discussion
+  - ~table
+  - ~figure
+  
+  # References
+  - heading.references
+  - list.references
+  
+  # Appendices
+  - heading.appendix
+  - paragraph.appendix
+  - table.appendix
+  - figure.appendix
+
+# Negated scopes
+ignore:
+  - ~script
+  - ~style
+  - ~pre
+  - ~code
+  - ~tt

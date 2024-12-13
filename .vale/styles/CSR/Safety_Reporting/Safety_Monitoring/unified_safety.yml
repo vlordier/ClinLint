@@ -1,0 +1,37 @@
+extends: existence
+message: "Required safety element missing: %s"
+level: error
+tokens:
+  # Core Safety Elements
+  - adverse event reporting with MedDRA coding
+  - causality assessment with standardized method
+  - severity grading with CTCAE version
+  - seriousness criteria with documentation
+  - safety monitoring with parameters
+  - laboratory abnormalities with reference ranges
+  - vital signs with thresholds
+  - ECG findings with intervals
+  - physical examination with systems
+  - concomitant medications with interactions
+
+  # Advanced Safety Elements  
+  - exposure duration with cumulative assessment
+  - dose modifications with rationale
+  - treatment interruptions with cause
+  - safety signals with detection
+  - risk assessment with mitigation
+  - benefit-risk evaluation with framework
+  - special populations with monitoring
+  - long-term safety with follow-up
+  - pregnancy surveillance with registry
+  - pediatric safety with development
+
+  # Documentation Requirements
+  - source documentation with verification
+  - narrative completion with standardization
+  - chronological sequence with relationships
+  - medical review with signature
+  - query resolution with tracking
+  - coding verification with dictionary
+  - reconciliation with database
+  - quality control with metrics

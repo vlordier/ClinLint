@@ -1,0 +1,176 @@
+# Nonparametric Statistical Methods
+
+## Rank-Based Methods
+# Basic Tests
+wilcoxon signed-rank test
+mann-whitney U test
+kruskal-wallis test
+friedman test
+spearman rank correlation
+kendall rank correlation
+jonckheere-terpstra test
+page test
+median test
+runs test
+
+# Advanced Methods
+aligned rank transform
+rank-based ANOVA
+rank-based ANCOVA
+rank-based regression
+rank-based interaction
+rank-based repeated measures
+rank-based longitudinal
+rank-based multivariate
+rank-based factorial
+rank-based mixed models
+
+## Distribution-Free Methods
+# Goodness-of-Fit Tests
+kolmogorov-smirnov test
+anderson-darling test
+cramér-von mises test
+shapiro-wilk test
+lilliefors test
+jarque-bera test
+d'agostino-pearson test
+chen-shapiro test
+filliben test
+probability plot correlation
+
+# Independence Tests
+chi-square test
+fisher exact test
+mcnemar test
+cochran Q test
+stuart-maxwell test
+bowker test
+mantel-haenszel test
+cochran-mantel-haenszel
+breslow-day test
+tarone test
+
+## Resampling Methods
+# Bootstrap Techniques
+ordinary bootstrap
+balanced bootstrap
+wild bootstrap
+block bootstrap
+stationary bootstrap
+moving block bootstrap
+circular bootstrap
+weighted bootstrap
+bayesian bootstrap
+double bootstrap
+
+# Permutation Methods
+exact permutation tests
+approximate permutation
+randomization tests
+monte carlo tests
+resampling methods
+jackknife methods
+cross-validation
+subsampling methods
+bootstrap-t methods
+percentile methods
+
+## Smoothing Techniques
+# Kernel Methods
+kernel density estimation
+kernel regression
+kernel smoothing
+bandwidth selection
+local polynomial
+nadaraya-watson
+gasser-müller
+priestley-chao
+local linear
+local constant
+
+# Spline Methods
+regression splines
+smoothing splines
+natural splines
+b-splines
+p-splines
+thin-plate splines
+cubic splines
+penalized splines
+adaptive splines
+monotone splines
+
+## Robust Methods
+# Location Estimates
+median estimation
+trimmed mean
+winsorized mean
+hodges-lehmann estimator
+m-estimators
+l-estimators
+r-estimators
+adaptive estimators
+minimum volume ellipsoid
+minimum covariance determinant
+
+# Scale Estimates
+median absolute deviation
+interquartile range
+trimmed standard deviation
+winsorized variance
+biweight midvariance
+qn estimator
+sn estimator
+tau estimator
+scale m-estimators
+trimmed scale
+
+## Advanced Applications
+# Spatial Statistics
+spatial rank methods
+spatial sign test
+spatial median
+spatial quantiles
+spatial depth
+spatial outliers
+spatial regression
+spatial smoothing
+spatial correlation
+spatial association
+
+# Functional Data
+functional depth
+functional median
+functional modes
+functional quantiles
+functional boxplots
+functional outliers
+functional regression
+functional smoothing
+functional principal components
+functional canonical correlation
+
+## Efficiency Considerations
+# Asymptotic Efficiency
+asymptotic relative efficiency
+pitman efficiency
+bahadur efficiency
+hodges-lehmann efficiency
+relative efficiency
+asymptotic power
+local power
+exact power
+power envelope
+efficiency bounds
+
+# Computational Methods
+fast fourier transform
+fast multipole method
+randomized algorithms
+approximate methods
+adaptive algorithms
+recursive algorithms
+parallel computing
+distributed computing
+gpu acceleration
+vectorized computation

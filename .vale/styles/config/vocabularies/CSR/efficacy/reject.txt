@@ -1,0 +1,159 @@
+# Efficacy Assessment Categories
+
+## Primary Efficacy Evaluation
+# Imprecise primary outcome terminology
+worked/failed
+effective/ineffective
+successful/unsuccessful
+positive/negative results
+good/poor response
+excellent/suboptimal outcome
+satisfactory/unsatisfactory
+adequate/inadequate
+promising/unpromising
+encouraging/discouraging
+favorable/unfavorable
+
+## Secondary Efficacy Measures
+# Imprecise secondary outcome terminology
+supportive evidence
+additional benefit
+supplementary effect
+ancillary outcome
+auxiliary result
+complementary finding
+secondary advantage
+added value
+extra benefit
+peripheral gain
+
+## Time-to-Event Analysis
+# Imprecise temporal terminology
+quick response
+rapid effect
+fast action
+prompt result
+speedy outcome
+swift improvement
+immediate benefit
+instant relief
+quick recovery
+rapid resolution
+
+## Durability Assessment
+# Imprecise duration terminology
+long-lasting
+persistent
+enduring
+sustained
+maintained
+preserved
+continued
+prolonged
+extended
+lasting
+
+## Magnitude Assessment
+# Imprecise magnitude terminology
+strong effect
+powerful impact
+robust response
+substantial change
+considerable improvement
+marked difference
+notable alteration
+significant modification
+dramatic shift
+profound transformation
+
+# Imprecise response terminology
+complete response
+partial response
+no response
+clinical response
+objective response
+subjective response
+treatment response
+therapeutic response
+disease response
+tumor response
+symptomatic response
+radiological response
+biochemical response
+molecular response
+pathological response
+
+# Imprecise progression terminology
+disease progression
+tumor progression
+clinical progression
+radiological progression
+biochemical progression
+molecular progression
+symptomatic progression
+rapid progression
+slow progression
+early progression
+late progression
+delayed progression
+
+# Imprecise improvement terminology
+clinical improvement
+symptomatic improvement
+functional improvement
+radiological improvement
+biochemical improvement
+molecular improvement
+significant improvement
+substantial improvement
+marked improvement
+modest improvement
+minimal improvement
+
+# Imprecise stabilization terminology
+disease stabilization
+condition stabilization
+symptom stabilization
+clinical stabilization
+radiological stabilization
+biochemical stabilization
+molecular stabilization
+temporary stabilization
+prolonged stabilization
+durable stabilization
+
+# Imprecise benefit terminology
+clinical benefit
+therapeutic benefit
+treatment benefit
+patient benefit
+survival benefit
+quality of life benefit
+symptomatic benefit
+functional benefit
+long-term benefit
+short-term benefit
+
+# Imprecise duration terminology
+duration of response
+duration of benefit
+duration of effect
+duration of improvement
+duration of stabilization
+duration of control
+duration of remission
+duration of progression
+treatment duration
+follow-up duration
+
+# Imprecise endpoint terminology
+soft endpoint
+hard endpoint
+surrogate endpoint
+clinical endpoint
+composite endpoint
+primary endpoint
+secondary endpoint
+exploratory endpoint
+key endpoint
+important endpoint

@@ -1,0 +1,76 @@
+# Imprecise quality of life terminology
+quality of life
+well-being
+wellness
+health status
+functional status
+performance status
+daily functioning
+physical functioning
+mental functioning
+social functioning
+emotional functioning
+cognitive functioning
+role functioning
+work functioning
+school functioning
+
+# Imprecise symptom terminology
+symptom burden
+symptom impact
+symptom severity
+symptom frequency
+symptom duration
+symptom pattern
+symptom cluster
+symptom complex
+symptom profile
+symptom experience
+
+# Imprecise functioning terminology
+physical function
+mental function
+cognitive function
+emotional function
+social function
+role function
+work function
+school function
+daily function
+overall function
+
+# Imprecise impact terminology
+disease impact
+treatment impact
+symptom impact
+functional impact
+social impact
+emotional impact
+financial impact
+work impact
+family impact
+lifestyle impact
+
+# Imprecise burden terminology
+disease burden
+treatment burden
+symptom burden
+care burden
+financial burden
+emotional burden
+social burden
+family burden
+caregiver burden
+psychological burden
+
+# Imprecise satisfaction terminology
+patient satisfaction
+treatment satisfaction
+care satisfaction
+medication satisfaction
+service satisfaction
+provider satisfaction
+outcome satisfaction
+study satisfaction
+participation satisfaction
+overall satisfaction

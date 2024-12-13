@@ -1,0 +1,49 @@
+# Survival Analysis Terminology
+
+## Time-to-Event Data
+survival time
+censoring time
+entry time
+exit time
+follow-up period
+risk period
+exposure time
+waiting time
+duration data
+event history
+
+## Analysis Methods
+Kaplan-Meier method
+life table method
+Nelson-Aalen estimate
+Cox regression
+parametric model
+accelerated failure
+competing risks
+recurrent events
+multi-state model
+joint modeling
+
+## Model Assessment
+proportional hazards
+time-varying effects
+frailty models
+shared frailty
+nested frailty
+marginal model
+conditional model
+stratified analysis
+baseline hazard
+cumulative hazard
+
+## Censoring Types
+right censoring
+left censoring
+interval censoring
+random censoring
+type I censoring
+type II censoring
+administrative censoring
+loss to follow-up
+withdrawal pattern
+dropout process

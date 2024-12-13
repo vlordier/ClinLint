@@ -1,0 +1,121 @@
+# Urological Assessment
+
+## Urinary Function
+voiding pattern
+urinary flow
+bladder capacity
+sphincter function
+detrusor activity
+urinary retention
+continence status
+micturition control
+urinary frequency
+nocturia assessment
+
+## Renal Function
+glomerular filtration
+tubular function
+concentrating ability
+acid-base balance
+electrolyte handling
+protein excretion
+urea clearance
+creatinine clearance
+osmolar regulation
+volume homeostasis
+
+## Prostate Assessment
+prostate volume
+prostate texture
+prostatic secretion
+PSA levels
+prostate growth
+urethral patency
+ejaculatory function
+prostatic inflammation
+stromal changes
+glandular function
+
+## Sexual Function
+erectile function
+ejaculatory control
+libido assessment
+orgasmic function
+sexual desire
+arousal response
+genital sensation
+vascular function
+neurological control
+hormonal status
+
+## Pelvic Floor
+muscle strength
+muscle endurance
+contractile function
+resting tone
+reflex activity
+coordination
+support function
+pressure dynamics
+neural control
+tissue integrity
+
+## Structural Imaging
+anatomical position
+organ relationships
+tissue boundaries
+vascular patterns
+structural defects
+anatomical variants
+tissue composition
+organ mobility
+spatial relationships
+structural integrity
+
+## Functional Studies
+urodynamics
+pressure-flow studies
+EMG assessment
+nerve conduction
+vascular flow
+tissue perfusion
+organ motility
+sphincter EMG
+functional MRI
+nuclear studies
+
+## Inflammatory Status
+tissue inflammation
+immune response
+cellular infiltration
+vascular changes
+edema formation
+inflammatory markers
+tissue reaction
+healing response
+scarring pattern
+tissue remodeling
+
+## Pain Assessment
+pain location
+pain intensity
+pain character
+pain triggers
+pain duration
+referred pain
+neuropathic pain
+visceral pain
+somatic pain
+pain modulation
+
+## Quality of Life
+symptom impact
+functional status
+social impact
+emotional status
+activity limitation
+sleep quality
+sexual function
+relationship impact
+work performance
+lifestyle adaptation

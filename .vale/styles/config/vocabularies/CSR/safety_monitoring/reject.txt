@@ -1,0 +1,434 @@
+# Safety Assessment Terminology
+# Use specific timepoints, durations, and frequencies instead of imprecise terms
+
+## Temporal Assessment
+# Avoid imprecise immediate/acute descriptors
+immediate assessment
+rapid assessment
+quick assessment
+expedited evaluation
+accelerated evaluation
+prompt analysis
+swift analysis
+instant analysis
+
+## Duration Assessment
+# Avoid imprecise duration descriptors
+brief review
+hasty review
+cursory review
+superficial examination
+rushed examination
+hurried inspection
+quick-turn evaluation
+snap evaluation
+instantaneous check
+
+## Monitoring Terms
+real-time assessment
+point-in-time evaluation
+instantaneous measurement
+moment-to-moment analysis
+continuous monitoring
+intermittent review
+periodic checking
+regular inspection
+ongoing surveillance
+
+## Schedule Terms
+routine assessment
+regular assessment
+periodic evaluation
+scheduled evaluation
+fixed monitoring
+standard monitoring
+usual review
+normal review
+typical inspection
+
+## Interim Terms
+interim analysis
+preliminary analysis
+intermediate review
+transitional review
+midpoint assessment
+temporary evaluation
+provisional analysis
+initial findings
+transitional data
+
+## Long-term Terms
+long-term profile
+extended pattern
+prolonged status
+chronic picture
+sustained view
+ongoing state
+continuous trend
+persistent aspect
+enduring feature
+brief/hasty/cursory review
+superficial/rushed examination
+hurried/speedy inspection
+quick-turn/snap evaluation
+instantaneous/immediate check
+rapid/swift monitoring
+fast/quick surveillance
+
+# Use specific time points instead of:
+real-time assessment
+point-in-time evaluation
+instantaneous measurement
+moment-to-moment analysis
+continuous monitoring
+intermittent review
+periodic checking
+regular inspection
+ongoing surveillance
+constant observation
+
+# Avoid imprecise scheduled terminology
+routine/regular assessment
+periodic/scheduled evaluation
+fixed/standard monitoring
+usual/normal review
+typical/ordinary inspection
+conventional/traditional check
+customary/regular surveillance
+standard/routine observation
+normal/regular examination
+typical/usual monitoring
+
+# Avoid imprecise interim terminology
+interim/preliminary analysis
+intermediate/transitional review
+midpoint/midterm assessment
+temporary/provisional evaluation
+interim/intermediate results
+preliminary/initial findings
+transitional/intermediate data
+temporary/provisional outcomes
+midterm/interim conclusions
+provisional/preliminary metrics
+
+# Avoid imprecise long-term terminology
+long-term/extended profile
+prolonged/sustained status
+chronic/persistent pattern
+ongoing/continuous trend
+enduring/lasting characteristics
+permanent/indefinite features
+sustained/maintained aspects
+persistent/continuing elements
+chronic/extended attributes
+prolonged/lengthy patterns
+
+# Avoid imprecise long-term terminology
+long-term profile
+extended pattern
+prolonged status
+chronic picture
+sustained view
+ongoing state
+continuous trend
+persistent aspect
+enduring feature
+lasting characteristic
+
+# Avoid imprecise interim terminology
+interim analysis
+intermediate review
+midpoint assessment
+temporary evaluation
+provisional analysis
+preliminary review
+transitional assessment
+intermediate monitoring
+midterm evaluation
+temporary review
+
+## Safety Signal Categories
+# Avoid imprecise detection terminology
+safety signal
+warning sign
+danger indicator
+risk marker
+hazard pointer
+threat signal
+problem indicator
+issue marker
+concern flag
+alert signal
+
+# Avoid imprecise characterization terminology
+signal strength
+warning level
+indicator magnitude
+marker intensity
+pointer significance
+signal importance
+indicator severity
+marker criticality
+flag priority
+alert urgency
+
+# Avoid imprecise trending terminology
+signal pattern
+warning trend
+indicator progression
+marker evolution
+pointer development
+signal course
+indicator trajectory
+marker direction
+flag movement
+alert dynamics
+
+## Cumulative Safety Assessment
+# Imprecise cumulative terminology
+buildup of effects
+accumulating impact
+growing burden
+mounting issues
+increasing problems
+progressive concerns
+developing patterns
+evolving profile
+expanding effects
+gathering evidence
+
+## Safety Signal Detection
+# Imprecise signal terminology
+safety flag
+warning sign
+danger indicator
+risk marker
+hazard pointer
+threat signal
+problem indicator
+issue marker
+concern flag
+alert signal
+
+## Causality Assessment
+# Imprecise causation terminology
+linked to
+connected with
+associated with
+related to
+tied to
+coupled with
+joined to
+bound to
+attached to
+connected to
+
+## Risk Characterization
+# Imprecise risk terminology
+danger level
+threat degree
+hazard extent
+risk magnitude
+peril scope
+danger scale
+threat level
+hazard degree
+risk extent
+peril magnitude
+
+## Benefit-Risk Assessment
+# Imprecise benefit-risk terminology
+good vs bad
+pros vs cons
+advantages vs disadvantages
+gains vs losses
+benefits vs drawbacks
+positives vs negatives
+upsides vs downsides
+merits vs demerits
+plusses vs minuses
+rewards vs risks
+
+## Risk Management Terms
+risk monitoring/surveillance
+risk assessment/evaluation
+risk mitigation/management
+risk identification/detection
+risk characterization/profiling
+benefit-risk assessment
+risk minimization measures
+risk communication strategy
+risk prevention planning
+risk control measures
+
+## Safety Committee Terms
+safety board review
+safety committee assessment
+safety monitoring board
+data monitoring committee
+safety review committee
+adjudication committee
+expert panel review
+safety advisory board
+independent review board
+safety oversight group
+
+# Clinical Assessment Categories
+## Laboratory Monitoring
+laboratory assessment/monitoring
+lab parameter tracking
+lab value trending
+lab result review
+lab data analysis
+lab finding interpretation
+lab abnormality assessment
+lab safety signal detection
+lab reference comparison
+lab threshold evaluation
+
+## Vital Signs Assessment
+vital signs assessment/monitoring
+vital parameter tracking
+vital measurement review
+vital trend analysis
+vital sign interpretation
+vital status evaluation
+vital recording review
+vital data trending
+vital pattern analysis
+vital stability assessment
+
+## ECG Monitoring
+ECG assessment/monitoring
+ECG interval analysis
+ECG pattern review
+ECG measurement tracking
+ECG finding interpretation
+ECG abnormality detection
+ECG parameter trending
+ECG rhythm evaluation
+ECG waveform analysis
+ECG comparison review
+
+## Physical Examination
+physical examination/assessment
+body system review
+organ system evaluation
+clinical finding assessment
+physical status monitoring
+symptom evaluation
+sign assessment
+clinical observation
+physical status review
+clinical monitoring
+
+## Imaging Assessment
+imaging assessment/monitoring
+radiological review
+imaging interpretation
+scan evaluation
+imaging finding analysis
+radiographic assessment
+imaging parameter review
+diagnostic image evaluation
+imaging result interpretation
+visual assessment review
+
+# Assessment Timing and Frequency
+## Temporal Patterns
+routine/regular
+scheduled/unscheduled
+periodic/continuous
+baseline/follow-up
+interim/final
+predetermined intervals
+fixed timepoints
+dynamic scheduling
+adaptive timing
+protocol-specified timing
+
+## Monitoring Frequency
+daily monitoring
+weekly assessment
+monthly evaluation
+quarterly review
+annual assessment
+continuous surveillance
+intermittent monitoring
+regular intervals
+fixed schedule
+flexible timing
+
+## Assessment Duration
+short-term monitoring
+long-term surveillance
+extended observation
+limited duration review
+ongoing assessment
+temporary evaluation
+permanent monitoring
+time-bound review
+duration-specific assessment
+interval-based monitoring
+
+# Data Quality Terms
+## Quality Indicators
+data completeness
+data accuracy
+data consistency
+data reliability
+data validity
+data integrity
+data quality metrics
+data verification status
+data certification level
+data quality parameters
+
+## Quality Assessment
+quality monitoring
+quality verification
+quality validation
+quality assurance
+quality control
+quality metrics
+quality indicators
+quality parameters
+quality standards
+quality criteria
+
+# Safety Parameter Categories
+## Vital Parameters
+blood pressure monitoring
+heart rate assessment
+respiratory rate tracking
+temperature measurement
+oxygen saturation review
+consciousness level evaluation
+pupillary response check
+neurological status monitoring
+cardiovascular assessment
+respiratory evaluation
+
+## Laboratory Categories
+hematology monitoring
+biochemistry assessment
+coagulation testing
+urinalysis review
+microbiology screening
+serology testing
+immunology assessment
+toxicology screening
+therapeutic drug monitoring
+biomarker evaluation
+
+## Specialized Assessments
+cardiac monitoring
+hepatic assessment
+renal function evaluation
+neurological monitoring
+respiratory assessment
+gastrointestinal review
+dermatological evaluation
+musculoskeletal assessment
+immunological monitoring
+endocrine evaluation

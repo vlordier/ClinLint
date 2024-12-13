@@ -1,0 +1,61 @@
+# Imprecise survival analysis terminology
+
+## Time Description
+long survival
+short survival
+extended survival
+brief survival
+prolonged survival
+limited survival
+temporary survival
+permanent survival
+indefinite survival
+finite survival
+
+## Follow-up Description
+long follow-up
+short follow-up
+extended follow-up
+brief follow-up
+prolonged follow-up
+limited follow-up
+temporary follow-up
+permanent follow-up
+indefinite follow-up
+finite follow-up
+
+## Event Description
+early event
+late event
+quick event
+slow event
+rapid event
+delayed event
+immediate event
+postponed event
+accelerated event
+decelerated event
+
+## Risk Description
+high risk
+low risk
+increased risk
+decreased risk
+elevated risk
+reduced risk
+substantial risk
+minimal risk
+significant risk
+insignificant risk
+
+## Model Performance
+good model
+poor model
+better model
+worse model
+reasonable model
+adequate model
+inadequate model
+satisfactory model
+unsatisfactory model
+acceptable model

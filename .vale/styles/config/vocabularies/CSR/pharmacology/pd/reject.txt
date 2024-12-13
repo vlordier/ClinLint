@@ -1,0 +1,52 @@
+# Imprecise pharmacodynamic terminology
+drug effect
+drug action
+drug activity
+drug potency
+drug efficacy
+drug response
+drug sensitivity
+drug resistance
+drug tolerance
+drug dependence
+drug adaptation
+drug habituation
+drug tachyphylaxis
+drug desensitization
+drug resensitization
+
+# Imprecise mechanism terminology
+mechanism of action
+mode of action
+site of action
+target of action
+pathway of action
+cascade of action
+sequence of action
+process of action
+pattern of action
+profile of action
+
+# Imprecise response terminology
+biological response
+physiological response
+cellular response
+molecular response
+tissue response
+organ response
+systemic response
+local response
+target response
+off-target response
+
+# Imprecise time-course terminology
+onset of action
+peak effect
+duration of action
+offset of action
+time course
+temporal profile
+response profile
+effect profile
+activity profile
+exposure profile

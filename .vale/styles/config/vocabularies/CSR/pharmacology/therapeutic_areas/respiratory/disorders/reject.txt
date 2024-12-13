@@ -1,0 +1,61 @@
+# Imprecise respiratory disorder terminology
+
+## Severity Terms
+mild disorder
+moderate disorder
+severe disorder
+serious disorder
+critical disorder
+minimal disorder
+substantial disorder
+significant disorder
+insignificant disorder
+major disorder
+
+## Pattern Terms
+normal pattern
+abnormal pattern
+regular pattern
+irregular pattern
+stable pattern
+unstable pattern
+consistent pattern
+inconsistent pattern
+typical pattern
+atypical pattern
+
+## Progress Terms
+improving condition
+worsening condition
+stable condition
+unstable condition
+progressive condition
+regressive condition
+advancing condition
+deteriorating condition
+fluctuating condition
+variable condition
+
+## Response Terms
+good response
+poor response
+adequate response
+inadequate response
+sufficient response
+insufficient response
+appropriate response
+inappropriate response
+effective response
+ineffective response
+
+## Outcome Terms
+good outcome
+poor outcome
+favorable outcome
+unfavorable outcome
+positive outcome
+negative outcome
+expected outcome
+unexpected outcome
+satisfactory outcome
+unsatisfactory outcome

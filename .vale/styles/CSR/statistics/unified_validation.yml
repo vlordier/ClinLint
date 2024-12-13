@@ -1,0 +1,49 @@
+extends: existence
+message: "Statistical validation requirement: %s"
+level: error
+
+rules:
+  # P-value reporting
+  pvalue:
+    pattern: '\bp\s*[<=>]\s*0\.\d{3}\b'
+    message: "P-values must be reported to 3 decimal places"
+
+  # Confidence intervals
+  ci:
+    pattern: '\b95%\s*CI[:\s]+\d+\.?\d*\s*[-–]\s*\d+\.?\d*\b'
+    message: "95% CI must include lower and upper bounds"
+
+  # Effect sizes
+  effect_size:
+    pattern: '\b(?:Cohen''s d|Hedges'' g|Glass'' Δ)\s*=\s*[-+]?\d+\.\d{2}\b'
+    message: "Effect sizes must be reported with 2 decimal precision"
+
+  # Sample size
+  sample_size:
+    pattern: '\bn\s*=\s*\d+\b'
+    message: "Sample size must be explicitly stated"
+
+  # Statistical tests
+  test_statistic:
+    pattern: '\b(?:t|F|χ²|z)\s*\([0-9,\s]+\)\s*=\s*[-+]?\d+\.\d{2,}\b'
+    message: "Test statistics must include degrees of freedom and value"
+
+  # Power calculations
+  power:
+    pattern: '\bpower\s*=\s*0\.\d{2}\b'
+    message: "Statistical power must be reported"
+
+  # Multiple comparisons
+  multiplicity:
+    pattern: '\b(?:Bonferroni|Holm|Hochberg|Dunnett|Tukey)\s+(?:adjusted|corrected)\b'
+    message: "Multiplicity adjustment method must be specified"
+
+  # Missing data
+  missing_data:
+    pattern: '\b(?:MCAR|MAR|MNAR)\b'
+    message: "Missing data mechanism must be specified"
+
+exceptions:
+  - "not calculated"
+  - "not applicable"
+  - "pending analysis"

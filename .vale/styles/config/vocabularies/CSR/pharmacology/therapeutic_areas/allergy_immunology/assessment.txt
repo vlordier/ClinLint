@@ -1,0 +1,121 @@
+# Allergy and Immunology Assessment
+
+## Allergic Response
+allergen sensitivity
+IgE levels
+mast cell activation
+basophil response
+histamine release
+tryptase levels
+cytokine profile
+inflammatory mediators
+early phase reaction
+late phase reaction
+
+## Immune Function
+antibody production
+cellular immunity
+complement activity
+phagocytic function
+NK cell activity
+T cell response
+B cell function
+cytokine secretion
+immune regulation
+tolerance induction
+
+## Respiratory Allergy
+airway hyperreactivity
+bronchial response
+nasal congestion
+rhinitis severity
+sinus inflammation
+mucosal edema
+airway resistance
+respiratory symptoms
+pulmonary function
+airway inflammation
+
+## Skin Allergy
+dermal response
+urticaria assessment
+angioedema extent
+pruritus severity
+eczema severity
+skin barrier function
+contact sensitivity
+patch test response
+photoallergy testing
+dermatitis assessment
+
+## Gastrointestinal Allergy
+food sensitivity
+oral allergy syndrome
+intestinal permeability
+mucosal immunity
+gut inflammation
+absorption function
+motility changes
+barrier integrity
+immune tolerance
+elimination response
+
+## Systemic Response
+anaphylaxis risk
+systemic reaction
+cardiovascular effects
+respiratory impact
+cutaneous manifestation
+gastrointestinal effects
+neurological symptoms
+multi-organ involvement
+hemodynamic status
+compensatory response
+
+## Laboratory Markers
+specific IgE
+total IgE
+tryptase level
+eosinophil count
+complement levels
+cytokine profile
+inflammatory markers
+autoantibodies
+immune complexes
+cellular markers
+
+## Challenge Testing
+food challenge
+drug challenge
+allergen challenge
+bronchial challenge
+nasal challenge
+conjunctival challenge
+oral challenge
+contact challenge
+provocation testing
+tolerance testing
+
+## Environmental Factors
+allergen exposure
+environmental triggers
+seasonal variation
+occupational exposure
+indoor allergens
+outdoor allergens
+climate effects
+pollution impact
+humidity effects
+temperature influence
+
+## Treatment Response
+immunotherapy response
+medication effect
+symptom control
+breakthrough reactions
+tolerance development
+side effect profile
+long-term control
+prevention efficacy
+quality of life
+functional improvement

@@ -1,0 +1,99 @@
+extends: substitution
+message: "Use MedDRA v25.1 terminology: '%s' must be replaced with specific MedDRA PT/LLT"
+level: error
+ignorecase: true
+swap:
+  # Basic Terms requiring MedDRA PT/LLT with SOC
+  "side effect": "[specify MedDRA PT/LLT with SOC classification]"
+  "side effects": "[list each MedDRA PT/LLT with SOC]"
+  "negative effect": "[specify MedDRA PT/LLT with SOC and severity grade]"
+  "negative effects": "[list each MedDRA PT/LLT with SOC and severity]"
+  "adverse effect": "[specify MedDRA PT/LLT with causality assessment]"
+  "adverse effects": "[list each MedDRA PT/LLT with causality]"
+  "complication": "[specify MedDRA PT/LLT with temporal relationship]"
+  "complications": "[list each MedDRA PT/LLT with onset timing]"
+  "toxicity": "[specify MedDRA PT/LLT with CTCAE grade]"
+  "toxicities": "[list each MedDRA PT/LLT with CTCAE grades]"
+  complication: adverse event [specify MedDRA PT]
+  complications: adverse events [specify MedDRA PTs]
+  problem: adverse event [specify MedDRA PT]
+  problems: adverse events [specify MedDRA PTs]
+  reaction: adverse reaction [specify MedDRA PT]
+  reactions: adverse reactions [specify MedDRA PTs]
+  
+  # Advanced Terms with SOC/HLGT
+  toxicity: adverse event [specify SOC]
+  toxicities: adverse events [specify SOC]
+  intolerance: adverse event [specify HLGT]
+  intolerances: adverse events [specify HLGT]
+  safety signal: adverse event [specify SMQ]
+  safety signals: adverse events [specify SMQ]
+  safety concern: adverse event [specify SOC]
+  safety concerns: adverse events [specify SOC]
+  
+  # Severity Terms with CTCAE
+  mild: Grade 1 [specify CTCAE term and criteria]
+  moderate: Grade 2 [specify CTCAE term and criteria]
+  severe: Grade 3 [specify CTCAE term and criteria]
+  life-threatening: Grade 4 [specify CTCAE term and criteria]
+  fatal: Grade 5 [specify CTCAE term and criteria]
+  
+  # Causality Terms with Assessment Method
+  possibly related: possibly related to study drug [specify assessment method]
+  probably related: probably related to study drug [specify assessment method]
+  definitely related: definitely related to study drug [specify assessment method]
+  unlikely related: unlikely related to study drug [specify assessment method]
+  not related: not related to study drug [specify assessment method]
+  
+  # Timing Terms
+  onset: time to onset [specify timepoint]
+  duration: duration [specify interval]
+  resolution: time to resolution [specify timepoint]
+  recurrence: time to recurrence [specify timepoint]
+  
+  # Action Terms
+  discontinued: study drug discontinued [specify reason]
+  interrupted: study drug interrupted [specify duration]
+  dose reduced: dose reduced to [specify new dose]
+  dose modified: dose modified to [specify modification]
+  
+  # Outcome Terms
+  recovered: recovered/resolved [specify date]
+  recovering: recovering/resolving [specify status]
+  not recovered: not recovered/not resolved [specify status]
+  sequelae: recovered with sequelae [specify sequelae]
+  fatal: fatal outcome [specify date and cause]
+  toxicity: adverse event
+  toxicities: adverse events
+  side reaction: adverse reaction
+  side reactions: adverse reactions
+  unwanted effect: adverse event
+  unwanted effects: adverse events
+  undesirable effect: adverse event
+  undesirable effects: adverse events
+  harmful effect: adverse event
+  harmful effects: adverse events
+  unfavorable effect: adverse event
+  unfavorable effects: adverse events
+  untoward effect: adverse event
+  untoward effects: adverse events
+  drug effect: adverse event
+  drug effects: adverse events
+  medication effect: adverse event
+  medication effects: adverse events
+  symptom: adverse event
+  symptoms: adverse events
+  complaint: adverse event
+  complaints: adverse events
+  illness: adverse event
+  illnesses: adverse events
+  disorder: adverse event
+  disorders: adverse events
+  toxicity: adverse event
+  toxicities: adverse events
+  intolerance: adverse event
+  intolerances: adverse events
+  sensitivity: adverse event
+  sensitivities: adverse events
+  abnormality: adverse event
+  abnormalities: adverse events

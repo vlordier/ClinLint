@@ -1,0 +1,61 @@
+# Imprecise cluster analysis terminology
+
+## Cluster Description
+good clusters
+poor clusters
+better clusters
+worse clusters
+reasonable clusters
+adequate clusters
+inadequate clusters
+satisfactory clusters
+unsatisfactory clusters
+acceptable clusters
+
+## Distance Description
+close points
+distant points
+nearby points
+far points
+similar points
+dissimilar points
+related points
+unrelated points
+connected points
+disconnected points
+
+## Model Quality
+good model
+poor model
+better model
+worse model
+reasonable model
+adequate model
+inadequate model
+satisfactory model
+unsatisfactory model
+acceptable model
+
+## Performance Assessment
+good performance
+poor performance
+better performance
+worse performance
+reasonable performance
+adequate performance
+inadequate performance
+satisfactory performance
+unsatisfactory performance
+acceptable performance
+
+## Solution Quality
+good solution
+poor solution
+better solution
+worse solution
+reasonable solution
+adequate solution
+inadequate solution
+satisfactory solution
+unsatisfactory solution
+acceptable solution

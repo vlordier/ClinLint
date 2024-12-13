@@ -1,40 +1,225 @@
-extends: existence
-message: "Package organization for CSR styles"
-level: error
+# Core package organization for CSR styles
+StylesPath: .vale/styles
 
-packages:
-  core:
-    - base
-    - clinical
-    - safety
-    - efficacy
-    - quality
-    
-  phase_specific:
-    - phase1
-    - phase2  
-    - phase3
-    - phase4
-    
-  special_types:
-    - pediatric
-    - geriatric
-    - rare_disease
-    - oncology
-    - vaccine
-    - device
-    
-  regulatory:
-    - ich_e3
-    - regional
-    - submission
-    
-  scientific:
-    - terminology
+# Base packages that all other packages inherit from
+core:
+  # Terminology standardization
+  terminology:
+    - medical_terms
+    - statistical_terms
+    - regulatory_terms
+    - technical_terms
+    - abbreviations
+    - units
+
+  # Document structure and formatting
+  structure:
+    - headings
+    - sections
+    - numbering
+    - references
+    - tables
+    - figures
+    - appendices
+
+  # Quality control
+  quality:
+    - completeness
+    - consistency
     - precision
-    - writing_style
-    
-  technical:
-    - formatting
-    - structure
-    - cross_references
+    - traceability
+    - validation
+
+# Study phase specific packages
+phases:
+  phase1:
+    - first_in_human
+    - single_ascending_dose
+    - multiple_ascending_dose
+    - food_effect
+    - drug_interaction
+    - qst
+    - bioavailability
+    - bioequivalence
+
+  phase2:
+    - proof_of_concept
+    - dose_finding
+    - early_efficacy
+    - safety_monitoring
+    - pk_pd_modeling
+    - biomarker_validation
+
+  phase3:
+    - confirmatory_efficacy
+    - comparative_effectiveness
+    - safety_assessment
+    - subgroup_analysis
+    - risk_benefit
+    - regulatory_compliance
+
+  phase4:
+    - post_marketing
+    - real_world_evidence
+    - comparative_effectiveness
+    - pharmacovigilance
+    - risk_management
+
+# Therapeutic area packages
+therapeutic_areas:
+  oncology:
+    - response_criteria
+    - survival_analysis
+    - tumor_assessment
+    - immunotherapy
+    - combination_therapy
+
+  cardiovascular:
+    - cardiac_safety
+    - hemodynamics
+    - ecg_analysis
+    - mace_endpoints
+    - risk_factors
+
+  neurology:
+    - cognitive_assessment
+    - functional_scales
+    - imaging_criteria
+    - progression_markers
+    - quality_of_life
+
+  immunology:
+    - immune_response
+    - biomarker_analysis
+    - mechanistic_studies
+    - tolerance_assessment
+    - autoimmunity
+
+# Study design packages  
+designs:
+  randomized:
+    - allocation
+    - stratification
+    - blinding
+    - adaptive_features
+    - interim_analysis
+
+  non_randomized:
+    - single_arm
+    - historical_control
+    - baseline_control
+    - crossover
+    - observational
+
+  special:
+    - basket_trials
+    - umbrella_trials
+    - platform_trials
+    - pragmatic_trials
+    - registry_trials
+
+# Population packages
+populations:
+  pediatric:
+    - age_groups
+    - development
+    - growth
+    - formulations
+    - safety_monitoring
+
+  geriatric:
+    - comorbidities
+    - polypharmacy
+    - frailty
+    - cognitive_function
+    - falls_risk
+
+  special:
+    - organ_impairment
+    - pregnancy
+    - rare_disease
+    - genetic_factors
+    - vulnerable_groups
+
+# Domain specific packages
+domains:
+  safety:
+    - adverse_events
+    - laboratory
+    - vitals
+    - ecg
+    - physical_exam
+    - special_interest
+    - causality
+    - severity
+
+  efficacy:
+    - primary_endpoints
+    - secondary_endpoints
+    - biomarkers
+    - patient_reported
+    - clinician_reported
+    - performance_based
+    - composite_endpoints
+
+  pharmacology:
+    - pharmacokinetics
+    - pharmacodynamics
+    - exposure_response
+    - drug_interactions
+    - special_populations
+    - modeling_simulation
+
+# Regulatory packages
+regulatory:
+  ich:
+    - e3_structure
+    - e6_compliance
+    - e8_considerations
+    - e9_statistics
+    - e14_qt
+    - e15_genomics
+
+  fda:
+    - ind_requirements  
+    - nda_requirements
+    - bla_requirements
+    - pdufa_timelines
+    - rems_requirements
+
+  ema:
+    - imp_requirements
+    - ma_requirements
+    - pip_requirements
+    - prime_scheme
+    - post_approval
+
+  pmda:
+    - new_drug
+    - biosimilar
+    - orphan_drug
+    - conditional_approval
+    - post_marketing
+
+# Quality control packages
+quality:
+  documentation:
+    - completeness
+    - consistency
+    - traceability
+    - version_control
+    - signatures
+
+  data:
+    - integrity
+    - validation
+    - reconciliation
+    - queries
+    - audit_trail
+
+  compliance:
+    - gcp
+    - gdpr
+    - part11
+    - local_requirements
+    - inspections

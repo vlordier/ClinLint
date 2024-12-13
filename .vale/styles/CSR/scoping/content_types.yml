@@ -1,0 +1,54 @@
+extends: existence
+message: "Required content type scoping: %s"
+level: error
+scopes:
+  # Statistical content
+  - paragraph.statistics
+  - table.statistics
+  - list.statistics
+  
+  # Laboratory data
+  - paragraph.laboratory
+  - table.laboratory
+  - figure.laboratory
+  
+  # Safety data
+  - paragraph.safety
+  - table.safety
+  - list.safety
+  
+  # Efficacy data
+  - paragraph.efficacy
+  - table.efficacy
+  - figure.efficacy
+  
+  # Demographics
+  - paragraph.demographics
+  - table.demographics
+  - figure.demographics
+  
+  # Pharmacology
+  - paragraph.pharmacology
+  - table.pharmacology
+  - figure.pharmacology
+  
+  # Study conduct
+  - paragraph.conduct
+  - table.conduct
+  - list.conduct
+  
+  # Quality control
+  - paragraph.quality
+  - table.quality
+  - list.quality
+
+# Special handling
+raw_content:
+  - table.raw
+  - figure.raw
+  - list.raw
+
+# Code/programming content  
+code_content:
+  - comment.line
+  - comment.block

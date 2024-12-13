@@ -1,0 +1,49 @@
+# Multivariate Analysis Terminology
+
+## Data Structure
+multivariate observations
+variable relationships
+correlation structure
+covariance patterns
+dimensional reduction
+feature space
+variable clustering
+data projection
+manifold structure
+latent variables
+
+## Analysis Methods
+principal components
+factor analysis
+discriminant analysis
+canonical correlation
+cluster analysis
+multidimensional scaling
+correspondence analysis
+structural equations
+path analysis
+latent class analysis
+
+## Model Diagnostics
+multicollinearity check
+variance inflation
+condition number
+eigenvalue analysis
+residual correlation
+model fit indices
+modification indices
+standardized residuals
+factor loadings
+path coefficients
+
+## Validation Methods
+cross-validation
+holdout validation
+bootstrap validation
+permutation testing
+jackknife estimation
+sensitivity analysis
+robustness check
+stability assessment
+replication analysis
+external validation

@@ -1,0 +1,122 @@
+# Imprecise SEM terminology
+
+## Model Description
+good model
+poor model
+better model
+worse model
+reasonable model
+adequate model
+inadequate model
+satisfactory model
+unsatisfactory model
+acceptable model
+
+## Fit Description
+good fit
+poor fit
+better fit
+worse fit
+reasonable fit
+adequate fit
+inadequate fit
+satisfactory fit
+unsatisfactory fit
+acceptable fit
+
+## Performance Description
+good performance
+poor performance
+better performance
+worse performance
+reasonable performance
+adequate performance
+inadequate performance
+satisfactory performance
+unsatisfactory performance
+acceptable performance
+
+## Estimation Description
+good estimation
+poor estimation
+better estimation
+worse estimation
+reasonable estimation
+adequate estimation
+inadequate estimation
+satisfactory estimation
+unsatisfactory estimation
+acceptable estimation
+
+## Solution Description
+good solution
+poor solution
+better solution
+worse solution
+reasonable solution
+adequate solution
+inadequate solution
+satisfactory solution
+unsatisfactory solution
+acceptable solution
+# Imprecise SEM terminology
+
+## Model Description
+good model
+poor model
+better model
+worse model
+reasonable model
+adequate model
+inadequate model
+satisfactory model
+unsatisfactory model
+acceptable model
+
+## Fit Description
+good fit
+poor fit
+better fit
+worse fit
+reasonable fit
+adequate fit
+inadequate fit
+satisfactory fit
+unsatisfactory fit
+acceptable fit
+
+## Performance Description
+good performance
+poor performance
+better performance
+worse performance
+reasonable performance
+adequate performance
+inadequate performance
+satisfactory performance
+unsatisfactory performance
+acceptable performance
+
+## Estimation Description
+good estimation
+poor estimation
+better estimation
+worse estimation
+reasonable estimation
+adequate estimation
+inadequate estimation
+satisfactory estimation
+unsatisfactory estimation
+acceptable estimation
+
+## Solution Description
+good solution
+poor solution
+better solution
+worse solution
+reasonable solution
+adequate solution
+inadequate solution
+satisfactory solution
+unsatisfactory solution
+acceptable solution

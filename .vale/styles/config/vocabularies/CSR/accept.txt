@@ -1,9 +1,72 @@
-# Standard terminology for adverse events
+# Standardized Clinical Study Report Terminology
+
+# Adverse Events
 Adverse Event
 Serious Adverse Event
-Treatment-Emergent Adverse Event
-TEAE
-Treatment-Related Adverse Event
+Treatment-Emergent Adverse Event (TEAE)
+Treatment-Related Adverse Event (TRAE)
+Suspected Unexpected Serious Adverse Reaction (SUSAR)
+
+# Statistical Terms
+(?i)intention-to-treat
+(?i)per-protocol
+(?i)safety analysis set
+(?i)modified intention-to-treat
+(?i)mITT
+(?i)ITT
+(?i)PP
+
+# Laboratory Terms
+(?i)clinically significant
+(?i)not clinically significant
+(?i)reference range
+(?i)normal range
+(?i)upper limit of normal
+(?i)ULN
+(?i)lower limit of normal
+(?i)LLN
+
+# Regulatory Terms
+(?i)Good Clinical Practice
+(?i)GCP
+(?i)International Council for Harmonisation
+(?i)ICH
+(?i)ICH E3
+(?i)ICH E6(R2)
+
+# Safety Terms
+CTCAE Grade 1
+CTCAE Grade 2
+CTCAE Grade 3
+CTCAE Grade 4
+CTCAE Grade 5
+MedDRA
+System Organ Class
+SOC
+Preferred Term
+PT
+
+# Demographics
+(?i)sex assigned at birth
+(?i)gender identity
+(?i)race
+(?i)ethnicity
+(?i)age group
+
+# Efficacy Terms
+(?i)primary endpoint
+(?i)secondary endpoint
+(?i)exploratory endpoint
+(?i)surrogate endpoint
+(?i)composite endpoint
+
+# Pharmacology Terms
+Cmax
+Tmax
+AUC
+AUC0-t
+AUC0-inf
+t1/2
 TRAE
 Adverse Drug Reaction
 ADR
@@ -287,3 +350,91 @@ RBM
 key risk indicator
 KRI
 quality metric
+# Standard terminology for clinical study reports
+# One approved term per line, case-sensitive unless marked with (?i)
+
+# Adverse Events
+Adverse Event
+Serious Adverse Event
+Treatment-Emergent Adverse Event
+TEAE
+Treatment-Related Adverse Event
+TRAE
+Adverse Drug Reaction
+ADR
+Suspected Unexpected Serious Adverse Reaction
+SUSAR
+
+# Statistical Terms
+intention-to-treat
+per-protocol
+safety analysis set
+modified intention-to-treat
+mITT
+ITT
+PP
+
+# Study Design
+double-blind
+single-blind
+open-label
+randomized
+parallel-group
+crossover
+
+# Laboratory Terms
+clinically significant
+not clinically significant
+reference range
+normal range
+upper limit of normal
+ULN
+lower limit of normal
+LLN
+
+# Regulatory Terms
+Good Clinical Practice
+GCP
+International Council for Harmonisation
+ICH
+ICH E3
+ICH E6(R2)
+ICH E8
+ICH E9
+
+# Safety Terms
+CTCAE Grade 1
+CTCAE Grade 2
+CTCAE Grade 3
+CTCAE Grade 4
+CTCAE Grade 5
+MedDRA System Organ Class
+SOC
+MedDRA Preferred Term
+PT
+
+# Demographics
+(?i)male
+(?i)female
+race
+ethnicity
+age group
+
+# Efficacy Terms
+primary endpoint
+secondary endpoint
+exploratory endpoint
+surrogate endpoint
+composite endpoint
+
+# Pharmacology Terms
+maximum concentration
+Cmax
+time to maximum concentration
+Tmax
+area under the curve
+AUC
+AUC0-t
+AUC0-inf
+half-life
+t1/2

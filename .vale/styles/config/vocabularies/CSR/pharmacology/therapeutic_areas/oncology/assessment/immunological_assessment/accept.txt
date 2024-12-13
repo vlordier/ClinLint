@@ -1,0 +1,49 @@
+# Cancer Immunological Assessment
+
+## Immune Cell Profiling
+tumor-infiltrating lymphocytes
+myeloid cell infiltration
+NK cell activity
+dendritic cell function
+T cell subsets
+B cell response
+macrophage polarization
+neutrophil activity
+regulatory T cells
+memory cell formation
+
+## Immune Response Analysis
+antigen presentation
+immune recognition
+cytokine production
+antibody response
+immune checkpoint status
+immune escape mechanisms
+immunogenic cell death
+immune tolerance
+immune exhaustion
+immune memory
+
+## Tumor Microenvironment
+immune cell composition
+stromal interaction
+vascular components
+inflammatory mediators
+extracellular matrix
+immune exclusion
+immune desert
+immune inflamed
+metabolic regulation
+oxygen tension
+
+## Immunotherapy Response
+checkpoint inhibition
+CAR-T cell activity
+vaccine response
+antibody-dependent cytotoxicity
+complement activation
+immune-related adverse events
+adaptive resistance
+primary resistance
+acquired resistance
+pseudo-progression

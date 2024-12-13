@@ -1,5 +1,0 @@
-# Example laboratory reporting text
-Lab values were mostly normal.
-Some abnormal results were observed.
-Tests showed elevated liver enzymes.
-Creatinine levels increased over time.

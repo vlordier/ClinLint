@@ -1,0 +1,48 @@
+# High-level organization of rule categories
+categories:
+  statistical:
+    path: statistical/
+    rules:
+      - analysis
+      - reporting
+      - precision
+      - terminology
+      
+  safety:
+    path: safety/
+    rules:
+      - adverse_events
+      - causality
+      - severity
+      - monitoring
+      
+  efficacy:
+    path: efficacy/
+    rules:
+      - endpoints
+      - analysis  
+      - reporting
+      - terminology
+      
+  quality:
+    path: quality/
+    rules:
+      - structure
+      - consistency
+      - validation
+      - data_integrity
+      
+  regulatory:
+    path: regulatory/
+    rules:
+      - ich_e3
+      - regional
+      - compliance
+      
+  documentation:
+    path: documentation/
+    rules:
+      - formatting
+      - cross_references
+      - terminology
+      - metadata

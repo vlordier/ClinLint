@@ -1,0 +1,200 @@
+# Approved factor analysis terminology
+
+## Extraction Methods
+principal components extraction
+principal axis factoring
+maximum likelihood extraction
+unweighted least squares
+generalized least squares
+alpha factoring
+image factoring
+harris component analysis
+minimum residual method
+canonical factoring
+
+## Loading Patterns
+factor loadings matrix
+pattern coefficients
+structure coefficients
+reference structure
+primary loadings
+secondary loadings
+cross-loadings
+unique variances
+communalities
+specificities
+
+## Factor Scores
+regression scores
+bartlett scores
+anderson-rubin scores
+weighted least squares
+refined regression
+coarse regression
+oblique scores
+standardized scores
+normalized scores
+ipsative scores
+# Approved factor analysis terminology
+
+## Extraction Methods
+principal components extraction
+principal axis factoring
+maximum likelihood extraction
+unweighted least squares
+generalized least squares
+alpha factoring
+image factoring
+harris component analysis
+minimum residual method
+canonical factoring
+
+## Loading Patterns
+factor loadings matrix
+pattern coefficients
+structure coefficients
+reference structure
+primary loadings
+secondary loadings
+cross-loadings
+unique variances
+communalities
+specificities
+
+## Factor Scores
+regression scores
+bartlett scores
+anderson-rubin scores
+weighted least squares
+refined regression
+coarse regression
+oblique scores
+standardized scores
+normalized scores
+ipsative scores
+# Factor Analysis Terminology
+
+## Model Components
+# Factor Extraction Methods
+principal components extraction
+principal axis factoring
+maximum likelihood extraction
+unweighted least squares
+generalized least squares
+alpha factoring
+image factoring
+harris component analysis
+minimum residual method
+canonical factoring
+
+## Loading Patterns
+factor loadings matrix
+pattern coefficients
+structure coefficients
+reference structure
+primary loadings
+secondary loadings
+cross-loadings
+unique variances
+communalities
+specificities
+
+## Factor Scores
+regression scores
+bartlett scores
+anderson-rubin scores
+weighted least squares
+refined regression
+coarse regression
+oblique scores
+standardized scores
+normalized scores
+ipsative scores
+
+## Rotation Methods
+# Orthogonal Rotations
+varimax rotation
+quartimax rotation
+equamax rotation
+parsimax rotation
+orthomax rotation
+biquartimax rotation
+promax rotation
+procrustes rotation
+weighted varimax
+entropy rotation
+
+# Oblique Rotations
+direct oblimin
+quartimin rotation
+biquartimin rotation
+covarimin rotation
+oblique promax
+harris-kaiser rotation
+simplimax rotation
+geomin rotation
+crawford-ferguson
+pattern rotation
+# Factor Analysis Terminology
+
+## Model Components
+# Factor Extraction Methods
+principal components extraction
+principal axis factoring
+maximum likelihood extraction
+unweighted least squares
+generalized least squares
+alpha factoring
+image factoring
+harris component analysis
+minimum residual method
+canonical factoring
+
+## Loading Patterns
+factor loadings matrix
+pattern coefficients
+structure coefficients
+reference structure
+primary loadings
+secondary loadings
+cross-loadings
+unique variances
+communalities
+specificities
+
+## Factor Scores
+regression scores
+bartlett scores
+anderson-rubin scores
+weighted least squares
+refined regression
+coarse regression
+oblique scores
+standardized scores
+normalized scores
+ipsative scores
+
+## Rotation Methods
+# Orthogonal Rotations
+varimax rotation
+quartimax rotation
+equamax rotation
+parsimax rotation
+orthomax rotation
+biquartimax rotation
+promax rotation
+procrustes rotation
+weighted varimax
+entropy rotation
+
+# Oblique Rotations
+direct oblimin
+quartimin rotation
+biquartimin rotation
+covarimin rotation
+oblique promax
+harris-kaiser rotation
+simplimax rotation
+geomin rotation
+crawford-ferguson
+pattern rotation

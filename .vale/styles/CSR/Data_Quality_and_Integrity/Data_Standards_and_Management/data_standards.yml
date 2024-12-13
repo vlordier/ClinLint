@@ -1,0 +1,33 @@
+extends: existence
+message: "Required data standard element missing: %s"
+level: error
+tokens:
+  # CDISC Standards
+  - SDTM implementation with version
+  - ADaM specifications with standards
+  - define.xml with documentation
+  - controlled terminology with dictionaries
+  - validation rules with checks
+  - conformance rules with criteria
+  - metadata with specifications
+  - traceability with documentation
+  
+  # Data Quality
+  - completeness checks with metrics
+  - consistency rules with validation
+  - plausibility ranges with limits
+  - cross-reference checks with rules
+  - derivation algorithms with logic
+  - mapping specifications with rules
+  - transformation logic with validation
+  - reconciliation procedures with criteria
+  
+  # Documentation Requirements
+  - annotated CRF with specifications
+  - reviewer guides with explanations
+  - analysis datasets with specifications
+  - variable definitions with details
+  - coding dictionaries with versions
+  - data handling rules with procedures
+  - quality checks with criteria
+  - validation reports with results

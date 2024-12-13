@@ -1,0 +1,121 @@
+# Ophthalmological Assessment
+
+## Visual Function
+visual acuity
+contrast sensitivity
+color vision
+visual field
+dark adaptation
+light adaptation
+stereopsis
+depth perception
+motion perception
+visual processing
+
+## Ocular Structure
+corneal integrity
+lens clarity
+retinal structure
+macular architecture
+optic nerve morphology
+anterior chamber depth
+vitreous clarity
+choroidal thickness
+scleral integrity
+iris configuration
+
+## Intraocular Parameters
+intraocular pressure
+aqueous flow
+tear production
+pupillary response
+accommodation
+convergence
+ocular motility
+binocular vision
+fixation stability
+fusion range
+
+## Retinal Function
+retinal sensitivity
+photoreceptor function
+bipolar cell activity
+ganglion cell function
+retinal perfusion
+macular function
+peripheral vision
+scotopic function
+photopic function
+electroretinography
+
+## Neuro-ophthalmology
+afferent pathways
+efferent pathways
+pupillary reflexes
+ocular alignment
+extraocular movements
+visual processing
+neural integration
+oculomotor function
+visual pathways
+cortical processing
+
+## Ocular Surface
+tear film stability
+corneal sensitivity
+conjunctival integrity
+limbal function
+epithelial healing
+stromal integrity
+endothelial function
+surface regularity
+barrier function
+wound healing
+
+## Vascular Assessment
+retinal circulation
+choroidal flow
+optic nerve perfusion
+iris vasculature
+conjunctival vessels
+episcleral vessels
+fluorescein patterns
+indocyanine patterns
+vessel caliber
+perfusion patterns
+
+## Biomechanical Properties
+corneal biomechanics
+scleral rigidity
+lens elasticity
+zonular tension
+extraocular tension
+orbital compliance
+tissue resistance
+material properties
+structural dynamics
+mechanical stress
+
+## Inflammatory Markers
+anterior inflammation
+posterior inflammation
+cellular infiltration
+protein content
+inflammatory mediators
+immune response
+vascular permeability
+tissue edema
+cellular adhesion
+inflammatory cascade
+
+## Functional Integration
+visual integration
+sensory processing
+motor coordination
+cognitive processing
+attention mechanisms
+spatial orientation
+temporal processing
+pattern recognition
+feature detection
+visual memory

@@ -1,0 +1,37 @@
+# Inferential Statistics Terminology
+
+## Hypothesis Testing
+null hypothesis
+alternative hypothesis
+test statistic
+p-value
+significance level
+critical value
+rejection region
+power
+effect size
+sample size
+
+## Estimation
+point estimate
+interval estimate
+confidence interval
+credible interval
+prediction interval
+tolerance interval
+standard error
+margin of error
+bias
+efficiency
+
+## Sampling Distributions
+sampling distribution
+standard error
+central limit theorem
+law of large numbers
+degrees of freedom
+t-distribution
+chi-square distribution
+F-distribution
+normal approximation
+asymptotic distribution

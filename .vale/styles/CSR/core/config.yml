@@ -1,0 +1,49 @@
+# Core Vale configuration for Clinical Study Reports
+StylesPath: .vale/styles
+MinAlertLevel: error
+
+# Core packages
+Packages:
+  CSR: YES
+  Vale.Spelling: YES
+  Vale.Terms: YES
+  Vale.Numbers: YES
+
+# Domain-specific vocabularies  
+Vocabularies:
+  CSR:
+    - Medical
+    - Statistical
+    - Regulatory
+    - Laboratory
+    - Safety
+    - Efficacy
+
+# Document formats
+Formats:
+  md: YES
+  rst: YES
+  html: YES
+  xml: YES
+  docx: YES
+  pdf: YES
+
+# Scope exclusions
+IgnoredScopes:
+  - code
+  - url
+  - script
+  - style
+  - pre
+  - tt
+  - raw
+  - math
+
+# Base rule inheritance
+extends:
+  - CSR.base.core_rules
+  - CSR.Statistical
+  - CSR.Safety 
+  - CSR.Efficacy
+  - CSR.Laboratory
+  - CSR.Regulatory

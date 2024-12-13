@@ -1,0 +1,14 @@
+extends: substitution
+message: "Use CTCAE v5.0 grading terminology: '%s' must include specific grade criteria"
+level: error
+swap:
+  "mild": "Grade 1 [specify CTCAE v5.0 criteria]"
+  "moderate": "Grade 2 [specify CTCAE v5.0 criteria]"
+  "severe": "Grade 3 [specify CTCAE v5.0 criteria]"
+  "life-threatening": "Grade 4 [specify CTCAE v5.0 criteria]"
+  "fatal": "Grade 5 [specify cause of death]"
+  "serious": "[specify CTCAE grade with criteria and seriousness criteria per ICH E2A]"
+  "clinically significant": "[specify CTCAE grade and clinical impact]"
+  "not clinically significant": "[specify CTCAE grade and justification]"
+  "tolerable": "[specify CTCAE grade and tolerability criteria]"
+  "intolerable": "[specify CTCAE grade and discontinuation criteria]"

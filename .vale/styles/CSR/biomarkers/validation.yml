@@ -1,0 +1,24 @@
+extends: existence
+message: "Required biomarker validation element missing: %s"
+level: error
+tokens:
+  # Analytical Validation
+  - precision assessment with CV%
+  - accuracy determination with recovery
+  - specificity testing with interference
+  - sensitivity evaluation with LLOQ
+  - reproducibility studies with sites
+  
+  # Clinical Validation
+  - diagnostic accuracy with ROC
+  - predictive value assessment
+  - prognostic capability testing
+  - treatment response correlation
+  - outcome measure association
+  
+  # Utility Evidence
+  - clinical decision impact
+  - therapeutic strategy modification
+  - patient outcome improvement
+  - healthcare resource utilization
+  - cost-effectiveness analysis

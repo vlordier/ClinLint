@@ -1,0 +1,28 @@
+extends: substitution
+message: "Use precise statistical terminology: '%s' instead of '%s'"
+level: error
+ignorecase: true
+swap:
+  # Effect Measures
+  "significant": "[specify p-value, CI, and effect size]"
+  "correlation": "[specify coefficient with CI]"
+  "association": "[specify measure with precision]"
+  "difference": "[specify magnitude with CI]"
+  "improvement": "[specify absolute and relative changes]"
+  "comparable": "[specify equivalence margins]"
+  "non-inferior": "[specify NI margin and test]"
+  "superior": "[specify superiority margin]"
+
+  # Analysis Methods
+  "adjusted analysis": "[specify covariates and method]"
+  "subgroup analysis": "[specify factors and interaction]"
+  "sensitivity analysis": "[specify assumptions tested]"
+  "interim analysis": "[specify alpha spending]"
+  "missing data": "[specify handling approach]"
+  "multiplicity": "[specify adjustment method]"
+
+  # Population Terms
+  "ITT": "Intention-to-Treat"
+  "PP": "Per-Protocol"
+  "mITT": "Modified Intention-to-Treat"
+  "safety population": "Safety Analysis Set"

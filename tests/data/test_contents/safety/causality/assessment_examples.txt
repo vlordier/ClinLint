@@ -1,6 +1,0 @@
-# Examples of causality assessment
-Definitely related - temporal relationship and dechallenge/rechallenge positive
-Probably related - clear temporal relationship, no other obvious cause
-Possibly related - temporal relationship but other causes possible
-Unlikely related - temporal relationship unclear, other causes more likely
-Not related - clear alternative cause identified

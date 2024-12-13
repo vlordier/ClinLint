@@ -1,0 +1,61 @@
+# Imprecise tumor terminology
+
+## Size Description
+large tumor
+small tumor
+massive tumor
+tiny tumor
+huge tumor
+extensive tumor
+limited tumor
+restricted tumor
+minimal tumor
+substantial tumor
+
+## Growth Description
+fast growing
+slow growing
+rapid growth
+gradual growth
+aggressive growth
+indolent growth
+accelerated growth
+decelerated growth
+quick growth
+delayed growth
+
+## Spread Description
+widespread
+localized
+contained
+extensive
+limited
+restricted
+confined
+disseminated
+scattered
+diffuse
+
+## Change Description
+significant change
+minimal change
+substantial change
+slight change
+marked change
+notable change
+considerable change
+negligible change
+dramatic change
+subtle change
+
+## Response Description
+good response
+poor response
+partial response
+complete response
+minimal response
+substantial response
+marked response
+negligible response
+dramatic response
+subtle response

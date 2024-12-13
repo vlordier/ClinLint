@@ -1,7 +1,271 @@
-# Imprecise PK terminology
-drug levels
-drug concentrations
-drug exposure
+# Terms to Avoid in Clinical Study Reports
+
+# Imprecise Medical Terms
+bug
+germ
+tummy
+belly
+doc
+meds
+labs
+stats
+vitals
+
+# Non-American English Medical Terms
+theatre
+anaemia
+haemorrhage
+oedema
+oesophagus
+diarrhoea
+paediatric
+orthopaedic
+
+# Unscientific Qualifiers
+very
+quite
+rather
+somewhat
+fairly
+pretty
+relatively
+extremely
+
+# Vague Statistical Terms
+significant
+significantly
+trending
+trended
+approximately
+about
+around
+roughly
+
+# Imprecise Temporal Terms
+recently
+previously
+currently
+presently
+formerly
+lately
+soon
+eventually
+
+# Vague Magnitude Terms
+high
+low
+higher
+lower
+increased
+decreased
+elevated
+reduced
+
+# Imprecise Comparison Terms
+similar to
+different from
+comparable to
+consistent with
+in line with
+
+# Informal Clinical Terms
+scan
+image
+picture
+film
+view
+shot
+
+# Imprecise Safety Terms
+safe
+unsafe
+dangerous
+hazardous
+risky
+harmful
+toxic
+poisonous
+
+# Imprecise Efficacy Terms
+worked
+failed
+effective
+ineffective
+successful
+unsuccessful
+drug distribution/transport
+drug metabolism/biotransformation
+drug elimination/excretion
+drug clearance/half-life
+drug disposition/transfer
+drug uptake/release
+drug loading/steady-state
+
+# Concentration Terms (Use actual values and units)
+peak/trough levels
+steady/plateau levels
+baseline/therapeutic levels
+toxic/subtherapeutic levels
+target/minimum levels
+maximum/average levels
+median/typical levels
+expected/observed levels
+measured/calculated levels
+estimated/predicted levels
+
+# Imprecise concentration terminology
+peak levels
+trough levels
+steady levels
+plateau levels
+baseline levels
+therapeutic levels
+toxic levels
+subtherapeutic levels
+supratherapeutic levels
+target levels
+minimum levels
+maximum levels
+average levels
+median levels
+typical levels
+expected levels
+observed levels
+measured levels
+calculated levels
+estimated levels
+
+# Imprecise kinetic terminology
+fast kinetics
+slow kinetics
+rapid kinetics
+delayed kinetics
+altered kinetics
+modified kinetics
+changed kinetics
+variable kinetics
+consistent kinetics
+inconsistent kinetics
+predictable kinetics
+unpredictable kinetics
+linear kinetics
+nonlinear kinetics
+dose-dependent kinetics
+time-dependent kinetics
+concentration-dependent kinetics
+saturable kinetics
+nonsaturable kinetics
+complex kinetics
+
+# Imprecise absorption terminology
+fast absorption
+slow absorption
+rapid absorption
+delayed absorption
+quick absorption
+gradual absorption
+complete absorption
+incomplete absorption
+partial absorption
+variable absorption
+consistent absorption
+inconsistent absorption
+enhanced absorption
+reduced absorption
+optimal absorption
+suboptimal absorption
+adequate absorption
+inadequate absorption
+efficient absorption
+inefficient absorption
+
+# Imprecise distribution terminology
+wide distribution
+narrow distribution
+broad distribution
+limited distribution
+extensive distribution
+restricted distribution
+selective distribution
+nonselective distribution
+preferential distribution
+random distribution
+systematic distribution
+uniform distribution
+nonuniform distribution
+even distribution
+uneven distribution
+balanced distribution
+unbalanced distribution
+targeted distribution
+untargeted distribution
+specific distribution
+
+# Imprecise metabolism terminology
+fast metabolism
+slow metabolism
+rapid metabolism
+delayed metabolism
+quick metabolism
+gradual metabolism
+complete metabolism
+incomplete metabolism
+partial metabolism
+variable metabolism
+consistent metabolism
+inconsistent metabolism
+enhanced metabolism
+reduced metabolism
+optimal metabolism
+suboptimal metabolism
+adequate metabolism
+inadequate metabolism
+efficient metabolism
+inefficient metabolism
+
+# Imprecise elimination terminology
+fast elimination
+slow elimination
+rapid elimination
+delayed elimination
+quick elimination
+gradual elimination
+complete elimination
+incomplete elimination
+partial elimination
+variable elimination
+consistent elimination
+inconsistent elimination
+enhanced elimination
+reduced elimination
+optimal elimination
+suboptimal elimination
+adequate elimination
+inadequate elimination
+efficient elimination
+inefficient elimination
+
+# Imprecise bioavailability terminology
+good bioavailability
+poor bioavailability
+high bioavailability
+low bioavailability
+increased bioavailability
+decreased bioavailability
+enhanced bioavailability
+reduced bioavailability
+optimal bioavailability
+suboptimal bioavailability
+adequate bioavailability
+inadequate bioavailability
+efficient bioavailability
+inefficient bioavailability
+variable bioavailability
+consistent bioavailability
+inconsistent bioavailability
+expected bioavailability
+unexpected bioavailability
+altered bioavailability
 drug absorption
 drug distribution
 drug metabolism

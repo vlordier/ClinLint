@@ -1,0 +1,49 @@
+# Nonparametric Statistical Methods
+
+## Rank-Based Methods
+wilcoxon signed-rank test
+mann-whitney U test
+kruskal-wallis test
+friedman test
+spearman rank correlation
+kendall rank correlation
+jonckheere-terpstra test
+page test
+median test
+runs test
+
+## Distribution-Free Methods
+kolmogorov-smirnov test
+anderson-darling test
+cramér-von mises test
+shapiro-wilk test
+lilliefors test
+jarque-bera test
+d'agostino-pearson test
+chen-shapiro test
+filliben test
+probability plot correlation
+
+## Resampling Methods
+ordinary bootstrap
+balanced bootstrap
+wild bootstrap
+block bootstrap
+stationary bootstrap
+moving block bootstrap
+circular bootstrap
+weighted bootstrap
+bayesian bootstrap
+double bootstrap
+
+## Smoothing Techniques
+kernel density estimation
+kernel regression
+kernel smoothing
+bandwidth selection
+local polynomial
+nadaraya-watson
+gasser-müller
+priestley-chao
+local linear
+local constant

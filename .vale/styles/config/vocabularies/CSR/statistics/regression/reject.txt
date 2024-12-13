@@ -1,0 +1,73 @@
+# Imprecise regression terminology
+
+## Model Description
+good fit
+poor fit
+better fit
+worse fit
+reasonable fit
+adequate fit
+inadequate fit
+satisfactory fit
+unsatisfactory fit
+acceptable fit
+
+## Variable Relationships
+strong relationship
+weak relationship
+moderate relationship
+significant relationship
+insignificant relationship
+important relationship
+unimportant relationship
+meaningful relationship
+negligible relationship
+substantial relationship
+
+## Effect Description
+strong effect
+weak effect
+moderate effect
+large effect
+small effect
+significant effect
+insignificant effect
+important effect
+unimportant effect
+negligible effect
+
+## Model Performance
+good performance
+poor performance
+better performance
+worse performance
+reasonable performance
+adequate performance
+inadequate performance
+satisfactory performance
+unsatisfactory performance
+acceptable performance
+
+## Prediction Quality
+good prediction
+poor prediction
+better prediction
+worse prediction
+reasonable prediction
+adequate prediction
+inadequate prediction
+satisfactory prediction
+unsatisfactory prediction
+acceptable prediction
+
+## Variable Selection
+important variable
+unimportant variable
+significant variable
+insignificant variable
+relevant variable
+irrelevant variable
+meaningful variable
+meaningless variable
+critical variable
+non-critical variable

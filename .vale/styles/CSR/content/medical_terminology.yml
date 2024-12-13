@@ -1,0 +1,23 @@
+# Medical terminology definitions separate from validation logic
+extends: substitution
+message: "Use standard medical term: '%s' instead of '%s'"
+level: error
+ignorecase: true
+
+terms:
+  # Anatomical terms
+  heart: cardiac
+  brain: cerebral
+  kidney: renal
+  liver: hepatic
+  lung: pulmonary
+  
+  # Disease terms
+  high blood pressure: hypertension
+  heart attack: myocardial infarction
+  stroke: cerebrovascular accident
+  
+  # Procedure terms
+  scan: imaging
+  operation: surgical procedure
+  shot: injection

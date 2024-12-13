@@ -1,0 +1,157 @@
+# Specialized Cardiovascular Assessment
+
+## Advanced Imaging
+cardiac MRI parameters
+myocardial perfusion
+delayed enhancement
+T1/T2 mapping
+strain analysis
+tissue characterization
+coronary angiography
+calcium scoring
+plaque composition
+vessel wall imaging
+
+## Electrophysiology
+intracardiac signals
+activation mapping
+voltage mapping
+propagation patterns
+conduction velocity
+refractory periods
+pacing threshold
+sensing amplitude
+impedance trends
+capture threshold
+
+## Mechanical Function
+strain rate imaging
+torsion analysis
+dyssynchrony indices
+contractility markers
+relaxation parameters
+filling dynamics
+chamber mechanics
+wall stress
+myocardial work
+ventricular-arterial coupling
+
+## Autonomic Function
+heart rate variability
+baroreflex sensitivity
+sympathetic tone
+parasympathetic activity
+autonomic balance
+circadian patterns
+orthostatic response
+vascular tone
+neurohumoral activation
+autonomic modulation
+
+## Vascular Assessment
+endothelial function
+arterial stiffness
+pulse wave analysis
+flow-mediated dilation
+microvascular function
+collateral flow
+vascular remodeling
+shear stress
+vessel compliance
+vascular resistance
+
+## Metabolic Assessment
+myocardial metabolism
+substrate utilization
+oxygen consumption
+energy efficiency
+metabolic flexibility
+ATP production
+phosphocreatine levels
+lactate dynamics
+glucose uptake
+fatty acid oxidation
+
+## Molecular Imaging
+receptor density
+transporter expression
+enzyme activity
+inflammatory markers
+matrix remodeling
+cell death markers
+protein aggregation
+calcium handling
+mitochondrial function
+oxidative stress
+
+## Tissue Characterization
+fibrosis quantification
+edema assessment
+fat infiltration
+iron content
+amyloid deposition
+inflammatory changes
+cellular infiltration
+matrix composition
+tissue perfusion
+viability assessment
+
+## Device Diagnostics
+lead parameters
+battery longevity
+shock impedance
+noise detection
+oversensing patterns
+undersensing events
+crosstalk analysis
+timing intervals
+diagnostic trends
+alert parameters
+
+## Structural Dynamics
+valve mechanics
+chamber geometry
+myocardial deformation
+aortic elasticity
+ventricular interdependence
+atrial mechanics
+pericardial dynamics
+septal motion
+papillary muscle function
+chordal apparatus
+
+## Pressure-Volume Analysis
+pressure-volume loops
+end-systolic elastance
+preload recruitable stroke work
+diastolic stiffness
+contractile reserve
+mechanical efficiency
+systolic-diastolic coupling
+load-independent indices
+pressure-volume relationships
+ventricular power
+
+## Flow Dynamics
+4D flow patterns
+vortex formation
+turbulence assessment
+flow acceleration
+regurgitant dynamics
+stenotic flow patterns
+collateral flow dynamics
+coronary flow reserve
+peripheral flow patterns
+microcirculatory flow
+
+## Cardiac Energetics
+high-energy phosphate metabolism
+oxidative capacity
+substrate preference
+metabolic reserve
+energy transfer efficiency
+mitochondrial function
+redox state
+creatine kinetics
+ATP turnover
+energy cost of contraction

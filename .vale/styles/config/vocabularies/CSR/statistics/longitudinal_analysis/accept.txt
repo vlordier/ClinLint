@@ -1,0 +1,49 @@
+# Longitudinal Analysis Terminology
+
+## Study Design
+repeated measures
+time series design
+panel study
+cohort follow-up
+prospective tracking
+retrospective review
+sequential sampling
+continuous monitoring
+interval assessment
+temporal evaluation
+
+## Time-Based Parameters
+measurement occasions
+time intervals
+assessment periods
+follow-up duration
+observation window
+temporal spacing
+sampling frequency
+monitoring schedule
+data collection points
+temporal resolution
+
+## Analysis Methods
+mixed effects models
+random effects models
+fixed effects models
+growth curve analysis
+trajectory modeling
+time-varying covariates
+temporal dependencies
+autoregressive models
+state-space models
+dynamic modeling
+
+## Missing Data Patterns
+monotone missing
+non-monotone missing
+intermittent missing
+dropout patterns
+loss to follow-up
+incomplete sequences
+missing completely at random
+missing at random
+missing not at random
+informative missingness

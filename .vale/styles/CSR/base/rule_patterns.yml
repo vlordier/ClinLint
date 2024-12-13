@@ -1,0 +1,17 @@
+# Base patterns that other rules can extend
+extends: existence
+message: "Base rule pattern: %s"
+level: error
+
+patterns:
+  # Common regex patterns
+  number: '\b\d+\.?\d*\b'
+  date: '\b\d{4}-\d{2}-\d{2}\b'
+  percentage: '\b\d+\.?\d*%\b'
+  pvalue: '\bp\s*[<=>]\s*0\.\d{3}\b'
+  ci: '\b95%\s*CI[:\s]+\d+\.?\d*\s*[-–]\s*\d+\.?\d*\b'
+  
+  # Common text patterns
+  section_header: '^[1-9]\.\d*\s+[A-Z]'
+  table_ref: 'Table\s+\d+'
+  figure_ref: 'Figure\s+\d+'

@@ -1,0 +1,54 @@
+# Imprecise concomitant medication terminology
+concurrent medication
+concurrent therapy
+concurrent treatment
+concurrent drug
+concurrent medicine
+concomitant therapy
+concomitant treatment
+concomitant drug
+concomitant medicine
+background medication
+background therapy
+background treatment
+background drug
+background medicine
+ongoing medication
+ongoing therapy
+ongoing treatment
+ongoing drug
+ongoing medicine
+
+# Imprecise medication timing
+prior medication
+previous medication
+current medication
+existing medication
+continuing medication
+chronic medication
+acute medication
+intermittent medication
+as-needed medication
+regular medication
+scheduled medication
+maintenance medication
+rescue medication
+breakthrough medication
+prophylactic medication
+
+# Imprecise medication management
+medication adjustment
+medication modification
+medication change
+medication alteration
+medication adaptation
+medication optimization
+medication escalation
+medication reduction
+medication interruption
+medication discontinuation
+medication resumption
+medication restart
+medication initiation
+medication administration
+medication scheduling

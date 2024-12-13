@@ -1,0 +1,61 @@
+# Imprecise longitudinal terminology
+
+## Time Description
+long-term
+short-term
+medium-term
+brief period
+extended period
+prolonged duration
+limited duration
+temporary period
+permanent duration
+indefinite period
+
+## Follow-up Description
+regular follow-up
+irregular follow-up
+frequent follow-up
+infrequent follow-up
+continuous follow-up
+intermittent follow-up
+periodic follow-up
+sporadic follow-up
+routine follow-up
+occasional follow-up
+
+## Pattern Description
+stable pattern
+unstable pattern
+consistent pattern
+inconsistent pattern
+regular pattern
+irregular pattern
+predictable pattern
+unpredictable pattern
+systematic pattern
+random pattern
+
+## Change Description
+gradual change
+sudden change
+rapid change
+slow change
+progressive change
+regressive change
+steady change
+variable change
+continuous change
+discontinuous change
+
+## Effect Description
+lasting effect
+temporary effect
+permanent effect
+transient effect
+sustained effect
+brief effect
+prolonged effect
+short-lived effect
+enduring effect
+fleeting effect

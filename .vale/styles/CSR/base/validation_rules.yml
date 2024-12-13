@@ -1,0 +1,23 @@
+# Core validation rules independent of content
+extends: existence
+message: "Validation rule failed: %s"
+level: error
+
+imports:
+  - CSR.statistics.unified_validation
+
+rules:
+  # Structure validation
+  section_order:
+    pattern: ${section_header}
+    message: "Sections must be in sequential order"
+
+  # Cross-reference validation  
+  reference_format:
+    pattern: ${table_ref}|${figure_ref}
+    message: "Invalid cross-reference format"
+
+  # Number format validation
+  number_format:
+    pattern: ${number}
+    message: "Use consistent number formatting"

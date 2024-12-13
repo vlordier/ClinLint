@@ -1,0 +1,146 @@
+# Imprecise factor analysis terminology
+
+## Model Description
+good fit
+poor fit
+better fit
+worse fit
+reasonable fit
+adequate fit
+inadequate fit
+satisfactory fit
+unsatisfactory fit
+acceptable fit
+
+## Loading Description
+strong loading
+weak loading
+moderate loading
+significant loading
+insignificant loading
+important loading
+unimportant loading
+meaningful loading
+negligible loading
+substantial loading
+
+## Factor Interpretation
+clear factor
+unclear factor
+interpretable factor
+uninterpretable factor
+meaningful factor
+meaningless factor
+important factor
+unimportant factor
+significant factor
+insignificant factor
+
+## Model Performance
+good performance
+poor performance
+better performance
+worse performance
+reasonable performance
+adequate performance
+inadequate performance
+satisfactory performance
+unsatisfactory performance
+acceptable performance
+
+## Solution Quality
+good solution
+poor solution
+better solution
+worse solution
+reasonable solution
+adequate solution
+inadequate solution
+satisfactory solution
+unsatisfactory solution
+acceptable solution
+
+## Variable Selection
+important variable
+unimportant variable
+significant variable
+insignificant variable
+relevant variable
+irrelevant variable
+meaningful variable
+meaningless variable
+critical variable
+non-critical variable
+# Imprecise factor analysis terminology
+
+## Model Description
+good fit
+poor fit
+better fit
+worse fit
+reasonable fit
+adequate fit
+inadequate fit
+satisfactory fit
+unsatisfactory fit
+acceptable fit
+
+## Loading Description
+strong loading
+weak loading
+moderate loading
+significant loading
+insignificant loading
+important loading
+unimportant loading
+meaningful loading
+negligible loading
+substantial loading
+
+## Factor Interpretation
+clear factor
+unclear factor
+interpretable factor
+uninterpretable factor
+meaningful factor
+meaningless factor
+important factor
+unimportant factor
+significant factor
+insignificant factor
+
+## Model Performance
+good performance
+poor performance
+better performance
+worse performance
+reasonable performance
+adequate performance
+inadequate performance
+satisfactory performance
+unsatisfactory performance
+acceptable performance
+
+## Solution Quality
+good solution
+poor solution
+better solution
+worse solution
+reasonable solution
+adequate solution
+inadequate solution
+satisfactory solution
+unsatisfactory solution
+acceptable solution
+
+## Variable Selection
+important variable
+unimportant variable
+significant variable
+insignificant variable
+relevant variable
+irrelevant variable
+meaningful variable
+meaningless variable
+critical variable
+non-critical variable

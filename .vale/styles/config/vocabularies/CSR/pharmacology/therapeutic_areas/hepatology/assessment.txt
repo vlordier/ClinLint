@@ -1,0 +1,121 @@
+# Hepatological Assessment
+
+## Synthetic Function
+protein synthesis
+coagulation factors
+albumin production
+enzyme synthesis
+bile acid formation
+cholesterol synthesis
+lipoprotein assembly
+hormone metabolism
+acute phase proteins
+glycoprotein production
+
+## Metabolic Function
+glucose homeostasis
+lipid metabolism
+protein metabolism
+drug metabolism
+xenobiotic handling
+energy metabolism
+ammonia processing
+bilirubin conjugation
+hormone conversion
+vitamin storage
+
+## Detoxification
+phase I reactions
+phase II conjugation
+toxin elimination
+drug clearance
+metabolite processing
+xenobiotic transformation
+chemical modification
+conjugation efficiency
+excretion patterns
+clearance capacity
+
+## Biliary Function
+bile production
+bile secretion
+bile acid transport
+cholesterol excretion
+biliary pressure
+duct integrity
+bile flow
+bile composition
+bile acid pool
+enterohepatic circulation
+
+## Vascular Function
+portal flow
+hepatic perfusion
+sinusoidal function
+vascular resistance
+blood volume
+flow distribution
+pressure gradient
+vascular tone
+microcirculation
+oxygen delivery
+
+## Inflammatory Status
+immune response
+cellular infiltration
+cytokine profile
+inflammatory mediators
+acute phase response
+immune cell activity
+tissue reaction
+inflammatory resolution
+repair mechanisms
+fibrogenic activity
+
+## Structural Integrity
+parenchymal architecture
+lobular organization
+sinusoidal structure
+vascular pattern
+biliary anatomy
+tissue composition
+cellular arrangement
+matrix integrity
+membrane function
+structural stability
+
+## Regenerative Capacity
+hepatocyte renewal
+tissue repair
+regeneration rate
+cellular proliferation
+growth factors
+matrix remodeling
+tissue adaptation
+compensatory growth
+recovery patterns
+healing response
+
+## Storage Function
+glycogen storage
+vitamin retention
+mineral storage
+lipid accumulation
+protein storage
+metabolite retention
+energy reserves
+nutrient storage
+trace elements
+storage capacity
+
+## Immune Function
+immune surveillance
+antigen processing
+antibody production
+complement synthesis
+cytokine generation
+immune tolerance
+inflammatory control
+immune regulation
+defense mechanisms
+barrier function

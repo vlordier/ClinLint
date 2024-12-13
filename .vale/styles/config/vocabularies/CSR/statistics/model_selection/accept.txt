@@ -1,0 +1,89 @@
+# Model Selection Terminology
+
+## Information Criteria
+akaike information criterion (AIC)
+bayesian information criterion (BIC)
+deviance information criterion (DIC)
+hannan-quinn criterion (HQC)
+focused information criterion (FIC)
+conditional akaike criterion (cAIC)
+consistent akaike criterion (CAIC)
+corrected akaike criterion (AICc)
+expected predictive deviance (EPD)
+watanabe-akaike criterion (WAIC)
+cross-validation criterion (CV)
+generalized cross-validation (GCV)
+mallows Cp criterion
+final prediction error (FPE)
+minimum description length (MDL)
+predictive least squares (PLS)
+schwarz bayesian criterion (SBC)
+takeuchi information criterion (TIC)
+vapnik-chervonenkis dimension
+structural risk minimization
+
+## Model Comparison Methods
+likelihood ratio test
+score test
+wald test
+vuong test
+cox test
+encompassing test
+non-nested comparison
+composite likelihood ratio
+penalized likelihood ratio
+profile likelihood ratio
+relative likelihood
+evidence ratio
+akaike weights
+bayesian weights
+posterior model probability
+bayes factor
+deviance comparison
+predictive likelihood
+cross-validated likelihood
+out-of-sample prediction
+
+## Selection Procedures
+forward selection
+backward elimination
+stepwise selection
+best subset selection
+lasso selection
+elastic net selection
+lars selection
+genetic algorithm selection
+simulated annealing
+tabu search
+hierarchical selection
+theory-driven selection
+expert knowledge selection
+domain-specific selection
+hypothesis-driven selection
+conceptual framework selection
+empirical selection
+literature-based selection
+consensus selection
+hybrid selection
+
+## Validation Methods
+cross-validation
+bootstrap validation
+jackknife validation
+split-sample validation
+repeated k-fold validation
+leave-one-out validation
+monte carlo validation
+permutation validation
+subsampling validation
+resampling validation
+independent dataset validation
+temporal validation
+geographical validation
+population validation
+setting validation
+context validation
+domain validation
+prospective validation
+retrospective validation
+concurrent validation

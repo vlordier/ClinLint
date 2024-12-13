@@ -1,0 +1,37 @@
+# Avoid these imprecise descriptive terms
+
+## Central Tendency
+average
+typical value
+middle value
+central value
+normal value
+usual value
+expected value
+common value
+standard value
+representative value
+
+## Dispersion
+spread
+scatter
+variation
+variability
+dispersion
+distribution
+range
+extent
+breadth
+width
+
+## Shape
+shape
+form
+pattern
+structure
+arrangement
+configuration
+organization
+layout
+format
+design

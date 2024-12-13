@@ -1,0 +1,1089 @@
+# Time Series Decomposition Terminology
+
+## Decomposition Methods
+classical decomposition
+X-11 decomposition
+X-12-ARIMA decomposition
+X-13-ARIMA-SEATS
+STL decomposition
+wavelet decomposition
+empirical mode decomposition
+singular spectrum analysis
+canonical decomposition
+tensor decomposition
+
+## Component Analysis
+trend component
+seasonal component
+cyclical component
+irregular component
+calendar component
+trading day effects
+moving holidays
+outlier effects
+level shifts
+transitory changes
+
+## Seasonal Adjustment
+multiplicative seasonality
+additive seasonality
+pseudo-additive seasonality
+log-additive seasonality
+seasonal factors
+seasonal indices
+seasonal weights
+deseasonalization
+reseasonalization
+seasonal breakdown
+
+## Trend Estimation
+polynomial trend
+exponential trend
+logistic trend
+gompertz trend
+local linear trend
+hodrick-prescott filter
+baxter-king filter
+christiano-fitzgerald filter
+butterworth filter
+kalman filter
+
+## Cycle Analysis
+business cycle
+economic cycle
+growth cycle
+deviation cycle
+classical cycle
+growth rate cycle
+leading indicators
+coincident indicators
+lagging indicators
+composite indicators
+
+## Calendar Adjustment
+trading day patterns
+weekday effects
+weekend effects
+holiday effects
+leap year effects
+length-of-month effects
+length-of-quarter effects
+working day adjustment
+bridge day effects
+moving holiday effects
+
+## Quality Assessment
+residual analysis
+spectrum analysis
+sliding spans analysis
+revision analysis
+stability analysis
+diagnostic statistics
+quality control statistics
+confidence intervals
+prediction intervals
+revision bounds
+
+## Adjustment Methods
+direct adjustment
+indirect adjustment
+concurrent adjustment
+forward factor adjustment
+projected factor adjustment
+model-based adjustment
+regression adjustment
+signal extraction
+real-time adjustment
+historical adjustment
+
+## Diagnostic Tools
+spectral analysis
+periodogram analysis
+autocorrelation analysis
+partial autocorrelation
+cross-correlation
+coherence analysis
+phase analysis
+gain analysis
+frequency response
+impulse response
+
+## Advanced Methods
+state space models
+structural time series
+unobserved components
+regime switching models
+threshold models
+smooth transition models
+long memory models
+fractional integration
+heteroskedastic models
+nonlinear decomposition
+# Time Series Decomposition Terminology
+
+## Decomposition Methods
+classical decomposition
+X-11 decomposition
+X-12-ARIMA decomposition
+X-13-ARIMA-SEATS
+STL decomposition
+wavelet decomposition
+empirical mode decomposition
+singular spectrum analysis
+canonical decomposition
+tensor decomposition
+
+## Component Analysis
+trend component
+seasonal component
+cyclical component
+irregular component
+calendar component
+trading day effects
+moving holidays
+outlier effects
+level shifts
+transitory changes
+
+## Seasonal Adjustment
+multiplicative seasonality
+additive seasonality
+pseudo-additive seasonality
+log-additive seasonality
+seasonal factors
+seasonal indices
+seasonal weights
+deseasonalization
+reseasonalization
+seasonal breakdown
+
+## Trend Estimation
+polynomial trend
+exponential trend
+logistic trend
+gompertz trend
+local linear trend
+hodrick-prescott filter
+baxter-king filter
+christiano-fitzgerald filter
+butterworth filter
+kalman filter
+
+## Cycle Analysis
+business cycle
+economic cycle
+growth cycle
+deviation cycle
+classical cycle
+growth rate cycle
+leading indicators
+coincident indicators
+lagging indicators
+composite indicators
+
+## Calendar Adjustment
+trading day patterns
+weekday effects
+weekend effects
+holiday effects
+leap year effects
+length-of-month effects
+length-of-quarter effects
+working day adjustment
+bridge day effects
+moving holiday effects
+
+## Quality Assessment
+residual analysis
+spectrum analysis
+sliding spans analysis
+revision analysis
+stability analysis
+diagnostic statistics
+quality control statistics
+confidence intervals
+prediction intervals
+revision bounds
+
+## Adjustment Methods
+direct adjustment
+indirect adjustment
+concurrent adjustment
+forward factor adjustment
+projected factor adjustment
+model-based adjustment
+regression adjustment
+signal extraction
+real-time adjustment
+historical adjustment
+
+## Diagnostic Tools
+spectral analysis
+periodogram analysis
+autocorrelation analysis
+partial autocorrelation
+cross-correlation
+coherence analysis
+phase analysis
+gain analysis
+frequency response
+impulse response
+
+## Advanced Methods
+state space models
+structural time series
+unobserved components
+regime switching models
+threshold models
+smooth transition models
+long memory models
+fractional integration
+heteroskedastic models
+nonlinear decomposition
+# Time Series Decomposition Terminology
+
+## Decomposition Methods
+classical decomposition
+X-11 decomposition
+X-12-ARIMA decomposition
+X-13-ARIMA-SEATS
+STL decomposition
+wavelet decomposition
+empirical mode decomposition
+singular spectrum analysis
+canonical decomposition
+tensor decomposition
+
+## Component Analysis
+trend component
+seasonal component
+cyclical component
+irregular component
+calendar component
+trading day effects
+moving holidays
+outlier effects
+level shifts
+transitory changes
+
+## Seasonal Adjustment
+multiplicative seasonality
+additive seasonality
+pseudo-additive seasonality
+log-additive seasonality
+seasonal factors
+seasonal indices
+seasonal weights
+deseasonalization
+reseasonalization
+seasonal breakdown
+
+## Trend Estimation
+polynomial trend
+exponential trend
+logistic trend
+gompertz trend
+local linear trend
+hodrick-prescott filter
+baxter-king filter
+christiano-fitzgerald filter
+butterworth filter
+kalman filter
+
+## Cycle Analysis
+business cycle
+economic cycle
+growth cycle
+deviation cycle
+classical cycle
+growth rate cycle
+leading indicators
+coincident indicators
+lagging indicators
+composite indicators
+
+## Calendar Adjustment
+trading day patterns
+weekday effects
+weekend effects
+holiday effects
+leap year effects
+length-of-month effects
+length-of-quarter effects
+working day adjustment
+bridge day effects
+moving holiday effects
+
+## Quality Assessment
+residual analysis
+spectrum analysis
+sliding spans analysis
+revision analysis
+stability analysis
+diagnostic statistics
+quality control statistics
+confidence intervals
+prediction intervals
+revision bounds
+
+## Adjustment Methods
+direct adjustment
+indirect adjustment
+concurrent adjustment
+forward factor adjustment
+projected factor adjustment
+model-based adjustment
+regression adjustment
+signal extraction
+real-time adjustment
+historical adjustment
+
+## Diagnostic Tools
+spectral analysis
+periodogram analysis
+autocorrelation analysis
+partial autocorrelation
+cross-correlation
+coherence analysis
+phase analysis
+gain analysis
+frequency response
+impulse response
+
+## Advanced Methods
+state space models
+structural time series
+unobserved components
+regime switching models
+threshold models
+smooth transition models
+long memory models
+fractional integration
+heteroskedastic models
+nonlinear decomposition
+# Time Series Decomposition Terminology
+
+## Decomposition Methods
+classical decomposition
+X-11 decomposition
+X-12-ARIMA decomposition
+X-13-ARIMA-SEATS
+STL decomposition
+wavelet decomposition
+empirical mode decomposition
+singular spectrum analysis
+canonical decomposition
+tensor decomposition
+
+## Component Analysis
+trend component
+seasonal component
+cyclical component
+irregular component
+calendar component
+trading day effects
+moving holidays
+outlier effects
+level shifts
+transitory changes
+
+## Seasonal Adjustment
+multiplicative seasonality
+additive seasonality
+pseudo-additive seasonality
+log-additive seasonality
+seasonal factors
+seasonal indices
+seasonal weights
+deseasonalization
+reseasonalization
+seasonal breakdown
+
+## Trend Estimation
+polynomial trend
+exponential trend
+logistic trend
+gompertz trend
+local linear trend
+hodrick-prescott filter
+baxter-king filter
+christiano-fitzgerald filter
+butterworth filter
+kalman filter
+
+## Cycle Analysis
+business cycle
+economic cycle
+growth cycle
+deviation cycle
+classical cycle
+growth rate cycle
+leading indicators
+coincident indicators
+lagging indicators
+composite indicators
+
+## Calendar Adjustment
+trading day patterns
+weekday effects
+weekend effects
+holiday effects
+leap year effects
+length-of-month effects
+length-of-quarter effects
+working day adjustment
+bridge day effects
+moving holiday effects
+
+## Quality Assessment
+residual analysis
+spectrum analysis
+sliding spans analysis
+revision analysis
+stability analysis
+diagnostic statistics
+quality control statistics
+confidence intervals
+prediction intervals
+revision bounds
+
+## Adjustment Methods
+direct adjustment
+indirect adjustment
+concurrent adjustment
+forward factor adjustment
+projected factor adjustment
+model-based adjustment
+regression adjustment
+signal extraction
+real-time adjustment
+historical adjustment
+
+## Diagnostic Tools
+spectral analysis
+periodogram analysis
+autocorrelation analysis
+partial autocorrelation
+cross-correlation
+coherence analysis
+phase analysis
+gain analysis
+frequency response
+impulse response
+
+## Advanced Methods
+state space models
+structural time series
+unobserved components
+regime switching models
+threshold models
+smooth transition models
+long memory models
+fractional integration
+heteroskedastic models
+nonlinear decomposition
+# Time Series Decomposition Terminology
+
+## Decomposition Methods
+classical decomposition
+X-11 decomposition
+X-12-ARIMA decomposition
+X-13-ARIMA-SEATS
+STL decomposition
+wavelet decomposition
+empirical mode decomposition
+singular spectrum analysis
+canonical decomposition
+tensor decomposition
+
+## Component Analysis
+trend component
+seasonal component
+cyclical component
+irregular component
+calendar component
+trading day effects
+moving holidays
+outlier effects
+level shifts
+transitory changes
+
+## Seasonal Adjustment
+multiplicative seasonality
+additive seasonality
+pseudo-additive seasonality
+log-additive seasonality
+seasonal factors
+seasonal indices
+seasonal weights
+deseasonalization
+reseasonalization
+seasonal breakdown
+
+## Trend Estimation
+polynomial trend
+exponential trend
+logistic trend
+gompertz trend
+local linear trend
+hodrick-prescott filter
+baxter-king filter
+christiano-fitzgerald filter
+butterworth filter
+kalman filter
+
+## Cycle Analysis
+business cycle
+economic cycle
+growth cycle
+deviation cycle
+classical cycle
+growth rate cycle
+leading indicators
+coincident indicators
+lagging indicators
+composite indicators
+
+## Calendar Adjustment
+trading day patterns
+weekday effects
+weekend effects
+holiday effects
+leap year effects
+length-of-month effects
+length-of-quarter effects
+working day adjustment
+bridge day effects
+moving holiday effects
+
+## Quality Assessment
+residual analysis
+spectrum analysis
+sliding spans analysis
+revision analysis
+stability analysis
+diagnostic statistics
+quality control statistics
+confidence intervals
+prediction intervals
+revision bounds
+
+## Adjustment Methods
+direct adjustment
+indirect adjustment
+concurrent adjustment
+forward factor adjustment
+projected factor adjustment
+model-based adjustment
+regression adjustment
+signal extraction
+real-time adjustment
+historical adjustment
+
+## Diagnostic Tools
+spectral analysis
+periodogram analysis
+autocorrelation analysis
+partial autocorrelation
+cross-correlation
+coherence analysis
+phase analysis
+gain analysis
+frequency response
+impulse response
+
+## Advanced Methods
+state space models
+structural time series
+unobserved components
+regime switching models
+threshold models
+smooth transition models
+long memory models
+fractional integration
+heteroskedastic models
+nonlinear decomposition
+# Time Series Decomposition Terminology
+
+## Decomposition Methods
+classical decomposition
+X-11 decomposition
+X-12-ARIMA decomposition
+X-13-ARIMA-SEATS
+STL decomposition
+wavelet decomposition
+empirical mode decomposition
+singular spectrum analysis
+canonical decomposition
+tensor decomposition
+
+## Component Analysis
+trend component
+seasonal component
+cyclical component
+irregular component
+calendar component
+trading day effects
+moving holidays
+outlier effects
+level shifts
+transitory changes
+
+## Seasonal Adjustment
+multiplicative seasonality
+additive seasonality
+pseudo-additive seasonality
+log-additive seasonality
+seasonal factors
+seasonal indices
+seasonal weights
+deseasonalization
+reseasonalization
+seasonal breakdown
+
+## Trend Estimation
+polynomial trend
+exponential trend
+logistic trend
+gompertz trend
+local linear trend
+hodrick-prescott filter
+baxter-king filter
+christiano-fitzgerald filter
+butterworth filter
+kalman filter
+
+## Cycle Analysis
+business cycle
+economic cycle
+growth cycle
+deviation cycle
+classical cycle
+growth rate cycle
+leading indicators
+coincident indicators
+lagging indicators
+composite indicators
+
+## Calendar Adjustment
+trading day patterns
+weekday effects
+weekend effects
+holiday effects
+leap year effects
+length-of-month effects
+length-of-quarter effects
+working day adjustment
+bridge day effects
+moving holiday effects
+
+## Quality Assessment
+residual analysis
+spectrum analysis
+sliding spans analysis
+revision analysis
+stability analysis
+diagnostic statistics
+quality control statistics
+confidence intervals
+prediction intervals
+revision bounds
+
+## Adjustment Methods
+direct adjustment
+indirect adjustment
+concurrent adjustment
+forward factor adjustment
+projected factor adjustment
+model-based adjustment
+regression adjustment
+signal extraction
+real-time adjustment
+historical adjustment
+
+## Diagnostic Tools
+spectral analysis
+periodogram analysis
+autocorrelation analysis
+partial autocorrelation
+cross-correlation
+coherence analysis
+phase analysis
+gain analysis
+frequency response
+impulse response
+
+## Advanced Methods
+state space models
+structural time series
+unobserved components
+regime switching models
+threshold models
+smooth transition models
+long memory models
+fractional integration
+heteroskedastic models
+nonlinear decomposition
+# Time Series Decomposition Terminology
+
+## Decomposition Methods
+classical decomposition
+X-11 decomposition
+X-12-ARIMA decomposition
+X-13-ARIMA-SEATS
+STL decomposition
+wavelet decomposition
+empirical mode decomposition
+singular spectrum analysis
+canonical decomposition
+tensor decomposition
+
+## Component Analysis
+trend component
+seasonal component
+cyclical component
+irregular component
+calendar component
+trading day effects
+moving holidays
+outlier effects
+level shifts
+transitory changes
+
+## Seasonal Adjustment
+multiplicative seasonality
+additive seasonality
+pseudo-additive seasonality
+log-additive seasonality
+seasonal factors
+seasonal indices
+seasonal weights
+deseasonalization
+reseasonalization
+seasonal breakdown
+
+## Trend Estimation
+polynomial trend
+exponential trend
+logistic trend
+gompertz trend
+local linear trend
+hodrick-prescott filter
+baxter-king filter
+christiano-fitzgerald filter
+butterworth filter
+kalman filter
+
+## Cycle Analysis
+business cycle
+economic cycle
+growth cycle
+deviation cycle
+classical cycle
+growth rate cycle
+leading indicators
+coincident indicators
+lagging indicators
+composite indicators
+
+## Calendar Adjustment
+trading day patterns
+weekday effects
+weekend effects
+holiday effects
+leap year effects
+length-of-month effects
+length-of-quarter effects
+working day adjustment
+bridge day effects
+moving holiday effects
+
+## Quality Assessment
+residual analysis
+spectrum analysis
+sliding spans analysis
+revision analysis
+stability analysis
+diagnostic statistics
+quality control statistics
+confidence intervals
+prediction intervals
+revision bounds
+
+## Adjustment Methods
+direct adjustment
+indirect adjustment
+concurrent adjustment
+forward factor adjustment
+projected factor adjustment
+model-based adjustment
+regression adjustment
+signal extraction
+real-time adjustment
+historical adjustment
+
+## Diagnostic Tools
+spectral analysis
+periodogram analysis
+autocorrelation analysis
+partial autocorrelation
+cross-correlation
+coherence analysis
+phase analysis
+gain analysis
+frequency response
+impulse response
+
+## Advanced Methods
+state space models
+structural time series
+unobserved components
+regime switching models
+threshold models
+smooth transition models
+long memory models
+fractional integration
+heteroskedastic models
+nonlinear decomposition
+# Time Series Decomposition Terminology
+
+## Decomposition Methods
+classical decomposition
+X-11 decomposition
+X-12-ARIMA decomposition
+X-13-ARIMA-SEATS
+STL decomposition
+wavelet decomposition
+empirical mode decomposition
+singular spectrum analysis
+canonical decomposition
+tensor decomposition
+
+## Component Analysis
+trend component
+seasonal component
+cyclical component
+irregular component
+calendar component
+trading day effects
+moving holidays
+outlier effects
+level shifts
+transitory changes
+
+## Seasonal Adjustment
+multiplicative seasonality
+additive seasonality
+pseudo-additive seasonality
+log-additive seasonality
+seasonal factors
+seasonal indices
+seasonal weights
+deseasonalization
+reseasonalization
+seasonal breakdown
+
+## Trend Estimation
+polynomial trend
+exponential trend
+logistic trend
+gompertz trend
+local linear trend
+hodrick-prescott filter
+baxter-king filter
+christiano-fitzgerald filter
+butterworth filter
+kalman filter
+
+## Cycle Analysis
+business cycle
+economic cycle
+growth cycle
+deviation cycle
+classical cycle
+growth rate cycle
+leading indicators
+coincident indicators
+lagging indicators
+composite indicators
+
+## Calendar Adjustment
+trading day patterns
+weekday effects
+weekend effects
+holiday effects
+leap year effects
+length-of-month effects
+length-of-quarter effects
+working day adjustment
+bridge day effects
+moving holiday effects
+
+## Quality Assessment
+residual analysis
+spectrum analysis
+sliding spans analysis
+revision analysis
+stability analysis
+diagnostic statistics
+quality control statistics
+confidence intervals
+prediction intervals
+revision bounds
+
+## Adjustment Methods
+direct adjustment
+indirect adjustment
+concurrent adjustment
+forward factor adjustment
+projected factor adjustment
+model-based adjustment
+regression adjustment
+signal extraction
+real-time adjustment
+historical adjustment
+
+## Diagnostic Tools
+spectral analysis
+periodogram analysis
+autocorrelation analysis
+partial autocorrelation
+cross-correlation
+coherence analysis
+phase analysis
+gain analysis
+frequency response
+impulse response
+
+## Advanced Methods
+state space models
+structural time series
+unobserved components
+regime switching models
+threshold models
+smooth transition models
+long memory models
+fractional integration
+heteroskedastic models
+nonlinear decomposition
+# Time Series Decomposition Terminology
+
+## Decomposition Methods
+classical decomposition
+X-11 decomposition
+X-12-ARIMA decomposition
+X-13-ARIMA-SEATS
+STL decomposition
+wavelet decomposition
+empirical mode decomposition
+singular spectrum analysis
+canonical decomposition
+tensor decomposition
+
+## Component Analysis
+trend component
+seasonal component
+cyclical component
+irregular component
+calendar component
+trading day effects
+moving holidays
+outlier effects
+level shifts
+transitory changes
+
+## Seasonal Adjustment
+multiplicative seasonality
+additive seasonality
+pseudo-additive seasonality
+log-additive seasonality
+seasonal factors
+seasonal indices
+seasonal weights
+deseasonalization
+reseasonalization
+seasonal breakdown
+
+## Trend Estimation
+polynomial trend
+exponential trend
+logistic trend
+gompertz trend
+local linear trend
+hodrick-prescott filter
+baxter-king filter
+christiano-fitzgerald filter
+butterworth filter
+kalman filter
+
+## Cycle Analysis
+business cycle
+economic cycle
+growth cycle
+deviation cycle
+classical cycle
+growth rate cycle
+leading indicators
+coincident indicators
+lagging indicators
+composite indicators
+
+## Calendar Adjustment
+trading day patterns
+weekday effects
+weekend effects
+holiday effects
+leap year effects
+length-of-month effects
+length-of-quarter effects
+working day adjustment
+bridge day effects
+moving holiday effects
+
+## Quality Assessment
+residual analysis
+spectrum analysis
+sliding spans analysis
+revision analysis
+stability analysis
+diagnostic statistics
+quality control statistics
+confidence intervals
+prediction intervals
+revision bounds
+
+## Adjustment Methods
+direct adjustment
+indirect adjustment
+concurrent adjustment
+forward factor adjustment
+projected factor adjustment
+model-based adjustment
+regression adjustment
+signal extraction
+real-time adjustment
+historical adjustment
+
+## Diagnostic Tools
+spectral analysis
+periodogram analysis
+autocorrelation analysis
+partial autocorrelation
+cross-correlation
+coherence analysis
+phase analysis
+gain analysis
+frequency response
+impulse response
+
+## Advanced Methods
+state space models
+structural time series
+unobserved components
+regime switching models
+threshold models
+smooth transition models
+long memory models
+fractional integration
+heteroskedastic models
+nonlinear decomposition

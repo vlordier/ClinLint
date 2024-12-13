@@ -1,0 +1,61 @@
+# Imprecise nonparametric terminology
+
+## Method Description
+good method
+poor method
+better method
+worse method
+reasonable method
+adequate method
+inadequate method
+satisfactory method
+unsatisfactory method
+acceptable method
+
+## Performance Description
+good performance
+poor performance
+better performance
+worse performance
+reasonable performance
+adequate performance
+inadequate performance
+satisfactory performance
+unsatisfactory performance
+acceptable performance
+
+## Result Description
+good results
+poor results
+better results
+worse results
+reasonable results
+adequate results
+inadequate results
+satisfactory results
+unsatisfactory results
+acceptable results
+
+## Analysis Description
+good analysis
+poor analysis
+better analysis
+worse analysis
+reasonable analysis
+adequate analysis
+inadequate analysis
+satisfactory analysis
+unsatisfactory analysis
+acceptable analysis
+
+## Test Description
+good test
+poor test
+better test
+worse test
+reasonable test
+adequate test
+inadequate test
+satisfactory test
+unsatisfactory test
+acceptable test

@@ -1,79 +1,148 @@
-# Incorrect adverse event terminology
-side effect
-side effects
-negative effect
-negative effects
-complication
-complications
-problem
-problems
-(?i)reaction
-(?i)reactions
-issue
-issues
-concern
-concerns
-difficulty
-difficulties
-abnormality
-abnormalities
-anomaly
-anomalies
-irregularity
-irregularities
-incident
-incidents
-episode
-episodes
-occurrence
-occurrences
-manifestation
-manifestations
-symptom
-symptoms
-complaint
-complaints
-discomfort
-disturbance
-disturbances
-ailment
-ailments
-condition
-conditions
-disorder
-disorders
-malady
-maladies
-affliction
-afflictions
+# Use American English medical terminology
 
-# Non-American English Medical Terms (British/Australian/Canadian)
-theatre
-anaemia
-haemorrhage
-oedema
-oesophagus
-diarrhoea
-paediatric
-orthopaedic
-foetus
-leucocyte
-tumour
-centre
-litre
-metre
-programme
-practise (verb)
-defence
-licence (noun)
-analogue
-catalogue
-grey
-mould
-sulphur
-enquiry
+avoid: theatre
+use: theater
 
-# Informal/Colloquial Medical Terms
+avoid: anaemia
+use: anemia
+
+avoid: haemorrhage
+use: hemorrhage
+
+avoid: oedema
+use: edema
+
+avoid: oesophagus
+use: esophagus
+
+avoid: diarrhoea
+use: diarrhea
+
+avoid: paediatric
+use: pediatric
+
+avoid: orthopaedic
+use: orthopedic
+
+avoid: foetus
+use: fetus
+
+avoid: leucocyte
+use: leukocyte
+
+avoid: tumour
+use: tumor
+
+avoid: centre
+use: center
+
+avoid: litre
+use: liter
+
+avoid: metre
+use: meter
+
+avoid: programme
+use: program
+
+avoid: practise (verb)
+use: practice
+
+avoid: defence
+use: defense
+
+avoid: licence (noun)
+use: license
+
+avoid: analogue
+use: analog
+
+avoid: catalogue
+use: catalog
+
+avoid: grey
+use: gray
+
+avoid: mould
+use: mold
+
+avoid: sulphur
+use: sulfur
+
+avoid: enquiry
+use: inquiry
+
+## Informal/Colloquial Medical Terms
+avoid: bug
+use: pathogen, microorganism
+
+avoid: germ
+use: microorganism, pathogen
+
+avoid: tummy
+use: abdomen, stomach
+
+avoid: belly
+use: abdomen
+
+avoid: doc
+use: physician, doctor
+
+avoid: meds
+use: medication, medicine
+
+avoid: labs
+use: laboratory tests
+
+avoid: stats
+use: statistics, measurements
+
+avoid: vitals
+use: vital signs
+
+avoid: scan
+use: imaging study, specific modality (CT, MRI, etc.)
+
+## Statistical Terms
+avoid: significant
+use: specify p-value and confidence interval
+
+avoid: trending
+use: showed a pattern of, demonstrated a tendency
+
+avoid: approximately
+use: specific value ± margin of error
+
+avoid: about
+use: specific value ± margin of error
+
+avoid: around
+use: specific value ± margin of error
+
+## Temporal Terms
+avoid: recently
+use: specific timepoint or date range
+
+avoid: previously
+use: specific timepoint or date range
+
+avoid: currently
+use: at time of analysis (specify date)
+
+avoid: presently
+use: at time of analysis (specify date)
+
+## Magnitude Terms
+avoid: high/low
+use: specific values with units
+
+avoid: increased/decreased
+use: specific change with magnitude
+
+avoid: elevated/reduced
+use: specific values compared to reference range
+
+# Informal/Colloquial Terms
 bug
 germ
 tummy
@@ -101,7 +170,7 @@ write-up
 check (for examination)
 test (unspecified)
 
-# Latin/Greek Medical Terms Without Context
+# Latin/Greek Terms Without Context
 in situ
 de novo
 in vitro
@@ -121,216 +190,9 @@ od
 os
 ou
 
-# Informal Anatomical Terms
-gut
-brain
-heart
-kidney
-liver
-lung
-blood
-bone
-muscle
-nerve
-vessel
-artery
-vein
+## General Scientific Writing Issues
 
-# Informal Disease Terms
-flu
-cold
-bug
-infection
-inflammation
-growth
-mass
-spot
-lump
-swelling
-rash
-ache
-pain
-sore
-tender
-stiff
-weak
-tired
-dizzy
-sick
-ill
-
-# Incorrect severity terminology
-mild
-moderate
-severe
-serious
-life-threatening
-fatal
-minimal
-slight
-minor
-major
-significant
-insignificant
-substantial
-considerable
-negligible
-pronounced
-marked
-notable
-remarkable
-unremarkable
-intense
-extreme
-critical
-devastating
-catastrophic
-dire
-grave
-marginal
-trivial
-inconsequential
-
-# Vague statistical terms
-significant
-significantly
-trending
-trended
-approximately
-about
-around
-roughly
-presumably
-possibly
-maybe
-perhaps
-probably
-likely
-appears to
-seems to
-tends to
-generally
-usually
-typically
-often
-rarely
-frequently
-occasionally
-somewhat
-sort of
-kind of
-more or less
-virtually
-practically
-essentially
-basically
-nominally
-relatively
-comparatively
-moderately
-substantially
-considerably
-markedly
-notably
-
-# Incorrect causality terms
-might be related
-could be related
-maybe related
-perhaps related
-seems related
-appears related
-potentially related
-possibly related
-presumably related
-likely related
-probably related
-apparently related
-suspected to be related
-thought to be related
-believed to be related
-considered to be related
-may have caused
-might have caused
-could have caused
-cannot be ruled out
-temporal relationship
-temporal association
-suggestive of
-indicative of
-consistent with
-associated with
-linked to
-connected to
-correlated with
-coincident with
-concurrent with
-secondary to
-consequent to
-resulting from
-stemming from
-arising from
-following from
-due to
-because of
-attributed to
-ascribed to
-
-# Incorrect population terms
-all patients
-all subjects
-completed patients
-completed subjects
-evaluable patients
-evaluable subjects
-study population
-study cohort
-treatment group
-control group
-patient population
-subject population
-study participants
-trial participants
-enrolled patients
-enrolled subjects
-recruited patients
-recruited subjects
-screened patients
-screened subjects
-eligible patients
-eligible subjects
-
-# Vague efficacy terms
-worked well
-effective
-ineffective
-successful
-unsuccessful
-failed
-positive results
-negative results
-good response
-poor response
-excellent outcome
-satisfactory
-unsatisfactory
-adequate
-inadequate
-promising
-encouraging
-discouraging
-favorable
-unfavorable
-
-# Incorrect demographic terms
-(?i)male
-(?i)female
-(?i)caucasian
-(?i)oriental
-(?i)hispanic
-(?i)normal
-
-# Unscientific qualifiers
+# Unscientific Qualifiers
 very
 quite
 rather
@@ -382,7 +244,7 @@ certainly
 absolutely
 undoubtedly
 
-# Subjective descriptors
+# Subjective Descriptors
 good
 bad
 better
@@ -405,7 +267,7 @@ unimpressive
 interesting
 boring
 
-# Imprecise temporal terms
+# Imprecise Temporal Terms
 recently
 previously
 currently
@@ -428,24 +290,13 @@ in the past
 in the future
 over time
 throughout
-during the study
-during treatment
-during follow-up
-at baseline
-at screening
-at enrollment
-at randomization
-at study entry
-at study completion
-at study end
-at final visit
 periodically
 intermittently
 occasionally
 frequently
 regularly
 
-# Vague magnitude descriptors
+# Vague Magnitude Descriptors
 high
 low
 higher
@@ -469,7 +320,7 @@ large
 huge
 tiny
 
-# Imprecise comparison terms
+# Imprecise Comparison Terms
 similar to
 different from
 comparable to
@@ -502,7 +353,7 @@ relates to
 compares to
 contrasts with
 
-# Unscientific causal language
+# Unscientific Causal Language
 due to
 because of
 resulted in
@@ -516,3 +367,185 @@ created
 stemmed from
 arose from
 originated from
+
+## Statistical Language
+# Vague Statistical Terms
+significant
+significantly
+trending
+trended
+approximately
+about
+around
+roughly
+presumably
+possibly
+maybe
+perhaps
+probably
+likely
+appears to
+seems to
+tends to
+generally
+usually
+typically
+often
+rarely
+frequently
+occasionally
+somewhat
+sort of
+kind of
+more or less
+virtually
+practically
+essentially
+basically
+nominally
+relatively
+comparatively
+moderately
+substantially
+considerably
+markedly
+notably
+
+## Study-Related Terms
+# Imprecise Study Timepoints
+during the study
+during treatment
+during follow-up
+at baseline
+at screening
+at enrollment
+at randomization
+at study entry
+at study completion
+at study end
+at final visit
+
+# Population Terms
+all patients
+all subjects
+completed patients
+completed subjects
+evaluable patients
+evaluable subjects
+study population
+study cohort
+treatment group
+control group
+patient population
+subject population
+study participants
+trial participants
+enrolled patients
+enrolled subjects
+recruited patients
+recruited subjects
+screened patients
+screened subjects
+eligible patients
+eligible subjects
+
+# Demographic Terms
+(?i)male
+(?i)female
+(?i)caucasian
+(?i)oriental
+(?i)hispanic
+(?i)normal
+# Terms to avoid in clinical study reports
+# One term per line, case-sensitive unless marked with (?i)
+
+# Avoid imprecise severity terms
+mild
+moderate
+severe
+serious
+life-threatening
+fatal
+minimal
+slight
+
+# Avoid vague temporal terms
+recently
+previously
+currently
+presently
+formerly
+lately
+soon
+eventually
+
+# Avoid imprecise statistical terms
+significant
+significantly
+trending
+trended
+approximately
+about
+around
+roughly
+
+# Avoid unscientific qualifiers
+very
+quite
+rather
+somewhat
+fairly
+pretty
+relatively
+extremely
+
+# Avoid imprecise measurement terms
+high
+low
+higher
+lower
+increased
+decreased
+elevated
+reduced
+
+# Avoid informal medical terms
+bug
+germ
+tummy
+belly
+doc
+meds
+labs
+stats
+vitals
+
+# Avoid non-American English medical terms
+theatre
+anaemia
+haemorrhage
+oedema
+oesophagus
+diarrhoea
+paediatric
+orthopaedic
+
+# Avoid imprecise efficacy terms
+worked
+failed
+effective
+ineffective
+successful
+unsuccessful
+positive results
+negative results
+
+# Avoid imprecise safety terms
+safe
+unsafe
+dangerous
+hazardous
+risky
+harmful
+toxic
+poisonous

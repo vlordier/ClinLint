@@ -1,0 +1,27 @@
+# Core validation rules that other rules extend
+extends: existence
+message: "Core rule validation: %s"
+level: error
+
+# Common patterns
+patterns:
+  number: '\b\d+\.?\d*\b'
+  date: '\b\d{4}-\d{2}-\d{2}\b'
+  pvalue: '\bp\s*[<=>]\s*0\.\d{3}\b'
+  ci: '\b95%\s*CI[:\s]+\d+\.?\d*\s*[-–]\s*\d+\.?\d*\b'
+  section: '^[1-9]\.\d*\s+[A-Z]'
+  reference: '(?:Table|Figure|Section)\s+\d+'
+
+# Base scopes
+scopes:
+  text: true
+  heading: true
+  list: true
+  table: true
+  code: false
+
+# Common exceptions
+exceptions:
+  - "N/A"
+  - "TBD"
+  - "pending"

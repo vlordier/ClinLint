@@ -1,0 +1,61 @@
+# Imprecise infectious disease assessment terminology
+
+## Disease Description
+mild infection
+moderate infection
+severe infection
+serious infection
+critical infection
+minimal infection
+substantial infection
+significant infection
+insignificant infection
+major infection
+
+## Progress Description
+improving condition
+worsening condition
+stable condition
+unstable condition
+progressive condition
+regressive condition
+advancing condition
+deteriorating condition
+fluctuating condition
+variable condition
+
+## Response Description
+good response
+poor response
+adequate response
+inadequate response
+sufficient response
+insufficient response
+appropriate response
+inappropriate response
+effective response
+ineffective response
+
+## Recovery Description
+good recovery
+poor recovery
+adequate recovery
+inadequate recovery
+sufficient recovery
+insufficient recovery
+appropriate recovery
+inappropriate recovery
+effective recovery
+ineffective recovery
+
+## Outcome Description
+good outcome
+poor outcome
+favorable outcome
+unfavorable outcome
+positive outcome
+negative outcome
+expected outcome
+unexpected outcome
+satisfactory outcome
+unsatisfactory outcome

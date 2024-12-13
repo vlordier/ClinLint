@@ -1,0 +1,24 @@
+extends: existence
+message: "Required pharmacovigilance element missing: %s"
+level: error
+tokens:
+  # Signal Detection
+  - signal detection methodology with statistical criteria
+  - signal validation process with medical review
+  - signal prioritization with risk assessment
+  - signal communication with stakeholders
+  - signal documentation with tracking system
+  
+  # Periodic Reporting
+  - periodic benefit-risk evaluation
+  - exposure data analysis
+  - safety signal updates
+  - risk minimization assessment
+  - regulatory compliance verification
+  
+  # Special Monitoring
+  - pregnancy surveillance program
+  - pediatric safety monitoring
+  - elderly patient monitoring
+  - long-term safety assessment
+  - drug-drug interaction tracking

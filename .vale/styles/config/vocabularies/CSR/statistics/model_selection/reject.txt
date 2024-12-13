@@ -1,0 +1,61 @@
+# Imprecise model selection terminology
+
+## Model Description
+good model
+poor model
+better model
+worse model
+reasonable model
+adequate model
+inadequate model
+satisfactory model
+unsatisfactory model
+acceptable model
+
+## Fit Description
+good fit
+poor fit
+better fit
+worse fit
+reasonable fit
+adequate fit
+inadequate fit
+satisfactory fit
+unsatisfactory fit
+acceptable fit
+
+## Performance Description
+good performance
+poor performance
+better performance
+worse performance
+reasonable performance
+adequate performance
+inadequate performance
+satisfactory performance
+unsatisfactory performance
+acceptable performance
+
+## Selection Description
+good selection
+poor selection
+better selection
+worse selection
+reasonable selection
+adequate selection
+inadequate selection
+satisfactory selection
+unsatisfactory selection
+acceptable selection
+
+## Validation Description
+good validation
+poor validation
+better validation
+worse validation
+reasonable validation
+adequate validation
+inadequate validation
+satisfactory validation
+unsatisfactory validation
+acceptable validation

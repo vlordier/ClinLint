@@ -1,0 +1,61 @@
+# Imprecise power analysis terminology
+
+## Power Description
+adequate power
+inadequate power
+sufficient power
+insufficient power
+reasonable power
+unreasonable power
+good power
+poor power
+appropriate power
+inappropriate power
+
+## Sample Size Description
+adequate size
+inadequate size
+sufficient size
+insufficient size
+reasonable size
+unreasonable size
+good size
+poor size
+appropriate size
+inappropriate size
+
+## Effect Size Description
+large effect
+small effect
+moderate effect
+substantial effect
+minimal effect
+negligible effect
+important effect
+unimportant effect
+meaningful effect
+meaningless effect
+
+## Precision Description
+high precision
+low precision
+good precision
+poor precision
+adequate precision
+inadequate precision
+sufficient precision
+insufficient precision
+reasonable precision
+unreasonable precision
+
+## Design Quality
+good design
+poor design
+better design
+worse design
+reasonable design
+adequate design
+inadequate design
+satisfactory design
+unsatisfactory design
+acceptable design

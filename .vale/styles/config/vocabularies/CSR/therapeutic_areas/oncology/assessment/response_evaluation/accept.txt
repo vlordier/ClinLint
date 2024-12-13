@@ -1,0 +1,210 @@
+# Response Evaluation
+
+## Primary Response Categories
+# RECIST-aligned terminology
+complete response (CR)
+partial response (PR)
+stable disease (SD)
+progressive disease (PD)
+not evaluable (NE)
+
+## Response Measurements
+# Quantitative parameters
+response duration measurement
+response depth quantification
+response quality assessment
+response pattern analysis
+response kinetics evaluation
+response dynamics monitoring
+response magnitude calculation
+response sustainability assessment
+
+## Temporal Patterns
+# Time-based parameters
+time to response
+duration of response
+time to progression
+progression-free interval
+response maintenance period
+treatment-free interval
+disease-free period
+survival duration
+
+## Response Monitoring
+# Assessment methods
+imaging-based assessment
+biomarker-based evaluation
+clinical assessment
+functional evaluation
+quality of life assessment
+symptom-based monitoring
+performance status evaluation
+patient-reported outcomes
+# Response Evaluation
+
+## Primary Response Categories
+# RECIST-aligned terminology
+complete response (CR)
+partial response (PR)
+stable disease (SD)
+progressive disease (PD)
+not evaluable (NE)
+
+## Response Measurements
+# Quantitative parameters
+response duration measurement
+response depth quantification
+response quality assessment
+response pattern analysis
+response kinetics evaluation
+response dynamics monitoring
+response magnitude calculation
+response sustainability assessment
+
+## Temporal Patterns
+# Time-based parameters
+time to response
+duration of response
+time to progression
+progression-free interval
+response maintenance period
+treatment-free interval
+disease-free period
+survival duration
+
+## Response Monitoring
+# Assessment methods
+imaging-based assessment
+biomarker-based evaluation
+clinical assessment
+functional evaluation
+quality of life assessment
+symptom-based monitoring
+performance status evaluation
+patient-reported outcomes
+# Response Evaluation
+
+## Primary Response Categories
+# RECIST-aligned terminology
+complete response (CR)
+partial response (PR)
+stable disease (SD)
+progressive disease (PD)
+not evaluable (NE)
+
+## Response Measurements
+# Quantitative parameters
+response duration measurement
+response depth quantification
+response quality assessment
+response pattern analysis
+response kinetics evaluation
+response dynamics monitoring
+response magnitude calculation
+response sustainability assessment
+
+## Temporal Patterns
+# Time-based parameters
+time to response
+duration of response
+time to progression
+progression-free interval
+response maintenance period
+treatment-free interval
+disease-free period
+survival duration
+
+## Response Monitoring
+# Assessment methods
+imaging-based assessment
+biomarker-based evaluation
+clinical assessment
+functional evaluation
+quality of life assessment
+symptom-based monitoring
+performance status evaluation
+patient-reported outcomes
+# Response Evaluation
+
+## Primary Response Categories
+# RECIST-aligned terminology
+complete response (CR)
+partial response (PR)
+stable disease (SD)
+progressive disease (PD)
+not evaluable (NE)
+
+## Response Measurements
+# Quantitative parameters
+response duration measurement
+response depth quantification
+response quality assessment
+response pattern analysis
+response kinetics evaluation
+response dynamics monitoring
+response magnitude calculation
+response sustainability assessment
+
+## Temporal Patterns
+# Time-based parameters
+time to response
+duration of response
+time to progression
+progression-free interval
+response maintenance period
+treatment-free interval
+disease-free period
+survival duration
+
+## Response Monitoring
+# Assessment methods
+imaging-based assessment
+biomarker-based evaluation
+clinical assessment
+functional evaluation
+quality of life assessment
+symptom-based monitoring
+performance status evaluation
+patient-reported outcomes
+# Response Evaluation
+
+## Primary Response Categories
+# RECIST-aligned terminology
+complete response (CR)
+partial response (PR)
+stable disease (SD)
+progressive disease (PD)
+not evaluable (NE)
+
+## Response Measurements
+# Quantitative parameters
+response duration measurement
+response depth quantification
+response quality assessment
+response pattern analysis
+response kinetics evaluation
+response dynamics monitoring
+response magnitude calculation
+response sustainability assessment
+
+## Temporal Patterns
+# Time-based parameters
+time to response
+duration of response
+time to progression
+progression-free interval
+response maintenance period
+treatment-free interval
+disease-free period
+survival duration
+
+## Response Monitoring
+# Assessment methods
+imaging-based assessment
+biomarker-based evaluation
+clinical assessment
+functional evaluation
+quality of life assessment
+symptom-based monitoring
+performance status evaluation
+patient-reported outcomes

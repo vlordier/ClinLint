@@ -1,0 +1,35 @@
+extends: existence
+message: "Required protocol amendment element missing: %s"
+level: error
+tokens:
+  # Amendment Documentation
+  - amendment number with version
+  - implementation date with timeline
+  - approval status with signatures
+  - affected sections with changes
+  - rationale with justification
+  - impact assessment with analysis
+  - regulatory notification with dates
+  - ethics committee approval with dates
+  - investigator notification with acknowledgment
+  - patient re-consent with documentation
+  
+  # Change Categories
+  - safety-related changes with urgency
+  - efficacy-related modifications with rationale
+  - administrative updates with clarification
+  - procedural revisions with instructions
+  - schedule adjustments with windows
+  - criteria modifications with justification
+  - endpoint refinements with validation
+  - analysis updates with methodology
+  
+  # Implementation Elements
+  - version control with tracking
+  - document updates with revision marks
+  - training requirements with documentation
+  - communication plan with stakeholders
+  - monitoring adjustments with procedures
+  - data management impact with modifications
+  - statistical considerations with updates
+  - regulatory implications with assessment

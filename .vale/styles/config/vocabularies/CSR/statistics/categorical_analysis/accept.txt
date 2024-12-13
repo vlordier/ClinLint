@@ -1,0 +1,49 @@
+# Categorical Analysis Terminology
+
+## Contingency Tables
+frequency distribution
+cross-tabulation
+cell frequencies
+marginal totals
+expected frequencies
+observed frequencies
+row percentages
+column percentages
+total percentages
+standardized residuals
+
+## Association Measures
+chi-square statistic
+likelihood ratio
+odds ratio
+risk ratio
+relative risk
+Cramer's V
+phi coefficient
+gamma statistic
+Kendall's tau
+Somers' D
+
+## Logistic Models
+binary logistic
+multinomial logistic
+ordinal logistic
+conditional logistic
+nested logistic
+hierarchical logistic
+mixed logistic
+random effects logistic
+fixed effects logistic
+proportional odds
+
+## Model Diagnostics
+deviance residuals
+Pearson residuals
+influence measures
+leverage statistics
+Cook's distance
+standardized residuals
+classification table
+ROC curve
+calibration plot
+discrimination measures

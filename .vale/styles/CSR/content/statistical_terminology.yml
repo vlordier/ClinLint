@@ -1,0 +1,21 @@
+# Statistical terminology separate from validation rules
+extends: substitution
+message: "Use standard statistical term: '%s' instead of '%s'"
+level: error
+ignorecase: true
+
+terms:
+  # Basic statistics
+  average: mean
+  spread: standard deviation
+  relationship: correlation
+  
+  # Advanced statistics
+  prediction: regression
+  grouping: clustering
+  pattern: trend analysis
+  
+  # Study design
+  comparison: control group
+  assignment: randomization
+  blinding: masking

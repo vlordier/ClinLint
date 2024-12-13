@@ -1,0 +1,61 @@
+# Neurological Assessment
+
+## Cognitive Function
+attention span
+processing speed
+working memory
+executive function
+verbal fluency
+visual memory
+spatial cognition
+abstract reasoning
+problem solving
+decision making
+
+## Motor Function
+muscle strength
+muscle tone
+coordination
+balance
+gait pattern
+fine motor skills
+gross motor skills
+reflexes
+voluntary movement
+involuntary movement
+
+## Sensory Function
+tactile sensation
+pain perception
+temperature sense
+proprioception
+vibration sense
+visual acuity
+auditory function
+olfactory function
+gustatory function
+vestibular function
+
+## Autonomic Function
+heart rate variability
+blood pressure control
+temperature regulation
+sweating pattern
+pupillary response
+bladder function
+bowel function
+salivation
+gastric motility
+sexual function
+
+## Neurophysiological Parameters
+nerve conduction velocity
+amplitude potential
+latency period
+refractory period
+synaptic transmission
+neurotransmitter level
+receptor density
+ion channel function
+membrane potential
+action potential

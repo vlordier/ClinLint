@@ -1,0 +1,49 @@
+# Power Analysis Terminology
+
+## Sample Size Components
+effect size specification
+alpha level setting
+beta level setting
+power calculation
+sample size estimate
+allocation ratio
+dropout adjustment
+interim analysis
+sequential design
+adaptive design
+
+## Power Calculations
+power curve analysis
+power function
+operating characteristics
+type I error rate
+type II error rate
+minimal detectable effect
+clinically meaningful difference
+standardized effect size
+non-centrality parameter
+critical value
+
+## Design Considerations
+balanced design
+unbalanced design
+cluster adjustment
+multicenter effect
+stratification impact
+covariate adjustment
+repeated measures
+longitudinal design
+crossover effect
+parallel groups
+
+## Precision Planning
+confidence interval width
+margin of error
+precision requirement
+estimation accuracy
+parameter precision
+standard error target
+coefficient variation
+measurement precision
+sampling error
+estimation uncertainty

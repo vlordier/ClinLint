@@ -1,0 +1,61 @@
+# Molecular Assessment in Oncology
+
+## Genomic Analysis
+mutation profiling
+copy number variation
+chromosomal aberrations
+gene amplification
+gene deletion
+gene fusion
+structural variants
+microsatellite status
+tumor mutational burden
+clonal evolution
+
+## Transcriptomic Analysis
+gene expression profile
+RNA sequencing data
+splice variants
+fusion transcripts
+expression signatures
+pathway activation
+regulatory networks
+non-coding RNA
+alternative splicing
+transcript abundance
+
+## Proteomic Analysis
+protein expression
+post-translational modifications
+protein-protein interactions
+signaling pathways
+protein degradation
+protein localization
+protein complexes
+proteome dynamics
+protein stability
+protein function
+
+## Epigenetic Analysis
+DNA methylation
+histone modifications
+chromatin structure
+epigenetic signatures
+regulatory elements
+enhancer activity
+promoter status
+chromatin accessibility
+nucleosome positioning
+epigenetic inheritance
+
+## Metabolomic Analysis
+metabolic profiles
+metabolic pathways
+energy metabolism
+oxidative stress
+redox status
+metabolic flux
+substrate utilization
+metabolic adaptation
+metabolic reprogramming
+metabolic dependencies

@@ -1,0 +1,49 @@
+# Cluster Analysis Terminology
+
+## Clustering Methods
+hierarchical clustering
+partitional clustering
+density-based clustering
+model-based clustering
+grid-based clustering
+subspace clustering
+spectral clustering
+fuzzy clustering
+neural clustering
+evolutionary clustering
+
+## Distance Measures
+euclidean distance
+manhattan distance
+minkowski distance
+mahalanobis distance
+cosine similarity
+jaccard similarity
+hamming distance
+gower distance
+correlation distance
+categorical distance
+
+## Hierarchical Methods
+single linkage
+complete linkage
+average linkage
+centroid linkage
+ward's method
+median linkage
+weighted average linkage
+flexible beta method
+lance-williams algorithm
+cophenetic correlation
+
+## Validation Metrics
+silhouette coefficient
+dunn index
+davies-bouldin index
+calinski-harabasz index
+gap statistic
+adjusted rand index
+normalized mutual information
+fowlkes-mallows index
+jaccard index
+rand index

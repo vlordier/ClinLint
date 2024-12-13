@@ -1,0 +1,61 @@
+# Imprecise meta-analysis terminology
+
+## Effect Description
+strong effect
+weak effect
+moderate effect
+significant effect
+insignificant effect
+important effect
+unimportant effect
+meaningful effect
+negligible effect
+substantial effect
+
+## Heterogeneity Description
+high heterogeneity
+low heterogeneity
+moderate heterogeneity
+significant heterogeneity
+insignificant heterogeneity
+important heterogeneity
+unimportant heterogeneity
+meaningful heterogeneity
+negligible heterogeneity
+substantial heterogeneity
+
+## Bias Assessment
+high bias
+low bias
+moderate bias
+significant bias
+insignificant bias
+important bias
+unimportant bias
+meaningful bias
+negligible bias
+substantial bias
+
+## Model Performance
+good model
+poor model
+better model
+worse model
+reasonable model
+adequate model
+inadequate model
+satisfactory model
+unsatisfactory model
+acceptable model
+
+## Analysis Quality
+good analysis
+poor analysis
+better analysis
+worse analysis
+reasonable analysis
+adequate analysis
+inadequate analysis
+satisfactory analysis
+unsatisfactory analysis
+acceptable analysis

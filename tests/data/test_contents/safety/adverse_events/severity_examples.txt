@@ -1,6 +1,0 @@
-# Examples of severity grading
-Grade 1 neutropenia (1500/mm3 to <2000/mm3)
-Grade 2 anemia (Hgb 8.0-10.0 g/dL)
-Grade 3 thrombocytopenia (25,000-50,000/mm3)
-Grade 4 leukopenia (<1000/mm3)
-Grade 5 hepatic failure (death)

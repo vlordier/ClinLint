@@ -1,0 +1,61 @@
+# Imprecise Bayesian terminology
+
+## Prior Description
+strong prior
+weak prior
+vague prior
+diffuse prior
+flat prior
+reasonable prior
+unreasonable prior
+good prior
+bad prior
+appropriate prior
+
+## Posterior Description
+strong evidence
+weak evidence
+substantial evidence
+insufficient evidence
+convincing evidence
+unconvincing evidence
+good fit
+poor fit
+reasonable fit
+adequate fit
+
+## Computation Quality
+good convergence
+poor convergence
+adequate mixing
+inadequate mixing
+sufficient iterations
+insufficient iterations
+reasonable burnin
+unreasonable burnin
+stable chains
+unstable chains
+
+## Model Performance
+good performance
+poor performance
+better model
+worse model
+reasonable fit
+adequate fit
+satisfactory results
+unsatisfactory results
+acceptable accuracy
+unacceptable accuracy
+
+## Parameter Estimation
+good estimate
+poor estimate
+reasonable value
+unreasonable value
+accurate estimate
+inaccurate estimate
+precise estimate
+imprecise estimate
+reliable estimate
+unreliable estimate

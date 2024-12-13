@@ -1,0 +1,49 @@
+# Regression Analysis Terminology
+
+## Model Components
+coefficient estimates
+standard errors
+confidence limits
+prediction bounds
+tolerance intervals
+variance components
+random effects
+fixed effects
+interaction terms
+main effects
+
+## Diagnostic Measures
+residual analysis
+leverage points
+influential observations
+outlier detection
+collinearity assessment
+heteroscedasticity check
+normality testing
+autocorrelation test
+specification error
+model adequacy
+
+## Variable Selection Methods
+stepwise selection
+forward selection
+backward elimination
+best subset selection
+regularization method
+shrinkage estimation
+variable importance
+predictor screening
+feature selection
+model reduction
+
+## Model Assessment
+goodness-of-fit statistics
+residual plots
+normal probability plot
+partial regression plot
+added variable plot
+component plus residual
+influence diagnostics
+deletion diagnostics
+partial residual plot
+regression diagnostics

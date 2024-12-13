@@ -1,0 +1,343 @@
+# Imprecise monitoring terminology
+
+## Temporal Terms
+continuous monitoring
+intermittent monitoring
+periodic monitoring
+frequent monitoring
+infrequent monitoring
+regular monitoring
+irregular monitoring
+routine monitoring
+occasional monitoring
+sporadic monitoring
+
+## Quality Terms
+good monitoring
+poor monitoring
+adequate monitoring
+inadequate monitoring
+sufficient monitoring
+insufficient monitoring
+appropriate monitoring
+inappropriate monitoring
+effective monitoring
+ineffective monitoring
+
+## Pattern Terms
+normal pattern
+abnormal pattern
+regular pattern
+irregular pattern
+stable pattern
+unstable pattern
+consistent pattern
+inconsistent pattern
+typical pattern
+atypical pattern
+
+## Trend Terms
+improving trend
+worsening trend
+stable trend
+unstable trend
+positive trend
+negative trend
+favorable trend
+unfavorable trend
+expected trend
+unexpected trend
+# Imprecise monitoring terminology
+
+## Temporal Terms
+continuous monitoring
+intermittent monitoring
+periodic monitoring
+frequent monitoring
+infrequent monitoring
+regular monitoring
+irregular monitoring
+routine monitoring
+occasional monitoring
+sporadic monitoring
+
+## Quality Terms
+good monitoring
+poor monitoring
+adequate monitoring
+inadequate monitoring
+sufficient monitoring
+insufficient monitoring
+appropriate monitoring
+inappropriate monitoring
+effective monitoring
+ineffective monitoring
+
+## Pattern Terms
+normal pattern
+abnormal pattern
+regular pattern
+irregular pattern
+stable pattern
+unstable pattern
+consistent pattern
+inconsistent pattern
+typical pattern
+atypical pattern
+
+## Trend Terms
+improving trend
+worsening trend
+stable trend
+unstable trend
+positive trend
+negative trend
+favorable trend
+unfavorable trend
+expected trend
+unexpected trend
+# Imprecise monitoring terminology
+
+## Temporal Terms
+continuous monitoring
+intermittent monitoring
+periodic monitoring
+frequent monitoring
+infrequent monitoring
+regular monitoring
+irregular monitoring
+routine monitoring
+occasional monitoring
+sporadic monitoring
+
+## Quality Terms
+good monitoring
+poor monitoring
+adequate monitoring
+inadequate monitoring
+sufficient monitoring
+insufficient monitoring
+appropriate monitoring
+inappropriate monitoring
+effective monitoring
+ineffective monitoring
+
+## Pattern Terms
+normal pattern
+abnormal pattern
+regular pattern
+irregular pattern
+stable pattern
+unstable pattern
+consistent pattern
+inconsistent pattern
+typical pattern
+atypical pattern
+
+## Trend Terms
+improving trend
+worsening trend
+stable trend
+unstable trend
+positive trend
+negative trend
+favorable trend
+unfavorable trend
+expected trend
+unexpected trend
+# Imprecise monitoring terminology
+
+## Temporal Terms
+continuous monitoring
+intermittent monitoring
+periodic monitoring
+frequent monitoring
+infrequent monitoring
+regular monitoring
+irregular monitoring
+routine monitoring
+occasional monitoring
+sporadic monitoring
+
+## Quality Terms
+good monitoring
+poor monitoring
+adequate monitoring
+inadequate monitoring
+sufficient monitoring
+insufficient monitoring
+appropriate monitoring
+inappropriate monitoring
+effective monitoring
+ineffective monitoring
+
+## Pattern Terms
+normal pattern
+abnormal pattern
+regular pattern
+irregular pattern
+stable pattern
+unstable pattern
+consistent pattern
+inconsistent pattern
+typical pattern
+atypical pattern
+
+## Trend Terms
+improving trend
+worsening trend
+stable trend
+unstable trend
+positive trend
+negative trend
+favorable trend
+unfavorable trend
+expected trend
+unexpected trend
+# Imprecise monitoring terminology
+
+## Temporal Terms
+continuous monitoring
+intermittent monitoring
+periodic monitoring
+frequent monitoring
+infrequent monitoring
+regular monitoring
+irregular monitoring
+routine monitoring
+occasional monitoring
+sporadic monitoring
+
+## Quality Terms
+good monitoring
+poor monitoring
+adequate monitoring
+inadequate monitoring
+sufficient monitoring
+insufficient monitoring
+appropriate monitoring
+inappropriate monitoring
+effective monitoring
+ineffective monitoring
+
+## Pattern Terms
+normal pattern
+abnormal pattern
+regular pattern
+irregular pattern
+stable pattern
+unstable pattern
+consistent pattern
+inconsistent pattern
+typical pattern
+atypical pattern
+
+## Trend Terms
+improving trend
+worsening trend
+stable trend
+unstable trend
+positive trend
+negative trend
+favorable trend
+unfavorable trend
+expected trend
+unexpected trend
+# Imprecise monitoring terminology
+
+## Temporal Terms
+continuous monitoring
+intermittent monitoring
+periodic monitoring
+frequent monitoring
+infrequent monitoring
+regular monitoring
+irregular monitoring
+routine monitoring
+occasional monitoring
+sporadic monitoring
+
+## Quality Terms
+good monitoring
+poor monitoring
+adequate monitoring
+inadequate monitoring
+sufficient monitoring
+insufficient monitoring
+appropriate monitoring
+inappropriate monitoring
+effective monitoring
+ineffective monitoring
+
+## Pattern Terms
+normal pattern
+abnormal pattern
+regular pattern
+irregular pattern
+stable pattern
+unstable pattern
+consistent pattern
+inconsistent pattern
+typical pattern
+atypical pattern
+
+## Trend Terms
+improving trend
+worsening trend
+stable trend
+unstable trend
+positive trend
+negative trend
+favorable trend
+unfavorable trend
+expected trend
+unexpected trend
+# Imprecise monitoring terminology
+
+## Temporal Terms
+continuous monitoring
+intermittent monitoring
+periodic monitoring
+frequent monitoring
+infrequent monitoring
+regular monitoring
+irregular monitoring
+routine monitoring
+occasional monitoring
+sporadic monitoring
+
+## Quality Terms
+good monitoring
+poor monitoring
+adequate monitoring
+inadequate monitoring
+sufficient monitoring
+insufficient monitoring
+appropriate monitoring
+inappropriate monitoring
+effective monitoring
+ineffective monitoring
+
+## Pattern Terms
+normal pattern
+abnormal pattern
+regular pattern
+irregular pattern
+stable pattern
+unstable pattern
+consistent pattern
+inconsistent pattern
+typical pattern
+atypical pattern
+
+## Trend Terms
+improving trend
+worsening trend
+stable trend
+unstable trend
+positive trend
+negative trend
+favorable trend
+unfavorable trend
+expected trend
+unexpected trend

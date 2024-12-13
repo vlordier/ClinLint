@@ -1,0 +1,269 @@
+# Respiratory Assessment
+
+## Pulmonary Function
+# Static Lung Volumes and Capacities
+total lung capacity (TLC)
+vital capacity (VC)
+forced vital capacity (FVC)
+residual volume (RV)
+functional residual capacity (FRC)
+inspiratory capacity (IC)
+expiratory reserve volume (ERV)
+inspiratory reserve volume (IRV)
+tidal volume (TV)
+closing volume (CV)
+anatomic dead space (VD)
+alveolar volume (VA)
+thoracic gas volume (TGV)
+specific airway conductance (sGaw)
+airway resistance (Raw)
+
+## Advanced Pulmonary Mechanics
+# Pressure-Volume Relationships
+static compliance (Cst)
+dynamic compliance (Cdyn)
+specific compliance (sCst)
+elastic recoil pressure (Pel)
+transpulmonary pressure (Ptp)
+pleural pressure (Ppl)
+alveolar pressure (Palv)
+airway pressure (Paw)
+transmural pressure (Ptm)
+critical opening pressure (Pcrit)
+
+# Flow-Related Parameters
+peak inspiratory flow (PIF)
+peak expiratory flow (PEF)
+forced expiratory flow rates (FEF25-75%)
+maximal expiratory flow (MEF)
+maximal inspiratory flow (MIF)
+flow limitation index (FLI)
+expiratory flow reserve (EFR)
+inspiratory flow reserve (IFR)
+flow-volume loop characteristics
+flow-pressure relationships
+
+# Dynamic Lung Function
+forced vital capacity (FVC)
+forced expiratory volume in 1 second (FEV1)
+forced expiratory volume in 3 seconds (FEV3)
+forced expiratory volume in 6 seconds (FEV6)
+peak expiratory flow (PEF)
+maximal voluntary ventilation (MVV)
+forced inspiratory flow (FIF)
+mid-expiratory flow (MEF)
+end-expiratory flow (EEF)
+flow-volume loops
+time constants
+bronchodilator response
+FEV1/FVC ratio
+FEV3/FVC ratio
+FEV6/FVC ratio
+peak inspiratory flow rate (PIFR)
+forced expiratory time (FET)
+maximal mid-expiratory flow (MMEF)
+area under expiratory flow-volume curve (AEX)
+
+## Gas Exchange
+# Oxygenation Assessment
+arterial oxygen saturation (SaO2)
+partial pressure of arterial oxygen (PaO2)
+oxygen content (CaO2)
+oxygen delivery (DO2)
+oxygen extraction ratio (O2ER)
+oxygen consumption (VO2)
+oxygen utilization
+hemoglobin-oxygen affinity
+oxygen cascade analysis
+tissue oxygenation index
+diffusion capacity (DLCO)
+transfer factor (TL)
+membrane diffusing capacity (Dm)
+pulmonary capillary blood volume (Vc)
+alveolar-capillary membrane conductance
+oxygen diffusion gradient
+carbon monoxide transfer coefficient (KCO)
+diffusion-perfusion relationship
+gas transfer efficiency
+alveolar-capillary interface function
+
+# Ventilation Assessment
+partial pressure of arterial CO2 (PaCO2)
+minute ventilation (VE)
+alveolar ventilation (VA)
+dead space ventilation (VD/VT)
+ventilation-perfusion ratio (V/Q)
+alveolar-arterial oxygen gradient (A-a gradient)
+carbon dioxide elimination (VCO2)
+respiratory quotient (RQ)
+respiratory exchange ratio (RER)
+end-tidal carbon dioxide (ETCO2)
+physiological dead space
+anatomical dead space
+alveolar dead space
+wasted ventilation
+ventilatory efficiency
+ventilatory reserve
+breathing reserve index
+maximum voluntary ventilation
+ventilatory threshold
+breathing pattern variability
+work of breathing
+rapid shallow breathing index
+tobin index
+frequency-tidal volume ratio
+ventilatory drive
+central respiratory drive
+peripheral chemoreceptor response
+hypoxic ventilatory response
+hypercapnic ventilatory response
+
+## Airway Assessment
+# Structural Evaluation
+airway caliber measurement
+airway patency assessment
+bronchial anatomy visualization
+mucosal integrity evaluation
+cartilage structure assessment
+smooth muscle tone measurement
+vascular pattern analysis
+lymphatic drainage assessment
+innervation pattern mapping
+epithelial integrity evaluation
+
+# Functional Assessment
+bronchial hyperresponsiveness testing
+mucociliary clearance measurement
+bronchial tone assessment
+airway resistance measurement (Raw)
+secretion clearance evaluation
+cough peak flow measurement
+bronchial compliance testing
+airway protection assessment
+surfactant function analysis
+ciliary beat frequency measurement
+
+## Respiratory Mechanics
+# Muscle Function Assessment
+maximal inspiratory pressure (MIP)
+maximal expiratory pressure (MEP)
+diaphragmatic excursion
+intercostal muscle strength
+accessory muscle recruitment
+respiratory muscle endurance
+neuromuscular junction testing
+muscle coordination assessment
+fatigue resistance measurement
+recovery capacity evaluation
+
+# Chest Wall Assessment
+chest wall compliance measurement
+thoracic expansion assessment
+ribcage mobility testing
+abdominal excursion measurement
+breathing pattern analysis
+work of breathing calculation
+elastic recoil measurement
+respiratory effort assessment
+breathing efficiency evaluation
+mechanical coupling analysis
+
+## Advanced Assessment
+# Imaging Techniques
+high-resolution computed tomography (HRCT)
+ventilation/perfusion scanning (V/Q scan)
+chest radiography (CXR)
+magnetic resonance imaging (MRI)
+positron emission tomography (PET)
+ultrasound assessment
+bronchography
+dynamic imaging studies
+three-dimensional reconstruction
+quantitative CT analysis
+
+# Specialized Testing
+bronchial provocation testing
+cardiopulmonary exercise testing (CPET)
+hypoxic challenge testing
+methacholine challenge testing
+specific airway conductance (sGaw)
+forced oscillation technique (FOT)
+multiple breath washout (MBW)
+body plethysmography
+impulse oscillometry (IOS)
+negative expiratory pressure (NEP)
+
+## Respiratory Monitoring
+# Continuous Assessment
+continuous pulse oximetry
+volumetric capnography
+respiratory inductance plethysmography
+electrical impedance tomography
+airway pressure monitoring
+real-time flow measurement
+continuous volume tracking
+respiratory waveform analysis
+breathing synchrony assessment
+work of breathing monitoring
+
+# Intermittent Evaluation
+arterial blood gas analysis
+end-tidal gas monitoring
+transcutaneous gas measurement
+metabolic cart assessment
+respiratory pattern analysis
+breathing frequency measurement
+tidal volume trending
+minute ventilation calculation
+respiratory cycle analysis
+variability assessment
+
+## Inflammatory Assessment
+# Cellular and Molecular Analysis
+bronchoalveolar lavage (BAL)
+induced sputum analysis
+exhaled breath condensate analysis
+inflammatory cell profiling
+cytokine/chemokine measurement
+oxidative stress marker analysis
+proteomics assessment
+metabolomics analysis
+microbiome characterization
+immunological profiling
+
+# Tissue Response Evaluation
+mucosal inflammation grading
+vascular permeability assessment
+tissue remodeling markers
+extracellular matrix analysis
+inflammatory cell infiltration
+repair mechanism assessment
+fibrosis evaluation
+angiogenesis measurement
+epithelial adaptation analysis
+inflammatory resolution monitoring
+
+## Small Airways Assessment
+# Functional Evaluation
+small airway resistance
+closing volume measurement
+nitrogen washout slope
+frequency dependence of resistance
+peripheral airway conductance
+small airway compliance
+terminal bronchiole function
+acinar ventilation
+collateral ventilation
+small airway reactivity
+
+# Structural Assessment
+small airway wall thickness
+bronchiolar diameter
+terminal bronchiole anatomy
+acinar structure
+small airway remodeling
+peripheral airway inflammation
+bronchiolar mucosa
+small airway smooth muscle
+terminal air spaces
+respiratory bronchiole evaluation

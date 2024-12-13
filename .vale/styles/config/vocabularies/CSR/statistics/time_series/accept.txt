@@ -1,0 +1,147 @@
+# Time Series Analysis Terminology
+
+## Time Series Components
+trend component
+seasonal pattern
+cyclical variation
+random fluctuation
+level shift
+structural break
+intervention effect
+calendar effect
+trading day effect
+holiday effect
+
+## Analysis Methods
+decomposition method
+smoothing technique
+filtering approach
+spectral analysis
+wavelet analysis
+frequency domain
+time domain
+phase analysis
+coherence analysis
+periodogram analysis
+
+## Model Specification
+ARIMA order
+seasonal order
+integration order
+moving average
+autoregressive
+mixed model
+transfer function
+intervention model
+state space
+dynamic regression
+
+## Diagnostic Tools
+ACF plot
+PACF plot
+residual analysis
+spectral density
+periodogram plot
+coherence plot
+phase spectrum
+cross-correlation
+impulse response
+transfer function
+# Time Series Analysis Terminology
+
+## Time Series Components
+trend component
+seasonal pattern
+cyclical variation
+random fluctuation
+level shift
+structural break
+intervention effect
+calendar effect
+trading day effect
+holiday effect
+
+## Analysis Methods
+decomposition method
+smoothing technique
+filtering approach
+spectral analysis
+wavelet analysis
+frequency domain
+time domain
+phase analysis
+coherence analysis
+periodogram analysis
+
+## Model Specification
+ARIMA order
+seasonal order
+integration order
+moving average
+autoregressive
+mixed model
+transfer function
+intervention model
+state space
+dynamic regression
+
+## Diagnostic Tools
+ACF plot
+PACF plot
+residual analysis
+spectral density
+periodogram plot
+coherence plot
+phase spectrum
+cross-correlation
+impulse response
+transfer function
+# Time Series Analysis Terminology
+
+## Time Series Components
+trend component
+seasonal pattern
+cyclical variation
+random fluctuation
+level shift
+structural break
+intervention effect
+calendar effect
+trading day effect
+holiday effect
+
+## Analysis Methods
+decomposition method
+smoothing technique
+filtering approach
+spectral analysis
+wavelet analysis
+frequency domain
+time domain
+phase analysis
+coherence analysis
+periodogram analysis
+
+## Model Specification
+ARIMA order
+seasonal order
+integration order
+moving average
+autoregressive
+mixed model
+transfer function
+intervention model
+state space
+dynamic regression
+
+## Diagnostic Tools
+ACF plot
+PACF plot
+residual analysis
+spectral density
+periodogram plot
+coherence plot
+phase spectrum
+cross-correlation
+impulse response
+transfer function

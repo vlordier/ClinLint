@@ -1,0 +1,160 @@
+extends: existence
+message: "Statistical reporting requirement: %s"
+level: error
+
+imports:
+  - CSR.statistics.unified_validation
+
+rules:
+  # Effect measures
+  effect_measures:
+    pattern: '\b(?:difference|ratio|rate)\s*=\s*[-+]?\d+\.\d{2}\s*\(95%\s*CI'
+    message: "Effect measures must include point estimate and CI"
+
+  # Population characteristics  
+  population:
+    pattern: '\b(?:mean|median|SD|IQR)\s*=\s*[-+]?\d+\.\d{2}\b'
+    message: "Population parameters must be reported with precision"
+
+  # Analysis methods
+  methods:
+    pattern: '\b(?:adjusted|stratified|pooled)\s+analysis\b'
+    message: "Analysis method must be specified"
+
+  # Sample Size and Power
+  - \btype I error α=[0-9]\.[0-9]{3} \(two-sided\)\b
+  - \btype II error β=[0-9]\.[0-9]{2}, power=[0-9]{2}%\b
+  - \beffect size assumption with justification\b
+  - \bdropout rate with sensitivity analysis\b
+  - \bsample size re-estimation criteria\b
+  - \bconditional power calculations\b
+  - \bfutility boundaries with thresholds\b
+  - \binterim sample size adjustment rules\b
+
+  # Missing Data Handling
+  - \bmissing data pattern analysis required\b
+  - \bprimary imputation method specified\b
+  - \bsensitivity analyses with different mechanisms\b
+  - \btipping point analysis required\b
+  - \bpattern mixture models specified\b
+  - \bmultiple imputation with m=[0-9]+ datasets\b
+  - \bcontrol-based imputation methods\b
+  - \breference-based imputation approaches\b
+
+  # Subgroup Analyses
+  - \bpre-specified subgroups with rationale\b
+  - \binteraction tests with significance level\b
+  - \bforest plots with consistency assessment\b
+  - \bmultiplicity control for subgroups\b
+  - \btreatment effect heterogeneity tests\b
+  - \bsubgroup sample size considerations\b
+  - \bpredictive/prognostic factor analyses\b
+  - \bstratification factor analyses\b
+
+  # Model Validation
+  - \bmodel assumptions verification required\b
+  - \bdiagnostic plots specification\b
+  - \bgoodness-of-fit measures required\b
+  - \bresidual analysis methodology\b
+  - \binfluential observation assessment\b
+  - \bcross-validation procedures\b
+  - \bbootstrap validation methods\b
+  - \bexternal validation approach\b
+
+  # Estimand Framework
+  - \bintercurrent event strategies specified\b
+  - \bestimand attributes fully defined\b
+  - \bsensitivity analyses for ICE handling\b
+  - \bprincipal stratum definition\b
+  - \bhypothetical strategies detailed\b
+  - \btreatment policy approach specified\b
+  - \bcomposite strategy definition\b
+  - \bwhile on treatment analysis scope\b
+  - \bSD\b
+  - \bstandard error\b
+  - \bSE\b
+  - \bmedian\b
+  - \bIQR\b
+  - \brange\b
+  - \bgeometric mean\b
+  - \bcoefficient of variation\b
+  - \bCV%\b
+  - \bquartiles\b
+  - \bpercentiles\b
+  
+  # Effect Size Measures
+  - \bodds ratio\b
+  - \brisk ratio\b
+  - \bhazard ratio\b
+  - \brisk difference\b
+  - \brate ratio\b
+  - \brate difference\b
+  - \brelative risk\b
+  - \brelative risk reduction\b
+  - \babsolute risk reduction\b
+  - \bnumber needed to treat\b
+  - \bNNT\b
+  
+  # Model Parameters
+  - \bregression coefficient\b
+  - \bparameter estimate\b
+  - \bstandard error of estimate\b
+  - \bdegrees of freedom\b
+  - \bdf\b
+  - \badjusted R-squared\b
+  - \bAIC\b
+  - \bBIC\b
+  - \blikelihood ratio\b
+  - \bWald statistic\b
+  
+  # Distribution Properties
+  - \bnormality test\b
+  - \bhomogeneity test\b
+  - \bvariance components\b
+  - \bintra-class correlation\b
+  - \bICC\b
+  - \bKappa statistic\b
+  
+  # Missing Data
+  - \bmissing data pattern\b
+  - \bimputation method\b
+  - \bsensitivity analysis\b
+  - \btipping point analysis\b
+  
+  # Multiplicity
+  - \bmultiplicity adjustment\b
+  - \bBonferroni correction\b
+  - \bHochberg procedure\b
+  - \bHolm procedure\b
+  - \bDunnett's test\b
+  - \bTukey's test\b
+  
+  # Time-to-Event
+  - \bKaplan-Meier estimate\b
+  - \bmedian survival time\b
+  - \bhazard function\b
+  - \bcumulative hazard\b
+  - \bcensoring rate\b
+  
+  # Repeated Measures
+  - \bcovariance structure\b
+  - \bcompound symmetry\b
+  - \bautoregressive\b
+  - \bunstructured\b
+  - \bkenward-roger approximation\b
+  
+  # Categorical Analysis
+  - \bcontingency table\b
+  - \bChi-square test\b
+  - \bFisher's exact test\b
+  - \bMcNemar's test\b
+  - \bCochran-Mantel-Haenszel\b
+  
+  # Continuous Analysis
+  - \bt-test\b
+  - \bWilcoxon test\b
+  - \bMann-Whitney test\b
+  - \bANOVA\b
+  - \bANCOVA\b
+  - \bKruskal-Wallis test\b
+  - \bFriedman test\b

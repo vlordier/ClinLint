@@ -1,0 +1,61 @@
+# Cardiovascular Assessment
+
+## Cardiac Function Parameters
+cardiac output
+stroke volume
+ejection fraction
+fractional shortening
+cardiac index
+systolic function
+diastolic function
+contractility
+relaxation
+compliance
+
+## Hemodynamic Measurements
+systolic pressure
+diastolic pressure
+mean arterial pressure
+pulse pressure
+central venous pressure
+pulmonary pressure
+wedge pressure
+vascular resistance
+blood flow velocity
+perfusion pressure
+
+## Electrical Activity
+conduction velocity
+action potential
+refractory period
+automaticity
+conductivity
+excitability
+threshold potential
+depolarization
+repolarization
+propagation
+
+## Structural Assessment
+chamber dimensions
+wall thickness
+valve morphology
+coronary anatomy
+great vessel anatomy
+pericardial space
+myocardial mass
+vessel caliber
+collateral formation
+vascular remodeling
+
+## Functional Reserve
+contractile reserve
+flow reserve
+pressure reserve
+metabolic reserve
+oxygen reserve
+compensatory capacity
+functional capacity
+exercise tolerance
+stress response
+recovery dynamics

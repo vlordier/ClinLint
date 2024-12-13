@@ -1,45 +1,55 @@
-# Imprecise operational terms
-study conduct
-study execution
-study performance
-study management
-trial conduct
-trial execution
-trial performance
-trial management
-site management
-patient management
-data management
-sample management
-protocol management
-deviation management
-compliance management
-safety management
-quality management
-vendor management
+# Use specific operational terms instead of:
+study conduct/execution/performance
+trial conduct/execution/performance
+operational conduct/execution/performance
+clinical conduct/execution/performance
 
-# Imprecise timeline terms
-study timeline
-study schedule
-study calendar
-trial timeline
-trial schedule
-trial calendar
-patient timeline
-patient schedule
-patient calendar
-visit timeline
-visit schedule
-visit calendar
+# Use specific management terms instead of:
+site management/oversight
+patient management/oversight
+data management/oversight
+sample management/oversight
+protocol management/oversight
+deviation management/oversight
+compliance management/oversight
+safety management/oversight
+quality management/oversight
+vendor management/oversight
 
-# Imprecise process terms
-study procedures
-trial procedures
-clinical procedures
-operational procedures
-management procedures
-handling procedures
-processing procedures
-testing procedures
-analytical procedures
-laboratory procedures
+# Use specific timeline/schedule terms instead of:
+study timeline/schedule/calendar
+trial timeline/schedule/calendar
+patient timeline/schedule/calendar
+visit timeline/schedule/calendar
+procedure timeline/schedule/calendar
+assessment timeline/schedule/calendar
+
+# Use specific procedural terms instead of:
+study procedures (unspecified)
+trial procedures (unspecified)
+clinical procedures (unspecified)
+operational procedures (unspecified)
+management procedures (unspecified)
+handling procedures (unspecified)
+processing procedures (unspecified)
+testing procedures (unspecified)
+analytical procedures (unspecified)
+laboratory procedures (unspecified)
+
+# Use specific monitoring terms instead of:
+study monitoring (unspecified)
+trial monitoring (unspecified)
+site monitoring (unspecified)
+patient monitoring (unspecified)
+data monitoring (unspecified)
+safety monitoring (unspecified)
+quality monitoring (unspecified)
+compliance monitoring (unspecified)
+
+# Use specific documentation terms instead of:
+study documentation (unspecified)
+trial documentation (unspecified)
+site documentation (unspecified)
+patient documentation (unspecified)
+procedural documentation (unspecified)
+operational documentation (unspecified)

@@ -1,0 +1,61 @@
+# Imprecise categorical terminology
+
+## Association Description
+strong association
+weak association
+moderate association
+significant association
+insignificant association
+important association
+unimportant association
+meaningful association
+negligible association
+substantial association
+
+## Model Description
+good model
+poor model
+better model
+worse model
+reasonable model
+adequate model
+inadequate model
+satisfactory model
+unsatisfactory model
+acceptable model
+
+## Fit Quality
+good fit
+poor fit
+better fit
+worse fit
+reasonable fit
+adequate fit
+inadequate fit
+satisfactory fit
+unsatisfactory fit
+acceptable fit
+
+## Performance Assessment
+good performance
+poor performance
+better performance
+worse performance
+reasonable performance
+adequate performance
+inadequate performance
+satisfactory performance
+unsatisfactory performance
+acceptable performance
+
+## Classification Quality
+good classification
+poor classification
+better classification
+worse classification
+reasonable classification
+adequate classification
+inadequate classification
+satisfactory classification
+unsatisfactory classification
+acceptable classification

@@ -1,0 +1,151 @@
+# Structural Equation Modeling (SEM) Terminology
+
+## Model Specification
+# Path Components
+direct effects
+indirect effects
+total effects
+mediation paths
+moderation effects
+recursive paths
+non-recursive paths
+feedback loops
+correlated errors
+residual correlations
+
+# Variable Types
+observed variables
+latent variables
+exogenous variables
+endogenous variables
+mediating variables
+moderating variables
+composite variables
+formative indicators
+reflective indicators
+disturbance terms
+
+## Estimation Methods
+# Basic Methods
+maximum likelihood
+generalized least squares
+weighted least squares
+unweighted least squares
+asymptotic distribution free
+robust maximum likelihood
+full information maximum likelihood
+limited information maximum likelihood
+two-stage least squares
+three-stage least squares
+
+# Advanced Estimation
+bayesian estimation
+markov chain monte carlo
+gibbs sampling
+metropolis-hastings
+hamiltonian monte carlo
+variational bayes
+stochastic approximation
+expectation-maximization
+quasi-maximum likelihood
+simulated maximum likelihood
+
+## Model Assessment
+# Fit Indices
+chi-square test
+root mean square error
+standardized root mean residual
+comparative fit index
+tucker-lewis index
+normed fit index
+non-normed fit index
+parsimony normed fit
+relative fit index
+incremental fit index
+
+# Modification Indices
+lagrange multiplier tests
+wald tests
+modification indices
+expected parameter change
+standardized residuals
+normalized residuals
+modification potential
+parameter constraints
+model restrictions
+specification searches
+
+## Advanced Topics
+# Multiple Groups
+measurement invariance
+configural invariance
+metric invariance
+scalar invariance
+strict invariance
+partial invariance
+group comparisons
+multi-group analysis
+cross-group equality
+group differences
+
+# Longitudinal Models
+latent growth curves
+latent change scores
+autoregressive models
+cross-lagged panel
+latent state-trait
+growth mixture models
+parallel process models
+piecewise growth
+time-varying covariates
+dynamic factor analysis
+
+## Special Applications
+# Mixture Models
+latent class analysis
+growth mixture models
+factor mixture models
+regime-switching models
+finite mixture models
+hidden markov models
+discrete latent variables
+continuous latent variables
+hybrid mixture models
+multilevel mixture models
+
+# Multilevel Models
+hierarchical linear models
+random coefficient models
+mixed effects models
+nested data structures
+cross-classified models
+multiple membership models
+contextual effects
+compositional effects
+random slopes
+random intercepts
+
+## Technical Details
+# Identification
+model identification
+parameter identification
+empirical identification
+local identification
+global identification
+order condition
+rank condition
+scaling constraints
+reference indicators
+identification rules
+
+# Missing Data
+missing completely at random
+missing at random
+missing not at random
+full information methods
+multiple imputation
+pairwise deletion
+listwise deletion
+pattern-mixture models
+selection models
+auxiliary variables

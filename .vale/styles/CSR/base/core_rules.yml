@@ -1,0 +1,52 @@
+# Core validation rules for CSR documents
+extends: existence
+message: "Core validation rule: %s"
+level: error
+
+# Base patterns that all rules inherit
+patterns:
+  # Statistical patterns
+  number: '\b\d+\.?\d*\b'
+  pvalue: '\bp\s*[<=>]\s*0\.\d{3}\b'
+  ci: '\b95%\s*CI[:\s]+\d+\.?\d*\s*[-–]\s*\d+\.?\d*\b'
+  effectSize: '\b(?:Cohen''s d|Hedges'' g|Glass'' Δ)\s*=\s*[-+]?\d+\.\d{2}\b'
+  
+  # Document structure
+  section: '^[1-9]\.\d*\s+[A-Z]'
+  reference: '(?:Table|Figure|Section)\s+\d+'
+  heading: '^#{1,6}\s+.+'
+
+# Core scopes
+scopes:
+  text: true
+  heading: true
+  list: true
+  table: true
+  code: false
+
+# Common exceptions
+exceptions:
+  - "N/A"
+  - "TBD"
+  - "pending"
+  - "not applicable"
+  - "not available"
+  - "to be determined"
+
+# Base validation rules
+rules:
+  structure:
+    pattern: ${section_header}
+    message: "Invalid section structure"
+    
+  cross_reference:
+    pattern: ${table_ref}|${figure_ref}
+    message: "Invalid cross-reference format"
+    
+  statistical:
+    pattern: ${pvalue}.*${ci}
+    message: "Incomplete statistical reporting"
+    
+  numerical:
+    pattern: ${number}
+    message: "Invalid number format"

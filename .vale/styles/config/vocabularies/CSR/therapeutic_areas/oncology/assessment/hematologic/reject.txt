@@ -1,0 +1,61 @@
+# Imprecise hematologic assessment terminology
+
+## Disease Description
+good prognosis
+poor prognosis
+better outcome
+worse outcome
+favorable status
+unfavorable status
+positive response
+negative response
+improved condition
+deteriorated condition
+
+## Burden Description
+high burden
+low burden
+increased burden
+decreased burden
+substantial burden
+minimal burden
+significant burden
+insignificant burden
+marked burden
+negligible burden
+
+## Progression Description
+rapid progression
+slow progression
+fast progression
+gradual progression
+quick progression
+delayed progression
+accelerated progression
+decelerated progression
+early progression
+late progression
+
+## Response Description
+good response
+poor response
+better response
+worse response
+reasonable response
+adequate response
+inadequate response
+satisfactory response
+unsatisfactory response
+acceptable response
+
+## Outcome Description
+good outcome
+poor outcome
+better outcome
+worse outcome
+reasonable outcome
+adequate outcome
+inadequate outcome
+satisfactory outcome
+unsatisfactory outcome
+acceptable outcome

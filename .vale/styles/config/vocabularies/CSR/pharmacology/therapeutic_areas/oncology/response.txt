@@ -1,0 +1,51 @@
+# Treatment Response Assessment
+
+## Response Categories
+complete response
+partial response
+stable disease
+progressive disease
+mixed response
+initial response
+delayed response
+durable response
+
+## Response Measurements
+response duration
+response depth
+response quality
+response pattern
+response kinetics
+response dynamics
+response magnitude
+response sustainability
+
+## Clinical Outcomes
+clinical outcome
+treatment outcome
+therapeutic outcome
+survival outcome
+progression outcome
+toxicity outcome
+functional outcome
+quality of life outcome
+
+## Response Monitoring
+response assessment
+response evaluation
+response measurement
+response tracking
+response documentation
+response verification
+response confirmation
+response validation
+
+## Biomarker Response
+molecular response
+biochemical response
+metabolic response
+immunologic response
+serologic response
+cellular response
+genetic response
+epigenetic response

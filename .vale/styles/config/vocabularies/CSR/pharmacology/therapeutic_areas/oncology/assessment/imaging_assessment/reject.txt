@@ -1,0 +1,98 @@
+# Imprecise imaging assessment terminology
+
+## Imaging Description
+good imaging
+poor imaging
+better imaging
+worse imaging
+reasonable imaging
+adequate imaging
+inadequate imaging
+satisfactory imaging
+unsatisfactory imaging
+acceptable imaging
+
+## Analysis Description
+good analysis
+poor analysis
+better analysis
+worse analysis
+reasonable analysis
+adequate analysis
+inadequate analysis
+satisfactory analysis
+unsatisfactory analysis
+acceptable analysis
+
+## Technique Description
+advanced technique
+basic technique
+complex technique
+simple technique
+innovative technique
+traditional technique
+modern technique
+outdated technique
+effective technique
+ineffective technique
+
+## Feature Description
+strong feature
+weak feature
+prominent feature
+subtle feature
+distinct feature
+vague feature
+clear feature
+unclear feature
+important feature
+unimportant feature
+# Imprecise imaging assessment terminology
+
+## Imaging Description
+good imaging
+poor imaging
+better imaging
+worse imaging
+reasonable imaging
+adequate imaging
+inadequate imaging
+satisfactory imaging
+unsatisfactory imaging
+acceptable imaging
+
+## Analysis Description
+good analysis
+poor analysis
+better analysis
+worse analysis
+reasonable analysis
+adequate analysis
+inadequate analysis
+satisfactory analysis
+unsatisfactory analysis
+acceptable analysis
+
+## Technique Description
+advanced technique
+basic technique
+complex technique
+simple technique
+innovative technique
+traditional technique
+modern technique
+outdated technique
+effective technique
+ineffective technique
+
+## Feature Description
+strong feature
+weak feature
+prominent feature
+subtle feature
+distinct feature
+vague feature
+clear feature
+unclear feature
+important feature
+unimportant feature

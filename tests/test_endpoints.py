@@ -106,7 +106,7 @@ def test_rule_file(tmp_path):
     # Create the CSR directory structure
     styles_path = tmp_path / ".vale" / "styles" / "CSR"
     styles_path.mkdir(parents=True, exist_ok=True)
-    
+
     # Create initial test rule
     rule_content = {
         "message": "Test message",
@@ -117,7 +117,7 @@ def test_rule_file(tmp_path):
     rule_file = styles_path / "test_rule.yml"
     with open(rule_file, "w") as f:
         yaml.safe_dump(rule_content, f)
-    
+
     # Create initial test rule
     rule_content = {
         "message": "Test message",
@@ -141,9 +141,9 @@ def test_rule_file(tmp_path):
 
     # Override the Config dependency
     app.dependency_overrides[Config] = TestConfig
-    
+
     yield rule_file
-    
+
     # Cleanup
     app.dependency_overrides.clear()
 

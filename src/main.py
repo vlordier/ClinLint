@@ -6,7 +6,8 @@ from pathlib import Path
 from typing import Literal, Optional, Union
 
 import yaml
-from fastapi import Body, FastAPI, HTTPException, Path as PathParam, Query, status
+from fastapi import Body, FastAPI, HTTPException, Query, status
+from fastapi import Path as PathParam
 from pydantic import BaseModel, Field
 
 from services.config_loader import ConfigLoader
@@ -419,9 +420,7 @@ async def get_rule_metadata(
     """Get metadata for a specific rule."""
     try:
         rule_path = (
-            Path(config.config.vale.styles_path)
-            / package_name
-            / f"{rule_name}.yml"
+            Path(config.config.vale.styles_path) / package_name / f"{rule_name}.yml"
         )
 
         if not rule_path.exists():
@@ -455,9 +454,7 @@ async def get_rule_history(
     """Get version history for a specific rule."""
     try:
         rule_path = (
-            Path(config.config.vale.styles_path)
-            / package_name
-            / f"{rule_name}.yml"
+            Path(config.config.vale.styles_path) / package_name / f"{rule_name}.yml"
         )
 
         if not rule_path.exists():
@@ -489,9 +486,7 @@ async def update_rule_tags(
         config_loader = ConfigLoader(config.config_path)
         vale_config = config_loader.get_vale_config()
         rule_path = (
-            Path(config.config.vale.styles_path)
-            / package_name
-            / f"{rule_name}.yml"
+            Path(config.config.vale.styles_path) / package_name / f"{rule_name}.yml"
         )
 
         # Create parent directories if they don't exist
@@ -623,9 +618,7 @@ async def update_rule(
     """Update an existing Vale rule."""
     try:
         rule_path = (
-            Path(config.config.vale.styles_path)
-            / package_name
-            / f"{rule_name}.yml"
+            Path(config.config.vale.styles_path) / package_name / f"{rule_name}.yml"
         )
 
         # Create parent directories if they don't exist
@@ -663,7 +656,9 @@ async def update_rule(
 async def update_vocabulary(
     terms: list[str],
     category: str = PathParam(..., description="Category name"),
-    vocab_type: Literal["accept", "reject"] = PathParam(..., description="Vocabulary type"),
+    vocab_type: Literal["accept", "reject"] = PathParam(
+        ..., description="Vocabulary type"
+    ),
 ) -> dict:
     """Update vocabulary terms for a category.
 

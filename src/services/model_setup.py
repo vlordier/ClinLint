@@ -29,7 +29,7 @@ class ModelSetup:
             logger.info(f"Initialized ModelSetup with provider: {self.provider}")
         except Exception as e:
             logger.error(f"Failed to initialize ModelSetup: {e}")
-            raise ConfigurationError(f"Model setup initialization failed: {e}")
+            raise ConfigurationError(f"Model setup initialization failed: {e}") from e
 
     def get_model(self) -> ChatOpenAI:
         """Returns an LLM instance based on the configuration.
@@ -51,7 +51,9 @@ class ModelSetup:
                 )
             except Exception as e:
                 logger.error(f"Failed to initialize OpenAI model: {e}")
-                raise ConfigurationError(f"OpenAI model initialization failed: {e}")
+                raise ConfigurationError(
+                    f"OpenAI model initialization failed: {e}"
+                ) from e
         else:
             raise ConfigurationError(f"Unsupported model provider: {self.provider}")
 

@@ -5,7 +5,7 @@ from threading import Lock
 
 from services.custom_types import SuggestionResult
 from services.llm_judge import LLMJudge
-from services.suggestion_chain import SuggestionChain
+from services.suggestion_chain import ChainConfig, SuggestionChain
 
 
 class BatchProcessor:
@@ -26,17 +26,26 @@ class BatchProcessor:
         self._lock = Lock()
 
     def process_batch(
-        self, texts: list[str], llm_template: str
+        self, texts: list[str], config: ChainConfig
     ) -> list[SuggestionResult]:
         """Processes a batch of texts and generates suggestions.
 
         Args:
             texts (list): List of input texts.
-            llm_template (str): LLM prompt template for suggestions.
+            config (ChainConfig): Configuration for analysis.
 
         Returns:
             list: Results for each text.
+
+        Raises:
+            ValueError: If texts is None or not a list
         """
+        if texts is None or not isinstance(texts, list):
+            raise ValueError("texts must be a non-None list")
+
+        if config is None:
+            raise TypeError("config cannot be None")
+
         results = []
 
         def process_single(text: str) -> SuggestionResult:
@@ -49,7 +58,7 @@ class BatchProcessor:
                 SuggestionResult: Suggestions for the input text.
             """
             suggestion_chain = SuggestionChain(self.vale_config, self.llm_judge)
-            return suggestion_chain.generate_suggestions(text, llm_template)
+            return suggestion_chain.generate_suggestions(text, config=config)
 
         with ThreadPoolExecutor() as executor:
             results = list(executor.map(process_single, texts))

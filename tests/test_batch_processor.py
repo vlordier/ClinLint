@@ -1,35 +1,92 @@
+import pytest
 from services.batch_processor import BatchProcessor
-from services.suggestion_chain import ChainConfig
+from services.suggestion_chain import AnalysisMode, ChainConfig
 
-
-def test_batch_processor(mocker):
-    from services.llm_judge import LLMJudge
-
-    mock_config_loader = mocker.MagicMock()
-    mock_config_loader.get_llm_config.return_value = {
-        "openai": {
-            "api_key": "test-key",
-            "model": "gpt-3.5-turbo",
-            "temperature": 0.7,
-            "max_tokens": 500
-        }
-    }
-
-    class MockLLMJudge(LLMJudge):
-        def __init__(self, version="v1", config_loader=None):
-            self.version = version
-            self.config_loader = config_loader
-
-        def get_feedback(self, prompt_template, **kwargs):
-            return {"feedback": "Replace 'significant' with a specific term."}
-
-    mock_llm_judge = MockLLMJudge(version="v1", config_loader=mock_config_loader)
-    texts = ["Text 1", "Text 2"]
+@pytest.mark.parametrize("texts, expected_count", [
+    (["Text 1", "Text 2"], 2),
+    (["Single text"], 1),
+    ([], 0)
+])
+def test_batch_processor_basic(mock_llm_judge, texts, expected_count):
+    """Test basic batch processing with different input sizes."""
     batch_processor = BatchProcessor("config/rules/final-template.ini", mock_llm_judge)
-
     results = batch_processor.process_batch(texts, ChainConfig(
-        mode="llm_only",
+        mode=AnalysisMode.LLM_ONLY,
         vale_rules=[],
         llm_templates=["improvement_prompt"]
     ))
+
     assert results is not None
+    assert len(results) == expected_count
+
+    if results:
+        for result in results:
+            assert "llm" in result
+            assert isinstance(result["llm"]["feedback"], (str, dict, list))
+            if isinstance(result["llm"]["feedback"], list):
+                assert all(isinstance(item, (str, dict)) for item in result["llm"]["feedback"])
+
+@pytest.mark.parametrize("mode", [
+    AnalysisMode.VALE_ONLY,
+    AnalysisMode.LLM_ONLY,
+    AnalysisMode.COMBINED
+])
+def test_batch_processor_modes(mock_llm_judge, sample_texts, mode):
+    """Test batch processing with different analysis modes."""
+    batch_processor = BatchProcessor("config/rules/final-template.ini", mock_llm_judge)
+    results = batch_processor.process_batch(sample_texts[:2], ChainConfig(
+        mode=mode,
+        vale_rules=["CSR.Precision", "CSR.Terminology"],
+        llm_templates=["improvement_prompt"]
+    ))
+
+    assert len(results) == 2
+    for result in results:
+        if mode in [AnalysisMode.VALE_ONLY, AnalysisMode.COMBINED]:
+            assert "vale" in result
+        if mode in [AnalysisMode.LLM_ONLY, AnalysisMode.COMBINED]:
+            assert "llm" in result
+
+def test_batch_processor_error_handling(mock_llm_judge):
+    """Test batch processor error handling."""
+    batch_processor = BatchProcessor("config/rules/final-template.ini", mock_llm_judge)
+
+    # Test with invalid input
+    with pytest.raises(ValueError):
+        batch_processor.process_batch(None, ChainConfig(
+            mode=AnalysisMode.LLM_ONLY,
+            llm_templates=["improvement_prompt"]
+        ))
+
+    # Test with invalid config
+    with pytest.raises(TypeError):
+        batch_processor.process_batch(["text"], None)
+
+def test_batch_processor_concurrent_execution(mock_llm_judge, sample_texts):
+    """Test concurrent execution of batch processing."""
+    batch_processor = BatchProcessor("config/rules/final-template.ini", mock_llm_judge)
+
+    # Process a larger batch to test concurrency
+    results = batch_processor.process_batch(sample_texts, ChainConfig(
+        mode=AnalysisMode.COMBINED,
+        vale_rules=["CSR.Precision"],
+        llm_templates=["improvement_prompt"]
+    ))
+
+    assert len(results) == len(sample_texts)
+    assert all("vale" in r and "llm" in r for r in results)
+
+def test_batch_processor_empty_rules(mock_llm_judge, sample_texts):
+    """Test batch processing with empty rule sets."""
+    batch_processor = BatchProcessor("config/rules/final-template.ini", mock_llm_judge)
+
+    results = batch_processor.process_batch(sample_texts[:2], ChainConfig(
+        mode=AnalysisMode.COMBINED,
+        vale_rules=[],
+        llm_templates=[]
+    ))
+
+    assert len(results) == 2
+    for result in results:
+        assert "vale" in result
+        assert "llm" in result

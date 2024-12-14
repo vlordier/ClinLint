@@ -3,7 +3,6 @@
 import json
 import logging
 import os
-from functools import lru_cache
 from pathlib import Path
 from typing import Optional
 
@@ -36,7 +35,6 @@ class Config:
         self._config: Optional[AppConfig] = None
         self._load_config()
 
-    @lru_cache
     def _load_config(self) -> None:
         """Load and validate configuration from file.
 
@@ -65,11 +63,11 @@ class Config:
             logger.info("Configuration loaded successfully")
 
         except json.JSONDecodeError as e:
-            raise ConfigurationError(f"Invalid JSON in config file: {e}")
+            raise ConfigurationError(f"Invalid JSON in config file: {e}") from e
         except ValidationError as e:
-            raise ConfigurationError(f"Invalid configuration: {e}")
+            raise ConfigurationError(f"Invalid configuration: {e}") from e
         except Exception as e:
-            raise ConfigurationError(f"Error loading configuration: {e}")
+            raise ConfigurationError(f"Error loading configuration: {e}") from e
 
     @property
     def config(self) -> AppConfig:

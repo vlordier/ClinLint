@@ -8,8 +8,18 @@ from services.vale_runner import run_vale_on_text
 
 
 @pytest.mark.parametrize("text, expected_output", [
-    ("The patient showed improvement.", {"stdin.md": [{"Line": 1, "Message": "Use 'subject' instead of 'patient'", "Rule": "CSR.Terminology", "Severity": "error"}]}),
-    ("The results were significant.", {"stdin.md": [{"Line": 1, "Message": "Avoid vague terms like 'significant'.", "Rule": "CSR.Vagueness", "Severity": "error"}]})
+    (
+        "The patient showed improvement.",
+        {"stdin.md": [{"Line": 1, "Message": "Use 'subject' instead of 'patient'", "Rule": "CSR.Terminology", "Severity": "error"}]}
+    ),
+    (
+        "The results were significant.",
+        {"stdin.md": [{"Line": 1, "Message": "Avoid vague terms like 'significant'.", "Rule": "CSR.Vagueness", "Severity": "error"}]}
+    ),
+    (
+        "Approximately 50% of subjects responded.",
+        {"stdin.md": [{"Line": 1, "Message": "Use exact percentage.", "Rule": "CSR.Precision", "Severity": "warning"}]}
+    )
 ])
 def test_run_vale_success(mocker, text, expected_output):
     expected_output = {

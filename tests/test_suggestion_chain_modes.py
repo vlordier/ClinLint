@@ -5,15 +5,29 @@ from services.suggestion_chain import AnalysisMode, ChainConfig, SuggestionChain
 
 @pytest.fixture
 def mock_llm_judge(mocker) -> object:
+    """Create a mock LLMJudge for testing.
+
+    Returns context-aware responses based on the prompt template and input text.
+    """
     from services.llm_judge import LLMJudge
 
     class MockLLMJudge(LLMJudge):
         def get_feedback(self, prompt_template, **kwargs) -> dict:
+            text = kwargs.get('text', '').lower()
             if "generic_prompt" in prompt_template:
+                if "significant" in text:
+                    return {"feedback": ["Replace 'significant' with specific metrics"]}
                 return {"feedback": ["Improve clarity and precision"]}
             elif "improvement_prompt" in prompt_template:
+                if "approximately" in text:
+                    return {"feedback": ["State exact percentage"]}
                 return {"feedback": ["Replace vague terms with specific metrics"]}
+            elif "csr_section_prompt" in prompt_template:
+                if "statistical" in kwargs.get('section_name', ''):
+                    return {"feedback": ["Include p-value interpretation"]}
+                return {"feedback": ["Default section feedback"]}
             return {"feedback": ["Default feedback"]}
+
     mock_config_loader = mocker.MagicMock()
     mock_config_loader.get_llm_config.return_value = {
         "openai": {

@@ -1,24 +1,45 @@
 import json
 import logging
 import subprocess
+from pathlib import Path
+from typing import Optional
 
 from services.exceptions import AnalysisError, ConfigurationError
+from services.vale_config_manager import ValeConfigManager
 
 logging.basicConfig(level=logging.INFO)
 
+logger = logging.getLogger(__name__)
+
 
 def run_vale_on_text(
-    text: str, config_path: str
+    text: str,
+    config_path: Optional[str] = None,
+    packages: Optional[list[str]] = None,
+    styles: Optional[list[str]] = None,
 ) -> dict[str, list[dict[str, str | int]]]:
     """Runs Vale linting on the provided text.
 
     Args:
-        text (str): Input text to lint.
-        config_path (str): Path to Vale configuration file.
+        text: Input text to lint
+        config_path: Optional path to Vale configuration file
+        packages: Optional list of package names to use
+        styles: Optional list of style names to use
 
     Returns:
-        list: Parsed Vale linting results.
+        Parsed Vale linting results
+
+    Raises:
+        ConfigurationError: If Vale is not found or config is invalid
+        AnalysisError: If Vale execution fails
     """
+    # Create temporary config if packages/styles specified
+    if packages and styles:
+        config_manager = ValeConfigManager()
+        config_content = config_manager.create_vale_config(packages, styles)
+        tmp_config = Path("tmp_vale.ini")
+        tmp_config.write_text(config_content)
+        config_path = str(tmp_config)
     import shutil
 
     vale_path = shutil.which("vale")

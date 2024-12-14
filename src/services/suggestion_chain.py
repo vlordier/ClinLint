@@ -1,8 +1,10 @@
 import logging
 from enum import Enum
+from typing import Any, Optional
+
+from services.vale_config_manager import ValeConfigManager
 
 logging.basicConfig(level=logging.INFO)
-from typing import Any, Optional
 
 from pydantic import BaseModel, Field
 
@@ -31,16 +33,23 @@ class ChainConfig(BaseModel):
 class SuggestionChain:
     """Flexible chain for generating suggestions using Vale and/or LLM analysis."""
 
-    def __init__(self, vale_config: str, llm_judge: LLMJudge | None = None):
+    def __init__(
+        self, vale_config: str | None = None, llm_judge: LLMJudge | None = None
+    ):
         """Initialize the suggestion chain with Vale configuration and LLM judge.
 
         Args:
-            vale_config (str): Path to Vale configuration file.
-            llm_judge (LLMJudge): Judge for LLM analysis.
+            vale_config: Optional path to Vale configuration file
+            llm_judge: Optional LLM judge instance
+
+        Raises:
+            ValueError: If vale_config is None or llm_judge is invalid
         """
-        if not vale_config or not isinstance(vale_config, str):
+        if vale_config is None:
             raise ValueError("Invalid Vale configuration path.")
+
         self.vale_config = vale_config
+        self.vale_manager = ValeConfigManager()
 
         if llm_judge and not isinstance(llm_judge, LLMJudge):
             raise ValueError("Invalid LLMJudge instance.")
@@ -58,6 +67,9 @@ class SuggestionChain:
         """
         # Run Vale analysis and filter issues based on specified rules
         try:
+            if not text.strip():
+                return {"vale_issues": {"stdin.md": []}, "formatted_issues": ""}
+
             vale_results = run_vale_on_text(text, self.vale_config)
             logging.info("Vale analysis completed successfully.")
         except ValueError as e:
@@ -108,13 +120,18 @@ class SuggestionChain:
             logging.warning("Config passed as string, initializing ChainConfig.")
             config = ChainConfig(mode=config)
         result = {}
-        if config is None and llm_template is not None:
-            logging.warning("Config is None, using llm_template as config.")
-            config = (
-                llm_template
-                if isinstance(llm_template, ChainConfig)
-                else ChainConfig(mode=AnalysisMode.LLM_ONLY)
-            )
+        if config is None:
+            if llm_template is not None:
+                logging.warning("Config is None, using llm_template as config.")
+                config = (
+                    llm_template
+                    if isinstance(llm_template, ChainConfig)
+                    else ChainConfig(mode=AnalysisMode.LLM_ONLY)
+                )
+            else:
+                logging.warning("No config provided, using default LLM_ONLY mode")
+                config = ChainConfig(mode=AnalysisMode.LLM_ONLY)
+
         if config.mode in [AnalysisMode.VALE_ONLY, AnalysisMode.COMBINED]:
             vale_analysis = self._run_vale_analysis(text, config.vale_rules or [])
             result["vale"] = vale_analysis

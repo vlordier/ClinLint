@@ -27,7 +27,7 @@ class LLMJudge:
             logging.info("LLMJudge initialized successfully")
         except Exception as e:
             logging.error(f"Failed to initialize LLMJudge: {e}")
-            raise ConfigurationError(f"LLMJudge initialization failed: {e}")
+            raise ConfigurationError(f"LLMJudge initialization failed: {e}") from e
 
     def get_feedback(self, text: str, prompt_template: str, **kwargs) -> dict:
         """Generate feedback for a single text using LLM."""

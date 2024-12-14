@@ -21,31 +21,31 @@ def run_vale_on_text(
     """
     import shutil
 
+    vale_path = shutil.which("vale")
+    if not vale_path:
+        logging.error("Vale executable not found in PATH")
+        raise ConfigurationError("Vale executable not found in PATH")
+            
     try:
-        vale_path = shutil.which("vale")
-        if not vale_path:
-            logging.error("Vale executable not found in PATH")
-            raise ConfigurationError("Vale executable not found in PATH")
-        try:
-            process = subprocess.Popen(
-                [vale_path, "--output=JSON", "--config", config_path, "-"],
-                stdin=subprocess.PIPE,
-                stdout=subprocess.PIPE,
-                stderr=subprocess.PIPE,
-                text=True,
-                shell=False,
-            )
-            stdout, stderr = process.communicate(input=text)
-            if process.returncode != 0:
-                logging.error(f"Vale error: {stderr}")
-                raise AnalysisError(f"Vale error: {stderr}")
-            return json.loads(stdout)
-        except FileNotFoundError as e:
-            logging.error("Vale executable not found.")
-            raise ConfigurationError("Vale executable not found.") from e
-        except json.JSONDecodeError as e:
-            logging.error("Failed to parse Vale output.")
-            raise AnalysisError("Invalid JSON output from Vale.") from e
+        process = subprocess.Popen(
+            [vale_path, "--output=JSON", "--config", config_path, "-"],
+            stdin=subprocess.PIPE,
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE,
+            text=True,
+            shell=False,
+        )
+        stdout, stderr = process.communicate(input=text)
+        if process.returncode != 0:
+            logging.error(f"Vale error: {stderr}")
+            raise AnalysisError(f"Vale error: {stderr}")
+        return json.loads(stdout)
+    except FileNotFoundError as e:
+        logging.error("Vale executable not found.")
+        raise ConfigurationError("Vale executable not found.") from e
+    except json.JSONDecodeError as e:
+        logging.error("Failed to parse Vale output.")
+        raise AnalysisError("Invalid JSON output from Vale.") from e
     except Exception as e:
         logging.exception("An error occurred while running Vale")
-        raise AnalysisError("Failed to run Vale linting") from e
+        raise AnalysisError(f"Failed to run Vale linting: {e}") from e

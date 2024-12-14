@@ -38,7 +38,12 @@ class SuggestionChain:
             vale_config (str): Path to Vale configuration file.
             llm_judge (LLMJudge): Judge for LLM analysis.
         """
+        if not vale_config or not isinstance(vale_config, str):
+            raise ValueError("Invalid Vale configuration path.")
         self.vale_config = vale_config
+
+        if llm_judge and not isinstance(llm_judge, LLMJudge):
+            raise ValueError("Invalid LLMJudge instance.")
         self.llm_judge = llm_judge
 
     def _run_vale_analysis(self, text: str, rules: list[str]) -> dict[str, Any]:
@@ -104,10 +109,12 @@ class SuggestionChain:
             config = ChainConfig(mode=config)
         result = {}
         if config is None and llm_template is not None:
-            logging.warning(
-                "Config is None, using llm_template as config."
+            logging.warning("Config is None, using llm_template as config.")
+            config = (
+                llm_template
+                if isinstance(llm_template, ChainConfig)
+                else ChainConfig(mode=AnalysisMode.LLM_ONLY)
             )
-            config = llm_template if isinstance(llm_template, ChainConfig) else ChainConfig(mode=AnalysisMode.LLM_ONLY)
         if config.mode in [AnalysisMode.VALE_ONLY, AnalysisMode.COMBINED]:
             vale_analysis = self._run_vale_analysis(text, config.vale_rules or [])
             result["vale"] = vale_analysis

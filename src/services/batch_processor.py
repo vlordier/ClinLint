@@ -4,6 +4,7 @@ from concurrent.futures import ThreadPoolExecutor
 from threading import Lock
 
 from services.custom_types import SuggestionResult
+from services.llm_judge import LLMJudge
 from services.suggestion_chain import SuggestionChain
 
 
@@ -13,7 +14,7 @@ class BatchProcessor:
     Thread-safe batch processing of multiple texts.
     """
 
-    def __init__(self, vale_config: str, llm_judge) -> None:
+    def __init__(self, vale_config: str, llm_judge: LLMJudge) -> None:
         """Initializes the BatchProcessor.
 
         Args:
@@ -38,7 +39,7 @@ class BatchProcessor:
         """
         results = []
 
-        def process_single(text) -> SuggestionResult:
+        def process_single(text: str) -> SuggestionResult:
             """Processes a single text and generates suggestions.
 
             Args:

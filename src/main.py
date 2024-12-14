@@ -28,7 +28,7 @@ class BatchInput(BaseModel):
 
 
 @app.post("/suggestions")
-def get_suggestions(suggestion_input: SuggestionInput):
+def get_suggestions(suggestion_input: SuggestionInput) -> dict:
     """Generate suggestions for improving a single text."""
     config_loader = ConfigLoader()
     llm_judge = LLMJudge(Config.LLM_JUDGE_VERSION, config_loader)
@@ -39,7 +39,7 @@ def get_suggestions(suggestion_input: SuggestionInput):
 
 
 @app.post("/suggestions/batch")
-def get_batch_suggestions(batch_input: BatchInput):
+def get_batch_suggestions(batch_input: BatchInput) -> dict:
     """Generate suggestions for improving multiple texts in batch."""
     config_loader = ConfigLoader()
     llm_judge = LLMJudge(os.getenv("LLM_JUDGE_VERSION", "v1"), config_loader)

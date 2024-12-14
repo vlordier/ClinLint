@@ -14,7 +14,12 @@ def test_cases():
 
 @pytest.fixture
 def mock_llm_judge():
-    class MockLLMJudge:
+    from services.llm_judge import LLMJudge
+
+    class MockLLMJudge(LLMJudge):
+        def __init__(self):
+            pass
+
         def get_feedback(self, prompt_template, **kwargs):
             text = kwargs.get('text', '')
             if "significant" in text.lower():
@@ -39,7 +44,12 @@ def mock_vale_runner(mocker):
         mock.return_value = output
         return mock
     return _mock_vale_runner
-    class MockLLMJudge:
+    from services.llm_judge import LLMJudge
+
+    class MockLLMJudge(LLMJudge):
+        def __init__(self):
+            pass
+
         def get_feedback(self, prompt_template, **kwargs):
             text = kwargs.get('text', '')
             if "significant" in text.lower():
@@ -73,3 +83,11 @@ def test_generate_suggestions(mock_llm_judge, test_cases, case_id):
         config=config
     )
     assert result is not None
+
+def test_invalid_vale_config(mock_llm_judge):
+    with pytest.raises(ValueError, match="Invalid Vale configuration path."):
+        SuggestionChain(None, mock_llm_judge)
+
+def test_invalid_llm_judge():
+    with pytest.raises(ValueError, match="Invalid LLMJudge instance."):
+        SuggestionChain("config/rules/final-template.ini", "invalid_judge")

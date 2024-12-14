@@ -8,11 +8,14 @@ from services.config import Config
 
 class ModelSetup:
     def __init__(self, config_path: str = "config/default.json"):
-        with open(config_path) as file:
-            self.config = json.load(file)
+        if isinstance(config_path, dict):
+            self.config = config_path
+        else:
+            with open(config_path) as file:
+                self.config = json.load(file)
         self.provider = Config.MODEL_PROVIDER
 
-    def get_model(self):
+    def get_model(self) -> ChatOpenAI:
         """Returns an LLM instance based on the configuration."""
         if self.provider == "openai":
             return ChatOpenAI(
@@ -25,7 +28,7 @@ class ModelSetup:
         else:
             raise ValueError(f"Unsupported model provider: {self.provider}")
 
-    def get_llm_template(self):
+    def get_llm_template(self) -> dict:
         """Returns the LLM template based on the configuration."""
         if self.provider == "openai":
             return {

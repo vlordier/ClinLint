@@ -66,7 +66,7 @@ cases:
       - "Specify efficacy metrics"
       - "Include statistical significance"
 
-  - id: measurement-precision  
+  - id: measurement-precision
     text: "Approximately 50% of patients responded."
     expected_vale_issues:
       - rule: CSR.Precision

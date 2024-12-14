@@ -12,6 +12,8 @@ from services.suggestion_chain import SuggestionChain
 
 app = FastAPI()
 
+config = Config()  # Initialize global config
+
 
 class SuggestionInput(BaseModel):
     """Input model for single text analysis request."""
@@ -30,8 +32,8 @@ class BatchInput(BaseModel):
 @app.post("/suggestions")
 def get_suggestions(suggestion_input: SuggestionInput) -> dict:
     """Generate suggestions for improving a single text."""
-    config_loader = ConfigLoader()
-    llm_judge = LLMJudge(Config.LLM_JUDGE_VERSION, config_loader)
+    config_loader = ConfigLoader(config.config_path)
+    llm_judge = LLMJudge("v1", config_loader)
     suggestion_chain = SuggestionChain(suggestion_input.vale_config, llm_judge)
     return suggestion_chain.generate_suggestions(
         suggestion_input.text, suggestion_input.llm_template

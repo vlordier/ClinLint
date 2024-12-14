@@ -14,12 +14,12 @@ def test_batch_processor(mocker):
             "max_tokens": 500
         }
     }
-    
+
     class MockLLMJudge(LLMJudge):
         def __init__(self, version="v1", config_loader=None):
             self.version = version
             self.config_loader = config_loader
-            
+
         def get_feedback(self, prompt_template, **kwargs):
             return {"feedback": "Replace 'significant' with a specific term."}
 

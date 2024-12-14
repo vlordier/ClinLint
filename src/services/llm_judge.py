@@ -6,7 +6,6 @@ logging.basicConfig(level=logging.INFO)
 from langchain.chains import LLMChain
 from langchain.prompts import PromptTemplate
 
-from services.config import Config
 from services.exceptions import AnalysisError, ConfigurationError
 
 from .model_setup import ModelSetup
@@ -16,14 +15,19 @@ class LLMJudge:
     """Provides LLM-based reasoning to suggest text improvements."""
 
     def __init__(self, version: str, config_loader):
-        # Initialize the model using the provided configuration
+        """Initialize LLMJudge with configuration.
+
+        Args:
+            version: Version identifier
+            config_loader: Configuration loader instance
+        """
         try:
             self.model = ModelSetup(config_loader.get_llm_config()).get_model()
-            logging.info("Model initialized successfully.")
-        except ValueError as e:
-            logging.error("Failed to initialize the model.")
-            raise ConfigurationError("Model setup failed.") from e
-        self.prompt_dir = Config.PROMPT_DIR
+            self.prompt_dir = config_loader.get_prompt_dir()
+            logging.info("LLMJudge initialized successfully")
+        except Exception as e:
+            logging.error(f"Failed to initialize LLMJudge: {e}")
+            raise ConfigurationError(f"LLMJudge initialization failed: {e}")
 
     def get_feedback(self, text: str, prompt_template: str, **kwargs) -> dict:
         """Generate feedback for a single text using LLM."""

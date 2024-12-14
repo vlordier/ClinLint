@@ -1,6 +1,7 @@
 fastapi[standard]==0.115.6
 langchain==0.3.11
-openai==1.57.3
+openai==1.57.4
 vale==3.9.1.0
 langchain_community==0.3.11
 pydantic==2.10.3
+langchain_openai==0.2.12

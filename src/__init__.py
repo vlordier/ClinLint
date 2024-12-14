@@ -1,1 +1,1 @@
-"""Root package initialization."""
+"""Root package for ClinLint application."""

@@ -5,10 +5,11 @@ import os
 from fastapi import FastAPI
 from pydantic import BaseModel
 
-from services.config import Config
 from services.config_loader import ConfigLoader
 from services.llm_judge import LLMJudge
 from services.suggestion_chain import SuggestionChain
+
+from .services.config import Config
 
 app = FastAPI()
 

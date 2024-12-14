@@ -1,4 +1,4 @@
-"""Configuration management with environment variable support."""
+"""Configuration service module."""
 
 import json
 import logging
@@ -16,7 +16,10 @@ logger = logging.getLogger(__name__)
 
 
 class Config:
-    """Configuration management with environment variable support."""
+    """Configuration class for the application."""
+
+    # Default config path in the user's home directory
+    CONFIG_PATH = os.path.expanduser("~/.config/clinlint/config.json")
 
     def __init__(self, config_path: Optional[str] = None):
         """Initialize configuration from file and environment variables.

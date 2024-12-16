@@ -5,7 +5,7 @@ skip-string-normalization = true  # Optional: Prevent string quotes normalizatio
 exclude = ["tests/"]  # Exclude specific directories
 
 [tool.ruff.lint]
-ignore = ["E501", "ANN", "D107", "S603", "D100", "D101", "E402"]  # E501: Ignore line length errors globally; ANN: Ignore untyped annotation warnings; D107: Ignore missing docstring in __init__; S603: Ignore subprocess call warning; D100: Ignore missing docstring in public module; D101: Ignore missing docstring in public class; E402: Ignore module level import not at top of file
+ignore = ["E501", "ANN", "D107", "S603", "D100", "D101", "E402", "E501"]  # E501: Ignore line length errors globally; ANN: Ignore untyped annotation warnings; D107: Ignore missing docstring in __init__; S603: Ignore subprocess call warning; D100: Ignore missing docstring in public module; D101: Ignore missing docstring in public class; E402: Ignore module level import not at top of file
 select = [
     "E",   # pycodestyle errors
     "F",   # pyflakes
@@ -29,7 +29,23 @@ max-complexity = 10  # Limit cyclomatic complexity
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]  # Define test directory
-pythonpath = ["src"]   # Add src directory to Python path
+pythonpath = ["."]   # Add current directory to Python path
+
+[project]
+dependencies = [
+    "fuzzywuzzy",
+    "python-Levenshtein",  # Optional but recommended for better performance
+    "fastapi",
+    "pydantic",
+    "langchain",
+    "langchain-openai",
+    "pyyaml",
+    "pytest",
+    "pytest-mock",
+    "python-dotenv",
+    "uvicorn",
+    "requests"
+]
 
 [tool.mypy]
 python_version = "3.12"

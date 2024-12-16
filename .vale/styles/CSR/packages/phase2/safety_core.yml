@@ -1,0 +1,23 @@
+extends: existence
+message: "Required Phase 2 safety element missing: %s"
+level: error
+tokens:
+  # Core Safety Elements
+  - dose-limiting toxicity with grading
+  - maximum tolerated dose with algorithm
+  - dose modification with thresholds
+  - cumulative toxicity with trends
+  - drug interactions with priorities
+  - organ function with parameters
+  - immunogenicity with validation
+  - biomarker safety with analysis
+
+  # Special Monitoring
+  - cardiovascular with ECG
+  - hepatic with liver tests
+  - renal with clearance
+  - bone marrow with counts
+  - immune response with antibodies
+  - metabolic with glucose/lipids
+  - endocrine with hormones
+  - neurological with exams

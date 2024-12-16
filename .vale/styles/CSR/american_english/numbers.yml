@@ -4,10 +4,10 @@ level: error
 ignorecase: true
 swap:
   # Decimal Separators
-  "[0-9]+,[0-9]+": "[0-9]+.[0-9]+"  # Convert comma to decimal point
+  '\d+,\d+': '\d+.\d+'  # Convert comma to decimal point
 
   # Thousand Separators
-  "[0-9]+\.[0-9]{3}": "[0-9]+,[0-9]{3}"  # Convert period to comma
+  '[0-9]+\.[0-9]{3}': '[0-9]+,[0-9]{3}'  # Convert period to comma
 
   # Range Indicators
   "[0-9]+–[0-9]+": "[0-9]+-[0-9]+"  # Convert en dash to hyphen

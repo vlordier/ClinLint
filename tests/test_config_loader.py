@@ -1,8 +1,8 @@
 import json
 import pytest
 from pathlib import Path
-from services.config_loader import ConfigLoader
-from services.exceptions import ConfigurationError
+from app.services.config_loader import ConfigLoader
+from app.services.exceptions import ConfigurationError
 
 @pytest.fixture
 def mock_config_file(tmp_path):

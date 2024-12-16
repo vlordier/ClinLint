@@ -1,8 +1,8 @@
 import pytest
 import yaml
 from fastapi.testclient import TestClient
-from src.main import app
-from src.services.config import Config
+from app.main import app
+from app.services.config import Config
 
 client = TestClient(app)
 

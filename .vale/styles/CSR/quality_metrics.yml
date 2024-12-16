@@ -1,29 +1,28 @@
-rules:
-  structure:
-    extends: existence
-    message: "Required section missing: %s"
-    level: error
-    tokens:
-      - synopsis
-      - table of contents
-      - list of abbreviations
-      - ethics statement
-      - study objectives
-      - methodology
-      - results
-      - discussion
-      - conclusions
-      - references
+extends: existence
+message: "Required quality metric missing: %s"
+level: error
+tokens:
+  - synopsis
+  - table of contents
+  - list of abbreviations
+  - ethics statement
+  - study objectives
+  - methodology
+  - results
+  - discussion
+  - conclusions
+  - references
 
+rules:
   cross_references:
     extends: existence
     message: "Verify cross-reference: %s"
     level: warning
     tokens:
-      - Table [0-9]
-      - Figure [0-9]
-      - Section [0-9]
-      - Appendix [A-Z]
+      - "Table [0-9]"
+      - "Figure [0-9]"
+      - "Section [0-9]"
+      - "Appendix [A-Z]"
 
   consistency:
     extends: consistency

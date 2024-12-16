@@ -1,0 +1,23 @@
+extends: existence
+message: "Required EFC element missing: %s"
+level: error
+tokens:
+  # Primary Analysis
+  - superiority margin with clinical
+  - non-inferiority with evidence
+  - stratification with balance
+  - interim analysis with alpha
+  - multiplicity with FWER
+  - alpha spending with fractions
+  - conditional power with rules
+  - futility with criteria
+
+  # Population Analysis
+  - sample size with assumptions
+  - power with sensitivity
+  - dropout with empirical
+  - analysis sets with rules
+  - subgroups with interaction
+  - enrichment with validation
+  - population with validity
+  - inclusion with rationale

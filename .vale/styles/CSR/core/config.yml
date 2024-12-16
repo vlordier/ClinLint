@@ -1,13 +1,13 @@
 # Core Vale configuration for Clinical Study Reports
-StylesPath: .vale/styles
-MinAlertLevel: error
-
-# Core packages
-Packages:
-  CSR: YES
-  Vale.Spelling: YES
-  Vale.Terms: YES
-  Vale.Numbers: YES
+extends: existence
+message: "Required configuration element missing: %s"
+level: error
+tokens:
+  - StylesPath
+  - MinAlertLevel
+  - Packages
+  - Vocabularies
+  - Formats
 
 # Domain-specific vocabularies
 Vocabularies:

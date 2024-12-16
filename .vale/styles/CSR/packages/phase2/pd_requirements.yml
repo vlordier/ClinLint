@@ -1,0 +1,23 @@
+extends: existence
+message: "Required Phase 2 PD element missing: %s"
+level: error
+tokens:
+  # Target Engagement
+  - receptor occupancy with time course
+  - binding kinetics with constants
+  - pathway modulation with markers
+  - biomarker response with validation
+  - mechanism validation with evidence
+  - resistance development with monitoring
+  - adaptation assessment with time
+  - homeostatic feedback with evaluation
+
+  # Exposure-Response
+  - dose-response with modeling
+  - concentration-effect with analysis
+  - therapeutic window with margins
+  - safety margins with calculation
+  - optimal dose with algorithm
+  - dosing frequency with rationale
+  - exposure metrics with targets
+  - variability assessment with factors

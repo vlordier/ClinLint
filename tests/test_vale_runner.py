@@ -2,9 +2,9 @@
 import json
 import pytest
 
-from services.exceptions import AnalysisError
-from services.exceptions import ConfigurationError
-from services.vale_runner import run_vale_on_text
+from app.services.exceptions import AnalysisError
+from app.services.exceptions import ConfigurationError
+from app.services.vale_runner import run_vale_on_text
 
 
 @pytest.mark.parametrize("text, expected_output", [

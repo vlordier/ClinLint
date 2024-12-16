@@ -1,0 +1,32 @@
+extends: existence
+message: "Methods section requirement: %s"
+level: error
+
+# Study design elements
+design:
+  - randomization
+  - blinding
+  - controls
+  - population
+  - interventions
+  - outcomes
+  - timing
+  - procedures
+
+# Statistical elements
+statistics:
+  - sample size
+  - analysis populations
+  - hypothesis testing
+  - missing data
+  - interim analyses
+  - multiplicity
+
+# Operational elements
+operations:
+  - site management
+  - monitoring
+  - data collection
+  - quality control
+  - documentation
+  - compliance

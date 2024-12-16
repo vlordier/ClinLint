@@ -1,0 +1,35 @@
+extends: existence
+message: "Results reporting requirement: %s"
+level: error
+
+# Population reporting
+population:
+  - disposition
+  - demographics
+  - baseline
+  - exposure
+  - compliance
+
+# Efficacy reporting
+efficacy:
+  - primary endpoint
+  - secondary endpoints
+  - subgroups
+  - sensitivity
+  - exploratory
+
+# Safety reporting
+safety:
+  - adverse events
+  - laboratory
+  - vitals
+  - ECG
+  - physical exam
+
+# Statistical reporting
+statistics:
+  - effect measures
+  - confidence intervals
+  - p-values
+  - adjustments
+  - models

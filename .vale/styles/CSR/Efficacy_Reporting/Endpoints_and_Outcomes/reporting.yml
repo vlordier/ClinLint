@@ -2,19 +2,14 @@ extends: existence
 message: "Statistical reporting requirement: %s"
 level: error
 
-imports:
-  - CSR.statistics.unified_validation
-
-rules:
+tokens:
   # Effect measures
-  effect_measures:
-    pattern: '\b(?:difference|ratio|rate)\s*=\s*[-+]?\d+\.\d{2}\s*\(95%\s*CI'
-    message: "Effect measures must include point estimate and CI"
+  - '\b(?:difference|ratio|rate)\s*=\s*[-+]?\d+\.\d{2}\s*\(95%\s*CI'
+  - '\b(?:mean|median|SD|IQR)\s*=\s*[-+]?\d+\.\d{2}\b'
+  - '\b(?:adjusted|stratified|pooled)\s+analysis\b'
 
   # Population characteristics
-  population:
-    pattern: '\b(?:mean|median|SD|IQR)\s*=\s*[-+]?\d+\.\d{2}\b'
-    message: "Population parameters must be reported with precision"
+  - '\b(?:mean|median|SD|IQR)\s*=\s*[-+]?\d+\.\d{2}\b'
 
   # Analysis methods
   methods:

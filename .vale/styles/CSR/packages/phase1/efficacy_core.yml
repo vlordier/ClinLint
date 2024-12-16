@@ -1,0 +1,23 @@
+extends: existence
+message: "Required Phase 1 efficacy element missing: %s"
+level: error
+tokens:
+  # Proof of Mechanism
+  - target engagement with quantification
+  - biomarker response with validation
+  - PK/PD relationship with modeling
+  - exposure-response with window
+  - mechanism validation with markers
+  - biological activity with pathway
+  - receptor occupancy with time
+  - signal transduction with markers
+
+  # Early Clinical Activity
+  - preliminary efficacy with size
+  - dose-response with statistics
+  - optimal dose with algorithm
+  - therapeutic window with margins
+  - dosing frequency with PK
+  - accumulation with steady-state
+  - food effect with relevance
+  - drug interactions with priority

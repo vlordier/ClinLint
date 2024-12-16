@@ -1,0 +1,73 @@
+extends: existence
+message: "Required configuration element missing: %s"
+level: error
+tokens:
+  - StylesPath
+  - MinAlertLevel
+  - Packages
+  - Vocabularies
+  - Formats
+
+# Domain-Specific Packages
+Packages:
+  CSR.Clinical.Safety: NO      # Safety reporting and monitoring
+  CSR.Clinical.Efficacy: NO    # Efficacy analysis and reporting
+  CSR.Clinical.PK: NO          # Pharmacokinetic analysis
+  CSR.Clinical.Stats: NO       # Statistical methodology
+  CSR.Clinical.Labs: NO        # Laboratory data reporting
+
+# Study Phase Packages
+Packages:
+  CSR.Phase1: NO              # Phase 1-specific requirements
+  CSR.Phase2: NO              # Phase 2-specific requirements
+  CSR.Phase3: NO              # Phase 3-specific requirements
+  CSR.Phase4: NO              # Phase 4-specific requirements
+
+# Special Study Types
+Packages:
+  CSR.Special.FIH: NO         # First-in-human studies
+  CSR.Special.BE: NO          # Bioequivalence studies
+  CSR.Special.Adaptive: NO    # Adaptive design studies
+  CSR.Special.Device: NO      # Medical device studies
+
+# Therapeutic Area Packages
+Packages:
+  CSR.TA.Oncology: NO         # Oncology-specific rules
+  CSR.TA.Cardio: NO           # Cardiovascular rules
+  CSR.TA.Neuro: NO           # Neurology rules
+  CSR.TA.Immuno: NO          # Immunology rules
+
+# Regulatory Packages
+Packages:
+  CSR.Reg.ICH: NO            # ICH guideline compliance
+  CSR.Reg.FDA: NO            # FDA requirements
+  CSR.Reg.EMA: NO            # EMA requirements
+  CSR.Reg.PMDA: NO           # PMDA requirements
+
+# Vocabularies and Terminology
+Vocabularies:
+  Medical: YES                # Medical terminology
+  Statistical: YES            # Statistical terminology
+  Regulatory: YES            # Regulatory terminology
+  Laboratory: YES            # Laboratory terminology
+  Technical: YES             # Technical terminology
+
+# Format Support
+Formats:
+  md: YES
+  rst: YES
+  html: YES
+  docx: YES
+  pdf: YES
+  xml: YES
+
+# Scope Exclusions
+IgnoredScopes:
+  - code
+  - url
+  - raw
+  - math
+  - script
+  - style
+  - pre
+  - tt

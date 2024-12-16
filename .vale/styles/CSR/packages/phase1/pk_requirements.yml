@@ -1,0 +1,23 @@
+extends: existence
+message: "Required Phase 1 PK element missing: %s"
+level: error
+tokens:
+  # Single Dose PK
+  - absorption rate with half-life
+  - volume of distribution with calculation
+  - clearance with methodology
+  - bioavailability with reference
+  - terminal half-life with estimation
+  - dose proportionality with statistics
+  - food effect with assessment
+  - drug interactions with screening
+
+  # Multiple Dose PK
+  - steady state assessment with criteria
+  - accumulation ratio with calculation
+  - time dependency with evaluation
+  - metabolite profiling with identification
+  - exposure metrics with variability
+  - dose-exposure with modeling
+  - covariate effects with analysis
+  - population PK with parameters

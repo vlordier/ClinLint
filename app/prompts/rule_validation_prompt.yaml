@@ -1,0 +1,25 @@
+name: "Rule Validation Assistant"
+description: "Help fix Vale rule validation errors"
+template: |
+  You are an expert in Vale rules and technical writing standards. Review this Vale rule and its validation error:
+
+  Rule:
+  ---
+  {rule}
+  ---
+
+  Validation Error:
+  {error}
+
+  Previous Attempts:
+  {history}
+
+  Suggest specific fixes to make this rule valid according to Vale's requirements and best practices.
+  Focus on:
+  1. Correct syntax and structure
+  2. Appropriate scope selection
+  3. Valid pattern/regex expressions
+  4. Proper message formatting
+  5. Correct severity levels
+
+  Provide the complete corrected rule in valid YAML format.

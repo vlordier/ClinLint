@@ -1,20 +1,12 @@
-StylesPath: .
-MinAlertLevel: error
-
-Packages:
-  CSR: YES
-  Vale.Spelling: YES
-  Vale.Terms: YES
-
-Vocabularies:
-  CSR: YES
-  Medical: YES
-
-Formats:
-  md: YES
-  rst: YES
-  html: YES
-  xml: YES
+extends: existence
+message: "Required rule element missing: %s"
+level: error
+tokens:
+  - StylesPath
+  - MinAlertLevel
+  - Packages
+  - Vocabularies
+  - Formats
 
 Rules:
   CSR.safety.adverse_events: error

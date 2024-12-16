@@ -1,34 +1,25 @@
-# Core package organization for CSR styles
-StylesPath: .vale/styles
+extends: existence
+message: "Required package element missing: %s"
+level: error
+tokens:
+  - medical_terms
+  - statistical_terms
+  - regulatory_terms
+  - technical_terms
+  - abbreviations
+  - units
 
-# Base packages that all other packages inherit from
-core:
-  # Terminology standardization
-  terminology:
-    - medical_terms
-    - statistical_terms
-    - regulatory_terms
-    - technical_terms
-    - abbreviations
-    - units
-
-  # Document structure and formatting
-  structure:
-    - headings
-    - sections
-    - numbering
-    - references
-    - tables
-    - figures
-    - appendices
-
-  # Quality control
-  quality:
-    - completeness
-    - consistency
-    - precision
-    - traceability
-    - validation
+  # Study phase specific packages
+phases:
+  phase1:
+    - first_in_human
+    - single_ascending_dose
+    - multiple_ascending_dose
+    - food_effect
+    - drug_interaction
+    - qst
+    - bioavailability
+    - bioequivalence
 
 # Study phase specific packages
 phases:

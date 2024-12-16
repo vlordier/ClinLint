@@ -1,6 +1,6 @@
 import pytest
 
-from services.suggestion_chain import AnalysisMode, ChainConfig, SuggestionChain
+from app.services.suggestion_chain import AnalysisMode, ChainConfig, SuggestionChain
 
 
 @pytest.fixture

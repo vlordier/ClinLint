@@ -1,4 +1,5 @@
+extends: existence
+message: "Test rule validation: %s"
 level: warning
-message: Updated test message
-pattern: \b(test)\b
-scope: text
+tokens:
+  - test

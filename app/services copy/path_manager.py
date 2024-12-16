@@ -1,0 +1,41 @@
+# path_manager.py
+
+from pathlib import Path
+import logging
+from typing import Optional
+
+logger = logging.getLogger(__name__)
+
+class PathManager:
+    """Manages and provides essential paths for Vale configuration."""
+
+    def __init__(self, base_dir: Optional[Path] = None):
+        self.base_path = base_dir or Path(".vale")
+        self.vale_ini = self.base_path / ".vale.ini"
+        self.styles_path = self.base_path / "styles"
+        self.packages_path = self.base_path / "packages"
+        self.vocabularies_path = self.base_path / "config" / "vocabularies"
+        self.actions_path = self.base_path / "config" / "actions"
+
+        logger.info(f"Base path: {self.base_path}")
+        logger.info(f"Styles path: {self.styles_path}")
+        logger.info(f"Config path: {self.vale_ini}")
+        logger.info(f"Packages path: {self.packages_path}")
+        logger.info(f"Vocabularies path: {self.vocabularies_path}")
+        logger.info(f"Actions path: {self.actions_path}")
+
+        self._ensure_directories()
+
+    def _ensure_directories(self):
+        """Ensure that essential directories exist."""
+        directories = [
+            self.styles_path,
+            self.packages_path,
+            self.vocabularies_path,
+            self.actions_path
+        ]
+        for directory in directories:
+            if not directory.exists():
+                logger.warning(f"Directory not found: {directory}. Creating it.")
+                directory.mkdir(parents=True, exist_ok=True)
+                logger.info(f"Created directory: {directory}")

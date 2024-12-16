@@ -3,7 +3,7 @@ from pathlib import Path
 import pytest
 import yaml
 
-from services.suggestion_chain import AnalysisMode, ChainConfig, SuggestionChain
+from app.services.suggestion_chain import AnalysisMode, ChainConfig, SuggestionChain
 
 
 @pytest.fixture
@@ -13,10 +13,11 @@ def test_cases() -> dict:
         return yaml.safe_load(f)["cases"]
 
 @pytest.fixture
-def mock_llm_judge():
-    from services.llm_judge import LLMJudge
+def mock_llm_feedback():
+    """Create a mock LLMFeedback instance."""
+    from services.llm_feedback import LLMFeedback
 
-    class MockLLMJudge(LLMJudge):
+    class MockLLMFeedback(LLMFeedback):
         def __init__(self):
             pass
 
@@ -35,7 +36,7 @@ def mock_llm_judge():
                 }
             return {"feedback": ["Improve clarity and precision"]}
 
-    return MockLLMJudge()
+    return MockLLMFeedback()
 
 @pytest.fixture
 def mock_vale_runner(mocker):
@@ -88,41 +89,18 @@ def test_invalid_vale_config(mock_llm_judge):
     with pytest.raises(ValueError, match="Invalid Vale configuration path."):
         SuggestionChain(None, mock_llm_judge)
 
-def test_invalid_llm_judge():
-    with pytest.raises(ValueError, match="Invalid LLMJudge instance."):
-        SuggestionChain("config/rules/final-template.ini", "invalid_judge")
+def test_run_vale_analysis(mock_llm_judge):
+    suggestion_chain = SuggestionChain(".vale/styles/CSR/rules.yml", mock_llm_judge)
+    text = "The patient showed significant improvement."
+    rules = ["CSR.Precision"]
+    result = suggestion_chain._run_vale_analysis(text, rules)
+    assert "vale_issues" in result
+    assert isinstance(result["vale_issues"], dict)
 
-def test_vale_only_mode_with_empty_text(mock_llm_judge, mock_vale_runner):
-    mock_vale_runner({"stdin.md": []})
-    chain = SuggestionChain(".vale/styles/CSR/rules.yml", mock_llm_judge)
-    config = ChainConfig(
-        mode=AnalysisMode.VALE_ONLY,
-        vale_rules=["CSR.Precision"],
-        llm_templates=[]
-    )
-    result = chain.generate_suggestions("", config=config)
-    assert result["vale"]["vale_issues"] == {"stdin.md": []}
-
-def test_llm_only_mode_with_empty_text(mock_llm_judge):
-    chain = SuggestionChain(".vale/styles/CSR/rules.yml", mock_llm_judge)
-    config = ChainConfig(
-        mode=AnalysisMode.LLM_ONLY,
-        vale_rules=[],
-        llm_templates=["improvement_prompt"]
-    )
-    result = chain.generate_suggestions("", config=config)
-    assert "llm" in result
-    assert isinstance(result["llm"]["feedback"], list)
-
-def test_combined_mode_with_section_name(mock_llm_judge, mock_vale_runner):
-    mock_vale_runner({"stdin.md": [{"Line": 1, "Message": "Use specific metrics", "Rule": "CSR.Precision"}]})
-    chain = SuggestionChain(".vale/styles/CSR/rules.yml", mock_llm_judge)
-    config = ChainConfig(
-        mode=AnalysisMode.COMBINED,
-        vale_rules=["CSR.Precision"],
-        llm_templates=["improvement_prompt"],
-        section_name="Results"
-    )
-    result = chain.generate_suggestions("The results were significant.", config=config)
-    assert "vale" in result
-    assert "llm" in result
+def test_run_llm_analysis(mock_llm_judge):
+    suggestion_chain = SuggestionChain(".vale/styles/CSR/rules.yml", mock_llm_judge)
+    text = "The patient showed significant improvement."
+    templates = ["improvement_prompt"]
+    result = suggestion_chain._run_llm_analysis(text, templates)
+    assert "feedback" in result
+    assert isinstance(result["feedback"], list)

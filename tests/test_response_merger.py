@@ -1,5 +1,5 @@
 import pytest
-from services.response_merger import merge_responses
+from app.services.response_merger import merge_responses
 
 def test_merge_responses_basic(mock_vale_results):
     """Test basic response merging."""

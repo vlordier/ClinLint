@@ -1,0 +1,40 @@
+extends: existence
+message: "Core CSR requirement: %s"
+level: error
+
+# Basic document structure requirements
+structure:
+  - title page
+  - synopsis
+  - table of contents
+  - ethics statement
+  - study objectives
+  - methodology
+  - results
+  - discussion
+  - conclusions
+  - references
+
+# Cross-reference requirements
+references:
+  - tables
+  - figures
+  - sections
+  - appendices
+
+# Basic formatting requirements
+formatting:
+  - headings
+  - paragraphs
+  - lists
+  - tables
+  - figures
+
+# Version control requirements
+versioning:
+  - document number
+  - version number
+  - date
+  - author
+  - reviewer
+  - approver

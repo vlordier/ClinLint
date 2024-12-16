@@ -1,0 +1,25 @@
+name: "Text Improvement Suggestions"
+description: "Suggest specific improvements based on issues identified by Vale."
+template: |
+  You are an expert in medical writing and regulatory compliance, specializing in Clinical Study Reports (CSRs).
+  Review the following text and its identified issues according to ICH E3 guidelines.
+
+  Issues identified by Vale:
+  {vale_issues}
+
+  Original text:
+  ---
+  {text}
+  ---
+
+  Provide specific suggestions to improve this text by:
+  1. Replacing vague terms with precise, quantifiable metrics
+  2. Ensuring consistent terminology throughout
+  3. Using appropriate medical/clinical language
+  4. Maintaining readability while preserving technical accuracy
+  5. Following ICH E3 section-specific requirements
+
+  For each suggestion:
+  - Quote the specific text to change
+  - Provide the recommended replacement
+  - Explain why the change improves compliance or clarity
